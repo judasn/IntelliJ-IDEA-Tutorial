@@ -106,8 +106,8 @@ FLUSH PRIVILEGES;
 
 > * 切换到上面新建的 `jsprun` 数据库中执行项目中这个数据脚本，文件位置：`JspRun\WebRoot\install\jsprun_zh_CN.sql`。
 > * 修改 `JspRun\WebRoot\config.properties` 文件中的几个属性为下面内容：
->> * `dbuser = jsprun`
->> * `dbpw = jsprun`
+> * `dbuser = jsprun`
+> * `dbpw = jsprun`
 
 ![Tomcat 启动](images/xxi-d-eclipse-project-tomcat-run-1.gif)
 
