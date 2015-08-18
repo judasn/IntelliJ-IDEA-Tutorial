@@ -1,4 +1,4 @@
-# 说明
+# 重要说明，看三遍
 
 本文目前处于草稿阶段，谢绝任何理由和方式的转载和Fork。
 
@@ -6,4 +6,4 @@
 
 最终版出来之后，会在这里进行说明。预计2015年8月底可以完成这个系列教程。
 
-From judasn，<http://www.YouMeek.com>
+From Judas.n，<http://www.YouMeek.com>
