@@ -96,12 +96,14 @@
 
 > * 通过上面的配置，IntelliJ IDEA 环境配置算是配置好了，现在配置下该项目相关的。
 > * 打开你的 Mysql，执行下面脚本，创建一个新的数据库和用户：
+
 ```sql
 CREATE DATABASE `jsprun` CHARACTER SET utf8;
 CREATE USER 'jsprun'@'localhost' IDENTIFIED BY 'jsprun';
 GRANT ALL PRIVILEGES ON jsprun.* TO 'jsprun'@'localhost';
 FLUSH PRIVILEGES;
 ```
+
 > * 切换到上面新建的 `jsprun` 数据库中执行项目中这个数据脚本，文件位置：`JspRun\WebRoot\install\jsprun_zh_CN.sql`。
 > * 修改 `JspRun\WebRoot\config.properties` 文件中的几个属性为下面内容：
 >> * `dbuser = jsprun`
