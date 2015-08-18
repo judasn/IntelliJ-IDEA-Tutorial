@@ -5,7 +5,7 @@
 ![Eclipse 项目结构](images/xxi-a-eclipse-project-introduce-1.gif)
 
 > * 如上图 Gif 演示，在 Eclipse 下，一般中小项目的项目结构基本都是这种模式的，所以我们这里也网络上一个开源项目 JspRun 进行讲解。
-> * 下载地址：<>
+> * 下载地址：<http://pan.baidu.com/s/1i3zrSf7>
 
 ## Eclipse 项目配置
 
