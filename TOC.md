@@ -17,4 +17,5 @@
 - [Emmet 讲解](emmet-introduce.md)
 - [插件讲解](plugins-settings.md)
 - [Eclipse 的 Java Web 项目环境搭建](eclipse-java-web-project-introduce.md)
+- [Maven 项目介绍](maven-project-introduce.md)
 - [IntelliJ IDEA 常用快捷键讲解](keymap-introduce.md)
