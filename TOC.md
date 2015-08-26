@@ -19,4 +19,6 @@
 - [Eclipse 的 Java Web 项目环境搭建](eclipse-java-web-project-introduce.md)
 - [Maven 项目介绍](maven-project-introduce.md)
 - [Debug 讲解](debug-introduce.md)
+- [重构讲解](refactor-introduce.md)
+- [数据库管理工具](database-introduce.md)
 - [IntelliJ IDEA 常用快捷键讲解](keymap-introduce.md)
