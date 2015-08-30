@@ -21,4 +21,6 @@
 - [Debug 讲解](debug-introduce.md)
 - [重构讲解](refactor-introduce.md)
 - [数据库管理工具](database-introduce.md)
+- [IntelliJ IDEA 常用设置](settings-introduce.md)
 - [IntelliJ IDEA 常用快捷键讲解](keymap-introduce.md)
+- [本教程总结](this-tutorial-the-end.md)

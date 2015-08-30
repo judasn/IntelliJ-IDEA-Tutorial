@@ -150,8 +150,7 @@ IntelliJ IDEA 的便捷操作性，快捷键的功劳占了一大半，对于各
 |Ctrl + Shift + \+|展开所有代码|
 |Ctrl + Shift + \-|折叠所有代码|
 |Ctrl + Shift + F7|高亮显示所有该选中文本，按Esc高亮消失|
-|Ctrl + Shift + F8|在 Debug 模式下，指定断点进入条件|
-|Ctrl + Shift + F9|编译选中的文件 / 包 / Module|
+|Ctrl + Shift + F8|在 Debug 模式下，指定断点进入条件||Ctrl + Shift + F9|编译选中的文件 / 包 / Module|
 |Ctrl + Shift + F12|编辑器最大化|
 |Ctrl + Shift + Space|智能代码提示|
 |Ctrl + Shift + Enter|自动结束代码，行末自动添加分号 `（必备）` |
@@ -214,13 +213,13 @@ IntelliJ IDEA 的便捷操作性，快捷键的功劳占了一大半，对于各
 
 ## 快捷键修改
 
-![修改快捷键](images/n-a-keymap-setting-1.jpg)
+![修改快捷键](images/xxvii-a-keymap-setting-1.jpg)
 
 > * 按 `Ctrl + Alt + S` 弹出 IDE 设置，如上图选择左侧的 `Keymap`。
 > * IntelliJ IDEA 支持两种方式来筛选我们要找的快捷键，一种是上图标注 1 所示的，通过输入快捷键描述内容；一种是上图标注 2 所示的，通过 **按** 指定快捷键快捷键，这里需要再次强调的是，这个输入框是自动监听你当前按下的按键，而不是用来输入的。
 > * 上图标注 3 所示，初安装的 IntelliJ IDEA 使用的是 `Default` 的快捷键模板，IntelliJ IDEA 默认的快捷键模板都是不可修改的。如果你直接修改，当前这个位置 IntelliJ IDEA 会自动变成 `Default Copy`，建议你养成习惯，修改之前先点击 `Copy`，拷贝一套快捷键模板，然后输入自己的命名。
 
-![修改快捷键](images/n-a-keymap-setting-2.jpg)
+![修改快捷键](images/xxvii-a-keymap-setting-2.jpg)
 
 > * IntelliJ IDEA 是支持一个操作命令同时设置多个快捷键组合，就如上图的 `Backspace`，同时支持 `Backspace` 和 `Shift + Backspace` 两组快捷键。
 > * 要修改某个快捷键，选中快捷键介绍内容，右键，就会弹出如上图标注 1 所示操作选择。
@@ -229,12 +228,12 @@ IntelliJ IDEA 的便捷操作性，快捷键的功劳占了一大半，对于各
 > * 命令 `Add Abbreviation` 根据 IntelliJ IDEA 的版本文档解释，添加简称主要是为了方便 `Search Everywhere` 中使用，但是我尝试之后发现没办法根据我设置的简称搜索，暂时无法了解其作用。 
 > * 命令 `Remove 快捷键` 移出当前操作命令已设置的快捷键组合，由于 IntelliJ IDEA 默认就占用了很多快捷键组合，所以如果你要修改某个快捷键，建议还是删除掉旧的。 
 
-![修改快捷键](images/n-a-keymap-setting-3.jpg)
+![修改快捷键](images/xxvii-a-keymap-setting-3.jpg)
 
 > * IntelliJ IDEA 对其他 IDE 用户很友好，比如如上图对于其他主流的 IDE，快捷键上已经默认了有其过度快捷键模板了，但是我还是建议你专心使用 IntelliJ IDEA 的默认。
 
 ## 其他
 
-![vim插件推荐](images/n-b-ideavim-1.jpg)
+![vim插件推荐](images/xxvii-b-ideavim-1.jpg)
 
 > * 如果你是一个 Vim 粉，IntelliJ IDEA 也为你准备了一个方案：如上图安装 IdeaVim 插件即可。
