@@ -9,6 +9,7 @@
 ![插件的设置](images/xx-a-plugins-settings-1.jpg)
 
 > * 如上图标注 1 所示，IntelliJ IDEA 对插件进行了很好的分类：
+>
 >> * `All plugins` 显示所有插件。 
 >> * `Enabled` 显示当前所有已经启用的插件。
 >> * `Disabled` 显示当期那所有已经禁用的插件。
