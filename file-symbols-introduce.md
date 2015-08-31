@@ -13,8 +13,9 @@
 
 ![各类文件类型图标介绍](images/xi-b-file-symbols-1.jpg)
 
-> * 官网地址：<http://www.jetbrains.com/idea/webhelp/file-types-recognized-by-intellij-idea.html>。
+> * 官网地址：<http://www.jetbrains.com/idea/webhelp/file-types-recognized-by-intellij-idea.html>
 > * 对于各个图标，上图的介绍得非常清楚，我这边只做一个类型文件的补充。
+>
 >> * ![JavaScript 两种图标介绍](images/xi-b-file-symbols-2.png)
 >> * 如上图所示，对于压缩过的 JavaScript 文件，图标会有 `010`图案。
 
