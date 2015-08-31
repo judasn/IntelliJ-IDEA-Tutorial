@@ -2,8 +2,6 @@
 
 ## 本系列教程介绍
 
-本教程目前还处于书写和草稿阶段，谢绝任何方式的转载。
-
 本系列教程从 IntelliJ IDEA 的安装、卸载、软件设置、项目配置等各个方面进行讲解。通过本系列教程的学习，也希望你能爱上 IntelliJ IDEA，爱上它的体贴。同时学完本系列教程对于你学习 JetBrains 公司下的其他产品也有好处，其他产品包括：
 
 > * [PhpStorm](http://www.jetbrains.com/phpstorm/ "PhpStorm 主要用于开发 PHP") 主要用于开发 PHP
