@@ -16,6 +16,7 @@
 
 > * 如上图标注所示，实时代码模板本质是用 XML 文件来保存的，所以传播自己的实时代码模板只要传播对应的文件即可。
 > * IntelliJ IDEA 的实时代码模板保存在 `/templates` 目录下，其他系统目录位置如下：（因为目录名在各个系统上是一致的，建议用硬盘搜索工具搜索即可）
+>
 >> * Windows: <your home directory>\.<product name><version number>\config\templates
 >> * Linux: ~/.<product name><version number>/config/templates
 >> * OS X: ~/Library/Preferences/<product name><version number>/templates 
@@ -32,6 +33,7 @@
 > * `$SELECTION$`，表示设置环绕实时代码模板，环绕功能下面会模板专门进行介绍。
 > * 除了上面两个变量参数外，其他一律都会自定义变量。
 > * 官网介绍：<https://www.jetbrains.com/idea/help/live-template-variables.html>
+>
 >> * `$END$` indicates the position of the cursor after the template is expanded.
 >> * `$SELECTION$` is used in surround templates and stands for the code fragment to be wrapped.
 
@@ -44,6 +46,7 @@
 > * 如上图标注 3 所示，实时代码模板的内容，其中用到了预设的变量 `$END$`。 
 > * 如上图标注 4 所示，可设置该实时代码模板的试用范围，比如图上的 `serr` 这是 Java 代码，所以试用范围我们就应该只是 Java 文件上或是 JSP 这类文件上，设置在 HTML 或是 CSS 文件上就完全没有多大意义了。
 > * 如上图标注 5 所示，勾选了辅助的功能：
+>
 >> * `Reformat according to style` 对生成的代码进行格式化。
 >> * `Shorten FQ names` 关于此设置的说明我没有找到，所以暂时无法给个很少的解释，只是看到材料说明一般需要勾上此设置，如果您有好的答案，还请联系我。 
 
@@ -65,6 +68,7 @@
 > * 如上图标注 2 所示，如上面介绍的，每个变量都是一次光标位置，但是演示中变量名 `$CLASS_NAME$`、`$METHOD_NAME$` 没有进入，是因为勾选了 `Ship if defined`。 
 > * 如上图标注 3 所示，可以改变变量光标跳转时的顺序。
 > * 内置函数介绍：<https://www.jetbrains.com/idea/help/live-template-variables.html>
+>
 >> * 对于官网这些函数这里就不在累赘，官网有详细的介绍，如果你还看不懂，可以看 IntelliJ IDEA 已经预设各个实时代码模板，基本上常用的函数都有被引用过，你可以通过学习这些预设的实时代码模板来揣测其函数的用法。
 
 ## 环绕功能介绍
