@@ -30,7 +30,7 @@
 
 ![Hello World 项目创建](images/xv-a-project-create-5.jpg)
 
-> * 如上图标注 1 所示，根据第 11 讲我们知道，`src` 目录为蓝色表示 `Source root`，我们可以再此目录下创建包和类。
+> * 如上图标注 1 所示，根据《常见文件类型的图标介绍》章节我们知道，`src` 目录为蓝色表示 `Source root`，我们可以再此目录下创建包和类。
 > * 如上图标注 2 所示，由于该项目使用的是 JDK 7，所以项目是基于 JDK 7，我们可以调用 JDK 7 中的类。
 
 ![Hello World 项目创建](images/xv-a-project-create-6.jpg)
