@@ -10,4 +10,4 @@
 
 该专题的目录在 `TOC.md` 文件中，所以请先看该文件，最后正式格式会在极客学院发表，到时候请移步到新地址观看，那里格式会更好看。
 
-From Judas.n，<http://www.YouMeek.com>
+From Judas.n（judas.n@qq.com），<http://www.YouMeek.com>
