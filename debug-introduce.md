@@ -6,7 +6,6 @@
 
 > * 如上图标注 1 所示，表示设置 Debug 连接方式，默认是 `Socket`。`Shared memory` 是 Windows 特有的一个属性，一般在 Windows 系统下建议使用此设置，相对于 `Socket` 会快点。
 
-
 ## Debug 常用快捷键
 
 |快捷键|介绍|
@@ -24,7 +23,6 @@
 有时候我们可以这样粗鲁地认为 Debug 的使用就是等同于这几个快捷键的使用，所以上面的 `必备` 快捷键是我们必须牢记的，这些也是开发很常用的。 
 
 ## Debug 特殊技能使用
-
 
 ![Debug 特殊技能使用](images/xxiii-b-debug-use-1.gif)
 

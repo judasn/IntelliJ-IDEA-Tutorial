@@ -17,7 +17,6 @@
 
 SVN 主要使用的版本有 1.6、1.7、1.8，最新的是 1.9。推荐大家使用 1.8 的。如果你的项目使用的是 1.6 的版本，在安装 1.8 之后是可以直接对项目文件进行升级的，所以无需担心，也因此更加推荐大家使用 1.8。
 
-
 > * Subversion 官网下载：<https://subversion.apache.org/download/#recommended-release>
 > * TortoiseSVN 官网下载：<http://tortoisesvn.net/downloads.zh.html>
 
@@ -64,7 +63,6 @@ Git 主要的版本有 1.X、2.X，最新的是 2.X，使用版本随意，但�
 
 > * 如上图标注 1 所示，支持创建 `Gist`。Github 的 Gist 官网地址：<https://gist.github.com/>
 
-
 ## 版本控制主要操作按钮
 
 ![版本控制主要操作按钮](images/xvi-e-version-control-system-operation-introduce-1.jpg)
@@ -88,7 +86,6 @@ Git 主要的版本有 1.X、2.X，最新的是 2.X，使用版本随意，但�
 ![版本控制主要操作按钮](images/xvi-e-version-control-system-operation-introduce-4.jpg)
 
 > * 如上图标注 1 所示，菜单栏上的版本控制操作区。
-
 
 ## 版本控制相关的常用设置说明
 
