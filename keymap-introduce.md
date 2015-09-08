@@ -205,10 +205,12 @@ IntelliJ IDEA 的便捷操作性，快捷键的功劳占了一大半，对于各
 |连按两次Shift|弹出 `Search Everywhere` 弹出层|
 
 ## 官网快捷键资料
+
 > * Windows / Linux：<https://www.jetbrains.com/idea/docs/IntelliJIDEA_ReferenceCard.pdf>
 > * Mac OS X：<https://www.jetbrains.com/idea/docs/IntelliJIDEA_ReferenceCard_Mac.pdf>
 
 ## 第三方快捷键资料
+
 > * 来自 eta02913：<http://xinyuwu.iteye.com/blog/1005454>
 
 ## 快捷键修改

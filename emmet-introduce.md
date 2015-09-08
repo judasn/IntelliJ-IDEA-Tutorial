@@ -17,7 +17,6 @@ Emmet 资料介绍：
 > * Emmet 速查表：<http://docs.emmet.io/cheat-sheet/>
 > * Emmet 项目主页：<https://github.com/emmetio/emmet>
 
-
 ## Emmet 的设置
 
 ![Emmet 的设置](images/xix-b-emmet-settings-1.jpg)
