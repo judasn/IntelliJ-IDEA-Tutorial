@@ -6,7 +6,7 @@
 
 同时也邀请您一起参与完善该教程，欢迎您反馈我的错误和意见！！！
 
-本系列文章唯一授权的商业网站是：[极客学院](http://www.jikexueyuan.com/)，其他商业网站一律禁止转载，个人博客、公众号等方式转载请写明出处链接。
+本系列文章唯一授权的商业网站是：[极客学院](http://www.jikexueyuan.com/)，其他商业网站一律禁止转载。个人博客、公众号等载体请在转载写明出处链接。
 
 本系列文章最终格式会在极客学院发表，到时候请移步到新地址观看，那里格式会更好看。
 
@@ -42,9 +42,10 @@
 ## 联系(Contact)
 
 Judas.n
-> * Email:`judas.n@qq.com` or `jn3.141592654@gmail.com`
-> * Blog:<http://www.YouMeek.com>
-> * IntelliJ IDEA QQ 群:`244908708`，入群请看:<http://www.youmeek.com/idea>
+> * Email：`judas.n@qq.com` or `jn3.141592654@gmail.com`
+> * Blog：<http://www.YouMeek.com>
+> * IntelliJ IDEA QQ 群：`244908708`，入群请看：<http://www.youmeek.com/idea>
+> * 欢迎捐赠^_^：<http://www.youmeek.com/donate>
 
 ## 参与完善教程(Participate)
 
