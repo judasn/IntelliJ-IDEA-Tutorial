@@ -41,11 +41,16 @@
 
 ## 联系(Contact)
 
-Judas.n (judas.n@qq.com), [MyBlog](http://www.YouMeek.com)
+Judas.n
+> * Email:
+>
+>> * judas.n@qq.com
+>> * jn3.141592654@gmail.com
+> * Blog:<http://www.YouMeek.com>
 
 ## 参与完善教程(Participate)
 
-不会使用 Git 或是 Github 用户，请认真学习下面三个视频教程：
+如果您不会使用 Git 或是 Github 也没关系，请认真学习下面三个视频教程：
 > * [@Markdown介绍+语法+笔记+常用工具推荐(视频教程)](http://www.youmeek.com/markdown-introduce-and-markdownpad2-download/)
 > * [@IntelliJ IDEA第八部分(视频讲解)：Git和Github专讲](http://www.youmeek.com/intellij-idea-part-viii-git-and-github/)
 > * [@IntelliJ IDEA13下Github协同合作全流程(视频教程)](http://www.youmeek.com/intellij-idea-13-github-pull-request-video-tutorial/)
