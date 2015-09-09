@@ -41,5 +41,5 @@
 
 ## 联系(Contact)
 
-From Judas.n（judas.n@qq.com），[Blog](http://www.YouMeek.com)
+Judas.n(judas.n@qq.com),[MyBlog](http://www.YouMeek.com)
 
