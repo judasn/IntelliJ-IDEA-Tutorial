@@ -42,10 +42,7 @@
 ## 联系(Contact)
 
 Judas.n
-> * Email:
->
->> * judas.n@qq.com
->> * jn3.141592654@gmail.com
+> * Email:`judas.n@qq.com` or `jn3.141592654@gmail.com`
 > * Blog:<http://www.YouMeek.com>
 
 ## 参与完善教程(Participate)
