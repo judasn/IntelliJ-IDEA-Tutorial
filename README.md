@@ -44,6 +44,7 @@
 Judas.n
 > * Email:`judas.n@qq.com` or `jn3.141592654@gmail.com`
 > * Blog:<http://www.YouMeek.com>
+> * IntelliJ IDEA QQ 群:`244908708`，入群请看:<http://www.youmeek.com/idea>
 
 ## 参与完善教程(Participate)
 
