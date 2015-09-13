@@ -1,6 +1,6 @@
 # Windows 系统下安装 IntelliJ IDEA
 
-## 1.系统要求
+## 系统要求
 
 > * 系统支持：Microsoft Windows 8 / 7 / Vista / 2003 / XP（每个系统版本的32位和64位都可以）
 > * JDK 版本：Oracle JDK 1.6 或以上
@@ -9,7 +9,7 @@
 > * 显示器：最低要求 1024 X 768 分辨率
 > * 更多信息可以阅读：<https://www.jetbrains.com/idea/download/system_requirements.jsp?os=win>
 
-## 2.首次安装
+## 首次安装
 
 > * IntelliJ IDEA 的安装是非常简单的，不需要做过多的选择，可以说简单到都是 `Next` 即可。
 
@@ -33,7 +33,7 @@
 
 > * 整个安装过程，一般的配置电脑安装所需的时间大约是 1 ~ 5 分钟。
 
-## 3.已有旧版本安装新版本
+## 已有旧版本安装新版本
 
 ![已有旧版本安装新版本步骤截图](images/iii-b-repeatedly-install-1.jpg)
 
@@ -53,7 +53,7 @@
 > * 建议两个都不要勾选。
 > * 点击 uninstall，进入全自动的卸载过程，卸载完成接下来的步骤跟上文“首次安装”一致，这里不再进行说明。
 
-## 4.卸载
+## 卸载
 
 > * 卸载过程在第 3 点已经有涉及到了，专门对 IntelliJ IDEA 进行卸载也是一样的流程。
 

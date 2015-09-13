@@ -11,6 +11,9 @@
 如果你只是单纯要阅读的话，建议移步极客学院上观看，访问速度会快很多：
 > * 地址：<http://wiki.jikexueyuan.com/project/IntelliJ-IDEA-Tutorial/>
 
+如果你想参与完善该教程，请移步到 Github 上进行 Fork：
+> * 地址：<https://github.com/judasn/IntelliJ-IDEA-Tutorial/>
+
 ## 目录(Contents)
 
 - [IntelliJ IDEA 介绍](introduce.md)
