@@ -19,6 +19,7 @@
 - [IntelliJ IDEA 介绍](introduce.md)
 - [本教程介绍](about-this-tutorial.md)
 - [Windows 下安装](windows-install.md)
+- [Windows 下安装](ubuntu-install.md)
 - [安装总结](install-summarize.md)
 - [首次运行](first-run-wizard.md)
 - [安装目录讲解](installation-directory-introduce.md)
