@@ -55,6 +55,6 @@ Judas.n
 ## 参与完善教程(Participate)
 
 如果您不会使用 Git 或是 Github 也没关系，请认真学习下面三个视频教程：
-> * [@Markdown介绍+语法+笔记+常用工具推荐(视频教程)](http://www.youmeek.com/markdown-introduce-and-markdownpad2-download/)
-> * [@IntelliJ IDEA第八部分(视频讲解)：Git和Github专讲](http://www.youmeek.com/intellij-idea-part-viii-git-and-github/)
-> * [@IntelliJ IDEA13下Github协同合作全流程(视频教程)](http://www.youmeek.com/intellij-idea-13-github-pull-request-video-tutorial/)
+> * [@Markdown 介绍+语法+笔记+常用工具推荐(视频教程)](http://www.youmeek.com/markdown-introduce-and-markdownpad2-download/)
+> * [@IntelliJ IDEA 第八部分(视频讲解)：Git 和 Github 专讲](http://www.youmeek.com/intellij-idea-part-viii-git-and-github/)
+> * [@IntelliJ IDEA13 下 Github 协同合作全流程(视频教程)](http://www.youmeek.com/intellij-idea-13-github-pull-request-video-tutorial/)
