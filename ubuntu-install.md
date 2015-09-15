@@ -4,8 +4,8 @@
 
 > * 系统支持：只要是支持 GNOME 或 KDE 桌面系统，建议是 Ubuntu（32位和64位都可以）
 > * JDK 版本：Oracle JDK 1.6 或以上
-> * 内存：最低要求1G，推荐2G以上
-> * 硬盘：最低要求2G
+> * 内存：最低要求 1 GB，推荐 2 GB 以上
+> * 硬盘：最低要求 2 GB
 > * 显示器：最低要求 1024 X 768 分辨率
 > * 更多信息可以阅读：<https://www.jetbrains.com/idea/download/system_requirements.jsp?os=linux>
 
