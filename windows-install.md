@@ -2,10 +2,10 @@
 
 ## 系统要求
 
-> * 系统支持：Microsoft Windows 8 / 7 / Vista / 2003 / XP（每个系统版本的32位和64位都可以）
+> * 系统支持：Microsoft Windows 8 / 7 / Vista / 2003 / XP（每个系统版本的 32 位和 64 位都可以）
 > * JDK 版本：Oracle JDK 1.6 或以上
-> * 内存：最低要求1G，推荐2G以上
-> * 硬盘：最低要求2G
+> * 内存：最低要求 1 GB，推荐 2 GB 以上
+> * 硬盘：最低要求 2 GB
 > * 显示器：最低要求 1024 X 768 分辨率
 > * 更多信息可以阅读：<https://www.jetbrains.com/idea/download/system_requirements.jsp?os=win>
 
