@@ -58,3 +58,8 @@ Judas.n
 > * [@Markdown 介绍+语法+笔记+常用工具推荐(视频教程)](http://www.youmeek.com/markdown-introduce-and-markdownpad2-download/)
 > * [@IntelliJ IDEA 第八部分(视频讲解)：Git 和 Github 专讲](http://www.youmeek.com/intellij-idea-part-viii-git-and-github/)
 > * [@IntelliJ IDEA13 下 Github 协同合作全流程(视频教程)](http://www.youmeek.com/intellij-idea-13-github-pull-request-video-tutorial/)
+
+## Github 常用按钮说明
+> * Watch：关注该项目，作者有更新的时候，会在你的 Github 主页有通知消息。
+> * Star：收藏该项目，在你的头像上有一个“Your stars”链接，可以看到你的收藏列表。
+> * Fork：复制一份项目到的Github空间上，你可以自己开发自己的这个地址项目，然后 Pull Request 给项目原主人。 
