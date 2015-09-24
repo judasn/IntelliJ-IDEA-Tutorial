@@ -36,7 +36,7 @@ JRebel 的安装方法有两种， 一种是直接在 Tomcat 启动参数上面�
 
 接下来返回 `Server` 选项卡， 会发现多了一项 `On frame deactivation`， 如果你刚才没有配置 `Deployment` 选项卡的话的这项是不会出现的
 
-按如图所示的来配置， 特别需要注意的是 `On 'Update' action和On frame deactivation` 这两项目一定要选择 `Update classes and resources`， 否则类修改热部署不生效， 或者第三方模版框架例如 Freemarker 热部署不生效
+按如图所示的来配置， 特别需要注意的是 `On 'Update' action` 和`On frame deactivation` 这两项目一定要选择 `Update classes and resources`， 否则类修改热部署不生效， 或者第三方模版框架例如 Freemarker 热部署不生效
 
 ![enter description here][7]
 
