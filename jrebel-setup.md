@@ -92,9 +92,12 @@ Mac OS 用这个：
 
 最后这边附上最新的 JRebel
 
-直接调用下这个[直接调用下这个][16]
+链接: [http://pan.baidu.com/s/1gd76hXL][16] 密码: bq1b
 
-IDEA插件用这个[IntelliJ IDEA 插件用这个][17]
+
+IDEA插件用这个
+
+链接: [http://pan.baidu.com/s/1qW5RPYc][17] 密码: pgk4
 
 
   [1]: ./images/xxviii-jrebel-setup-1.jpg "xxviii-jrebel-setup-1.jpg"
@@ -112,5 +115,5 @@ IDEA插件用这个[IntelliJ IDEA 插件用这个][17]
   [13]: ./images/xxviii-jrebel-setup-13.jpg "xxviii-jrebel-setup-13.jpg"
   [14]: ./images/xxviii-jrebel-setup-14.jpg "xxviii-jrebel-setup-14.jpg"
   [15]: ./images/xxviii-jrebel-setup-15.jpg "xxviii-jrebel-setup-15.jpg"
-  [16]: ./attachments/jrebel_6.2.3-agent-crack.zip
-  [17]: ./attachments/jr-ide-idea-6.2.3-idea-13-14.zip
+  [16]: http://pan.baidu.com/s/1gd76hXL
+  [17]: http://pan.baidu.com/s/1qW5RPYc
