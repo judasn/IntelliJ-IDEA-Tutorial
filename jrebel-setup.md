@@ -113,7 +113,7 @@ IDEA插件用这个
   [11]: ./images/xxviii-jrebel-setup-11.jpg "xxviii-jrebel-setup-11.jpg"
   [12]: ./images/xxviii-jrebel-setup-12.jpg "xxviii-jrebel-setup-12.jpg"
   [13]: ./images/xxviii-jrebel-setup-15.jpg "xxviii-jrebel-setup-15.jpg"
-  [14]: ./images/xxviii-jrebel-setup-14.jpg "xxviii-jrebel-setup-14.jpg"
-  [15]: ./images/xxviii-jrebel-setup-13.jpg "xxviii-jrebel-setup-13.jpg"
+  [14]: ./images/xxviii-jrebel-setup-13.jpg "xxviii-jrebel-setup-13.jpg"
+  [15]: ./images/xxviii-jrebel-setup-14.jpg "xxviii-jrebel-setup-14.jpg"
   [16]: http://pan.baidu.com/s/1gd76hXL
   [17]: http://pan.baidu.com/s/1qW5RPYc
