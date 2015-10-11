@@ -49,7 +49,7 @@
 ## 联系(Contact)
 
 Judas.n
-> * Email：`judas.n@qq.com` or `jn3.141592654@gmail.com`
+> * Email：`judas.n@qq.com`（常用） or `jn3.141592654@gmail.com`（备用）
 > * Blog：<http://www.YouMeek.com>
 > * IntelliJ IDEA QQ 群：`244908708`，入群请看：<http://www.youmeek.com/idea>
 > * 欢迎捐赠^_^：<http://www.youmeek.com/donate>
