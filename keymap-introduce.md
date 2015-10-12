@@ -151,7 +151,8 @@ IntelliJ IDEA 的便捷操作性，快捷键的功劳占了一大半，对于各
 |Ctrl + Shift + \+|展开所有代码|
 |Ctrl + Shift + \-|折叠所有代码|
 |Ctrl + Shift + F7|高亮显示所有该选中文本，按Esc高亮消失|
-|Ctrl + Shift + F8|在 Debug 模式下，指定断点进入条件||Ctrl + Shift + F9|编译选中的文件 / 包 / Module|
+|Ctrl + Shift + F8|在 Debug 模式下，指定断点进入条件|
+|Ctrl + Shift + F9|编译选中的文件 / 包 / Module|
 |Ctrl + Shift + F12|编辑器最大化|
 |Ctrl + Shift + Space|智能代码提示|
 |Ctrl + Shift + Enter|自动结束代码，行末自动添加分号 `（必备）` |
