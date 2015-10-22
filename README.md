@@ -8,7 +8,7 @@
 
 本系列文章唯一授权的商业网站是：[极客学院](http://www.jikexueyuan.com/)，其他商业网站一律禁止转载。个人博客、公众号等载体请在转载写明出处链接。
 
-如果你只是单纯要阅读的话，建议移步极客学院上观看，访问速度会快很多：
+如果你只是单纯要阅读的话，建议移步极客学院上观看，访问速度快很多：
 > * 地址：<http://wiki.jikexueyuan.com/project/intellij-idea-tutorial/>
 
 如果你想参与完善该教程，请移步到 Github 上进行 Fork：
