@@ -2,7 +2,7 @@
 
 ## 介绍(Introduce)
 
-本系列教程历时两个多月，写到最后有点害怕。目前第一个版本阶段已经完成，后面会根据情况继续进行调整和补充，我也休息调整下。需要了解 IntelliJ IDEA 的童鞋现在可以开始 `Watch`、`Star`、`Fork`。
+本系列教程历时两个多月，第一个版本已经完成，目前在不定时进行调整和补充，需要关注更新的请 `Watch`、`Star`、`Fork`。
 
 同时也邀请您一起参与完善该教程，欢迎您反馈我的错误和意见！！！
 
@@ -35,6 +35,7 @@
 - [实时代码模板讲解](live-templates-introduce.md)
 - [文件代码模板讲解](file-templates-introduce.md)
 - [Emmet 讲解](emmet-introduce.md)
+- [Postfix Completion 讲解](postfix-completion-introduce.md)
 - [插件讲解](plugins-settings.md)
 - [Eclipse 的 Java Web 项目环境搭建](eclipse-java-web-project-introduce.md)
 - [Maven 项目介绍](maven-project-introduce.md)
