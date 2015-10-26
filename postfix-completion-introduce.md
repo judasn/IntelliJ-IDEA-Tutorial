@@ -2,7 +2,7 @@
 
 ## Postfix Completion 的介绍
 
-Postfix Completion 功能本质上也是代码模板， 只是它比 Live Templates 来得更加便捷一点点而已。具体它是做什么的，我们通过下面一张 Gif 演示图来说明：
+Postfix Completion 功能本质上也是代码模板，只是它比 Live Templates 来得更加便捷一点点而已。具体它是做什么的，我们通过下面一张 Gif 演示图来说明：
 
 ![Postfix Completion 的介绍](images/xix-c-postfix-completion-introduce-1.gif)
 
