@@ -17,6 +17,7 @@
 - [实时代码模板讲解](live-templates-introduce.md)
 - [文件代码模板讲解](file-templates-introduce.md)
 - [Emmet 讲解](emmet-introduce.md)
+- [Postfix Completion 讲解](postfix-completion-introduce.md)
 - [插件讲解](plugins-settings.md)
 - [Eclipse 的 Java Web 项目环境搭建](eclipse-java-web-project-introduce.md)
 - [Maven 项目介绍](maven-project-introduce.md)
@@ -25,5 +26,4 @@
 - [数据库管理工具](database-introduce.md)
 - [IntelliJ IDEA 常用设置](settings-introduce.md)
 - [IntelliJ IDEA 常用快捷键讲解](keymap-introduce.md)
-- [IntelliJ IDEA 的 Java 热部署插件 JRebel 安装及使用](jrebel-setup.md)
 - [本教程总结](this-tutorial-the-end.md)
