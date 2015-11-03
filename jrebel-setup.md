@@ -90,7 +90,7 @@ Mac OS 用这个：
 
 看到 Log 有 JRebel 输出的版本信息， 没有报错就是表示成功执行了， 随便改一个类试试吧
 
-JRebel有免费激活版的,可以执行搜索到,支持正版
+JRebel 官网有免费激活服务，到官网注册领取，请支持正版
 
   [1]: ./images/xxviii-jrebel-setup-1.jpg "xxviii-jrebel-setup-1.jpg"
   [2]: ./images/xxviii-jrebel-setup-2.jpg "xxviii-jrebel-setup-2.jpg"
@@ -107,5 +107,3 @@ JRebel有免费激活版的,可以执行搜索到,支持正版
   [13]: ./images/xxviii-jrebel-setup-15.jpg "xxviii-jrebel-setup-15.jpg"
   [14]: ./images/xxviii-jrebel-setup-13.jpg "xxviii-jrebel-setup-13.jpg"
   [15]: ./images/xxviii-jrebel-setup-14.jpg "xxviii-jrebel-setup-14.jpg"
-  [16]: http://pan.baidu.com/s/1gd76hXL
-  [17]: http://pan.baidu.com/s/1qW5RPYc
