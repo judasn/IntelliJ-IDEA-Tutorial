@@ -46,6 +46,7 @@
 - [数据库管理工具](database-introduce.md)
 - [IntelliJ IDEA 常用设置](settings-introduce.md)
 - [IntelliJ IDEA 常用快捷键讲解](keymap-introduce.md)
+- [IntelliJ IDEA 的 Java 热部署插件 JRebel 安装及使用](jrebel-setup.md)
 - [本教程总结](this-tutorial-the-end.md)
 
 ## 联系(Contact)
