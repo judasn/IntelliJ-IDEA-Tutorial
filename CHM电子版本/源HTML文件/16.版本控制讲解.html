@@ -1,0 +1,709 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>16.版本控制讲解</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<style type="text/css">
+/* GitHub stylesheet for MarkdownPad (http://markdownpad.com) */
+/* Author: Nicolas Hery - http://nicolashery.com */
+/* Version: b13fe65ca28d2e568c6ed5d7f06581183df8f2ff */
+/* Source: https://github.com/nicolahery/markdownpad-github */
+
+/* RESET
+=============================================================================*/
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+/* BODY
+=============================================================================*/
+
+body {
+  font-family: Helvetica, arial, freesans, clean, sans-serif;
+  font-size: 14px;
+  line-height: 1.6;
+  color: #333;
+  background-color: #fff;
+  padding: 20px;
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+body>*:first-child {
+  margin-top: 0 !important;
+}
+
+body>*:last-child {
+  margin-bottom: 0 !important;
+}
+
+/* BLOCKS
+=============================================================================*/
+
+p, blockquote, ul, ol, dl, table, pre {
+  margin: 15px 0;
+}
+
+/* HEADERS
+=============================================================================*/
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 20px 0 10px;
+  padding: 0;
+  font-weight: bold;
+  -webkit-font-smoothing: antialiased;
+}
+
+h1 tt, h1 code, h2 tt, h2 code, h3 tt, h3 code, h4 tt, h4 code, h5 tt, h5 code, h6 tt, h6 code {
+  font-size: inherit;
+}
+
+h1 {
+  font-size: 28px;
+  color: #000;
+}
+
+h2 {
+  font-size: 24px;
+  border-bottom: 1px solid #ccc;
+  color: #000;
+}
+
+h3 {
+  font-size: 18px;
+}
+
+h4 {
+  font-size: 16px;
+}
+
+h5 {
+  font-size: 14px;
+}
+
+h6 {
+  color: #777;
+  font-size: 14px;
+}
+
+body>h2:first-child, body>h1:first-child, body>h1:first-child+h2, body>h3:first-child, body>h4:first-child, body>h5:first-child, body>h6:first-child {
+  margin-top: 0;
+  padding-top: 0;
+}
+
+a:first-child h1, a:first-child h2, a:first-child h3, a:first-child h4, a:first-child h5, a:first-child h6 {
+  margin-top: 0;
+  padding-top: 0;
+}
+
+h1+p, h2+p, h3+p, h4+p, h5+p, h6+p {
+  margin-top: 10px;
+}
+
+/* LINKS
+=============================================================================*/
+
+a {
+  color: #4183C4;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* LISTS
+=============================================================================*/
+
+ul, ol {
+  padding-left: 30px;
+}
+
+ul li > :first-child, 
+ol li > :first-child, 
+ul li ul:first-of-type, 
+ol li ol:first-of-type, 
+ul li ol:first-of-type, 
+ol li ul:first-of-type {
+  margin-top: 0px;
+}
+
+ul ul, ul ol, ol ol, ol ul {
+  margin-bottom: 0;
+}
+
+dl {
+  padding: 0;
+}
+
+dl dt {
+  font-size: 14px;
+  font-weight: bold;
+  font-style: italic;
+  padding: 0;
+  margin: 15px 0 5px;
+}
+
+dl dt:first-child {
+  padding: 0;
+}
+
+dl dt>:first-child {
+  margin-top: 0px;
+}
+
+dl dt>:last-child {
+  margin-bottom: 0px;
+}
+
+dl dd {
+  margin: 0 0 15px;
+  padding: 0 15px;
+}
+
+dl dd>:first-child {
+  margin-top: 0px;
+}
+
+dl dd>:last-child {
+  margin-bottom: 0px;
+}
+
+/* CODE
+=============================================================================*/
+
+pre, code, tt {
+  font-size: 12px;
+  font-family: Consolas, "Liberation Mono", Courier, monospace;
+}
+
+code, tt {
+  margin: 0 0px;
+  padding: 0px 0px;
+  white-space: nowrap;
+  border: 1px solid #eaeaea;
+  background-color: #f8f8f8;
+  border-radius: 3px;
+}
+
+pre>code {
+  margin: 0;
+  padding: 0;
+  white-space: pre;
+  border: none;
+  background: transparent;
+}
+
+pre {
+  background-color: #f8f8f8;
+  border: 1px solid #ccc;
+  font-size: 13px;
+  line-height: 19px;
+  overflow: auto;
+  padding: 6px 10px;
+  border-radius: 3px;
+}
+
+pre code, pre tt {
+  background-color: transparent;
+  border: none;
+}
+
+kbd {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background-color: #DDDDDD;
+    background-image: linear-gradient(#F1F1F1, #DDDDDD);
+    background-repeat: repeat-x;
+    border-color: #DDDDDD #CCCCCC #CCCCCC #DDDDDD;
+    border-image: none;
+    border-radius: 2px 2px 2px 2px;
+    border-style: solid;
+    border-width: 1px;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    line-height: 10px;
+    padding: 1px 4px;
+}
+
+/* QUOTES
+=============================================================================*/
+
+blockquote {
+  border-left: 4px solid #DDD;
+  padding: 0 15px;
+  color: #777;
+}
+
+blockquote>:first-child {
+  margin-top: 0px;
+}
+
+blockquote>:last-child {
+  margin-bottom: 0px;
+}
+
+/* HORIZONTAL RULES
+=============================================================================*/
+
+hr {
+  clear: both;
+  margin: 15px 0;
+  height: 0px;
+  overflow: hidden;
+  border: none;
+  background: transparent;
+  border-bottom: 4px solid #ddd;
+  padding: 0;
+}
+
+/* TABLES
+=============================================================================*/
+
+table th {
+  font-weight: bold;
+}
+
+table th, table td {
+  border: 1px solid #ccc;
+  padding: 6px 13px;
+}
+
+table tr {
+  border-top: 1px solid #ccc;
+  background-color: #fff;
+}
+
+table tr:nth-child(2n) {
+  background-color: #f8f8f8;
+}
+
+/* IMAGES
+=============================================================================*/
+
+img {
+  max-width: 100%
+}
+</style>
+<style type="text/css">
+.highlight  { background: #ffffff; }
+.highlight .c { color: #999988; font-style: italic } /* Comment */
+.highlight .err { color: #a61717; background-color: #e3d2d2 } /* Error */
+.highlight .k { font-weight: bold } /* Keyword */
+.highlight .o { font-weight: bold } /* Operator */
+.highlight .cm { color: #999988; font-style: italic } /* Comment.Multiline */
+.highlight .cp { color: #999999; font-weight: bold } /* Comment.Preproc */
+.highlight .c1 { color: #999988; font-style: italic } /* Comment.Single */
+.highlight .cs { color: #999999; font-weight: bold; font-style: italic } /* Comment.Special */
+.highlight .gd { color: #000000; background-color: #ffdddd } /* Generic.Deleted */
+.highlight .gd .x { color: #000000; background-color: #ffaaaa } /* Generic.Deleted.Specific */
+.highlight .ge { font-style: italic } /* Generic.Emph */
+.highlight .gr { color: #aa0000 } /* Generic.Error */
+.highlight .gh { color: #999999 } /* Generic.Heading */
+.highlight .gi { color: #000000; background-color: #ddffdd } /* Generic.Inserted */
+.highlight .gi .x { color: #000000; background-color: #aaffaa } /* Generic.Inserted.Specific */
+.highlight .go { color: #888888 } /* Generic.Output */
+.highlight .gp { color: #555555 } /* Generic.Prompt */
+.highlight .gs { font-weight: bold } /* Generic.Strong */
+.highlight .gu { color: #aaaaaa } /* Generic.Subheading */
+.highlight .gt { color: #aa0000 } /* Generic.Traceback */
+.highlight .kc { font-weight: bold } /* Keyword.Constant */
+.highlight .kd { font-weight: bold } /* Keyword.Declaration */
+.highlight .kp { font-weight: bold } /* Keyword.Pseudo */
+.highlight .kr { font-weight: bold } /* Keyword.Reserved */
+.highlight .kt { color: #445588; font-weight: bold } /* Keyword.Type */
+.highlight .m { color: #009999 } /* Literal.Number */
+.highlight .s { color: #d14 } /* Literal.String */
+.highlight .na { color: #008080 } /* Name.Attribute */
+.highlight .nb { color: #0086B3 } /* Name.Builtin */
+.highlight .nc { color: #445588; font-weight: bold } /* Name.Class */
+.highlight .no { color: #008080 } /* Name.Constant */
+.highlight .ni { color: #800080 } /* Name.Entity */
+.highlight .ne { color: #990000; font-weight: bold } /* Name.Exception */
+.highlight .nf { color: #990000; font-weight: bold } /* Name.Function */
+.highlight .nn { color: #555555 } /* Name.Namespace */
+.highlight .nt { color: #000080 } /* Name.Tag */
+.highlight .nv { color: #008080 } /* Name.Variable */
+.highlight .ow { font-weight: bold } /* Operator.Word */
+.highlight .w { color: #bbbbbb } /* Text.Whitespace */
+.highlight .mf { color: #009999 } /* Literal.Number.Float */
+.highlight .mh { color: #009999 } /* Literal.Number.Hex */
+.highlight .mi { color: #009999 } /* Literal.Number.Integer */
+.highlight .mo { color: #009999 } /* Literal.Number.Oct */
+.highlight .sb { color: #d14 } /* Literal.String.Backtick */
+.highlight .sc { color: #d14 } /* Literal.String.Char */
+.highlight .sd { color: #d14 } /* Literal.String.Doc */
+.highlight .s2 { color: #d14 } /* Literal.String.Double */
+.highlight .se { color: #d14 } /* Literal.String.Escape */
+.highlight .sh { color: #d14 } /* Literal.String.Heredoc */
+.highlight .si { color: #d14 } /* Literal.String.Interpol */
+.highlight .sx { color: #d14 } /* Literal.String.Other */
+.highlight .sr { color: #009926 } /* Literal.String.Regex */
+.highlight .s1 { color: #d14 } /* Literal.String.Single */
+.highlight .ss { color: #990073 } /* Literal.String.Symbol */
+.highlight .bp { color: #999999 } /* Name.Builtin.Pseudo */
+.highlight .vc { color: #008080 } /* Name.Variable.Class */
+.highlight .vg { color: #008080 } /* Name.Variable.Global */
+.highlight .vi { color: #008080 } /* Name.Variable.Instance */
+.highlight .il { color: #009999 } /* Literal.Number.Integer.Long */
+.pl-c {
+    color: #969896;
+}
+
+.pl-c1,.pl-mdh,.pl-mm,.pl-mp,.pl-mr,.pl-s1 .pl-v,.pl-s3,.pl-sc,.pl-sv {
+    color: #0086b3;
+}
+
+.pl-e,.pl-en {
+    color: #795da3;
+}
+
+.pl-s1 .pl-s2,.pl-smi,.pl-smp,.pl-stj,.pl-vo,.pl-vpf {
+    color: #333;
+}
+
+.pl-ent {
+    color: #63a35c;
+}
+
+.pl-k,.pl-s,.pl-st {
+    color: #a71d5d;
+}
+
+.pl-pds,.pl-s1,.pl-s1 .pl-pse .pl-s2,.pl-sr,.pl-sr .pl-cce,.pl-sr .pl-sra,.pl-sr .pl-sre,.pl-src,.pl-v {
+    color: #df5000;
+}
+
+.pl-id {
+    color: #b52a1d;
+}
+
+.pl-ii {
+    background-color: #b52a1d;
+    color: #f8f8f8;
+}
+
+.pl-sr .pl-cce {
+    color: #63a35c;
+    font-weight: bold;
+}
+
+.pl-ml {
+    color: #693a17;
+}
+
+.pl-mh,.pl-mh .pl-en,.pl-ms {
+    color: #1d3e81;
+    font-weight: bold;
+}
+
+.pl-mq {
+    color: #008080;
+}
+
+.pl-mi {
+    color: #333;
+    font-style: italic;
+}
+
+.pl-mb {
+    color: #333;
+    font-weight: bold;
+}
+
+.pl-md,.pl-mdhf {
+    background-color: #ffecec;
+    color: #bd2c00;
+}
+
+.pl-mdht,.pl-mi1 {
+    background-color: #eaffea;
+    color: #55a532;
+}
+
+.pl-mdr {
+    color: #795da3;
+    font-weight: bold;
+}
+
+.pl-mo {
+    color: #1d3e81;
+}
+.task-list {
+padding-left:10px;
+margin-bottom:0;
+}
+
+.task-list li {
+    margin-left: 20px;
+}
+
+.task-list-item {
+list-style-type:none;
+padding-left:10px;
+}
+
+.task-list-item label {
+font-weight:400;
+}
+
+.task-list-item.enabled label {
+cursor:pointer;
+}
+
+.task-list-item+.task-list-item {
+margin-top:3px;
+}
+
+.task-list-item-checkbox {
+display:inline-block;
+margin-left:-20px;
+margin-right:3px;
+vertical-align:1px;
+}
+</style>
+</head>
+<body>
+<h1>版本控制的使用</h1>
+
+<h2>IntelliJ IDEA 下的版本控制介绍</h2>
+
+<p>这一章节放在这么靠前位置来讲是因为版本控制在我心目中的地位比后面的实战知识点都来得重要。不管是个人开发或是团队开发，版本控制都是可以很好地被使用的，目前我找不到任何开发者不使用版本控制的理由。而且对于 IDE 来讲，集成版本控制的本身就是它最大的亮点之一，很多开发者也是为此而使用它。</p>
+
+<p>在本章节中也会对 IntelliJ IDEA 的相关版本控制进行了介绍，会开始涉及到一些 IntelliJ IDEA 人性化设置，也希望你能从这一讲开始认识到 IntelliJ IDEA 的优雅。</p>
+
+<p><a href="images/xvi-a-version-control-system-introduce-1.jpg" target="_blank"><img src="images/xvi-a-version-control-system-introduce-1.jpg" alt="IntelliJ IDEA 下的版本控制介绍" style="max-width:100%;"></a></p>
+
+<blockquote>
+<ul>
+<li>很多人认为 IntelliJ IDEA 自带了 SVN 或是 Git 等版本控制工具，认为只要安装了 IntelliJ IDEA 就可以完全使用版本控制应有的功能。这完全是一种错误的解读，IntelliJ IDEA 是自带对这些版本控制工具的支持插件，但是该装什么版本控制客户端还是要照样装的。</li>
+<li>如上图标注 1 所示，IntelliJ IDEA 对版本控制的支持是以插件化的方式来实现的。旗舰版默认支持目前主流的版本控制软件：CVS、Subversion（SVN）、Git、ClearCase、Mercurial、Perforce、TFS。又因为目前太多人使用 Github 进行协同或是项目版本管理，所以 IntelliJ IDEA 同时自带了 Github 插件，方便 Checkout 和管理你的 Github 项目。</li>
+</ul>
+</blockquote>
+
+<h2>SVN 的配置</h2>
+
+<p>要在 IntelliJ IDEA 中使用 SVN，需要先安装 SVN 客户端或是 TortoiseSVN 这类图形化工具，Windows 系统这里推荐安装 TortoiseSVN，即使在不使用 IntelliJ IDEA 也可以方便管理我们的项目。</p>
+
+<p>SVN 主要使用的版本有 1.6、1.7、1.8，最新的是 1.9。推荐大家使用 1.8 的。如果你的项目使用的是 1.6 的版本，在安装 1.8 之后是可以直接对项目文件进行升级的，所以无需担心，也因此更加推荐大家使用 1.8。</p>
+
+<blockquote>
+<ul>
+<li>Subversion 官网下载：<a href="https://subversion.apache.org/download/#recommended-release">https://subversion.apache.org/download/#recommended-release</a>
+</li>
+<li>TortoiseSVN 官网下载：<a href="http://tortoisesvn.net/downloads.zh.html">http://tortoisesvn.net/downloads.zh.html</a>
+</li>
+</ul>
+</blockquote>
+
+<p><a href="images/xvi-b-version-control-system-svn-introduce-1.jpg" target="_blank"><img src="images/xvi-b-version-control-system-svn-introduce-1.jpg" alt="SVN 的使用" style="max-width:100%;"></a></p>
+
+<blockquote>
+<ul>
+<li>如上图箭头所示，在安装 TortoiseSVN 的时候，默认 <code>command line client tools</code>，是不安装的，这里建议勾选上。</li>
+</ul>
+</blockquote>
+
+<p><a href="images/xvi-b-version-control-system-svn-introduce-2.jpg" target="_blank"><img src="images/xvi-b-version-control-system-svn-introduce-2.jpg" alt="SVN 的使用" style="max-width:100%;"></a></p>
+
+<blockquote>
+<ul>
+<li>如上图标注 1 所示，勾选 <code>Use command line client</code>
+</li>
+<li>如上图标注 2 所示，建议 svn 的路径自己根据安装后的路径进行选择，不然有时候 IntelliJ IDEA 无法识别到会报：<code>Cannot run program "svn"</code> 这类错误。</li>
+<li>如上图标注 3 所示，当使用一段时间 SVN 以后，发现各种 SVN 相关问题无法解决，可以考虑点击此按钮进行清除一下缓存。</li>
+</ul>
+</blockquote>
+
+<p>根据目前的使用经验来看，IntelliJ IDEA 下 SVN 的使用经历并不算愉快，至少比 Git 不好用很多，经常遇到很多问题，所以这里也算是先给大家提个醒。如果紧急情况下 IntelliJ IDEA 无法更新、提交的时候，要记得使用 TortoiseSVN 来操作。</p>
+
+<h2>Git 的配置</h2>
+
+<p>要在 IntelliJ IDEA 中使用 Git，需要先安装 Git 客户端，这里推荐安装官网版本。</p>
+
+<p>Git 主要的版本有 1.X、2.X，最新的是 2.X，使用版本随意，但是不要太新了，不然可能 IntelliJ IDEA 小旧版本会无法支持可能。</p>
+
+<blockquote>
+<ul>
+<li>Git 官网下载：<a href="http://git-scm.com/">http://git-scm.com/</a>
+</li>
+<li>TortoiseGit 官网下载：<a href="http://download.tortoisegit.org/tgit/">http://download.tortoisegit.org/tgit/</a>
+</li>
+</ul>
+</blockquote>
+
+<p><a href="images/xvi-c-version-control-system-git-introduce-1.jpg" target="_blank"><img src="images/xvi-c-version-control-system-git-introduce-1.jpg" alt="Git 的使用" style="max-width:100%;"></a></p>
+
+<p>如上图标注 1 所示，确定好该路径下是否有对应的可执行文件。</p>
+
+<h2>Github 的配置和使用</h2>
+
+<p><a href="images/xvi-d-version-control-system-github-introduce-1.jpg" target="_blank"><img src="images/xvi-d-version-control-system-github-introduce-1.jpg" alt="Github 的使用" style="max-width:100%;"></a></p>
+
+<blockquote>
+<ul>
+<li>如上图标注 1 所示，填写你的 Github 登录账号和密码，点击 <code>Test</code> 可以进行测试是否可以正确连上。</li>
+</ul>
+</blockquote>
+
+<p><a href="images/xvi-d-version-control-system-github-introduce-2.jpg" target="_blank"><img src="images/xvi-d-version-control-system-github-introduce-2.jpg" alt="Github 的使用" style="max-width:100%;"></a></p>
+
+<blockquote>
+<ul>
+<li>如上图标注 1 所示，支持直接从你当前登录的 Github 账号上 Checkout 项目。</li>
+</ul>
+</blockquote>
+
+<p><a href="images/xvi-d-version-control-system-github-introduce-3.jpg" target="_blank"><img src="images/xvi-d-version-control-system-github-introduce-3.jpg" alt="Github 的使用" style="max-width:100%;"></a></p>
+
+<blockquote>
+<ul>
+<li>如上图标注 1 所示，支持把当前本地项目分享到你的 Github 账号上。</li>
+</ul>
+</blockquote>
+
+<p><a href="images/xvi-d-version-control-system-github-introduce-4.jpg" target="_blank"><img src="images/xvi-d-version-control-system-github-introduce-4.jpg" alt="Github 的使用" style="max-width:100%;"></a></p>
+
+<blockquote>
+<ul>
+<li>如上图标注 1 所示，支持创建 <code>Gist</code>。Github 的 Gist 官网地址：<a href="https://gist.github.com/">https://gist.github.com/</a>
+</li>
+</ul>
+</blockquote>
+
+<h2>版本控制主要操作按钮</h2>
+
+<p><a href="images/xvi-e-version-control-system-operation-introduce-1.jpg" target="_blank"><img src="images/xvi-e-version-control-system-operation-introduce-1.jpg" alt="版本控制主要操作按钮" style="max-width:100%;"></a></p>
+
+<blockquote>
+<ul>
+<li>如上图标注 1 所示，对目录进行右键弹出的菜单选项。</li>
+</ul>
+</blockquote>
+
+<p><a href="images/xvi-e-version-control-system-operation-introduce-2.jpg" target="_blank"><img src="images/xvi-e-version-control-system-operation-introduce-2.jpg" alt="版本控制主要操作按钮" style="max-width:100%;"></a></p>
+
+<blockquote>
+<ul>
+<li>如上图标注 1 所示，对文件进行右键弹出的菜单选项。</li>
+</ul>
+</blockquote>
+
+<p><a href="images/xvi-e-version-control-system-operation-introduce-3.jpg" target="_blank"><img src="images/xvi-e-version-control-system-operation-introduce-3.jpg" alt="版本控制主要操作按钮" style="max-width:100%;"></a></p>
+
+<blockquote>
+<ul>
+<li>如上图标注红圈所示，为工具栏上版本控制操作按钮，基本上大家也都是使用这里进行操作。</li>
+</ul>
+
+<blockquote>
+<ul>
+<li>第一个按钮：<code>Update Project</code> 更新项目。</li>
+<li>第二个按钮：<code>Commit changes</code> 提交项目上所有变化文件。点击这个按钮不会立马提交所有文件，而是先弹出一个被修改文件的一个汇总框，具体操作下面会有图片进行专门介绍。</li>
+<li>第三个按钮：<code>Compare with the Same Repository Version</code> 当前文件与服务器上该文件通版本的内容进行比较。如果当前编辑的文件没有修改，则是灰色不可点击。</li>
+<li>第四个按钮：<code>Show history</code> 显示当前文件的历史记录。</li>
+<li>第五个按钮：<code>Revert</code> 还原当前被修改的文件到违背修改的版本状态下。如果当前编辑的文件没有修改，则是灰色不可点击。</li>
+</ul>
+</blockquote>
+</blockquote>
+
+<p><a href="images/xvi-e-version-control-system-operation-introduce-4.jpg" target="_blank"><img src="images/xvi-e-version-control-system-operation-introduce-4.jpg" alt="版本控制主要操作按钮" style="max-width:100%;"></a></p>
+
+<blockquote>
+<ul>
+<li>如上图标注 1 所示，菜单栏上的版本控制操作区。</li>
+</ul>
+</blockquote>
+
+<h2>版本控制相关的常用设置说明</h2>
+
+<p><a href="images/xvi-f-version-control-system-settings-introduce-1.jpg" target="_blank"><img src="images/xvi-f-version-control-system-settings-introduce-1.jpg" alt="版本控制相关的常用设置说明" style="max-width:100%;"></a></p>
+
+<blockquote>
+<ul>
+<li>如上图标注 1 所示，当前项目使用的版本控制是 <code>Git</code>。如果你不愿意这个项目继续使用版本控制可以点击旁边的减号按钮，如果你要切换版本控制，可以点击 <code>Git</code>，会出现 IntelliJ IDEA 支持的各种版本控制选择列表，但是我们一般情况下一个项目不会有多个版本控制的。</li>
+<li>如上图标注 2 所示，<code>Show directories with changed descendants</code> 表示子目录有文件被修改了，则该文件的所有上层目录都显示版本控制被概念的颜色。默认是不勾选的，我一般建议勾选此功能。</li>
+</ul>
+</blockquote>
+
+<p><a href="images/xvi-f-version-control-system-settings-introduce-2.jpg" target="_blank"><img src="images/xvi-f-version-control-system-settings-introduce-2.jpg" alt="版本控制相关的常用设置说明" style="max-width:100%;"></a></p>
+
+<blockquote>
+<ul>
+<li>如上图标注 1 所示，<code>When files are created</code> 表示当有新文件放进项目中的时候 IntelliJ IDEA 做如何处理，默认是 <code>Show options before adding to version control</code> 表示弹出提示选项，让开发者决定这些新文件是加入到版本控制中还是不加入。如果不想弹出提示，则选择下面两个选项进行默认操作。</li>
+<li>如上图标注 2 所示，<code>When files are deleted</code> 表示当有新文件在项目中被删除的时候 IntelliJ IDEA 做如何处理，默认是 <code>Show options before removing from version control</code> 表示弹出提示选项，让开发者决定这些被删除的是否从版本控制中删除。如果不想弹出提示，则选择下面两个选项进行默认操作。</li>
+</ul>
+</blockquote>
+
+<p><a href="images/xvi-f-version-control-system-settings-introduce-3.jpg" target="_blank"><img src="images/xvi-f-version-control-system-settings-introduce-3.jpg" alt="版本控制相关的常用设置说明" style="max-width:100%;"></a></p>
+
+<blockquote>
+<ul>
+<li>如上图标注 1 所示，对于不想加入到版本控制的文件，可以添加要此忽略的列表中。但是如果已经加入到版本控制的文件使用此功能，则表示该文件 或 目录无法再使用版本控制相关的操作，比如提交、更新等。我个人使用过程中发现在 SVN 上此功能不太好用，Git 上是可以用的。</li>
+</ul>
+</blockquote>
+
+<p><a href="images/xvi-f-version-control-system-settings-introduce-4.jpg" target="_blank"><img src="images/xvi-f-version-control-system-settings-introduce-4.jpg" alt="版本控制相关的常用设置说明" style="max-width:100%;"></a></p>
+
+<blockquote>
+<ul>
+<li>上图所示的弹出层就是本文上面说的 <code>Commit Changes</code> 点击后弹出的变动文件汇总弹出层。</li>
+<li>如上图标注 1 所示，可以在文件上右键进行操作。</li>
+</ul>
+
+<blockquote>
+<ul>
+<li>
+<code>Show Diff</code> 当前文件与服务器上该文件通版本的内容进行比较。</li>
+<li>
+<code>Move to Another Changelist</code> 将选中的文件转移到其他的 <code>Change list</code> 中。<code>Change list</code> 是一个重要的概念，这里需要进行重点说明。很多时候，我们开发一个项目同时并发的任务可能有很多，每个任务涉及到的文件可能都是基于业务来讲的。所以就会存在一个这样的情况：我改了 30 个文件，其中 15 个文件是属于订单问题，剩下 15 个是会员问题，那我希望提交代码的时候是根据业务区分这些文件的，这样我填写 <code>Commit Message</code> 是好描述的，同时在文件多的情况下，我也好区分这些要提交的文件业务模块。所以我一般会把属于订单的 15 个文件转移到其他的 <code>Change list</code>中，先把专注点集中在 15 个会员问题的文件，先提交会员问题的 <code>Change list</code>，然后在提交订单会员的 <code>Change list</code>。我个人还有一种用法是把一些文件暂时不提交的文件转移到一个我指定的 <code>Change list</code>，等后面我觉得有必要提交了，再做提交操作，这样这些文件就不会干扰我当前修改的文件提交。总结下 <code>Change list</code> 的功能就是为了让你更好地管理你的版本控制文件，让你的专注点得到更好的集中，从而提供效率。</li>
+<li>
+<code>Jump to Source</code> 打开并跳转到被选中。 </li>
+<li>如上图标注 2 所示，可以根据工具栏按钮进行操作，操作的对象会鼠标选中的文件，多选可以按 <code>Ctrl</code> 后不放，需要注意的是这个更前面的复选框是没有多大关系的。</li>
+<li><p>如上图标注 3 所示，可以在提交前自动对被提交的文件进行一些操作事件（该项目使用的 Git，使用其他版本控制可能有些按钮有差异。）：</p></li>
+<li><p><code>Reformat code</code> 格式化代码，如果是 Web 开发建议不要勾选，因为格式化 JSP 类文件，格式化效果不好。如果都是 Java 类则可以安心格式化。 </p></li>
+<li>
+<code>Rearrange code</code> 重新编排代码，IntelliJ IDEA 支持各种复杂的编排设置选项，这个会在后面说。设置好了编码功能之后，这里就可以尝试勾选这个进行自动编排。 </li>
+<li>
+<code>Optimize imports</code> 优化导入包，会在自动去掉没有使用的包。这个建议都勾选，这个只对 Java 类有作用，所以不用担心有副作用。 </li>
+<li>
+<code>Perform code analysis</code> 进行代码分析，这个建议不用在提交的时候处理，而是在开发完之后，要专门养成对代码进行分析的习惯。IntelliJ IDEA 集成了代码分析功能。</li>
+<li>
+<code>Check TODO</code> 检查代码中的 <code>TODO</code>。<code>TODO</code> 功能后面也会有章节进行讲解，这里简单介绍：这是一个记录待办事项的功能。 </li>
+<li>
+<code>Cleanup</code> 清除下版本控制系统，去掉一些版本控制系统的错误信息，建议勾选。 </li>
+<li>如上图标注 4 所示，填写提交的信息。</li>
+<li>如上图标注 5 所示，<code>Change list</code> 改变列表，这是一个下拉选项，说明我们可以切换不同的 <code>Change list</code>，提交不同的 <code>Change list</code> 文件。</li>
+<li>如上图标注箭头所示，我们可以查看我们提交历史中使用的 <code>Commit Message</code>，有些时候，我们做得是同一个任务，但是需要提交多次，为了更好管理项目，建议是提交的 <code>Message</code> 是保持一致的。</li>
+</ul>
+</blockquote>
+</blockquote>
+
+<p><a href="images/xvi-f-version-control-system-settings-introduce-5.jpg" target="_blank"><img src="images/xvi-f-version-control-system-settings-introduce-5.jpg" alt="版本控制相关的常用设置说明" style="max-width:100%;"></a></p>
+
+<blockquote>
+<ul>
+<li>如上图标注箭头所示，如果你使用的 Git，点击此位置可以切换分支和创建分支，以及合并、删除分支等操作。</li>
+</ul>
+</blockquote>
+
+<h2>SVN 的使用</h2>
+
+<p>SVN 的这个窗口有的 IntelliJ IDEA 上叫 <code>Changes</code>，有的叫 <code>Version Control</code>，具体是什么原因引起这样的差异，我暂时还不清楚。但是不管叫法如何里面的结构是一样的，所以对使用者来讲没多大影响，但是你需要知道他们其实是一样的功能即可。</p>
+
+<p><a href="images/xvi-g-svn-feature-1.jpg" target="_blank"><img src="images/xvi-g-svn-feature-1.jpg" alt="SVN 的使用" style="max-width:100%;"></a></p>
+
+<p>上图 <code>Local Changes</code> 这个 Tab 表示当前项目的 SVN 中各个文件的总的情况预览。这里的 <code>Default</code> 是 IntelliJ IDEA 的默认 change list 名称，<code>no commit</code> 是我自己创建的一个change list，我个人有一个习惯是把一些暂时不需要提交的先放这个 list 里面。change list 很常用而且重要，本文前面也有强调过了，所以一定好认真对待。<code>unversioned Files</code> 表示项目中未加到版本控制系统中的文件，你可以点击 <code>Click to browse</code>，会弹出一个弹出框列表显示这些未被加入的文件。</p>
+
+<p><a href="images/xvi-g-svn-feature-2.jpg" target="_blank"><img src="images/xvi-g-svn-feature-2.jpg" alt="SVN 的使用" style="max-width:100%;"></a></p>
+
+<p>上图 <code>Repository</code> 这个 Tab 表示项目的 SVN 信息汇总，内容非常的详细，也是我平时用最多的地方。如果你点击这个 Tab 没看到数据，是因为你需要点击上图红圈这个刷新按钮。初次使用下默认的过滤条件不是我上图这样的，我习惯根据 User 进行过滤筛选，所以上图箭头中的 Filter 我是选择 User。选择之后，如上图标注 1 所示，显示了这个项目中参与提交的各个用户名，选择一个用户之后，上图标注 2 所以会显示出该用户提交了哪些记录。选择标注 2 区域中的某个提交记录后，标注 3 显示对应的具体提交细节，我们可以对这些文件进行右键操作，具体操作内容跟本文上面提到的那些提交时的操作按钮差不多，这里不多讲。</p>
+
+<p>总的来说，SVN 这个功能用来管理和审查开发团队中人员的代码是非常好用的，所以非常非常建议你一定要学会该功能。</p>
+</body>
+</html>
+<!-- This document was created with MarkdownPad, the Markdown editor for Windows (http://markdownpad.com) -->

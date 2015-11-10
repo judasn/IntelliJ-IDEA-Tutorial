@@ -1,0 +1,612 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>17.实时代码模板讲解</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<style type="text/css">
+/* GitHub stylesheet for MarkdownPad (http://markdownpad.com) */
+/* Author: Nicolas Hery - http://nicolashery.com */
+/* Version: b13fe65ca28d2e568c6ed5d7f06581183df8f2ff */
+/* Source: https://github.com/nicolahery/markdownpad-github */
+
+/* RESET
+=============================================================================*/
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+/* BODY
+=============================================================================*/
+
+body {
+  font-family: Helvetica, arial, freesans, clean, sans-serif;
+  font-size: 14px;
+  line-height: 1.6;
+  color: #333;
+  background-color: #fff;
+  padding: 20px;
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+body>*:first-child {
+  margin-top: 0 !important;
+}
+
+body>*:last-child {
+  margin-bottom: 0 !important;
+}
+
+/* BLOCKS
+=============================================================================*/
+
+p, blockquote, ul, ol, dl, table, pre {
+  margin: 15px 0;
+}
+
+/* HEADERS
+=============================================================================*/
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 20px 0 10px;
+  padding: 0;
+  font-weight: bold;
+  -webkit-font-smoothing: antialiased;
+}
+
+h1 tt, h1 code, h2 tt, h2 code, h3 tt, h3 code, h4 tt, h4 code, h5 tt, h5 code, h6 tt, h6 code {
+  font-size: inherit;
+}
+
+h1 {
+  font-size: 28px;
+  color: #000;
+}
+
+h2 {
+  font-size: 24px;
+  border-bottom: 1px solid #ccc;
+  color: #000;
+}
+
+h3 {
+  font-size: 18px;
+}
+
+h4 {
+  font-size: 16px;
+}
+
+h5 {
+  font-size: 14px;
+}
+
+h6 {
+  color: #777;
+  font-size: 14px;
+}
+
+body>h2:first-child, body>h1:first-child, body>h1:first-child+h2, body>h3:first-child, body>h4:first-child, body>h5:first-child, body>h6:first-child {
+  margin-top: 0;
+  padding-top: 0;
+}
+
+a:first-child h1, a:first-child h2, a:first-child h3, a:first-child h4, a:first-child h5, a:first-child h6 {
+  margin-top: 0;
+  padding-top: 0;
+}
+
+h1+p, h2+p, h3+p, h4+p, h5+p, h6+p {
+  margin-top: 10px;
+}
+
+/* LINKS
+=============================================================================*/
+
+a {
+  color: #4183C4;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* LISTS
+=============================================================================*/
+
+ul, ol {
+  padding-left: 30px;
+}
+
+ul li > :first-child, 
+ol li > :first-child, 
+ul li ul:first-of-type, 
+ol li ol:first-of-type, 
+ul li ol:first-of-type, 
+ol li ul:first-of-type {
+  margin-top: 0px;
+}
+
+ul ul, ul ol, ol ol, ol ul {
+  margin-bottom: 0;
+}
+
+dl {
+  padding: 0;
+}
+
+dl dt {
+  font-size: 14px;
+  font-weight: bold;
+  font-style: italic;
+  padding: 0;
+  margin: 15px 0 5px;
+}
+
+dl dt:first-child {
+  padding: 0;
+}
+
+dl dt>:first-child {
+  margin-top: 0px;
+}
+
+dl dt>:last-child {
+  margin-bottom: 0px;
+}
+
+dl dd {
+  margin: 0 0 15px;
+  padding: 0 15px;
+}
+
+dl dd>:first-child {
+  margin-top: 0px;
+}
+
+dl dd>:last-child {
+  margin-bottom: 0px;
+}
+
+/* CODE
+=============================================================================*/
+
+pre, code, tt {
+  font-size: 12px;
+  font-family: Consolas, "Liberation Mono", Courier, monospace;
+}
+
+code, tt {
+  margin: 0 0px;
+  padding: 0px 0px;
+  white-space: nowrap;
+  border: 1px solid #eaeaea;
+  background-color: #f8f8f8;
+  border-radius: 3px;
+}
+
+pre>code {
+  margin: 0;
+  padding: 0;
+  white-space: pre;
+  border: none;
+  background: transparent;
+}
+
+pre {
+  background-color: #f8f8f8;
+  border: 1px solid #ccc;
+  font-size: 13px;
+  line-height: 19px;
+  overflow: auto;
+  padding: 6px 10px;
+  border-radius: 3px;
+}
+
+pre code, pre tt {
+  background-color: transparent;
+  border: none;
+}
+
+kbd {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background-color: #DDDDDD;
+    background-image: linear-gradient(#F1F1F1, #DDDDDD);
+    background-repeat: repeat-x;
+    border-color: #DDDDDD #CCCCCC #CCCCCC #DDDDDD;
+    border-image: none;
+    border-radius: 2px 2px 2px 2px;
+    border-style: solid;
+    border-width: 1px;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    line-height: 10px;
+    padding: 1px 4px;
+}
+
+/* QUOTES
+=============================================================================*/
+
+blockquote {
+  border-left: 4px solid #DDD;
+  padding: 0 15px;
+  color: #777;
+}
+
+blockquote>:first-child {
+  margin-top: 0px;
+}
+
+blockquote>:last-child {
+  margin-bottom: 0px;
+}
+
+/* HORIZONTAL RULES
+=============================================================================*/
+
+hr {
+  clear: both;
+  margin: 15px 0;
+  height: 0px;
+  overflow: hidden;
+  border: none;
+  background: transparent;
+  border-bottom: 4px solid #ddd;
+  padding: 0;
+}
+
+/* TABLES
+=============================================================================*/
+
+table th {
+  font-weight: bold;
+}
+
+table th, table td {
+  border: 1px solid #ccc;
+  padding: 6px 13px;
+}
+
+table tr {
+  border-top: 1px solid #ccc;
+  background-color: #fff;
+}
+
+table tr:nth-child(2n) {
+  background-color: #f8f8f8;
+}
+
+/* IMAGES
+=============================================================================*/
+
+img {
+  max-width: 100%
+}
+</style>
+<style type="text/css">
+.highlight  { background: #ffffff; }
+.highlight .c { color: #999988; font-style: italic } /* Comment */
+.highlight .err { color: #a61717; background-color: #e3d2d2 } /* Error */
+.highlight .k { font-weight: bold } /* Keyword */
+.highlight .o { font-weight: bold } /* Operator */
+.highlight .cm { color: #999988; font-style: italic } /* Comment.Multiline */
+.highlight .cp { color: #999999; font-weight: bold } /* Comment.Preproc */
+.highlight .c1 { color: #999988; font-style: italic } /* Comment.Single */
+.highlight .cs { color: #999999; font-weight: bold; font-style: italic } /* Comment.Special */
+.highlight .gd { color: #000000; background-color: #ffdddd } /* Generic.Deleted */
+.highlight .gd .x { color: #000000; background-color: #ffaaaa } /* Generic.Deleted.Specific */
+.highlight .ge { font-style: italic } /* Generic.Emph */
+.highlight .gr { color: #aa0000 } /* Generic.Error */
+.highlight .gh { color: #999999 } /* Generic.Heading */
+.highlight .gi { color: #000000; background-color: #ddffdd } /* Generic.Inserted */
+.highlight .gi .x { color: #000000; background-color: #aaffaa } /* Generic.Inserted.Specific */
+.highlight .go { color: #888888 } /* Generic.Output */
+.highlight .gp { color: #555555 } /* Generic.Prompt */
+.highlight .gs { font-weight: bold } /* Generic.Strong */
+.highlight .gu { color: #aaaaaa } /* Generic.Subheading */
+.highlight .gt { color: #aa0000 } /* Generic.Traceback */
+.highlight .kc { font-weight: bold } /* Keyword.Constant */
+.highlight .kd { font-weight: bold } /* Keyword.Declaration */
+.highlight .kp { font-weight: bold } /* Keyword.Pseudo */
+.highlight .kr { font-weight: bold } /* Keyword.Reserved */
+.highlight .kt { color: #445588; font-weight: bold } /* Keyword.Type */
+.highlight .m { color: #009999 } /* Literal.Number */
+.highlight .s { color: #d14 } /* Literal.String */
+.highlight .na { color: #008080 } /* Name.Attribute */
+.highlight .nb { color: #0086B3 } /* Name.Builtin */
+.highlight .nc { color: #445588; font-weight: bold } /* Name.Class */
+.highlight .no { color: #008080 } /* Name.Constant */
+.highlight .ni { color: #800080 } /* Name.Entity */
+.highlight .ne { color: #990000; font-weight: bold } /* Name.Exception */
+.highlight .nf { color: #990000; font-weight: bold } /* Name.Function */
+.highlight .nn { color: #555555 } /* Name.Namespace */
+.highlight .nt { color: #000080 } /* Name.Tag */
+.highlight .nv { color: #008080 } /* Name.Variable */
+.highlight .ow { font-weight: bold } /* Operator.Word */
+.highlight .w { color: #bbbbbb } /* Text.Whitespace */
+.highlight .mf { color: #009999 } /* Literal.Number.Float */
+.highlight .mh { color: #009999 } /* Literal.Number.Hex */
+.highlight .mi { color: #009999 } /* Literal.Number.Integer */
+.highlight .mo { color: #009999 } /* Literal.Number.Oct */
+.highlight .sb { color: #d14 } /* Literal.String.Backtick */
+.highlight .sc { color: #d14 } /* Literal.String.Char */
+.highlight .sd { color: #d14 } /* Literal.String.Doc */
+.highlight .s2 { color: #d14 } /* Literal.String.Double */
+.highlight .se { color: #d14 } /* Literal.String.Escape */
+.highlight .sh { color: #d14 } /* Literal.String.Heredoc */
+.highlight .si { color: #d14 } /* Literal.String.Interpol */
+.highlight .sx { color: #d14 } /* Literal.String.Other */
+.highlight .sr { color: #009926 } /* Literal.String.Regex */
+.highlight .s1 { color: #d14 } /* Literal.String.Single */
+.highlight .ss { color: #990073 } /* Literal.String.Symbol */
+.highlight .bp { color: #999999 } /* Name.Builtin.Pseudo */
+.highlight .vc { color: #008080 } /* Name.Variable.Class */
+.highlight .vg { color: #008080 } /* Name.Variable.Global */
+.highlight .vi { color: #008080 } /* Name.Variable.Instance */
+.highlight .il { color: #009999 } /* Literal.Number.Integer.Long */
+.pl-c {
+    color: #969896;
+}
+
+.pl-c1,.pl-mdh,.pl-mm,.pl-mp,.pl-mr,.pl-s1 .pl-v,.pl-s3,.pl-sc,.pl-sv {
+    color: #0086b3;
+}
+
+.pl-e,.pl-en {
+    color: #795da3;
+}
+
+.pl-s1 .pl-s2,.pl-smi,.pl-smp,.pl-stj,.pl-vo,.pl-vpf {
+    color: #333;
+}
+
+.pl-ent {
+    color: #63a35c;
+}
+
+.pl-k,.pl-s,.pl-st {
+    color: #a71d5d;
+}
+
+.pl-pds,.pl-s1,.pl-s1 .pl-pse .pl-s2,.pl-sr,.pl-sr .pl-cce,.pl-sr .pl-sra,.pl-sr .pl-sre,.pl-src,.pl-v {
+    color: #df5000;
+}
+
+.pl-id {
+    color: #b52a1d;
+}
+
+.pl-ii {
+    background-color: #b52a1d;
+    color: #f8f8f8;
+}
+
+.pl-sr .pl-cce {
+    color: #63a35c;
+    font-weight: bold;
+}
+
+.pl-ml {
+    color: #693a17;
+}
+
+.pl-mh,.pl-mh .pl-en,.pl-ms {
+    color: #1d3e81;
+    font-weight: bold;
+}
+
+.pl-mq {
+    color: #008080;
+}
+
+.pl-mi {
+    color: #333;
+    font-style: italic;
+}
+
+.pl-mb {
+    color: #333;
+    font-weight: bold;
+}
+
+.pl-md,.pl-mdhf {
+    background-color: #ffecec;
+    color: #bd2c00;
+}
+
+.pl-mdht,.pl-mi1 {
+    background-color: #eaffea;
+    color: #55a532;
+}
+
+.pl-mdr {
+    color: #795da3;
+    font-weight: bold;
+}
+
+.pl-mo {
+    color: #1d3e81;
+}
+.task-list {
+padding-left:10px;
+margin-bottom:0;
+}
+
+.task-list li {
+    margin-left: 20px;
+}
+
+.task-list-item {
+list-style-type:none;
+padding-left:10px;
+}
+
+.task-list-item label {
+font-weight:400;
+}
+
+.task-list-item.enabled label {
+cursor:pointer;
+}
+
+.task-list-item+.task-list-item {
+margin-top:3px;
+}
+
+.task-list-item-checkbox {
+display:inline-block;
+margin-left:-20px;
+margin-right:3px;
+vertical-align:1px;
+}
+</style>
+</head>
+<body>
+<h1>实时代码模板的使用</h1>
+
+<h2>实时代码模板的介绍</h2>
+
+<p><a href="images/xvii-a-live-templates-introduce-1.gif" target="_blank"><img src="images/xvii-a-live-templates-introduce-1.gif" alt="实时代码模板的介绍" style="max-width:100%;"></a></p>
+
+<blockquote>
+<ul>
+<li>上图 Gif 演示为最好的介绍 <code>Live Templates</code>。</li>
+<li>实时代码模板需要字符串前缀，如 Gif 演示中，在输入 <code>sys</code> 后生成一段输出语句，其中 <code>sys</code> 前缀是我自己设置的。</li>
+<li>实时代码模板支持变量参数设置，如 Gif 演示中，在输入 <code>temp1</code> 的时候，后面自动也生成了一个 <code>temp1</code>，这是因为两者的变量名是一致的，所以我设置了一个变量值内容之后，相同变量值的内容也会跟着出现。</li>
+<li>实时代码模板支持最后位置的定位，如 Gif 演示中，在输入完 <code>temp1</code> 之后，按 <code>Enter</code> 后自动跳转到语句末。虽然默认没有设置的时候也是在这个位置，但是我是通过设置来定位到此位置的。</li>
+<li>实时代码模板支持获取当前类名和当前方法名（本质是内置函数），如 Gif 演示中，在输入完 <code>sys</code> 生成输出语句中自动带有当前类名和方法名。</li>
+<li>综上效果：实时代码模板只是为了让我们更加高效的写一些固定模式的代码，以提高编码效率，同时也可以增加个性化。比如 Gif 演示中，我在开发中如果需要写输出的话，我个人习惯输出语句中前缀是自己的标记：横线和域名，以区分其他人输出，方便做全文搜索。</li>
+<li>官网介绍 <code>Live Templates</code>：<a href="https://www.jetbrains.com/idea/help/live-templates.html">https://www.jetbrains.com/idea/help/live-templates.html</a>
+</li>
+</ul>
+</blockquote>
+
+<p><a href="images/xvii-a-live-templates-introduce-2.jpg" target="_blank"><img src="images/xvii-a-live-templates-introduce-2.jpg" alt="实时代码模板的介绍" style="max-width:100%;"></a></p>
+
+<blockquote>
+<ul>
+<li>如上图标注所示，实时代码模板本质是用 XML 文件来保存的，所以传播自己的实时代码模板只要传播对应的文件即可。</li>
+<li>IntelliJ IDEA 的实时代码模板保存在 <code>/templates</code> 目录下，其他系统目录位置如下：（因为目录名在各个系统上是一致的，建议用硬盘搜索工具搜索即可）</li>
+</ul>
+
+<blockquote>
+<ul>
+<li>Windows: .\config\templates</li>
+<li>Linux: ~/./config/templates</li>
+<li>OS X: ~/Library/Preferences//templates </li>
+</ul>
+</blockquote>
+</blockquote>
+
+<p>调用常规的实时代码模板主要是通过两个快捷键：<code>Tab</code> 和 <code>Ctrl + J</code>。虽然 IntelliJ IDEA 支持修改此对应的快捷键，但是默认大家都是这样使用的，所以没有特别愿意就不要去改。</p>
+
+<p>该两个快捷键的使用方法：如第一张 Gif 演示图所示，在输入 <code>sys</code> 后按 <code>Tab</code> 键，即立即生成预设语句。如果按 <code>Ctrl + J</code> 则会先提示与之匹配的实时代码模板介绍，然后还需按 <code>Enter</code> 才可完成预设语句的生成。</p>
+
+<h2>自带变量参数介绍</h2>
+
+<p>在文章开头我们已经有提到 IntelliJ IDEA 实时代码模板是有变量参数设置的，其中 IntelliJ IDEA 自带了两个变量参数：</p>
+
+<blockquote>
+<ul>
+<li>
+<code>$END$</code>，表示最后都编辑完后光标所处的位置</li>
+<li>
+<code>$SELECTION$</code>，表示设置环绕实时代码模板，环绕功能下面会模板专门进行介绍。</li>
+<li>除了上面两个变量参数外，其他一律都会自定义变量。</li>
+<li>官网介绍：<a href="https://www.jetbrains.com/idea/help/live-template-variables.html">https://www.jetbrains.com/idea/help/live-template-variables.html</a>
+</li>
+</ul>
+
+<blockquote>
+<ul>
+<li>
+<code>$END$</code> indicates the position of the cursor after the template is expanded.</li>
+<li>
+<code>$SELECTION$</code> is used in surround templates and stands for the code fragment to be wrapped.</li>
+</ul>
+</blockquote>
+</blockquote>
+
+<h2>实时代码模板的设置</h2>
+
+<p><a href="images/xvii-b-live-templates-settings-1.jpg" target="_blank"><img src="images/xvii-b-live-templates-settings-1.jpg" alt="实时代码模板的设置" style="max-width:100%;"></a></p>
+
+<blockquote>
+<ul>
+<li>如上图标注 1 所示，除了 IntelliJ IDEA 预设的模板之外，我们还可以创建新组和新实时代码模板，其中组是用来包含实时代码模板的。</li>
+<li>如上图标注 2 所示，<code>output</code> 是组名，告诉开发者，这组里面实时代码模板都是用来做输出的。<code>serr</code> 表示实时代码模板输出 <code>System.err</code> 的简称，所以这个不是一个完整的单词，不需要读懂，只需要记忆。</li>
+<li>如上图标注 3 所示，实时代码模板的内容，其中用到了预设的变量 <code>$END$</code>。 </li>
+<li>如上图标注 4 所示，可设置该实时代码模板的试用范围，比如图上的 <code>serr</code> 这是 Java 代码，所以试用范围我们就应该只是 Java 文件上或是 JSP 这类文件上，设置在 HTML 或是 CSS 文件上就完全没有多大意义了。</li>
+<li>如上图标注 5 所示，勾选了辅助的功能：</li>
+</ul>
+
+<blockquote>
+<ul>
+<li>
+<code>Reformat according to style</code> 对生成的代码进行格式化。</li>
+<li>
+<code>Shorten FQ names</code> 关于此设置的说明我没有找到，所以暂时无法给个很少的解释，只是看到材料说明一般需要勾上此设置，如果您有好的答案，还请联系我。 </li>
+</ul>
+</blockquote>
+</blockquote>
+
+<p><a href="images/xvii-b-live-templates-settings-2.jpg" target="_blank"><img src="images/xvii-b-live-templates-settings-2.jpg" alt="实时代码模板的设置" style="max-width:100%;"></a></p>
+
+<blockquote>
+<ul>
+<li>如上图标注 1 所示，我们可以对实时代码模板进行组的转移。</li>
+</ul>
+</blockquote>
+
+<h2>变量参数和函数的介绍</h2>
+
+<p>如文章开头演示的 Gif 实时代码模板，其实时代码模板内容为：<code>System.out.println("-----------YouMeek.com-----------$VAR1$值=" + $VAR1$ + "," + "当前类=$CLASS_NAME$.$METHOD_NAME$()");$END$</code></p>
+
+<blockquote>
+<ul>
+<li>
+<code>$VAR1$</code>、<code>$CLASS_NAME$</code>、<code>$METHOD_NAME$</code> 都为自己定义的变量名。设置变量名只要用两个 <code>$</code> 包住即可。</li>
+<li>每个变量在代码输出的时候都是一次光标位置，光标跳动顺序从左到右，每次跳动按 <code>Enter</code>。</li>
+</ul>
+</blockquote>
+
+<p><a href="images/xvii-c-live-templates-variables-settings-1.jpg" target="_blank"><img src="images/xvii-c-live-templates-variables-settings-1.jpg" alt="变量参数和函数的介绍" style="max-width:100%;"></a></p>
+
+<blockquote>
+<ul>
+<li>如上图标注红圈所示，可以对编辑代码内容的变量。</li>
+<li>如上图标注 1 所示，演示中变量名 <code>$CLASS_NAME$</code>、<code>$METHOD_NAME$</code> 会自动输出当前类名和方法名是因为使用对应的函数 <code>className()</code> 和 <code>methodName()</code>。</li>
+<li>如上图标注 2 所示，如上面介绍的，每个变量都是一次光标位置，但是演示中变量名 <code>$CLASS_NAME$</code>、<code>$METHOD_NAME$</code> 没有进入，是因为勾选了 <code>Ship if defined</code>。 </li>
+<li>如上图标注 3 所示，可以改变变量光标跳转时的顺序。</li>
+<li>内置函数介绍：<a href="https://www.jetbrains.com/idea/help/live-template-variables.html">https://www.jetbrains.com/idea/help/live-template-variables.html</a>
+</li>
+</ul>
+
+<blockquote>
+<ul>
+<li>对于官网这些函数这里就不在累赘，官网有详细的介绍，如果你还看不懂，可以看 IntelliJ IDEA 已经预设各个实时代码模板，基本上常用的函数都有被引用过，你可以通过学习这些预设的实时代码模板来揣测其函数的用法。</li>
+</ul>
+</blockquote>
+</blockquote>
+
+<h2>环绕功能介绍</h2>
+
+<p><a href="images/xvii-d-live-templates-surround-settings-1.gif" target="_blank"><img src="images/xvii-d-live-templates-surround-settings-1.gif" alt="环绕功能介绍" style="max-width:100%;"></a></p>
+
+<blockquote>
+<ul>
+<li>上图 Gif 演示为最好的介绍 <code>surround templates</code>。</li>
+<li>如上图 Gif 演示，环绕模板的前提是：选中要被环绕的内容。</li>
+<li>在设置实时代码模板的时候，如果含有预设的变量 <code>$SELECTION$</code> 则该实时代码模板是环绕模板。</li>
+<li>该功能对于前端开发者来讲是非常方便的，默认 IntelliJ IDEA 已经自带了 HTML 标签的环绕功能。</li>
+</ul>
+</blockquote>
+</body>
+</html>
+<!-- This document was created with MarkdownPad, the Markdown editor for Windows (http://markdownpad.com) -->

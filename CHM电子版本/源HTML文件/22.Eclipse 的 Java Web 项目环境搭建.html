@@ -1,0 +1,720 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>22.Eclipse 的 Java Web 项目环境搭建</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<style type="text/css">
+/* GitHub stylesheet for MarkdownPad (http://markdownpad.com) */
+/* Author: Nicolas Hery - http://nicolashery.com */
+/* Version: b13fe65ca28d2e568c6ed5d7f06581183df8f2ff */
+/* Source: https://github.com/nicolahery/markdownpad-github */
+
+/* RESET
+=============================================================================*/
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+/* BODY
+=============================================================================*/
+
+body {
+  font-family: Helvetica, arial, freesans, clean, sans-serif;
+  font-size: 14px;
+  line-height: 1.6;
+  color: #333;
+  background-color: #fff;
+  padding: 20px;
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+body>*:first-child {
+  margin-top: 0 !important;
+}
+
+body>*:last-child {
+  margin-bottom: 0 !important;
+}
+
+/* BLOCKS
+=============================================================================*/
+
+p, blockquote, ul, ol, dl, table, pre {
+  margin: 15px 0;
+}
+
+/* HEADERS
+=============================================================================*/
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 20px 0 10px;
+  padding: 0;
+  font-weight: bold;
+  -webkit-font-smoothing: antialiased;
+}
+
+h1 tt, h1 code, h2 tt, h2 code, h3 tt, h3 code, h4 tt, h4 code, h5 tt, h5 code, h6 tt, h6 code {
+  font-size: inherit;
+}
+
+h1 {
+  font-size: 28px;
+  color: #000;
+}
+
+h2 {
+  font-size: 24px;
+  border-bottom: 1px solid #ccc;
+  color: #000;
+}
+
+h3 {
+  font-size: 18px;
+}
+
+h4 {
+  font-size: 16px;
+}
+
+h5 {
+  font-size: 14px;
+}
+
+h6 {
+  color: #777;
+  font-size: 14px;
+}
+
+body>h2:first-child, body>h1:first-child, body>h1:first-child+h2, body>h3:first-child, body>h4:first-child, body>h5:first-child, body>h6:first-child {
+  margin-top: 0;
+  padding-top: 0;
+}
+
+a:first-child h1, a:first-child h2, a:first-child h3, a:first-child h4, a:first-child h5, a:first-child h6 {
+  margin-top: 0;
+  padding-top: 0;
+}
+
+h1+p, h2+p, h3+p, h4+p, h5+p, h6+p {
+  margin-top: 10px;
+}
+
+/* LINKS
+=============================================================================*/
+
+a {
+  color: #4183C4;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* LISTS
+=============================================================================*/
+
+ul, ol {
+  padding-left: 30px;
+}
+
+ul li > :first-child, 
+ol li > :first-child, 
+ul li ul:first-of-type, 
+ol li ol:first-of-type, 
+ul li ol:first-of-type, 
+ol li ul:first-of-type {
+  margin-top: 0px;
+}
+
+ul ul, ul ol, ol ol, ol ul {
+  margin-bottom: 0;
+}
+
+dl {
+  padding: 0;
+}
+
+dl dt {
+  font-size: 14px;
+  font-weight: bold;
+  font-style: italic;
+  padding: 0;
+  margin: 15px 0 5px;
+}
+
+dl dt:first-child {
+  padding: 0;
+}
+
+dl dt>:first-child {
+  margin-top: 0px;
+}
+
+dl dt>:last-child {
+  margin-bottom: 0px;
+}
+
+dl dd {
+  margin: 0 0 15px;
+  padding: 0 15px;
+}
+
+dl dd>:first-child {
+  margin-top: 0px;
+}
+
+dl dd>:last-child {
+  margin-bottom: 0px;
+}
+
+/* CODE
+=============================================================================*/
+
+pre, code, tt {
+  font-size: 12px;
+  font-family: Consolas, "Liberation Mono", Courier, monospace;
+}
+
+code, tt {
+  margin: 0 0px;
+  padding: 0px 0px;
+  white-space: nowrap;
+  border: 1px solid #eaeaea;
+  background-color: #f8f8f8;
+  border-radius: 3px;
+}
+
+pre>code {
+  margin: 0;
+  padding: 0;
+  white-space: pre;
+  border: none;
+  background: transparent;
+}
+
+pre {
+  background-color: #f8f8f8;
+  border: 1px solid #ccc;
+  font-size: 13px;
+  line-height: 19px;
+  overflow: auto;
+  padding: 6px 10px;
+  border-radius: 3px;
+}
+
+pre code, pre tt {
+  background-color: transparent;
+  border: none;
+}
+
+kbd {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background-color: #DDDDDD;
+    background-image: linear-gradient(#F1F1F1, #DDDDDD);
+    background-repeat: repeat-x;
+    border-color: #DDDDDD #CCCCCC #CCCCCC #DDDDDD;
+    border-image: none;
+    border-radius: 2px 2px 2px 2px;
+    border-style: solid;
+    border-width: 1px;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    line-height: 10px;
+    padding: 1px 4px;
+}
+
+/* QUOTES
+=============================================================================*/
+
+blockquote {
+  border-left: 4px solid #DDD;
+  padding: 0 15px;
+  color: #777;
+}
+
+blockquote>:first-child {
+  margin-top: 0px;
+}
+
+blockquote>:last-child {
+  margin-bottom: 0px;
+}
+
+/* HORIZONTAL RULES
+=============================================================================*/
+
+hr {
+  clear: both;
+  margin: 15px 0;
+  height: 0px;
+  overflow: hidden;
+  border: none;
+  background: transparent;
+  border-bottom: 4px solid #ddd;
+  padding: 0;
+}
+
+/* TABLES
+=============================================================================*/
+
+table th {
+  font-weight: bold;
+}
+
+table th, table td {
+  border: 1px solid #ccc;
+  padding: 6px 13px;
+}
+
+table tr {
+  border-top: 1px solid #ccc;
+  background-color: #fff;
+}
+
+table tr:nth-child(2n) {
+  background-color: #f8f8f8;
+}
+
+/* IMAGES
+=============================================================================*/
+
+img {
+  max-width: 100%
+}
+</style>
+<style type="text/css">
+.highlight  { background: #ffffff; }
+.highlight .c { color: #999988; font-style: italic } /* Comment */
+.highlight .err { color: #a61717; background-color: #e3d2d2 } /* Error */
+.highlight .k { font-weight: bold } /* Keyword */
+.highlight .o { font-weight: bold } /* Operator */
+.highlight .cm { color: #999988; font-style: italic } /* Comment.Multiline */
+.highlight .cp { color: #999999; font-weight: bold } /* Comment.Preproc */
+.highlight .c1 { color: #999988; font-style: italic } /* Comment.Single */
+.highlight .cs { color: #999999; font-weight: bold; font-style: italic } /* Comment.Special */
+.highlight .gd { color: #000000; background-color: #ffdddd } /* Generic.Deleted */
+.highlight .gd .x { color: #000000; background-color: #ffaaaa } /* Generic.Deleted.Specific */
+.highlight .ge { font-style: italic } /* Generic.Emph */
+.highlight .gr { color: #aa0000 } /* Generic.Error */
+.highlight .gh { color: #999999 } /* Generic.Heading */
+.highlight .gi { color: #000000; background-color: #ddffdd } /* Generic.Inserted */
+.highlight .gi .x { color: #000000; background-color: #aaffaa } /* Generic.Inserted.Specific */
+.highlight .go { color: #888888 } /* Generic.Output */
+.highlight .gp { color: #555555 } /* Generic.Prompt */
+.highlight .gs { font-weight: bold } /* Generic.Strong */
+.highlight .gu { color: #aaaaaa } /* Generic.Subheading */
+.highlight .gt { color: #aa0000 } /* Generic.Traceback */
+.highlight .kc { font-weight: bold } /* Keyword.Constant */
+.highlight .kd { font-weight: bold } /* Keyword.Declaration */
+.highlight .kp { font-weight: bold } /* Keyword.Pseudo */
+.highlight .kr { font-weight: bold } /* Keyword.Reserved */
+.highlight .kt { color: #445588; font-weight: bold } /* Keyword.Type */
+.highlight .m { color: #009999 } /* Literal.Number */
+.highlight .s { color: #d14 } /* Literal.String */
+.highlight .na { color: #008080 } /* Name.Attribute */
+.highlight .nb { color: #0086B3 } /* Name.Builtin */
+.highlight .nc { color: #445588; font-weight: bold } /* Name.Class */
+.highlight .no { color: #008080 } /* Name.Constant */
+.highlight .ni { color: #800080 } /* Name.Entity */
+.highlight .ne { color: #990000; font-weight: bold } /* Name.Exception */
+.highlight .nf { color: #990000; font-weight: bold } /* Name.Function */
+.highlight .nn { color: #555555 } /* Name.Namespace */
+.highlight .nt { color: #000080 } /* Name.Tag */
+.highlight .nv { color: #008080 } /* Name.Variable */
+.highlight .ow { font-weight: bold } /* Operator.Word */
+.highlight .w { color: #bbbbbb } /* Text.Whitespace */
+.highlight .mf { color: #009999 } /* Literal.Number.Float */
+.highlight .mh { color: #009999 } /* Literal.Number.Hex */
+.highlight .mi { color: #009999 } /* Literal.Number.Integer */
+.highlight .mo { color: #009999 } /* Literal.Number.Oct */
+.highlight .sb { color: #d14 } /* Literal.String.Backtick */
+.highlight .sc { color: #d14 } /* Literal.String.Char */
+.highlight .sd { color: #d14 } /* Literal.String.Doc */
+.highlight .s2 { color: #d14 } /* Literal.String.Double */
+.highlight .se { color: #d14 } /* Literal.String.Escape */
+.highlight .sh { color: #d14 } /* Literal.String.Heredoc */
+.highlight .si { color: #d14 } /* Literal.String.Interpol */
+.highlight .sx { color: #d14 } /* Literal.String.Other */
+.highlight .sr { color: #009926 } /* Literal.String.Regex */
+.highlight .s1 { color: #d14 } /* Literal.String.Single */
+.highlight .ss { color: #990073 } /* Literal.String.Symbol */
+.highlight .bp { color: #999999 } /* Name.Builtin.Pseudo */
+.highlight .vc { color: #008080 } /* Name.Variable.Class */
+.highlight .vg { color: #008080 } /* Name.Variable.Global */
+.highlight .vi { color: #008080 } /* Name.Variable.Instance */
+.highlight .il { color: #009999 } /* Literal.Number.Integer.Long */
+.pl-c {
+    color: #969896;
+}
+
+.pl-c1,.pl-mdh,.pl-mm,.pl-mp,.pl-mr,.pl-s1 .pl-v,.pl-s3,.pl-sc,.pl-sv {
+    color: #0086b3;
+}
+
+.pl-e,.pl-en {
+    color: #795da3;
+}
+
+.pl-s1 .pl-s2,.pl-smi,.pl-smp,.pl-stj,.pl-vo,.pl-vpf {
+    color: #333;
+}
+
+.pl-ent {
+    color: #63a35c;
+}
+
+.pl-k,.pl-s,.pl-st {
+    color: #a71d5d;
+}
+
+.pl-pds,.pl-s1,.pl-s1 .pl-pse .pl-s2,.pl-sr,.pl-sr .pl-cce,.pl-sr .pl-sra,.pl-sr .pl-sre,.pl-src,.pl-v {
+    color: #df5000;
+}
+
+.pl-id {
+    color: #b52a1d;
+}
+
+.pl-ii {
+    background-color: #b52a1d;
+    color: #f8f8f8;
+}
+
+.pl-sr .pl-cce {
+    color: #63a35c;
+    font-weight: bold;
+}
+
+.pl-ml {
+    color: #693a17;
+}
+
+.pl-mh,.pl-mh .pl-en,.pl-ms {
+    color: #1d3e81;
+    font-weight: bold;
+}
+
+.pl-mq {
+    color: #008080;
+}
+
+.pl-mi {
+    color: #333;
+    font-style: italic;
+}
+
+.pl-mb {
+    color: #333;
+    font-weight: bold;
+}
+
+.pl-md,.pl-mdhf {
+    background-color: #ffecec;
+    color: #bd2c00;
+}
+
+.pl-mdht,.pl-mi1 {
+    background-color: #eaffea;
+    color: #55a532;
+}
+
+.pl-mdr {
+    color: #795da3;
+    font-weight: bold;
+}
+
+.pl-mo {
+    color: #1d3e81;
+}
+.task-list {
+padding-left:10px;
+margin-bottom:0;
+}
+
+.task-list li {
+    margin-left: 20px;
+}
+
+.task-list-item {
+list-style-type:none;
+padding-left:10px;
+}
+
+.task-list-item label {
+font-weight:400;
+}
+
+.task-list-item.enabled label {
+cursor:pointer;
+}
+
+.task-list-item+.task-list-item {
+margin-top:3px;
+}
+
+.task-list-item-checkbox {
+display:inline-block;
+margin-left:-20px;
+margin-right:3px;
+vertical-align:1px;
+}
+</style>
+</head>
+<body>
+<h1>Eclipse 的 Java Web 项目环境搭建</h1>
+
+<h2>Eclipse 项目结构</h2>
+
+<p><a href="images/xxi-a-eclipse-project-introduce-1.gif" target="_blank"><img src="images/xxi-a-eclipse-project-introduce-1.gif" alt="Eclipse 项目结构" style="max-width:100%;"></a></p>
+
+<blockquote>
+<ul>
+<li>如上图 Gif 演示，在 Eclipse 下，一般中小项目的项目结构基本都是这种模式的，所以我们这里也网络上一个开源项目 JspRun 进行讲解。</li>
+<li>下载地址：<a href="http://pan.baidu.com/s/1i3zrSf7">http://pan.baidu.com/s/1i3zrSf7</a>
+</li>
+</ul>
+</blockquote>
+
+<h2>Eclipse 项目配置</h2>
+
+<p><a href="images/xxi-b-eclipse-project-settings-1.jpg" target="_blank"><img src="images/xxi-b-eclipse-project-settings-1.jpg" alt="Eclipse 项目配置" style="max-width:100%;"></a></p>
+
+<blockquote>
+<ul>
+<li>如上图箭头所示，在 IntelliJ IDEA 下是支持直接打开 Eclipse 项目的，无需导入。</li>
+<li>如上图标注 1 所示，选择项目的 <code>.project</code> 文件打开即可。</li>
+</ul>
+</blockquote>
+
+<p><a href="images/xxi-b-eclipse-project-settings-2.jpg" target="_blank"><img src="images/xxi-b-eclipse-project-settings-2.jpg" alt="Eclipse 项目配置" style="max-width:100%;"></a></p>
+
+<blockquote>
+<ul>
+<li>如上图标注 1 所示，IntelliJ IDEA 能自动识别到可编译的 <code>src</code> 类目录，所以这里文件夹是蓝色的。</li>
+<li>如上图标注 2 所示，Java Web 项目 <code>WebRoot</code> 是整个项目输出的根目录，所以这个区域也是非常重要的，只是无需配置。</li>
+<li>如上图标注 3 所示，<code>WEB-INF</code> 下的一些配置文件，以及两个目录 <code>classes</code> 和 <code>lib</code> 都是至关重要的，其中 <code>classes</code> 是红色目录，也就是被排除的，因为编译的文件对开发来讲是没有多大意义的，所以进行了排除。但是这并不会影响容器去使用它。</li>
+</ul>
+</blockquote>
+
+<p><a href="images/xxi-b-eclipse-project-settings-3.jpg" target="_blank"><img src="images/xxi-b-eclipse-project-settings-3.jpg" alt="Eclipse 项目配置" style="max-width:100%;"></a></p>
+
+<blockquote>
+<ul>
+<li>如上图标注 1 所示，因为这个项目是单 Module 的，所以我们这里在 <code>Project compiler output</code> 可以选择项目 <code>WEB-INF</code> 下的 <code>classes</code> 编译目录。</li>
+</ul>
+</blockquote>
+
+<p><a href="images/xxi-b-eclipse-project-settings-4.jpg" target="_blank"><img src="images/xxi-b-eclipse-project-settings-4.jpg" alt="Eclipse 项目配置" style="max-width:100%;"></a></p>
+
+<blockquote>
+<ul>
+<li>
+<p>如上图红圈所示，我们可以根据对项目的任意目录进行这五种目录类型标注，这个知识点非常非常重要，必须会。</p>
+
+<blockquote>
+<ul>
+<li>
+<code>Sources</code> 一般用于标注类似 <code>src</code> 这种可编译目录。有时候我们不单单项目的 <code>src</code> 目录要可编译，还有其他一些特别的目录也许我们也要作为可编译的目录，就需要对该目录进行此标注。只有 <code>Sources</code> 这种可编译目录才可以新建 Java 类和包，这一点需要牢记。</li>
+<li>
+<code>Tests</code> 一般用于标注可编译的单元测试目录。在规范的 maven 项目结构中，顶级目录是 <code>src</code>，maven 的 <code>src</code> 我们是不会设置为 <code>Sources</code> 的，而是在其子目录 <code>main</code> 目录下的 <code>java</code> 目录，我们会设置为 <code>Sources</code>。而单元测试的目录是 <code>src - test - java</code>，这里的 <code>java</code> 目录我们就会设置为 <code>Tests</code>，表示该目录是作为可编译的单元测试目录。一般这个和后面几个我们都是在 maven 项目下进行配置的，但是我这里还是会先说说。从这一点我们也可以看出 IntelliJ IDEA 对 maven 项目的支持是比彻底的。 </li>
+<li>
+<code>Resources</code> 一般用于标注资源文件目录。在 maven 项目下，资源目录是单独划分出来的，其目录为：<code>src - main -resources</code>，这里的 <code>resources</code> 目录我们就会设置为 <code>Resources</code>，表示该目录是作为资源目录。资源目录下的文件是会被编译到输出目录下的。</li>
+<li>
+<code>Test Resources</code> 一般用于标注单元测试的资源文件目录。在 maven 项目下，单元测试的资源目录是单独划分出来的，其目录为：<code>src - test -resources</code>，这里的 <code>resources</code> 目录我们就会设置为 <code>Test Resources</code>，表示该目录是作为单元测试的资源目录。资源目录下的文件是会被编译到输出目录下的。</li>
+<li>
+<code>Excluded</code> 一般用于标注排除目录。被排除的目录不会被 IntelliJ IDEA 创建索引，相当于被 IntelliJ IDEA 废弃，该目录下的代码文件是不具备代码检查和智能提示等常规代码功能。 </li>
+<li>通过上面的介绍，我们知道对于非 maven 项目我们只要会设置 <code>src</code> 即可。</li>
+</ul>
+</blockquote>
+</li>
+<li><p>如上图箭头所示，被标注的目录会在右侧有一个总的概括。其中 <code>classes</code> 虽然是 <code>Excluded</code> 目录，但是它有特殊性，可以不显示在这里。</p></li>
+<li>如上图标注 1 所示，如果要去掉目录的标记含义，可以点击打叉按钮进行删除。</li>
+</ul>
+</blockquote>
+
+<p><a href="images/xxi-b-eclipse-project-settings-5.jpg" target="_blank"><img src="images/xxi-b-eclipse-project-settings-5.jpg" alt="Eclipse 项目配置" style="max-width:100%;"></a></p>
+
+<blockquote>
+<ul>
+<li>如上图标注 1 所示，这是一个单 Module 的项目，Module 的编译输出目录可以跟 Project 的项目输出目录一致，都是 <code>WebRoot</code> 下的 <code>classes</code> 目录。</li>
+</ul>
+</blockquote>
+
+<p><a href="images/xxi-b-eclipse-project-settings-6.jpg" target="_blank"><img src="images/xxi-b-eclipse-project-settings-6.jpg" alt="Eclipse 项目配置" style="max-width:100%;"></a></p>
+
+<blockquote>
+<ul>
+<li>如上图红圈所示，这里显示项目的所有依赖包，其中红色表示 IntelliJ IDEA 无法识别。IntelliJ IDEA 支持一个一个导入依赖包，也支持直接导入一个目录下的所有依赖包。上图的这种就是一个一个具体化的依赖包，除非个表包有存在依赖顺序关系，不然不建议一个一个引入，这样比较麻烦。所以我这里会先把这些零散的依赖包全部去除掉，然后按目录来引入。</li>
+<li>如上图标注 1 所示，依赖包支持这五种操作。</li>
+</ul>
+
+<blockquote>
+<ul>
+<li>加号，表示可以引入新依赖包。</li>
+<li>减号，表示可以去除对应的依赖包。</li>
+<li>向上箭头，表示依赖包可以向上移动位置。依赖包越上面的表示在项目加载的时候越是优先，所以对于同一个依赖包，不同版本，依赖顺序不同，结果可能也是很有会不同的。</li>
+<li>向下箭头，表示依赖包可以向下移动位置，原因同上。</li>
+</ul>
+</blockquote>
+</blockquote>
+
+<p><a href="images/xxi-b-eclipse-project-settings-7.jpg" target="_blank"><img src="images/xxi-b-eclipse-project-settings-7.jpg" alt="Eclipse 项目配置" style="max-width:100%;"></a></p>
+
+<blockquote>
+<ul>
+<li>如上图所示，引入依赖包支持 <code>jar</code> 包和目录。以及已经导入项目的 <code>Libraries</code> 中的依赖包。多 Module 的项目还可以依赖其他 Module。</li>
+</ul>
+</blockquote>
+
+<p><a href="images/xxi-b-eclipse-project-settings-8.gif" target="_blank"><img src="images/xxi-b-eclipse-project-settings-8.gif" alt="Eclipse 项目配置" style="max-width:100%;"></a></p>
+
+<blockquote>
+<ul>
+<li>由于我们刚刚去掉了红圈中的所有依赖包，所以我们现在还需要导入依赖包。到导入之前我们先把项目的 <code>lib</code> 作为一个总的依赖包进行放置到项目 <code>Libraries</code> 中。如上图 Gif 演示，就是把 <code>lib</code> 目录转换成一个依赖包。这样的好处是，当我们项目有新添加依赖包，我们只要放置在 <code>lib</code> 目录下即可自动被项目引入，原因就是因为我们这里引的是目录，而不是一个一个依赖包。</li>
+</ul>
+</blockquote>
+
+<p><a href="images/xxi-b-eclipse-project-settings-9.jpg" target="_blank"><img src="images/xxi-b-eclipse-project-settings-9.jpg" alt="Eclipse 项目配置" style="max-width:100%;"></a></p>
+
+<blockquote>
+<ul>
+<li>如上图标注 1 所示，引入刚刚放置好的 <code>Libraries</code> 下 <code>lib</code> 依赖包。 </li>
+</ul>
+</blockquote>
+
+<p><a href="images/xxi-b-eclipse-project-settings-10.gif" target="_blank"><img src="images/xxi-b-eclipse-project-settings-10.gif" alt="Eclipse 项目配置" style="max-width:100%;"></a></p>
+
+<blockquote>
+<ul>
+<li>对于传统的 Java Web 项目，我们一般还需要指定配置 web.xml 位置。如上图 Gif 演示，这个一般在 <code>Facts</code> 中进行配置。<code>Facts</code> 可以理解为用于配置项目的框架区，在这里管理项目使用的框架配置文件。这个是 IntelliJ IDEA 特有的一个配置点。 </li>
+<li>除了 web.xml 一般我们要配置外，其他一些框架，即使我们不在这里配置也是不会影响项目的运行的，但是是有缺点的。比如我们项目中一般都是有 Spring 框架的，而 Spring 是有很多配置文件的，如果我们在这里进行了配置，那你会发现 IntelliJ IDEA 编辑区底部会多出现几个跟 Spring 项目的设置区，原因就是你告诉了 IntelliJ IDEA，你的项目使用了 Spring 框架，那 IntelliJ IDEA 就会出现其对应的配置功能给你。Hibernate 等其他框架道理一样。</li>
+</ul>
+</blockquote>
+
+<p><a href="images/xxi-b-eclipse-project-settings-11.gif" target="_blank"><img src="images/xxi-b-eclipse-project-settings-11.gif" alt="Eclipse 项目配置" style="max-width:100%;"></a></p>
+
+<blockquote>
+<ul>
+<li>
+<code>Artifacts</code> 也是 IntelliJ IDEA 特有的一个概念，我们可以理解这里是配置项目最终输出结果的地方。比如 Java Web 项目我们一般必备一个配置就是要配置成一个 war 包展开的方式，这样容器才能运行该项目。上图 Gif 演示的就是配置一个 war 包展开的输出结构。其结构是由于前面的几项配置决定，所以如果前面的 Module 配置没有多大问题，这里可以省去一些配置步骤。但是有些时候我们也是需要做一些修改，比如此项目的输出目录默认生成的是错误，我改为了项目中的 <code>webRoot</code> 目录。</li>
+<li>该 <code>Artifacts</code> 配置，等下在配置 Tomcat 的时候也会引用到，所以这里需要重点注意下。</li>
+</ul>
+</blockquote>
+
+<h2>Tomcat 配置</h2>
+
+<p><a href="images/xxi-c-eclipse-project-tomcat-settings-1.gif" target="_blank"><img src="images/xxi-c-eclipse-project-tomcat-settings-1.gif" alt="Tomcat 配置" style="max-width:100%;"></a></p>
+
+<blockquote>
+<ul>
+<li>如上图 Gif 所示，为项目整体的一个 Tomcat 配置过程，有些需要特别讲解的，我们将在下面进行分解。</li>
+</ul>
+</blockquote>
+
+<p><a href="images/xxi-c-eclipse-project-tomcat-settings-2.jpg" target="_blank"><img src="images/xxi-c-eclipse-project-tomcat-settings-2.jpg" alt="Tomcat 配置" style="max-width:100%;"></a></p>
+
+<blockquote>
+<ul>
+<li>如上图弹出层所示，IntelliJ IDEA 支持目前市场上主流的应用容器，所以基本上一个 IntelliJ IDEA 足够我们开发常见的项目。但是这里有一点需要提醒的，IntelliJ IDEA 支持这些容器但是不等同于帮我们自带了这些容器的文件，所以上面的 Gif 演示中，原本我只有引入 Tomcat 7，但是为了这个项目我又引入了 Tomcat 6，而引入的 Tomcat 6 我只是指定了其存放的目录位置 IntelliJ IDEA 自动会识别到。</li>
+</ul>
+</blockquote>
+
+<p><a href="images/xxi-c-eclipse-project-tomcat-settings-3.jpg" target="_blank"><img src="images/xxi-c-eclipse-project-tomcat-settings-3.jpg" alt="Tomcat 配置" style="max-width:100%;"></a></p>
+
+<blockquote>
+<ul>
+<li>如上图标注 1 所示，我们可以切换随时为项目切换不同的容器。</li>
+<li>如上图标注 2 所示，我们可以指定给运行的容器设置 VM 参数。</li>
+<li>如上图标注 3 所示，这分别是在两种命令下的触发的事件。这个是 IntelliJ IDEA 特有的，也是重点。</li>
+</ul>
+
+<blockquote>
+<ul>
+<li>
+<code>On Update action</code> 当我们按 <code>Ctrl + F10</code> 进行容器更新的时候，可以根据我们配置的这个事件内容进行容器更新。其中我选择的 <code>Update classes and resources</code> 事件是最常用的，表示我们在按 <code>Ctrl + F10</code> 进行容器更新的时候，我们触发更新编译的类和资源文件到容器中。在 Debug 模式下，这个也就是所谓的 <code>HotSwap</code>。这是这种热部署没有 JRebel 插件那样好用。</li>
+<li>
+<code>On frame deactivation</code> 当我们切换 IntelliJ IDEA 到浏览器的时候进行指定事件更新，这个一般是因为 Web 开发的时候，我们需要经常在 IntelliJ IDEA 和各个浏览器之间来回切换测试，所以才有了这种需求。IntelliJ IDEA 是为了帮我们在做这种无聊切换的时候做一些指定事情。当然了，如果切换过于频繁，这个功能还是很耗资源的，所以我设置的是 <code>Do nothing</code> 表示切换的时候什么都不做。</li>
+<li>如上图标注 4 所示，默认 Tomcat 的 HTTP 端口是 8080，如果你需要改其端口可以在这里设置。</li>
+<li>如上图标注 5 所示，这个知识点在前面的文章已经有讲过了。这里表示在 Tomcat 容器运行前做什么事情，这里分别了：Make 和 Build Artifacts 操作。如上面 Gif 演示，这里的 <code>Build Artifacts</code> 是我们在 <code>Deployment</code> 选项卡中添加了 Artifact 之后自动出现的。 </li>
+</ul>
+</blockquote>
+</blockquote>
+
+<h2>Tomcat 启动</h2>
+
+<blockquote>
+<ul>
+<li>通过上面的配置，IntelliJ IDEA 环境配置算是配置好了，现在配置下该项目相关的。</li>
+<li>打开你的 Mysql，执行下面脚本，创建一个新的数据库和用户：</li>
+</ul>
+</blockquote>
+
+<div class="highlight highlight-source-sql"><pre><span class="pl-k">CREATE</span> <span class="pl-k">DATABASE</span> `<span class="pl-en">jsprun</span>` CHARACTER <span class="pl-k">SET</span> utf8;
+<span class="pl-k">CREATE</span> <span class="pl-k">USER</span> '<span class="pl-en">jsprun</span>'@<span class="pl-s"><span class="pl-pds">'</span>localhost<span class="pl-pds">'</span></span> IDENTIFIED BY <span class="pl-s"><span class="pl-pds">'</span>jsprun<span class="pl-pds">'</span></span>;
+<span class="pl-k">GRANT</span> ALL PRIVILEGES <span class="pl-k">ON</span> jsprun.<span class="pl-k">*</span> TO <span class="pl-s"><span class="pl-pds">'</span>jsprun<span class="pl-pds">'</span></span>@<span class="pl-s"><span class="pl-pds">'</span>localhost<span class="pl-pds">'</span></span>;
+FLUSH PRIVILEGES;</pre></div>
+
+<blockquote>
+<ul>
+<li>切换到上面新建的 <code>jsprun</code> 数据库中执行项目中这个数据脚本，文件位置：<code>JspRun\WebRoot\install\jsprun_zh_CN.sql</code>。</li>
+<li>修改 <code>JspRun\WebRoot\config.properties</code> 文件中的几个属性为下面内容：</li>
+<li><code>dbuser = jsprun</code></li>
+<li><code>dbpw = jsprun</code></li>
+</ul>
+</blockquote>
+
+<p><a href="images/xxi-d-eclipse-project-tomcat-run-1.gif" target="_blank"><img src="images/xxi-d-eclipse-project-tomcat-run-1.gif" alt="Tomcat 启动" style="max-width:100%;"></a></p>
+
+<blockquote>
+<ul>
+<li>如上图 Gif 演示，我们缺少引入 Tomcat 的依赖包。</li>
+</ul>
+</blockquote>
+
+<p><a href="images/xxi-d-eclipse-project-tomcat-run-2.gif" target="_blank"><img src="images/xxi-d-eclipse-project-tomcat-run-2.gif" alt="Tomcat 启动" style="max-width:100%;"></a></p>
+
+<blockquote>
+<ul>
+<li>如上图 Gif 演示，我们引入 Tomcat 的依赖包之后，可以运行该项目。</li>
+</ul>
+</blockquote>
+
+<p><a href="images/xxi-d-eclipse-project-tomcat-run-3.jpg" target="_blank"><img src="images/xxi-d-eclipse-project-tomcat-run-3.jpg" alt="Tomcat 启动" style="max-width:100%;"></a></p>
+
+<blockquote>
+<ul>
+<li>如上图所示，为最终项目运行效果图。</li>
+</ul>
+</blockquote>
+
+<h2>Tomcat 停止</h2>
+
+<p><a href="images/xxi-e-eclipse-project-tomcat-stop-1.gif" target="_blank"><img src="images/xxi-e-eclipse-project-tomcat-stop-1.gif" alt="Tomcat 停止" style="max-width:100%;"></a></p>
+
+<blockquote>
+<ul>
+<li>如上图所示，停止按钮是要按两次，第一按完出现一个骷髅头并不是停止，需要再点击一次。</li>
+<li>有时候即使点了两次，Tomcat 容器也不一定能完全停掉，这时候很容易出现端口被占用的操作，这时候你需要打开系统的资源管理器，手动 kill 系统上所有的 java 进程。</li>
+</ul>
+</blockquote>
+
+<h2>输出 war 压缩包</h2>
+
+<p><a href="images/xxi-e-eclipse-project-output-war-1.gif" target="_blank"><img src="images/xxi-e-eclipse-project-output-war-1.gif" alt="Tomcat 输出 war 包" style="max-width:100%;"></a></p>
+
+<blockquote>
+<ul>
+<li>如上图 Gif 所示，除了在 Artifacts 中需要配置，还需要在容器中也跟着配置，这样在启动容器的时候才会输出一个 war 压缩包。</li>
+<li>通过配置，我们也知道 war 的压缩包本质是根据展开的 war 输出包进行压缩的得来。</li>
+</ul>
+</blockquote>
+</body>
+</html>
+<!-- This document was created with MarkdownPad, the Markdown editor for Windows (http://markdownpad.com) -->

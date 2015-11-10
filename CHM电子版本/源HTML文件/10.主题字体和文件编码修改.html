@@ -1,0 +1,627 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>10.主题字体和文件编码修改</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<style type="text/css">
+/* GitHub stylesheet for MarkdownPad (http://markdownpad.com) */
+/* Author: Nicolas Hery - http://nicolashery.com */
+/* Version: b13fe65ca28d2e568c6ed5d7f06581183df8f2ff */
+/* Source: https://github.com/nicolahery/markdownpad-github */
+
+/* RESET
+=============================================================================*/
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+/* BODY
+=============================================================================*/
+
+body {
+  font-family: Helvetica, arial, freesans, clean, sans-serif;
+  font-size: 14px;
+  line-height: 1.6;
+  color: #333;
+  background-color: #fff;
+  padding: 20px;
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+body>*:first-child {
+  margin-top: 0 !important;
+}
+
+body>*:last-child {
+  margin-bottom: 0 !important;
+}
+
+/* BLOCKS
+=============================================================================*/
+
+p, blockquote, ul, ol, dl, table, pre {
+  margin: 15px 0;
+}
+
+/* HEADERS
+=============================================================================*/
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 20px 0 10px;
+  padding: 0;
+  font-weight: bold;
+  -webkit-font-smoothing: antialiased;
+}
+
+h1 tt, h1 code, h2 tt, h2 code, h3 tt, h3 code, h4 tt, h4 code, h5 tt, h5 code, h6 tt, h6 code {
+  font-size: inherit;
+}
+
+h1 {
+  font-size: 28px;
+  color: #000;
+}
+
+h2 {
+  font-size: 24px;
+  border-bottom: 1px solid #ccc;
+  color: #000;
+}
+
+h3 {
+  font-size: 18px;
+}
+
+h4 {
+  font-size: 16px;
+}
+
+h5 {
+  font-size: 14px;
+}
+
+h6 {
+  color: #777;
+  font-size: 14px;
+}
+
+body>h2:first-child, body>h1:first-child, body>h1:first-child+h2, body>h3:first-child, body>h4:first-child, body>h5:first-child, body>h6:first-child {
+  margin-top: 0;
+  padding-top: 0;
+}
+
+a:first-child h1, a:first-child h2, a:first-child h3, a:first-child h4, a:first-child h5, a:first-child h6 {
+  margin-top: 0;
+  padding-top: 0;
+}
+
+h1+p, h2+p, h3+p, h4+p, h5+p, h6+p {
+  margin-top: 10px;
+}
+
+/* LINKS
+=============================================================================*/
+
+a {
+  color: #4183C4;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* LISTS
+=============================================================================*/
+
+ul, ol {
+  padding-left: 30px;
+}
+
+ul li > :first-child, 
+ol li > :first-child, 
+ul li ul:first-of-type, 
+ol li ol:first-of-type, 
+ul li ol:first-of-type, 
+ol li ul:first-of-type {
+  margin-top: 0px;
+}
+
+ul ul, ul ol, ol ol, ol ul {
+  margin-bottom: 0;
+}
+
+dl {
+  padding: 0;
+}
+
+dl dt {
+  font-size: 14px;
+  font-weight: bold;
+  font-style: italic;
+  padding: 0;
+  margin: 15px 0 5px;
+}
+
+dl dt:first-child {
+  padding: 0;
+}
+
+dl dt>:first-child {
+  margin-top: 0px;
+}
+
+dl dt>:last-child {
+  margin-bottom: 0px;
+}
+
+dl dd {
+  margin: 0 0 15px;
+  padding: 0 15px;
+}
+
+dl dd>:first-child {
+  margin-top: 0px;
+}
+
+dl dd>:last-child {
+  margin-bottom: 0px;
+}
+
+/* CODE
+=============================================================================*/
+
+pre, code, tt {
+  font-size: 12px;
+  font-family: Consolas, "Liberation Mono", Courier, monospace;
+}
+
+code, tt {
+  margin: 0 0px;
+  padding: 0px 0px;
+  white-space: nowrap;
+  border: 1px solid #eaeaea;
+  background-color: #f8f8f8;
+  border-radius: 3px;
+}
+
+pre>code {
+  margin: 0;
+  padding: 0;
+  white-space: pre;
+  border: none;
+  background: transparent;
+}
+
+pre {
+  background-color: #f8f8f8;
+  border: 1px solid #ccc;
+  font-size: 13px;
+  line-height: 19px;
+  overflow: auto;
+  padding: 6px 10px;
+  border-radius: 3px;
+}
+
+pre code, pre tt {
+  background-color: transparent;
+  border: none;
+}
+
+kbd {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background-color: #DDDDDD;
+    background-image: linear-gradient(#F1F1F1, #DDDDDD);
+    background-repeat: repeat-x;
+    border-color: #DDDDDD #CCCCCC #CCCCCC #DDDDDD;
+    border-image: none;
+    border-radius: 2px 2px 2px 2px;
+    border-style: solid;
+    border-width: 1px;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    line-height: 10px;
+    padding: 1px 4px;
+}
+
+/* QUOTES
+=============================================================================*/
+
+blockquote {
+  border-left: 4px solid #DDD;
+  padding: 0 15px;
+  color: #777;
+}
+
+blockquote>:first-child {
+  margin-top: 0px;
+}
+
+blockquote>:last-child {
+  margin-bottom: 0px;
+}
+
+/* HORIZONTAL RULES
+=============================================================================*/
+
+hr {
+  clear: both;
+  margin: 15px 0;
+  height: 0px;
+  overflow: hidden;
+  border: none;
+  background: transparent;
+  border-bottom: 4px solid #ddd;
+  padding: 0;
+}
+
+/* TABLES
+=============================================================================*/
+
+table th {
+  font-weight: bold;
+}
+
+table th, table td {
+  border: 1px solid #ccc;
+  padding: 6px 13px;
+}
+
+table tr {
+  border-top: 1px solid #ccc;
+  background-color: #fff;
+}
+
+table tr:nth-child(2n) {
+  background-color: #f8f8f8;
+}
+
+/* IMAGES
+=============================================================================*/
+
+img {
+  max-width: 100%
+}
+</style>
+<style type="text/css">
+.highlight  { background: #ffffff; }
+.highlight .c { color: #999988; font-style: italic } /* Comment */
+.highlight .err { color: #a61717; background-color: #e3d2d2 } /* Error */
+.highlight .k { font-weight: bold } /* Keyword */
+.highlight .o { font-weight: bold } /* Operator */
+.highlight .cm { color: #999988; font-style: italic } /* Comment.Multiline */
+.highlight .cp { color: #999999; font-weight: bold } /* Comment.Preproc */
+.highlight .c1 { color: #999988; font-style: italic } /* Comment.Single */
+.highlight .cs { color: #999999; font-weight: bold; font-style: italic } /* Comment.Special */
+.highlight .gd { color: #000000; background-color: #ffdddd } /* Generic.Deleted */
+.highlight .gd .x { color: #000000; background-color: #ffaaaa } /* Generic.Deleted.Specific */
+.highlight .ge { font-style: italic } /* Generic.Emph */
+.highlight .gr { color: #aa0000 } /* Generic.Error */
+.highlight .gh { color: #999999 } /* Generic.Heading */
+.highlight .gi { color: #000000; background-color: #ddffdd } /* Generic.Inserted */
+.highlight .gi .x { color: #000000; background-color: #aaffaa } /* Generic.Inserted.Specific */
+.highlight .go { color: #888888 } /* Generic.Output */
+.highlight .gp { color: #555555 } /* Generic.Prompt */
+.highlight .gs { font-weight: bold } /* Generic.Strong */
+.highlight .gu { color: #aaaaaa } /* Generic.Subheading */
+.highlight .gt { color: #aa0000 } /* Generic.Traceback */
+.highlight .kc { font-weight: bold } /* Keyword.Constant */
+.highlight .kd { font-weight: bold } /* Keyword.Declaration */
+.highlight .kp { font-weight: bold } /* Keyword.Pseudo */
+.highlight .kr { font-weight: bold } /* Keyword.Reserved */
+.highlight .kt { color: #445588; font-weight: bold } /* Keyword.Type */
+.highlight .m { color: #009999 } /* Literal.Number */
+.highlight .s { color: #d14 } /* Literal.String */
+.highlight .na { color: #008080 } /* Name.Attribute */
+.highlight .nb { color: #0086B3 } /* Name.Builtin */
+.highlight .nc { color: #445588; font-weight: bold } /* Name.Class */
+.highlight .no { color: #008080 } /* Name.Constant */
+.highlight .ni { color: #800080 } /* Name.Entity */
+.highlight .ne { color: #990000; font-weight: bold } /* Name.Exception */
+.highlight .nf { color: #990000; font-weight: bold } /* Name.Function */
+.highlight .nn { color: #555555 } /* Name.Namespace */
+.highlight .nt { color: #000080 } /* Name.Tag */
+.highlight .nv { color: #008080 } /* Name.Variable */
+.highlight .ow { font-weight: bold } /* Operator.Word */
+.highlight .w { color: #bbbbbb } /* Text.Whitespace */
+.highlight .mf { color: #009999 } /* Literal.Number.Float */
+.highlight .mh { color: #009999 } /* Literal.Number.Hex */
+.highlight .mi { color: #009999 } /* Literal.Number.Integer */
+.highlight .mo { color: #009999 } /* Literal.Number.Oct */
+.highlight .sb { color: #d14 } /* Literal.String.Backtick */
+.highlight .sc { color: #d14 } /* Literal.String.Char */
+.highlight .sd { color: #d14 } /* Literal.String.Doc */
+.highlight .s2 { color: #d14 } /* Literal.String.Double */
+.highlight .se { color: #d14 } /* Literal.String.Escape */
+.highlight .sh { color: #d14 } /* Literal.String.Heredoc */
+.highlight .si { color: #d14 } /* Literal.String.Interpol */
+.highlight .sx { color: #d14 } /* Literal.String.Other */
+.highlight .sr { color: #009926 } /* Literal.String.Regex */
+.highlight .s1 { color: #d14 } /* Literal.String.Single */
+.highlight .ss { color: #990073 } /* Literal.String.Symbol */
+.highlight .bp { color: #999999 } /* Name.Builtin.Pseudo */
+.highlight .vc { color: #008080 } /* Name.Variable.Class */
+.highlight .vg { color: #008080 } /* Name.Variable.Global */
+.highlight .vi { color: #008080 } /* Name.Variable.Instance */
+.highlight .il { color: #009999 } /* Literal.Number.Integer.Long */
+.pl-c {
+    color: #969896;
+}
+
+.pl-c1,.pl-mdh,.pl-mm,.pl-mp,.pl-mr,.pl-s1 .pl-v,.pl-s3,.pl-sc,.pl-sv {
+    color: #0086b3;
+}
+
+.pl-e,.pl-en {
+    color: #795da3;
+}
+
+.pl-s1 .pl-s2,.pl-smi,.pl-smp,.pl-stj,.pl-vo,.pl-vpf {
+    color: #333;
+}
+
+.pl-ent {
+    color: #63a35c;
+}
+
+.pl-k,.pl-s,.pl-st {
+    color: #a71d5d;
+}
+
+.pl-pds,.pl-s1,.pl-s1 .pl-pse .pl-s2,.pl-sr,.pl-sr .pl-cce,.pl-sr .pl-sra,.pl-sr .pl-sre,.pl-src,.pl-v {
+    color: #df5000;
+}
+
+.pl-id {
+    color: #b52a1d;
+}
+
+.pl-ii {
+    background-color: #b52a1d;
+    color: #f8f8f8;
+}
+
+.pl-sr .pl-cce {
+    color: #63a35c;
+    font-weight: bold;
+}
+
+.pl-ml {
+    color: #693a17;
+}
+
+.pl-mh,.pl-mh .pl-en,.pl-ms {
+    color: #1d3e81;
+    font-weight: bold;
+}
+
+.pl-mq {
+    color: #008080;
+}
+
+.pl-mi {
+    color: #333;
+    font-style: italic;
+}
+
+.pl-mb {
+    color: #333;
+    font-weight: bold;
+}
+
+.pl-md,.pl-mdhf {
+    background-color: #ffecec;
+    color: #bd2c00;
+}
+
+.pl-mdht,.pl-mi1 {
+    background-color: #eaffea;
+    color: #55a532;
+}
+
+.pl-mdr {
+    color: #795da3;
+    font-weight: bold;
+}
+
+.pl-mo {
+    color: #1d3e81;
+}
+.task-list {
+padding-left:10px;
+margin-bottom:0;
+}
+
+.task-list li {
+    margin-left: 20px;
+}
+
+.task-list-item {
+list-style-type:none;
+padding-left:10px;
+}
+
+.task-list-item label {
+font-weight:400;
+}
+
+.task-list-item.enabled label {
+cursor:pointer;
+}
+
+.task-list-item+.task-list-item {
+margin-top:3px;
+}
+
+.task-list-item-checkbox {
+display:inline-block;
+margin-left:-20px;
+margin-right:3px;
+vertical-align:1px;
+}
+</style>
+</head>
+<body>
+<h1>IntelliJ IDEA 主题、字体、编辑区主题、文件编码修改</h1>
+
+<h2>主题修改</h2>
+
+<p><a href="images/x-a-theme-setting-1.jpg" target="_blank"><img src="images/x-a-theme-setting-1.jpg" alt="主题修改" style="max-width:100%;"></a></p>
+
+<blockquote>
+<ul>
+<li>上图标注 1 所示为 IntelliJ IDEA 修改主题的地方，在 Windows 系统上 IntelliJ IDEA 默认提供的主题有四套：<code>Darcula</code>、<code>IntelliJ</code>、<code>Windows</code>、<code>Alloy. IDEA Theme</code>。除了 <code>Darcula</code> 是黑色主题，其他三套都是以白色为背景的。</li>
+<li>其他操作系统上不一定会也有四套主题的，主题的选择上大家根据自己喜好即可。改变主题需要重启 IntelliJ IDEA 方可看到效果。</li>
+</ul>
+</blockquote>
+
+<h2>字体修改</h2>
+
+<h3>主题字体修改</h3>
+
+<p><a href="images/x-b-font-setting-1.jpg" target="_blank"><img src="images/x-b-font-setting-1.jpg" alt="主题字体修改" style="max-width:100%;"></a></p>
+
+<blockquote>
+<ul>
+<li>如上图标注 1 所示，IntelliJ IDEA 主题字体的修改要先勾选 <code>Override default fonts by</code> 。默认 IntelliJ IDEA 是不推荐修改的，但是由于字体是有分包含中文和不包含中文之分的，一般使用英文的国家是不需要额外担心乱码问题的，而我们需要。</li>
+<li>字体的审美上每个人不一样，但是如上一段说的，这里的字体修改是需要知道一个前提的，那就是你选择的那个字体必须含有中文，比如微软雅黑和宋体这类是包含中文的，而 <code>Courier New</code> 和 <code>Monaco</code> 这类只是单纯的英文字体。</li>
+<li>如果你选择的字体不包含中文，那可能会在很多位置上出现类似 <code>口口口口口</code> 这样的乱码问题，比如文件名含有中文、字体是中文名字的都会变成 <code>口口口口口</code>。</li>
+<li>在修改 IntelliJ IDEA 的主题字体的时候，不建议把字体调成很大，因为很多人遇到这样一种情况：显示器分辨率低，主题字体又大，在 IntelliJ IDEA 的某些操作的工具菜单、右键菜单选项中部分选项超出了分辨率显示范围，没办法被选中。当然了，如果你一定要把字体改大，又不用大分辨率显示器，那可以通过 IntelliJ IDEA 的 <code>Menus and Toolbars</code> 删除部分你认为用不到的菜单，但是一般不建议这样做。</li>
+<li>还需要特别注意的时候，如果你是开着 IntelliJ IDEA 的时候，新装了一个字体的话，那必须重启IntelliJ IDEA 之后才能在下拉列表找到新装的字体。</li>
+</ul>
+</blockquote>
+
+<h3>代码编辑字体修改</h3>
+
+<p><a href="images/x-b-font-setting-2.jpg" target="_blank"><img src="images/x-b-font-setting-2.jpg" alt="代码编辑字体修改" style="max-width:100%;"></a></p>
+
+<blockquote>
+<ul>
+<li>如上图标注 1 所示，默认 IntelliJ IDEA 是不能直接在默认的代码模板上修改字体的，需要先 <code>Save As</code> 一份出来，然后才可以修改。这种设计在 IntelliJ IDEA 其他很多设置也是如此的，所以如果你还看到类似有 <code>Copy</code>、<code>Save As</code> 这类选项的按钮就要想到是此设计思想。</li>
+<li>如上图标注 2 所示，勾选的 <code>Show only monospaced fonts</code> 表示筛选显示系统上的等宽字体。由于 Windows 系统上等宽字体并不多，勾选此选项出现的下拉字体可选择就很少。取消勾选之后，就可以显示系统上所有已安装的字体。</li>
+<li>如上图标注 3 所示，其中编码字体有第一字体（<code>Primary font</code>） 和 第二字体（<code>Secondary font</code>）之分。当有些字符在第一字体支持不了的时候，会去使用第二字体进行支持。</li>
+<li>我个人习惯上：英文字体使用 <code>Monaco</code>，由于此字体不支持中文，所以我把这个设置为第一字体，第二字体使用 <code>Yahei Consolas Hybrid</code> 进行支持，该字体含有中文。这两个字体都不是系统自带的，需要自行下载安装。</li>
+<li>如果你的第一字体不包含中文的话，第二字体包含中文，那在有些地方也还是会出现 <code>口口口口口</code> 这类问题，比如 <code>Ctrl + Shift + N</code> 进行查找文件的时候，如果你输入中文也会变成 <code>口口口口口</code> ，我个人文件名为中文的不多，所以就容忍了这种情况。如果你不愿意容忍这种情况，那还是回到最开始的要求：第一字体包含中文。</li>
+</ul>
+</blockquote>
+
+<h3>控制台输出字体修改</h3>
+
+<p><a href="images/x-b-font-setting-3.jpg" target="_blank"><img src="images/x-b-font-setting-3.jpg" alt="控制台输出字体修改" style="max-width:100%;"></a></p>
+
+<blockquote>
+<ul>
+<li>如上图为控制台输出内容字体修改，有很多 IntelliJ IDEA 新人在做输出的时候出现乱码原因就是因为没有在这里进行设置。</li>
+<li>
+<em>控制台输出字体</em> 修改的原理跟 <em>代码编辑字体修改</em> 是一样的，所以这里不进行讲解。</li>
+</ul>
+</blockquote>
+
+<h2>编辑区主题修改</h2>
+
+<h3>编辑区主题介绍</h3>
+
+<p><a href="images/x-c-code-theme-setting-1.jpg" target="_blank"><img src="images/x-c-code-theme-setting-1.jpg" alt="编辑区主题介绍" style="max-width:100%;"></a></p>
+
+<blockquote>
+<ul>
+<li>编辑区主题，也就是代码书写区的主题修改。基本上大家在 <code>General</code> 上都有对此进行小修小改，我下面也主要介绍下我个人在 <code>General</code> 上常修改的一些地方，其他特性的颜色修改我一般默认，但是修改方法原理一样。</li>
+<li>如上图红圈下拉所示，展示的是我当前电脑可以选择的编辑区主题。</li>
+<li>对于编辑区的主题，也有人制作成模板在网络上提供下载。这里主要介绍两个站点：</li>
+</ul>
+
+<blockquote>
+<ul>
+<li>
+<a href="http://www.ideacolorthemes.org/themes/">http://www.ideacolorthemes.org/themes/</a>，主要提供 jar 文件下载。</li>
+<li>
+<a href="http://www.phpstorm-themes.com/">http://www.phpstorm-themes.com/</a>，主要提供 xml 和 icl 文件下载。</li>
+<li>对应文件如何安装请查看网站对应的 <code>Help</code> 页面，都有详细说明的。</li>
+</ul>
+</blockquote>
+</blockquote>
+
+<h3>编辑区主题细节修改</h3>
+
+<p><a href="images/x-c-code-theme-setting-2.jpg" target="_blank"><img src="images/x-c-code-theme-setting-2.jpg" alt="编辑区主题细节修改" style="max-width:100%;"></a></p>
+
+<blockquote>
+<ul>
+<li>上图标注 1 为可修改的通用细节内容</li>
+<li>上图标注 2 为可修改属性，其中并不是每个细节都可以修改所有属性的。比如细节：<code>Default text</code> 是可以勾选 <code>Bold</code>，而 <code>Caret row</code> 则是无法勾选 <code>Bold</code>，因为只有文本才有加粗的属性需求。</li>
+<li>上图标注 3 为修改后的预览区，预览区是实时动态展示的。</li>
+<li>在 <code>General</code> 区，我常修改的有：</li>
+</ul>
+
+<blockquote>
+<ul>
+<li>
+<code>Default text</code>，指的是默认代码文本，我一般会修改其 <code>Background</code> 属性。</li>
+<li>
+<code>Caret row</code>，指的是光标所在行，我一般会修改其 <code>Background</code> 属性。</li>
+<li>
+<code>Vertical indent guide</code>，指的是垂直缩进线，我一般会修改其 <code>Foreground</code> 属性。</li>
+<li>
+<code>Identifier under caret</code>，指的是光标所在位置的相同标识符呈现什么效果，我一般会修改其 <code>Background</code> 属性。</li>
+<li>
+<code>Text search result</code>，指的是在查找模式下，匹配字符的样式，我一般会修改其 <code>Background</code> 属性。</li>
+</ul>
+</blockquote>
+</blockquote>
+
+<h2>文件编码修改</h2>
+
+<p><a href="images/x-d-encoding-setting-1.jpg" target="_blank"><img src="images/x-d-encoding-setting-1.jpg" alt="文件编码修改" style="max-width:100%;"></a></p>
+
+<blockquote>
+<ul>
+<li>上图标注 1 所示，IDE 的编码默认是 <code>UTF-8</code>，<code>Project Encoding</code> 虽然默认是 <code>GBK</code>，但是一般我都建议修改为 <code>UTF-8</code>。</li>
+<li>上图标注 2 所示，IntelliJ IDEA 可以对 <code>Properties</code> 文件进行专门的编码设置，一般也建议改为 <code>UTF-8</code>，其中有一个重点就是属性 <code>Transparent native-to-ascii conversion</code>，</li>
+<li>上图标注 3 所示，对于 <code>Properties</code> 文件，重要属性 <code>Transparent native-to-ascii conversion</code> 主要用于转换 <code>ascii</code>，一般都要勾选，不然 <code>Properties</code> 文件中的注释显示的都不会是中文。</li>
+<li>上图标注 4 所示，IntelliJ IDEA 除了支持对整个 Project 设置编码之外，还支持对目录、文件进行编码设置。如果你要对目录进行编码设置的话，可能会出现需要 <code>Convert</code> 编码的弹出操作选择，<strong>强烈建议</strong> 在转换之前做好文件备份，不然可能出现转换过程变成乱码，无法还原。</li>
+</ul>
+</blockquote>
+
+<p><a href="images/x-d-encoding-setting-2.gif" target="_blank"><img src="images/x-d-encoding-setting-2.gif" alt="文件编码修改" style="max-width:100%;"></a></p>
+
+<blockquote>
+<ul>
+<li>如上图演示，对单独文件的编码修改还可以点击右下角的编码设置区。如果代码内容中包含中文，则会弹出演示中的操作选择。</li>
+</ul>
+
+<blockquote>
+<ul>
+<li>
+<code>Reload</code> 表示使用新编码重新加载，新编码不会保存到文件中，重新打开此文件，旧编码是什么依旧还是什么。</li>
+<li>
+<code>Convert</code> 表示使用新编码进行转换，新编码会保存到文件中，重新打开此文件，新编码是什么则是什么。</li>
+<li>含有中文的代码文件，<code>Convert</code> 之后可能会使中文变成乱码，所以在转换成请做好备份，不然可能出现转换过程变成乱码，无法还原。</li>
+</ul>
+</blockquote>
+</blockquote>
+
+<h2>由于编码问题引起的编译错误</h2>
+
+<blockquote>
+<ul>
+<li>编译报错：<code>找不到符号</code>、<code>未结束的字符串文字</code> 等的解决办法：</li>
+</ul>
+
+<blockquote>
+<ul>
+<li>由于 UTF-8 编码文件有分 <code>有BOM</code> 和 <code>无BOM</code> 之分，默认情况下 IntelliJ IDEA 使用的编译器是 <code>javac</code>，而此编译只能编译 <code>无BOM</code> 的文件，有很多 Eclipse 用户在使用 IntelliJ IDEA 开发 Eclipse 项目的时候常常会遇到此问题。主要是因为 Eclipse 的编译器是 <code>Eclipse</code>，此编译器支持 <code>有BOM</code> 的文件编译。顾，解决办法是对于此文件进行 BOM 去除。</li>
+<li>批量去除 BOM，你可以 Google：<code>批量去除 BOM</code>、<code>批量转换无 BOM</code> 等关键字，网络上已有提供各种方案。</li>
+<li>除了通过去除 BOM 还有设置 IntelliJ IDEA 的编译器为 <code>Eclipse</code>，但是一般不建议这样做。</li>
+<li>如果上述问题都无法解决，而且你也确认 IntelliJ IDEA 各个配置编码的地方都是 <code>UTF-8</code>，报错文件编码也是是  <code>UTF-8 无 BOM</code> 的话，那还有一种可能也会出现这种情况：项目配置文件有问题。项目编码的配置文件在：<code>/项目目录/.idea/encodings.xml</code>。如果你会修改此文件可以进行修改，如果不会，那就删除掉 <code>.idea</code> 整个目录，重启 IntelliJ IDEA 重新配置这个项目即可。</li>
+</ul>
+</blockquote>
+</blockquote>
+</body>
+</html>
+<!-- This document was created with MarkdownPad, the Markdown editor for Windows (http://markdownpad.com) -->
