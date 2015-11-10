@@ -468,9 +468,54 @@ vertical-align:1px;
 </style>
 </head>
 <body>
-<p>处理 GitHub 风格 Markdown 时出错.</p><p><strong>GitHub API 已达到使用上限.
+<h1 id="intellij-idea-java-jrebel-">IntelliJ IDEA 的 Java 热部署插件 JRebel 安装及使用</h1>
+<h2 id="jrebel-">JRebel 介绍</h2>
+<p>在 Java Web 开发中， 一般更新了 Java 文件后要手动重启 Tomcat 服务器， 才能生效， 浪费不少生命啊， 自从有了 JRebel 这神器的出现， 不论是更新 class 类还是更新 Spring 配置文件都能做到立马生效，大大提高开发效率。</p>
+<h2 id="jrebel-">JRebel 安装</h2>
+<p>JRebel 的安装方法有两种， 一种是直接在 Tomcat 启动参数上面加上 JRebel 的参数， 另外一种是以插件的形式装到 IntelliJ IDEA 上， 比较推荐后者。</p>
+<p>首先先介绍第一种安装方法， 先在硬盘某个位置把 JRebel 解压出来</p>
+<p>然后配置 IntelliJ IDEA 的 Tomcat</p>
+<p><img src="./images/xxviii-jrebel-setup-1.jpg" alt="enter description here" title="xxviii-jrebel-setup-1.jpg"></p>
+<p>点 <code>+</code> 号选择 <code>Tomcat Server</code> -&gt; <code>Local</code></p>
+<p><img src="./images/xxviii-jrebel-setup-2.jpg" alt="enter description here" title="xxviii-jrebel-setup-2.jpg"></p>
+<p>默认显示如图</p>
+<p><img src="./images/xxviii-jrebel-setup-3.jpg" alt="enter description here" title="xxviii-jrebel-setup-3.jpg"></p>
+<p>几个关键的地方需要注意的， 就是首先要选择 <code>Deployment</code> 这个选项卡</p>
+<p><img src="./images/xxviii-jrebel-setup-4.jpg" alt="enter description here" title="xxviii-jrebel-setup-4.jpg"></p>
+<p>选择自己的项目， 建议选择带 <code>exploded</code>， 这个相当于改 Tomcat 的 CATALINA_HOME， 效率比较高</p>
+<p><img src="./images/xxviii-jrebel-setup-5.jpg" alt="enter description here" title="xxviii-jrebel-setup-5.jpg"></p>
+<p>选择好后， 删掉默认的Make， 提高效率</p>
+<p><img src="./images/xxviii-jrebel-setup-6.jpg" alt="enter description here" title="xxviii-jrebel-setup-6.jpg"></p>
+<p>接下来返回 <code>Server</code> 选项卡， 会发现多了一项 <code>On frame deactivation</code>， 如果你刚才没有配置 <code>Deployment</code> 选项卡的话的这项是不会出现的</p>
+<p>按如图所示的来配置， 特别需要注意的是 <code>On &#39;Update&#39; action</code> 和<code>On frame deactivation</code> 这两项目一定要选择 <code>Update classes and resources</code>， 否则类修改热部署不生效， 或者第三方模版框架例如 Freemarker 热部署不生效</p>
+<p><img src="./images/xxviii-jrebel-setup-7.jpg" alt="enter description here" title="xxviii-jrebel-setup-7.jpg"></p>
+<p>接下来就是很关键的需要引入 JRebel 的地方了， 在 VM options 的最右边有个箭头， 点进去</p>
+<p><img src="./images/xxviii-jrebel-setup-8.jpg" alt="enter description here" title="xxviii-jrebel-setup-8.jpg"></p>
+<p>Windows 输入:</p>
+<pre><code>-noverify
+-agentpath:D:/dev_env/jrebel/jrebel_running/lib/jrebel64.dll
+</code></pre><p><img src="./images/xxviii-jrebel-setup-9.jpg" alt="enter description here" title="xxviii-jrebel-setup-9.jpg"></p>
+<p>Linux 用这个：</p>
+<pre><code>-agentpath:/dev_env/jrebel/jrebel_running/lib/libjrebel64.so
+</code></pre><p><img src="./images/xxviii-jrebel-setup-10.jpg" alt="enter description here" title="xxviii-jrebel-setup-10.jpg"></p>
+<p>Mac OS 用这个：</p>
+<pre><code>-agentpath:/dev_env/jrebel/jrebel_running/lib/libjrebel64.dylib
+</code></pre><p><img src="./images/xxviii-jrebel-setup-11.jpg" alt="enter description here" title="xxviii-jrebel-setup-11.jpg"></p>
+<p>配置完成， 直接启动 Tomcat 即可， 不过此方法麻烦， 每次新建项目都要从新配置</p>
+<p>接下来介绍使用 IntelliJ IDEA 插件的方式启动 JRebel</p>
+<p>首先是安装 JRebel 的插件， 安装方法和其他插件安装方法一样， 不过这里不采用在线安装， 直接选择本地安装， 直接选择插件安装即可</p>
+<p><img src="./images/xxviii-jrebel-setup-12.jpg" alt="enter description here" title="xxviii-jrebel-setup-12.jpg"></p>
+<p>安装好后在设置里面会多出一项JRebel的配置</p>
+<p>查看一下插件是否有效</p>
+<p><img src="./images/xxviii-jrebel-setup-15.jpg" alt="enter description here" title="xxviii-jrebel-setup-15.jpg"></p>
+<p>绿色的 <code>VALID</code> 表示是有效的</p>
+<p>在原来运行项目的按钮边上会多出两个绿色的按钮， 如图， 前面那个是 <code>Run</code>， 后面那个是 <code>Debug</code></p>
+<p><img src="./images/xxviii-jrebel-setup-13.jpg" alt="enter description here" title="xxviii-jrebel-setup-13.jpg"></p>
+<p>配置 Tomcat 的方法和直接上面说的直接调用配置方法一样， 同样需要注意的是 <code>On &#39;Update&#39; action</code> 和 <code>On frame deactivation</code> 这两项目一定要选择 <code>Update classes and resources</code>， 唯一不同的是 VM options 这项不需要填， 放空就好<br>接下来直接启动项目， 一般选择后面那个 Debug 按钮</p>
+<p><img src="./images/xxviii-jrebel-setup-14.jpg" alt="enter description here" title="xxviii-jrebel-setup-14.jpg"></p>
+<p>看到 Log 有 JRebel 输出的版本信息， 没有报错就是表示成功执行了， 随便改一个类试试吧</p>
+<p>JRebel 官网有免费激活服务，到官网注册领取，请支持正版</p>
 
-如果您正在使用匿名模式, 建议到 工具 --> 选项 --> Markdown 登录到 GitHub 来解除限制.</strong></p><p>如果问题仍然存在, 请反馈该错误.</p>
 </body>
 </html>
 <!-- This document was created with MarkdownPad, the Markdown editor for Windows (http://markdownpad.com) -->
