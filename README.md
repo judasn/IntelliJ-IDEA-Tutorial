@@ -16,6 +16,9 @@
 如果你想参与完善该教程，请移步到 Github 上进行 Fork：
 > * 地址：<https://github.com/judasn/IntelliJ-IDEA-Tutorial/>
 
+如果你需要一份电子版，请查看：
+> * 地址：<http://pan.baidu.com/s/1pJreeuB>
+
 ## 目录(Contents)
 
 - [1.IntelliJ IDEA 介绍](introduce.md)
