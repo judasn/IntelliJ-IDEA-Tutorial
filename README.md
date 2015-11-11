@@ -18,7 +18,8 @@
 
 如果你需要一份电子版，请查看：
 > * 百度云：<http://pan.baidu.com/s/1i3wFYPB>
-> * Google Drive：<https://drive.google.com/file/d/0B5gjjw8peC5Sa19vVEswbTRYYUU/view?usp=sharing>
+> * Google Drive：[https://drive.google.com/file/d/0B5...UU/view?usp=sharing](https://drive.google.com/file/d/0B5gjjw8peC5Sa19vVEswbTRYYUU/view?usp=sharing "Google Drive")
+
 
 ## 目录(Contents)
 
