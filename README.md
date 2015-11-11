@@ -17,7 +17,8 @@
 > * 地址：<https://github.com/judasn/IntelliJ-IDEA-Tutorial/>
 
 如果你需要一份电子版，请查看：
-> * 地址：<http://pan.baidu.com/s/1pJreeuB>
+> * 百度云：<http://pan.baidu.com/s/1i3wFYPB>
+> * Google Drive：<https://drive.google.com/file/d/0B5gjjw8peC5Sa19vVEswbTRYYUU/view?usp=sharing>
 
 ## 目录(Contents)
 
