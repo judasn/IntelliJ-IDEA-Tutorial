@@ -82,3 +82,5 @@ Judas.n
 |Judas.n|<http://www.YouMeek.com>|
 |温泉|<https://github.com/wenquan0hf>|
 |zhenhappy|<https://github.com/zhenhappy>|
+|two8g|<https://github.com/two8g>|
+|Dectinc|<https://github.com/Dectinc>|
