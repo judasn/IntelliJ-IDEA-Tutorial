@@ -2,6 +2,8 @@
 
 根据官方pdf翻译：https://resources.jetbrains.com/assets/products/intellij-idea/IntelliJIDEA_ReferenceCard_Mac.pdf
 
+> 建议将Mac系统中与IntelliJ IDEA冲突的快捷键取消或更改掉，不建议改IntelliJ IDEA的快捷键。
+
 #### Mac键盘符号和修饰键说明
 - `⌘` Command
 - `⇧` Shift
