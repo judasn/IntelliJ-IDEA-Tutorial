@@ -50,7 +50,8 @@
 - [25.重构讲解](refactor-introduce.md)
 - [26.数据库管理工具](database-introduce.md)
 - [27.IntelliJ IDEA 常用设置](settings-introduce.md)
-- [28.IntelliJ IDEA 常用快捷键讲解](keymap-introduce.md)
+- [28.IntelliJ IDEA 常用快捷键讲解（Win+Linux）](keymap-introduce.md)
+- [28.IntelliJ IDEA 常用快捷键讲解（Mac）](keymap-mac-introduce.md)
 - [29.IntelliJ IDEA 的 Java 热部署插件 JRebel 安装及使用](jrebel-setup.md)
 - [30.本教程总结](this-tutorial-the-end.md)
 
@@ -84,3 +85,4 @@ Judas.n
 |zhenhappy|<https://github.com/zhenhappy>|
 |two8g|<https://github.com/two8g>|
 |Dectinc|<https://github.com/Dectinc>|
+|Caliven|<https://github.com/caliven>|
