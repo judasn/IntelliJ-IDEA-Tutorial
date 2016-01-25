@@ -1,8 +1,8 @@
 # IntelliJ IDEA For Mac 快捷键
 
-根据官方pdf翻译：https://resources.jetbrains.com/assets/products/intellij-idea/IntelliJIDEA_ReferenceCard_Mac.pdf
+根据官方pdf翻译：<https://resources.jetbrains.com/assets/products/intellij-idea/IntelliJIDEA_ReferenceCard_Mac.pdf>
 
-> 建议将Mac系统中与IntelliJ IDEA冲突的快捷键取消或更改，不建议改IntelliJ IDEA的默认快捷键。
+> 建议将 Mac 系统中与 IntelliJ IDEA 冲突的快捷键取消或更改，不建议改 IntelliJ IDEA 的默认快捷键。
 
 #### Mac键盘符号和修饰键说明
 - `⌘` Command
