@@ -65,7 +65,7 @@
 
 > * 如上图标注红圈所示，可以对编辑代码内容的变量。
 > * 如上图标注 1 所示，演示中变量名 `$CLASS_NAME$`、`$METHOD_NAME$` 会自动输出当前类名和方法名是因为使用对应的函数 `className()` 和 `methodName()`。
-> * 如上图标注 2 所示，如上面介绍的，每个变量都是一次光标位置，但是演示中变量名 `$CLASS_NAME$`、`$METHOD_NAME$` 没有进入，是因为勾选了 `Ship if defined`。 
+> * 如上图标注 2 所示，如上面介绍的，每个变量都是一次光标位置，但是演示中变量名 `$CLASS_NAME$`、`$METHOD_NAME$` 没有进入，是因为勾选了 `Skip if defined`。 
 > * 如上图标注 3 所示，可以改变变量光标跳转时的顺序。
 > * 内置函数介绍：<https://www.jetbrains.com/idea/help/live-template-variables.html>
 >
