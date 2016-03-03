@@ -37,7 +37,7 @@
 下面我们以著名的 `spring-framework` 项目为例介绍多 Module 的结构的：
 
 > * 项目主页：<https://github.com/spring-projects/spring-framework>：
-> * 该项目的 `Project` 命名是：spring-framework。该目录主要作用为各个 `Module` 的顶层目录进行约束，告诉协同者，这个目录下都是 `spring-framework` 相关的，我绝不对放 Android 相关源码、文档、文件在上面的。该目录并不是以一个实际性的目录来提现的，所以你访问主页是看不到的，但是当你 `checkout` 的时候，你必须为这个项目命名，至于命名默认就是 `spring-framework`。
+> * 该项目的 `Project` 命名是：spring-framework。该目录主要作用为各个 `Module` 的顶层目录进行约束，告诉协同者，这个目录下都是 `spring-framework` 相关的，我绝不会放 Android 相关源码、文档、文件在上面的。该目录并不是以一个实际性的目录来体现的，所以你访问主页是看不到的，但是当你 `checkout` 的时候，你必须为这个项目命名，至于命名默认就是 `spring-framework`。
 > * 该 `Project` 下有二十来个 `Module`，各个 `Module` 的命名也是有含义的，比如：`spring-core`、`spring-jdbc`、`spring-jms`、`spring-orm`、`spring-web`、`spring-webmvc` 等等，我们通过这些命名也能清楚地知道他们要表达的含义，这些 Module 下也都各自有 `src` 编码目录，可以自行编码和构建。
 
 ![Project 和 Module 介绍](images/xiv-a-project-and-module-introduce-1.gif)
