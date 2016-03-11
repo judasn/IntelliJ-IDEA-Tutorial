@@ -59,9 +59,9 @@
 
 Judas.n
 > * Email：`judas.n@qq.com`（常用） or `admin@youmeek.com`（备用）
-> * Blog：<http://www.YouMeek.com>
-> * IntelliJ IDEA QQ 群：`244908708`，入群请看：<http://www.youmeek.com/idea>
-> * 欢迎捐赠^_^：<http://www.youmeek.com/donate>
+> * Blog：<http://code.YouMeek.com>
+> * IntelliJ IDEA QQ 交流群：入群请看：<https://github.com/judasn/IntelliJ-IDEA-Java-Conversation>
+> * 欢迎捐赠 ^_^：<http://www.youmeek.com/donate>
 
 ## 参与完善教程(Participate)
 
