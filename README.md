@@ -80,7 +80,7 @@ Judas.n
 
 |作者(按参与时间排序)|地址|
 |:---------|:---------|
-|Judas.n|<http://www.YouMeek.com>|
+|Judas.n|<http://code.YouMeek.com>|
 |温泉|<https://github.com/wenquan0hf>|
 |zhenhappy|<https://github.com/zhenhappy>|
 |two8g|<https://github.com/two8g>|
