@@ -57,7 +57,6 @@
 
 ## 联系(Contact)
 
-Judas.n
 > * Email：`judas.n@qq.com`（常用） or `admin@youmeek.com`（备用）
 > * Blog：<http://code.YouMeek.com>
 > * IntelliJ IDEA QQ 交流群：入群请看：<https://github.com/judasn/IntelliJ-IDEA-Java-Conversation>
@@ -76,7 +75,7 @@ Judas.n
 > * Star：收藏该项目，在你的头像上有一个“Your stars”链接，可以看到你的收藏列表。
 > * Fork：复制一份项目到的Github空间上，你可以自己开发自己的这个地址项目，然后 Pull Request 给项目原主人。 
 
-## 参与作者汇总
+## 参与作者汇总(Author)
 
 |作者(按参与时间排序)|地址|
 |:---------|:---------|
