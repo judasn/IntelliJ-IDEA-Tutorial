@@ -2,23 +2,17 @@
 
 ## 介绍(Introduce)
 
-本系列教程历时两个多月，第一个版本已经完成，目前在不定时进行调整和补充，需要关注更新的请 `Watch`、`Star`、`Fork`。
-
-特别需要友情提醒的是：请 `Fork` 之后，在我的基础上按你自己喜欢的方式整理一套属于你自己的快捷键列表，并导出为 PDF，以备不时查阅，对于提升开发效率是很有帮助的！文章的图片建议在需要的时候可以 `右键 - 查看图像（在新标签页打开图片）` 进行原图查看。或者建议你放大页面缩放比例（快捷键 `Ctrl + 鼠标滚轮`），可以更加清楚地看清图片细节。
-
-同时也邀请您一起参与完善该教程，欢迎反馈错误和意见！！！
-
-本系列文章唯一授权的商业网站是：[极客学院](http://www.jikexueyuan.com/)，其他商业网站一律禁止转载。个人博客、公众号等载体请在转载写明出处链接。
-
-如果你只是单纯要阅读的话，建议移步极客学院上观看，访问速度快很多：
-> * 地址：<http://wiki.jikexueyuan.com/project/intellij-idea-tutorial/>
-
-如果你想参与完善该教程，请移步到 Github 上进行 Fork：
-> * 地址：<https://github.com/judasn/IntelliJ-IDEA-Tutorial/>
-
-如果你需要一份电子版，请查看：
-> * 百度云：<http://pan.baidu.com/s/1i3wFYPB>
-> * Google Drive：[https://drive.google.com/file/d/0B5...UU/view?usp=sharing](https://drive.google.com/file/d/0B5gjjw8peC5Sa19vVEswbTRYYUU/view?usp=sharing "Google Drive")
+- 本系列教程历时两个多月，第一个版本已经完成，目前在不定时进行调整和补充，需要关注更新的请 `Watch`、`Star`、`Fork`。
+- 特别需要友情提醒的是：请 `Fork` 之后，在我的基础上按你自己喜欢的方式整理一套属于你自己的快捷键列表，并导出为 PDF，以备不时查阅，对于提升开发效率是很有帮助的！文章的图片建议在需要的时候可以 `右键 - 查看图像（在新标签页打开图片）` 进行原图查看。或者建议你放大页面缩放比例（快捷键 `Ctrl + 鼠标滚轮`），可以更加清楚地看清图片细节。
+- 同时也邀请您一起参与完善该教程，欢迎反馈错误和意见！！！
+- 本系列文章唯一授权的商业网站是：[极客学院](http://www.jikexueyuan.com/)，其他商业网站一律禁止转载。个人博客、公众号等载体请在转载写明出处链接。
+-如果你只是单纯要阅读的话，建议移步极客学院上观看，访问速度快很多：
+    - 地址：<http://wiki.jikexueyuan.com/project/intellij-idea-tutorial/>
+- 如果你想参与完善该教程，请移步到 Github 上进行 Fork：
+    - 地址：<https://github.com/judasn/IntelliJ-IDEA-Tutorial/>
+- 如果你需要一份电子版，请查看：
+    - 百度云：<http://pan.baidu.com/s/1i3wFYPB>
+    - Google Drive：[https://drive.google.com/file/d/0B5...UU/view?usp=sharing](https://drive.google.com/file/d/0B5gjjw8peC5Sa19vVEswbTRYYUU/view?usp=sharing "Google Drive")
 
 
 ## 目录(Contents)
@@ -57,23 +51,31 @@
 
 ## 联系(Contact)
 
-> * Email：`judas.n@qq.com`（常用） or `admin@youmeek.com`（备用）
-> * Blog：<http://code.YouMeek.com>
-> * IntelliJ IDEA QQ 交流群：入群请看：<https://github.com/judasn/IntelliJ-IDEA-Java-Conversation>
-> * 欢迎捐赠 ^_^：<http://www.youmeek.com/donate>
+- Email：`judas.n@qq.com`（常用） or `admin@youmeek.com`（备用）
+- Blog：<http://code.YouMeek.com>
+- IntelliJ IDEA QQ 交流群：入群请看：<https://github.com/judasn/IntelliJ-IDEA-Java-Conversation>
+- 欢迎捐赠 ^_^：<http://www.youmeek.com/donate>
 
-## 参与完善教程(Participate)
 
-如果您不会使用 Git 或是 Github 也没关系，请认真学习下面三个视频教程：
-> * [@Markdown 介绍+语法+笔记+常用工具推荐(视频教程)](http://www.youmeek.com/markdown-introduce-and-markdownpad2-download/)
-> * [@IntelliJ IDEA 第八部分(视频讲解)：Git 和 Github 专讲](http://www.youmeek.com/intellij-idea-part-viii-git-and-github/)
-> * [@IntelliJ IDEA13 下 Github 协同合作全流程(视频教程)](http://www.youmeek.com/intellij-idea-13-github-pull-request-video-tutorial/)
+## Gtihub 协同视频教程(Participate)
+
+- 如果您不会使用 Git 或是 Github 也没关系，请认真学习下面视频教程：
+- Judas.n 录制
+    - 视频格式：MP4
+    - 片长：16 min
+    - 文件大小：62 M
+- 下载
+    - 百度云盘：<http://pan.baidu.com/s/1bogmTLd>
+    - 360 网盘（2fb5）：<https://yunpan.cn/cYez7W9xnHs3c>
+- 在线观看
+    - AcFun：<http://www.acfun.tv/v/2607995.aspx>
+
 
 ## Github 常用按钮说明
 
-> * Watch：关注该项目，作者有更新的时候，会在你的 Github 主页有通知消息。
-> * Star：收藏该项目，在你的头像上有一个“Your stars”链接，可以看到你的收藏列表。
-> * Fork：复制一份项目到的Github空间上，你可以自己开发自己的这个地址项目，然后 Pull Request 给项目原主人。 
+- Watch：关注该项目，作者有更新的时候，会在你的 Github 主页有通知消息。
+- Star：收藏该项目，在你的头像上有一个“Your stars”链接，可以看到你的收藏列表。
+- Fork：复制一份项目到的Github空间上，你可以自己开发自己的这个地址项目，然后 Pull Request 给项目原主人。 
 
 ## 参与作者汇总(Author)
 
