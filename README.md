@@ -68,8 +68,6 @@
 - 下载
     - 百度云盘：<http://pan.baidu.com/s/1bogmTLd>
     - 360 网盘（2fb5）：<https://yunpan.cn/cYez7W9xnHs3c>
-- 在线观看
-    - AcFun：<http://www.acfun.tv/v/2607995.aspx>
 
 
 ## Github 常用按钮说明
