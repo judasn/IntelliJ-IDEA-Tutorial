@@ -44,11 +44,12 @@
 - [25.Debug 讲解](debug-introduce.md)
 - [26.重构讲解](refactor-introduce.md)
 - [27.数据库管理工具](database-introduce.md)
-- [28.IntelliJ IDEA 常用设置](settings-introduce.md)
-- [29.IntelliJ IDEA 常用快捷键讲解（Win+Linux）](keymap-introduce.md)
-- [30.IntelliJ IDEA 常用快捷键讲解（Mac）](keymap-mac-introduce.md)
-- [31.IntelliJ IDEA 的 Java 热部署插件 JRebel 安装及使用](jrebel-setup.md)
-- [32.本教程总结](this-tutorial-the-end.md)
+- [28.IntelliJ IDEA 常用设置-1](settings-introduce-1.md)
+- [29.IntelliJ IDEA 常用设置-2](settings-introduce-2.md)
+- [30.IntelliJ IDEA 常用快捷键讲解（Win+Linux）](keymap-introduce.md)
+- [31.IntelliJ IDEA 常用快捷键讲解（Mac）](keymap-mac-introduce.md)
+- [32.IntelliJ IDEA 的 Java 热部署插件 JRebel 安装及使用](jrebel-setup.md)
+- [33.本教程总结](this-tutorial-the-end.md)
 
 ## 联系(Contact)
 
