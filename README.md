@@ -31,7 +31,7 @@
 - [12.索引的讲解](IntelliJ-IDEA-cache.md)
 - [13.编译方式讲解](make-introduce.md)
 - [14.项目相关概念讲解](project-composition-introduce.md)
-- [15.Hello World 项目创建和项目配置文件讲解](project-settings.md)
+- [15.Hello World 的 Java 项目创建和项目配置文件讲解](project-settings.md)
 - [16.版本控制讲解](vcs-introduce.md)
 - [17.实时代码模板讲解](live-templates-introduce.md)
 - [18.文件代码模板讲解](file-templates-introduce.md)
