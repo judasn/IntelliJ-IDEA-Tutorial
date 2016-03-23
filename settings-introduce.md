@@ -162,6 +162,10 @@ IntelliJ IDEA 有很多人性化的设置我们必须单独拿出来讲解，也
 
 > * 如上图 Gif 所示，IntelliJ IDEA 自带模拟请求工具 Rest Client，在开发时用来模拟请求是非常好用的。
 
+![常用设置](images/xxvi-a-settings-introduce-36.gif)
+
+> * 如上图 Gif 所示，IntelliJ IDEA 的自定义 TODO 功能非常好用，强烈建议平时开发要经常使用上。
+
 
 
 
