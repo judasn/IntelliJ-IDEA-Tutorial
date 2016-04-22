@@ -8,6 +8,8 @@
 
 JRebel 的安装方法有两种， 一种是直接在 Tomcat 启动参数上面加上 JRebel 的参数， 另外一种是以插件的形式装到 IntelliJ IDEA 上， 比较推荐后者。
 
+### 第一种安装方法：在 Tomcat 启动参数上加参数
+
 首先先介绍第一种安装方法， 先在硬盘某个位置把 JRebel 解压出来
 
 然后配置 IntelliJ IDEA 的 Tomcat
@@ -64,6 +66,8 @@ Mac OS 用这个：
 ![enter description here][11]
 
 配置完成， 直接启动 Tomcat 即可， 不过此方法麻烦， 每次新建项目都要从新配置
+
+### 第二种安装方法：使用 IntelliJ IDEA 插件
 
 接下来介绍使用 IntelliJ IDEA 插件的方式启动 JRebel
 
