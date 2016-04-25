@@ -31,4 +31,5 @@
 - [31.IntelliJ IDEA 常用快捷键讲解（Win+Linux）](keymap-introduce.md)
 - [32.IntelliJ IDEA 常用快捷键讲解（Mac）](keymap-mac-introduce.md)
 - [33.IntelliJ IDEA 的 Java 热部署插件 JRebel 安装及使用](jrebel-setup.md)
-- [34.本教程总结](this-tutorial-the-end.md)
+- [34.IntelliJ IDEA 远程调试](remote-debugging.md)
+- [35.本教程总结](this-tutorial-the-end.md)
