@@ -42,7 +42,7 @@
 |插件名称    |插件介绍      |官网地址        |
 |:-----------------|:----------|:--------------|
 |Key promoter|快捷键提示|<https://plugins.jetbrains.com/plugin/4455?pr=idea>|
-|CamelCase|驼峰式命名和下划线命名交替变化|<https://plugins.jetbrains.com/plugin/7160?pr=idea>|
+|String Manipulation|驼峰式命名和下划线命名交替变化|<https://plugins.jetbrains.com/plugin/2162?pr=idea>|
 |CheckStyle-IDEA|代码规范检查|<https://plugins.jetbrains.com/plugin/1065?pr=idea>|
 |FindBugs-IDEA|潜在 Bug 检查|<https://plugins.jetbrains.com/plugin/3847?pr=idea>|
 |MetricsReloaded|代码复杂度检查|<https://plugins.jetbrains.com/plugin/93?pr=idea>|
