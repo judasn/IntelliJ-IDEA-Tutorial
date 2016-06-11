@@ -24,7 +24,7 @@
 - [5.Mac 下安装](mac-install.md)
 - [6.安装总结](install-summarize.md)
 - [7.首次运行](first-run-wizard.md)
-- [8.安装目录讲解](installation-directory-introduce.md)
+- [8.安装目录讲解、IDE 设置云同步](installation-directory-introduce.md)
 - [9.界面讲解](interface-introduce.md)
 - [10.主题字体和文件编码修改](theme-settings.md)
 - [11.各类文件类型图标讲解](file-symbols-introduce.md)
