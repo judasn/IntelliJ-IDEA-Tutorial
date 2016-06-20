@@ -46,7 +46,7 @@ IntelliJ IDEA 对自己的定义是很清晰的，对于新人来讲可能还不
 |:--------------|:--------------------|:----------|
 |Spring MVC     |HTML5         |Tomcat     |
 |GWT            |CSS3          |TomEE      |
-|Vaadin         |SASS          |WebLogin   |
+|Vaadin         |SASS          |WebLogic   |
 |Play           |LESS          |JBoss      |
 |Grails         |JavaScript    |Jetty      |
 |Web Services   |CoffeeScript  |WebSphere  |
