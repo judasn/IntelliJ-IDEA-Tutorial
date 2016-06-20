@@ -94,7 +94,9 @@ Mac OS 用这个：
 
 看到 Log 有 JRebel 输出的版本信息， 没有报错就是表示成功执行了， 随便改一个类试试吧
 
-JRebel 官网有免费激活服务，到官网注册领取，请支持正版
+JRebel 官网有免费激活服务，到官网注册领取，请支持正版：
+
+- 官网注册，注册完就会显示一串密钥了：<https://zeroturnaround.com/software/jrebel/trial/>
 
   [1]: ./images/xxviii-jrebel-setup-1.jpg "xxviii-jrebel-setup-1.jpg"
   [2]: ./images/xxviii-jrebel-setup-2.jpg "xxviii-jrebel-setup-2.jpg"
