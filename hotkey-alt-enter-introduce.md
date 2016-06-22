@@ -29,9 +29,12 @@
 
 > * 移除未使用的变量、对象等元素
 
+![智能辅助](images/hotkey-alt-enter-introduce-6.gif)
+
+> * 对属性创建 set、get 方法
+
 
 - 待整理：
-	- 对属性创建 set、get 方法
 	- 添加 doc
 	- 把自己造的单词加入词库中
 	- 快速移除当前类所继承的接口，并且同时清空已经写好的该接口所有的 Override 方法
