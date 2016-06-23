@@ -2,9 +2,9 @@
 
 ## 说明
 
-这是一个非常特殊的快捷键，有必要拿出来单独讲
-
-可以从几个思路：Java 类、JSP、HTML、JavaScript、CSS、SQL 等文件类型
+- 这是一个非常特殊的快捷键，有必要拿出来单独讲。
+- **强烈注意**：此快捷键跟光标所在位置有着很严重关联关系，光标放的位置不同，使用此快捷键出来的菜单选项完全不一样。
+- 可以从几个思路：Java 类、JSP、HTML、JavaScript、CSS、SQL 等文件类型
 
 ## 智能辅助
 
@@ -33,11 +33,25 @@
 
 > * 对属性创建 set、get 方法
 
+![智能辅助](images/hotkey-alt-enter-introduce-7.gif)
+
+> * 添加 doc，只能把光标放在方法名或是变量名等这类元素上才会有
+
+![智能辅助](images/hotkey-alt-enter-introduce-8.gif)
+
+> * 把自己造的单词加入词库中，让拼写单词检查错误的波浪线效果消失。
+
+![智能辅助](images/hotkey-alt-enter-introduce-9.jpg)
+
+> * 自己造的词库在上图所示位置。
+
+![智能辅助](images/hotkey-alt-enter-introduce-10.gif)
+
+> * 快速移除当前类所继承的接口，并且同时清空已经写好的该接口所有的 Override 方法。
+> * 光标只能方式 **接口实现类** 上的 **接口对象单词** 上才可以实现。
+
 
 - 待整理：
-	- 添加 doc
-	- 把自己造的单词加入词库中
-	- 快速移除当前类所继承的接口，并且同时清空已经写好的该接口所有的 Override 方法
 	- 修改光标当前元素的作用域
 	- 从接口实现类中的方法跳转到接口类中
 	- 根据 Language Level 给不同意见，比如：List<SysRole> sysRoleList = new ArrayList<SysRole>(); 和 List<SysRole> sysRoleList = new ArrayList<>();
