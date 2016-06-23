@@ -50,15 +50,31 @@
 > * 快速移除当前类所继承的接口，并且同时清空已经写好的该接口所有的 Override 方法。
 > * 光标只能方式 **接口实现类** 上的 **接口对象单词** 上才可以实现。
 
+![智能辅助](images/hotkey-alt-enter-introduce-11.gif)
 
-- 待整理：
-	- 修改光标当前元素的作用域
-	- 从接口实现类中的方法跳转到接口类中
-	- 根据 Language Level 给不同意见，比如：List<SysRole> sysRoleList = new ArrayList<SysRole>(); 和 List<SysRole> sysRoleList = new ArrayList<>();
-	- 切换成静态导入，比如：CollectionUtils.isNotEmpty
-	- 自动添加强转前缀内容
-	- 给 hibernate 的 Entity 对象分配数据源，从而产生一系列智能功能
-	- 对光标所在的对象进行包导入
+> * 修改光标当前元素的作用域
+
+![智能辅助](images/hotkey-alt-enter-introduce-12.gif)
+
+> * 给调用的方法生成返回值
+> * 根据返回值自动强转
+
+![智能辅助](images/hotkey-alt-enter-introduce-13.gif)
+
+> * 对光标所在的对象进行包导入
+
+![智能辅助](images/hotkey-alt-enter-introduce-14.gif)
+
+> * 切换成静态导入
+
+![智能辅助](images/hotkey-alt-enter-introduce-15.gif)
+
+> * 根据 Language Level 级别不同，JDK 特性不同，给不同意见。Language Level 的含义在其他章节有讲过。
+
+![智能辅助](images/hotkey-alt-enter-introduce-16.gif)
+
+> * 给 Hibernate 的 Entity 对象分配数据源，从而产生一系列智能功能
+
 
 
 
