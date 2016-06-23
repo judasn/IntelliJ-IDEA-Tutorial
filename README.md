@@ -2,7 +2,8 @@
 
 ## 介绍(Introduce)
 
-- 本系列教程历时两个多月，第一个版本已经完成，目前在不定时进行调整和补充，需要关注更新的请 `Watch`、`Star`、`Fork`。
+- 教程主要面向中文用户，如果你英文良好，建议直接阅读官网帮助文档：<http://www.jetbrains.com/idea/webhelp/getting-help.html>
+- 教程目前在不定时进行调整和补充，需要关注更新的请 `Watch`、`Star`、`Fork`。
 - 特别需要友情提醒的是：请 `Fork` 之后，在我的基础上按你自己喜欢的方式整理一套属于你自己的快捷键列表，并导出为 PDF，以备不时查阅，对于提升开发效率是很有帮助的！文章的图片建议在需要的时候可以 `右键 - 查看图像（在新标签页打开图片）` 进行原图查看。或者建议你放大页面缩放比例（快捷键 `Ctrl + 鼠标滚轮`），可以更加清楚地看清图片细节。
 - 同时也邀请您一起参与完善该教程，欢迎反馈错误和意见！！！
 - 本系列文章唯一授权的商业网站是：[极客学院](http://www.jikexueyuan.com/)，其他商业网站一律禁止转载。个人博客、公众号等载体请在转载写明出处链接。
@@ -10,7 +11,7 @@
     - 地址：<http://wiki.jikexueyuan.com/project/intellij-idea-tutorial/>
 - 如果你想参与完善该教程，请移步到 Github 上进行 Fork：
     - 地址：<https://github.com/judasn/IntelliJ-IDEA-Tutorial/>
-- 如果你需要一份电子版，请查看：
+- 如果你需要一份电子版，请查看（制作电子版很费精力，不会常更新此文件）：
     - 百度云：<http://pan.baidu.com/s/1i3wFYPB>
     - Google Drive：[https://drive.google.com/file/d/0B5...UU/view?usp=sharing](https://drive.google.com/file/d/0B5gjjw8peC5Sa19vVEswbTRYYUU/view?usp=sharing "Google Drive")
 
@@ -79,12 +80,15 @@
 ## Github 常用按钮说明
 
 - Watch：关注该项目，作者有更新的时候，会在你的 Github 主页有通知消息。
-- Star：收藏该项目，在你的头像上有一个“Your stars”链接，可以看到你的收藏列表。
+- Star：收藏该项目，在你的头像上有一个“Your stars”链接，可以看到你的收藏列表，以方便下次进来。
 - Fork：复制一份项目到的Github空间上，你可以自己开发自己的这个地址项目，然后 Pull Request 给项目原主人。 
+
 
 ## 参与作者汇总(Author)
 
 - 真心感谢这些志同道合的人，这个真的很重要，也希望你能一起参与（鞠躬）！
+- 同时感谢那些通过私聊的方式指出一些错误的地方，使得该教程能得以更加完善，真心感谢（鞠躬）！
+
 
 |作者(按参与时间排序)|地址|
 |:---------|:---------|
