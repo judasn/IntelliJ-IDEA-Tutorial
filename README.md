@@ -71,7 +71,7 @@
 - Judas.n 录制
     - 视频格式：MP4
     - 分辨率：1920 X 1080
-    - 片长：16 min
+    - 片长：16 Min
     - 文件大小：62 M
 - 下载
     - 百度云盘：<http://pan.baidu.com/s/1bogmTLd>
