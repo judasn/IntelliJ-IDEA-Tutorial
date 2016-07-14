@@ -40,6 +40,13 @@ IntelliJ IDEA 有很多人性化的设置我们必须单独拿出来讲解，也
 > * 按正常设置 Project 流程的话，我们在 Project 状态下进行 IDE 设置，这些设置并不会被当做一个标准的 IDE 设置模板保存起来，所以你下次打开一个新的 Project 还是要重新设置的，为了简便操作，你可以按上图 Gif 所示进行设置 `Default Settings，这样下次打开新的 Project 就会以这个 IDE 设置进行。
 > * 需要注意的是：设置好配置之后，你需要重启 IntelliJ IDEA，重启之后的 IntelliJ IDEA 重新打开 Project 才能有效果。
 
+![常用设置](images/xxvi-a-settings-introduce-39.jpg)
+
+> * 如上图所示，不管是用 IntelliJ IDEA 打开新文件，或是在安装本地插件，在弹出的窗口中，图 1 按钮支持快速定位到系统桌面目录，图 2 按钮支持快速定位到当前项目目录。
+
+![常用设置](images/xxvi-a-settings-introduce-40.jpg)
+
+> * 2016.2 版本新增箭头指向的按钮，在提交列表里可以显示项目中未加入到版本控制的文件，方便我们在提交的时候做好代码检查，以防漏掉某些文件未提交。
 
 
 
