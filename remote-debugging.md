@@ -28,6 +28,13 @@
 	- 如下图所示：
 	- ![远程 Tomcat 配置](images/remote-debugging-3.jpg)
 
+## 服务器 Jetty 配置
+
+- 同样是 Linux 环境
+- jetty 不像Tomcat那样需要安装，只要有jetty的jar包就可以启动我们想要启动的应用。
+- 在启动应用的时候加入之前上边我们copy的`-agentlib:jdwp=transport=dt_socket,server=y,suspend=n,address=5005`就可以了。
+    - 就像这样：`java -agentlib:jdwp=transport=dt_socket,server=y,suspend=n,address=5005 -jar {your jetty path} {your port} --path {your war} 1>/dev/null 2>&1 &`
+
 
 ## 开始调试
 
