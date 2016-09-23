@@ -33,6 +33,6 @@
 - [33.IntelliJ IDEA 常用快捷键讲解（Win+Linux）](keymap-introduce.md)
 - [34.IntelliJ IDEA 常用快捷键讲解（Mac）](keymap-mac-introduce.md)
 - [35.IntelliJ IDEA 的 Java 热部署插件 JRebel 安装及使用](jrebel-setup.md)
-- [36.IntelliJ IDEA 远程调试](remote-debugging.md)
+- [36.IntelliJ IDEA 远程调试（Tomcat+Jetty）](remote-debugging.md)
 - [37.最特殊的快捷键 Alt + Enter 介绍](hotkey-alt-enter-introduce.md)
 - [38.本教程总结](this-tutorial-the-end.md)
