@@ -31,6 +31,10 @@
 >> * `Copy Template` 复制一个文件代码模板。 
 >> * `Reset To Default` 对被修改的预设文件代码模板，还原到默认状态。
 
+![文件代码模板的设置](images/xviii-b-file-and-code-templates-settings-7.gif)
+
+> * 如上图 Gif 演示，IntelliJ IDEA 默认是没有提供 XML 文件的创建的，所以我自己创建了一个名为：`YouMeek XML` 的文件模板，该模板后缀为：`xml`，里面的初始化内容为：`<?xml version="1.0" encoding="UTF-8"?>`。初始化的内容你可以根据自己的需求进行补充。
+
 ![文件代码模板的设置](images/xviii-b-file-and-code-templates-settings-2.jpg)
 
 > * 如上图标注 1 所示，IntelliJ IDEA 还支持其他常见会新建的文件类型，基本上我们根本不用担心有不支持的文件类型，常用的基本都被涵盖了。
