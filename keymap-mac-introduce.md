@@ -166,7 +166,7 @@
 - `Command + Shift + F12` 切换最大化编辑器
 - `Option + Shift + F` 添加到收藏夹
 - `Option + Shift + I` 检查当前文件与当前的配置文件
-- `Control + \` 快速切换当前的scheme（切换主题、代码样式等）
+- `Control + \`` 快速切换当前的scheme（切换主题、代码样式等）
 - `Command + ,` 打开IDEA系统设置
 - `Command + ;` 打开项目结构对话框
 - `Shift + Command + A` 查找动作（可设置相关选项）
