@@ -57,11 +57,11 @@
 - [32.IntelliJ IDEA 常用设置-4](settings-introduce-4.md)
 - [33.IntelliJ IDEA 常用快捷键讲解（Win+Linux）（新用户必看）](keymap-introduce.md)
 - [34.IntelliJ IDEA 常用快捷键讲解（Mac）（新用户必看）](keymap-mac-introduce.md)
-- [35.IntelliJ IDEA 的 Java 热部署插件 JRebel 安装及使用](jrebel-setup.md)
-- [36.IntelliJ IDEA 远程调试（Tomcat+Jetty）](remote-debugging.md)
-- [37.最特殊的快捷键 Alt + Enter 介绍（新用户必看）](hotkey-alt-enter-introduce.md)
-- [38.本教程总结](this-tutorial-the-end.md)
-
+- [35.从 Windows 过度到 Mac 必备快捷键对照表（新用户必看）](keymap-win-mac.md)
+- [36.IntelliJ IDEA 的 Java 热部署插件 JRebel 安装及使用](jrebel-setup.md)
+- [37.IntelliJ IDEA 远程调试（Tomcat+Jetty）](remote-debugging.md)
+- [38.最特殊的快捷键 Alt + Enter 介绍（新用户必看）](hotkey-alt-enter-introduce.md)
+- [39.本教程总结](this-tutorial-the-end.md)
 
 
 ## 联系(Contact)
