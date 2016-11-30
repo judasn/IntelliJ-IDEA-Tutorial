@@ -63,8 +63,8 @@
 |Alt + F7|Option + F7|查询所选对象/变量被引用|
 |Alt + Enter|Option + Enter|IntelliJ IDEA 根据光标所在问题，提供快速修复选择，光标放在的位置不同提示的结果也不同|
 |Alt + Insert|Command + N|代码自动生成，如生成对象的 set / get 方法，构造函数，toString() 等|
-|Alt + 左方向键|Control + 左方向键|按左方向切换当前已打开的文件视图|
-|Alt + 右方向键|Control + 右方向键|按右方向切换当前已打开的文件视图|
+|Alt + 左方向键|Control + 左方向键|切换当前已打开的窗口中的子视图，比如Debug窗口中有Output、Debugger等子视图，用此快捷键就可以在子视图中切换|
+|Alt + 右方向键|Control + 右方向键|切换当前已打开的窗口中的子视图，比如Debug窗口中有Output、Debugger等子视图，用此快捷键就可以在子视图中切换|
 |Alt + 前方向键|Control + 前方向键|当前光标跳转到当前文件的前一个方法名位置|
 |Alt + 后方向键|Control + 后方向键|当前光标跳转到当前文件的后一个方法名位置|
 |Alt + 1,2,3...9|Command + 1,2,3...9|显示对应数值的选项卡，其中 1 是 Project 用得最多|
