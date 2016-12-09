@@ -99,7 +99,7 @@
 |Ctrl + Shift + J|Control + Shift + J|自动将下一行合并到当前行末尾|
 |Ctrl + Shift + Z|Command + Shift + Z|取消撤销|
 |Ctrl + Shift + W|Option + 方向键下|递进式取消选择代码块。可选中光标所在的单词或段落，连续按会在原有选中的基础上再扩展取消选中范围|
-|Ctrl + Shift + N|Command + Shift + N|通过文件名定位 / 打开文件 / 目录，打开目录需要在输入的内容后面多加一个正斜杠|
+|Ctrl + Shift + N|Command + Shift + O|通过文件名定位 / 打开文件 / 目录，打开目录需要在输入的内容后面多加一个正斜杠|
 |Ctrl + Shift + U|Command + Shift + U|对选中的代码进行大 / 小写轮流转换|
 |Ctrl + Shift + T|Command + Shift + T|对当前类生成单元测试类，如果已经存在的单元测试类则可以进行选择|
 |Ctrl + Shift + C|Command + Shift + C|复制当前文件磁盘路径到剪贴板|
