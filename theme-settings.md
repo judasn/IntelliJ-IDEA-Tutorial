@@ -94,6 +94,6 @@
 
 ## 编程字体推荐
 
-- 下载地址（6380）：<https://yunpan.cn/cYCDxtdUHqcxx>
+- 下载地址：<http://pan.baidu.com/s/1kVoF32R>
   - Microsoft YaHei Consolas
   - Microsoft YaHei Mono
