@@ -7,7 +7,7 @@
 - [7.首次运行（新用户必看）](first-run-wizard.md)
 - [8.安装目录讲解、IDE 设置云同步（新用户必看）](installation-directory-introduce.md)
 - [9.界面讲解（新用户必看）](interface-introduce.md)
-- [10.主题字体和文件编码修改（新用户必看）](theme-settings.md)
+- [10.主题、字体、编辑区主题、文件编码修改、乱码问题（新用户必看）](theme-settings.md)
 - [11.各类文件类型图标讲解（新用户必看）](file-symbols-introduce.md)
 - [12.索引的讲解（新用户必看）](IntelliJ-IDEA-cache.md)
 - [13.编译方式讲解（新用户必看）](make-introduce.md)
