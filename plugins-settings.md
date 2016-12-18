@@ -41,7 +41,7 @@
 
 |插件名称    |插件介绍      |官网地址        |
 |:-----------------|:----------|:--------------|
-|IntelliJ IDEA 官方出的学习辅助插件：IDE Features Trainer|https://plugins.jetbrains.com/plugin/8554?pr=idea|
+|IntelliJ IDEA 官方出的学习辅助插件：IDE Features Trainer|<https://plugins.jetbrains.com/plugin/8554?pr=idea>|
 |Key promoter|快捷键提示|<https://plugins.jetbrains.com/plugin/4455?pr=idea>|
 |String Manipulation|驼峰式命名和下划线命名交替变化|<https://plugins.jetbrains.com/plugin/2162?pr=idea>|
 |CheckStyle-IDEA|代码规范检查|<https://plugins.jetbrains.com/plugin/1065?pr=idea>|

@@ -59,3 +59,7 @@
 # Linux 的配置文件保存路径
 
 - 跟 Windows 的目录命名习惯一样，所以你可以直接按 Windows 的配置目录名称来全盘搜索。
+
+# Mac 下修改 VM 参数
+
+![JVM 配置说明](images/viii-b-mac-vm-settings-1.jpg)

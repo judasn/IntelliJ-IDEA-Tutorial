@@ -26,6 +26,12 @@ IntelliJ IDEA 的便捷操作性，快捷键的功劳占了一大半，对于各
 
 可能还有其他一些软件，比如网易云音乐、有道词典等等这些软件都可能存在快捷键冲突，所以为了 IntelliJ IDEA 这些软件的快捷键都是值得舍弃的，如果你在开发的时候。
 
+
+![前提](images/xxvii-d-keymap-learn-1.gif)
+
+> * IntelliJ IDEA 官方出的学习辅助插件：IDE Features Trainer：<https://plugins.jetbrains.com/plugin/8554?pr=idea>
+
+
 ## Ctrl
 
 |快捷键|介绍|
