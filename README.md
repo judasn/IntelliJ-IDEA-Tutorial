@@ -2,6 +2,7 @@
 
 ## 介绍(Introduce)
 
+- 本套教程适用于：IntelliJ IDEA 14、15、2016 版本
 - 教程主要面向中文用户，如果你英文良好，建议直接阅读官网帮助文档
 	- 官网帮助中心：<http://www.jetbrains.com/idea/webhelp/getting-help.html>
 - 教程目前在不定时进行调整和补充，需要关注更新的请 `Watch`、`Star`、`Fork`。
