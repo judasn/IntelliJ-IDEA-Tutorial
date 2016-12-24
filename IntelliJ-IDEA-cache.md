@@ -27,4 +27,4 @@ IntelliJ IDEA 的缓存和索引主要是用来加快文件查询，从而加快
 
 ![其他](images/xii-a-invalidate-cache-3.jpg)
 
-> * 目前我电脑的 IntelliJ IDEA 是新装的，也就打开了几个小项目，所有打开的项目大小加起来不到 5M，但是他们创建的索引大家就已经上百兆了，如上图所示。所以如果你 C 盘空间不足的情况下，最好转移下 `system` 目录，方法可以根据《IntelliJ IDEA 相关核心文件和目录介绍》讲解的方法进行。
+> * 目前我电脑的 IntelliJ IDEA 是新装的，也就打开了几个小项目，所有打开的项目大小加起来不到 5M，但是他们创建的索引大家就已经上百兆了，如上图所示。所以如果你 C 盘空间不足的情况下，最好转移下 `system` 目录，方法可以根据[《IntelliJ IDEA 相关核心文件和目录介绍》](https://github.com/judasn/IntelliJ-IDEA-Tutorial/blob/newMaster/installation-directory-introduce.md)讲解的方法进行。
