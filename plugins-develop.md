@@ -41,6 +41,7 @@
 - 阅读别人插件有助于你的开发，希望你有一天能开发一个好用的插件。
 - IntelliJ IDEA 的大量插件都是开源的，如果你有遇到你喜欢的插件，可以到 JetBrains 官网上找到这个插件的主页，很有可能在介绍中就有 Github 地址。感谢 Github 的存在。
 - <https://github.com/Skykai521/ECTranslation>
+- <https://github.com/YiiGuxing/TranslationPlugin>
 - <https://github.com/avast/android-butterknife-zelezny>
 - <https://github.com/zzz40500/GsonFormat>
 - <https://github.com/kstenschke/shifter-plugin>
