@@ -42,6 +42,7 @@
 |Ctrl + /|Command + /|注释光标所在行代码，会根据当前不同文件类型使用不同的注释符号|
 |Ctrl + F1|Command + F1|在光标所在的错误代码处显示错误信息|
 |Ctrl + F11|Option + F3|选中文件 / 文件夹，使用助记符设定 / 取消书签|
+|Ctrl + F12|Command + F12|弹出当前文件结构层，可以在弹出的层上直接输入，进行筛选|
 |Ctrl + Space|Control + Space|基础代码补全，默认在 Windows 系统上被输入法占用，需要进行修改，建议修改为 `Ctrl + 逗号`|
 |Ctrl + Delete|Option + Fn + Delete|删除光标后面的单词或是中文句|
 |Ctrl + BackSpace|Option + Delete|删除光标前面的单词或是中文句|
