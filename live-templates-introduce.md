@@ -48,7 +48,7 @@
 > * 如上图标注 5 所示，勾选了辅助的功能：
 >
 >> * `Reformat according to style` 对生成的代码进行格式化。
->> * `Shorten FQ names` 关于此设置的说明我没有找到，所以暂时无法给个很少的解释，只是看到材料说明一般需要勾上此设置，如果您有好的答案，还请联系我。 
+>> * `Shorten FQ names` 表示缩写类的全称限定名。这个一般需要勾选，帮助你把模板里的全称限定名对应的类 import，然后使用的地方改成缩写。
 
 ![实时代码模板的设置](images/xvii-b-live-templates-settings-2.jpg)
 
