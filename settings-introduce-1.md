@@ -41,7 +41,7 @@ IntelliJ IDEA 有很多人性化的设置我们必须单独拿出来讲解，也
 
 ![常用设置](images/xxvi-a-settings-introduce-7.gif)
 
-> * 如上图 Gif 所示，在我们按 `Ctrl + Shift + N` 进行打开某个文件的时候，我们可以直接定位到改文件的行数上。一般我们在调 CSS，根据控制台找空指针异常的时候，使用该方法速度都会相对高一点。
+> * 如上图 Gif 所示，在我们按 `Ctrl + Shift + N` 进行打开某个文件的时候，我们可以直接定位到该文件的行数上。一般我们在调 CSS，根据控制台找空指针异常的时候，使用该方法速度都会相对高一点。
 
 ![常用设置](images/xxvi-a-settings-introduce-8.jpg)
 
