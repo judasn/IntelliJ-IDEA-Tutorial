@@ -113,3 +113,4 @@
 |challengeof|<https://github.com/challengeof>|
 |district10|<https://github.com/district10>|
 |duanluan|<https://github.com/duanluan>|
+|binarywang|<https://github.com/binarywang>|
