@@ -114,3 +114,7 @@
 |district10|<https://github.com/district10>|
 |duanluan|<https://github.com/duanluan>|
 |binarywang|<https://github.com/binarywang>|
+
+## AD
+
+- [我个人开发的个性化定制网址导航：GitNavi.com](http://www.gitnavi.com)
