@@ -21,7 +21,7 @@
 >> * Linux: ~/.<product name><version number>/config/templates
 >> * OS X: ~/Library/Preferences/<product name><version number>/templates 
 
-调用常规的实时代码模板主要是通过两个快捷键：`Tab` 和 `Ctrl + J`。虽然 IntelliJ IDEA 支持修改此对应的快捷键，但是默认大家都是这样使用的，所以没有特别愿意就不要去改。
+调用常规的实时代码模板主要是通过两个快捷键：`Tab` 和 `Ctrl + J`。虽然 IntelliJ IDEA 支持修改此对应的快捷键，但是默认大家都是这样使用的，所以没有特别原因就不要去改。
  
 该两个快捷键的使用方法：如第一张 Gif 演示图所示，在输入 `sys` 后按 `Tab` 键，即立即生成预设语句。如果按 `Ctrl + J` 则会先提示与之匹配的实时代码模板介绍，然后还需按 `Enter` 才可完成预设语句的生成。
 
