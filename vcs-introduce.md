@@ -81,7 +81,7 @@ Git 主要的版本有 1.X、2.X，最新的是 2.X，使用版本随意，但�
 >> * 第二个按钮：`Commit changes` 提交项目上所有变化文件。点击这个按钮不会立马提交所有文件，而是先弹出一个被修改文件的一个汇总框，具体操作下面会有图片进行专门介绍。
 >> * 第三个按钮：`Compare with the Same Repository Version` 当前文件与服务器上该文件通版本的内容进行比较。如果当前编辑的文件没有修改，则是灰色不可点击。
 >> * 第四个按钮：`Show history` 显示当前文件的历史记录。
->> * 第五个按钮：`Revert` 还原当前被修改的文件到违背修改的版本状态下。如果当前编辑的文件没有修改，则是灰色不可点击。
+>> * 第五个按钮：`Revert` 还原当前被修改的文件到未被修改的版本状态下。如果当前编辑的文件没有修改，则是灰色不可点击。
 
 ![版本控制主要操作按钮](images/xvi-e-version-control-system-operation-introduce-4.jpg)
 
@@ -143,7 +143,10 @@ SVN 的这个窗口有的 IntelliJ IDEA 上叫 `Changes`，有的叫 `Version Co
 总的来说，SVN 这个功能用来管理和审查开发团队中人员的代码是非常好用的，所以非常非常建议你一定要学会该功能。
 
 
+## Git 常见问题
 
+- 更新的时候报：`Can't update: no tracked branch`
+	- 解决办法：打开 git-bash（路径：C:\Program Files\Git\git-bash.exe），切换到这个更新不下来的项目的根目录，然后输入：`git branch --set-upstream-to origin/master master`，回车之后重新回到 IntelliJ IDEA 进行更新，正常就可以了。
 
 
 

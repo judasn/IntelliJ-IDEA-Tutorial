@@ -1,4 +1,4 @@
-# IntelliJ IDEA 主题、字体、编辑区主题、文件编码修改
+# IntelliJ IDEA 主题、字体、编辑区主题、文件编码修改、乱码问题
 
 ## 主题修改 
 
@@ -91,9 +91,15 @@
 >> * 除了通过去除 BOM 还有设置 IntelliJ IDEA 的编译器为 `Eclipse`，但是一般不建议这样做。
 >> * 如果上述问题都无法解决，而且你也确认 IntelliJ IDEA 各个配置编码的地方都是 `UTF-8`，报错文件编码也是是  `UTF-8 无 BOM` 的话，那还有一种可能也会出现这种情况：项目配置文件有问题。项目编码的配置文件在：`/项目目录/.idea/encodings.xml`。如果你会修改此文件可以进行修改，如果不会，那就删除掉 `.idea` 整个目录，重启 IntelliJ IDEA 重新配置这个项目即可。
 
+## Tomcat 控制台输出乱码
+
+![Tomcat 控制台输出乱码](images/x-e-encoding-setting-1.jpg)
+
+- 如果你的 Tomcat 控制台输出乱码，并且你已经保证了本文上面的控制台字体设置你设置的字体包含中文，那你还可以尝试下在 Tomcat 的 VM 参数上加上：`-Dfile.encoding=UTF-8`
+- 如果你是 Mac 系统，很有可能是需要的。
 
 ## 编程字体推荐
 
-- 下载地址（6380）：<https://yunpan.cn/cYCDxtdUHqcxx>
+- 下载地址：<http://pan.baidu.com/s/1kVoF32R>
   - Microsoft YaHei Consolas
   - Microsoft YaHei Mono

@@ -21,7 +21,7 @@
 >> * Linux: ~/.<product name><version number>/config/templates
 >> * OS X: ~/Library/Preferences/<product name><version number>/templates 
 
-调用常规的实时代码模板主要是通过两个快捷键：`Tab` 和 `Ctrl + J`。虽然 IntelliJ IDEA 支持修改此对应的快捷键，但是默认大家都是这样使用的，所以没有特别愿意就不要去改。
+调用常规的实时代码模板主要是通过两个快捷键：`Tab` 和 `Ctrl + J`。虽然 IntelliJ IDEA 支持修改此对应的快捷键，但是默认大家都是这样使用的，所以没有特别原因就不要去改。
  
 该两个快捷键的使用方法：如第一张 Gif 演示图所示，在输入 `sys` 后按 `Tab` 键，即立即生成预设语句。如果按 `Ctrl + J` 则会先提示与之匹配的实时代码模板介绍，然后还需按 `Enter` 才可完成预设语句的生成。
 
@@ -48,7 +48,7 @@
 > * 如上图标注 5 所示，勾选了辅助的功能：
 >
 >> * `Reformat according to style` 对生成的代码进行格式化。
->> * `Shorten FQ names` 关于此设置的说明我没有找到，所以暂时无法给个很少的解释，只是看到材料说明一般需要勾上此设置，如果您有好的答案，还请联系我。 
+>> * `Shorten FQ names` 表示缩写类的全称限定名。这个一般需要勾选，帮助你把模板里的全称限定名对应的类 import，然后使用的地方改成缩写。
 
 ![实时代码模板的设置](images/xvii-b-live-templates-settings-2.jpg)
 

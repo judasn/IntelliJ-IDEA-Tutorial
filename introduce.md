@@ -11,7 +11,7 @@
 > * [CLion](http://www.jetbrains.com/clion/ "CLion 主要用于开发 C/C++") 主要用于开发 C / C++
 > * [WebStorm](http://www.jetbrains.com/webstorm/ "WebStorm 主要用于开发 JavaScript 等前端技术") 主要用于开发 JavaScript、HTML5、CSS3 等前端技术
 > * [0xDBE](http://www.jetbrains.com/dbe/ "0xDBE 主要用于开发 SQL") 主要用于开发 SQL
-> * [Android Studio](http://developer.android.com/tools/studio/ "Android Studio 主要用于开发 Android") 主要用于开发 Android（Google 基本 IntelliJ IDEA 社区版进行迭代所以也姑且算上）
+> * [Android Studio](http://developer.android.com/tools/studio/ "Android Studio 主要用于开发 Android") 主要用于开发 Android（Google 基于 IntelliJ IDEA 社区版进行迭代所以也姑且算上）
 
 ## IntelliJ IDEA 介绍
 

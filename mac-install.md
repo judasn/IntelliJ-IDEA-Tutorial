@@ -27,6 +27,14 @@
 ## Mac 修改运行 JDK 版本
 
 ![Mac 下安装过程](images/v-a-mac-install-3.jpg)
+
+- **目前的最新 IntelliJ IDEA 版本已经默认都是使用它自己带的 JDK 环境，所以这个已经不需要再设置了。**
+
 > * 如果你的 Mac 安装有多个 JDK，你想使用高版本的 JDK 运行 IntelliJ IDEA 可以按如下方式进行修改：
 > * 在 `应用程序` 中找到 `IntelliJ IDEA.app` 然后对此进行 `右键 > 显示包内容 > Contents > Info.plist`，效果如上图所示。
 > * 找到上图红圈标注的代码，修改 `JVMVersion` 的属性值，如果是 JDK 7，则改为 `1.7*`。如果是 JDK 8，则改为 `1.8*`。
+
+## Mac 下启动 Tomcat 报 Permission denied
+
+- 这个表示你对你的 Tomcat 目录是没有足够权限的，简单粗暴的方式是你可以把你整个 Tomcat 的 bin 目录都改为 777 的权限
+    - 打开终端，进入 Tomcat\bin 目录，然后执行： `chmod 777 *.sh`
