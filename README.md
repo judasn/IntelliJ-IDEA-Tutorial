@@ -16,10 +16,9 @@
 - 如果你需要一份电子版，请查看（制作电子版很费精力，不会常更新此文件）：
     - 百度云：<http://pan.baidu.com/s/1i3wFYPB>
     - Google Drive：[https://drive.google.com/file/d/0B5...UU/view?usp=sharing](https://drive.google.com/file/d/0B5gjjw8peC5Sa19vVEswbTRYYUU/view?usp=sharing "Google Drive")
-- 2016-10-25 更新，感谢 district10 童鞋做的一个在线阅读版本以及提供打包下载功能：
+- 2016-10-25 更新，感谢 district10 童鞋做的一个在线阅读版本（内容相对比较旧）：
     - district10 主页：<https://github.com/district10>
     - 在线阅读：<http://whudoc.qiniudn.com/2016/IntelliJ-IDEA-Tutorial>
-    - 下载打包：<http://whudoc.qiniudn.com/2016/publish-IntelliJ-IDEA-Tutorial-newMaster.zip> （90.4 MB）
     - 提供的转换脚本: [把文件夹下的 Markdown 文件，转化成 GitHub 风格的 HTML。。](https://github.com/district10/md2html)
 
 ## 目录(Contents)
