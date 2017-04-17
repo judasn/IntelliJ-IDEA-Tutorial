@@ -147,8 +147,10 @@ SVN 的这个窗口有的 IntelliJ IDEA 上叫 `Changes`，有的叫 `Version Co
 
 - 更新的时候报：`Can't update: no tracked branch`
 	- 解决办法：打开 git-bash（路径：C:\Program Files\Git\git-bash.exe），切换到这个更新不下来的项目的根目录，然后输入：`git branch --set-upstream-to origin/master master`，回车之后重新回到 IntelliJ IDEA 进行更新，正常就可以了。
-
-
+- 输错密码后，弹出验证的登录框没有再出现：
+	- 解决办法如下图：选择 `Do not save, forget passwords after restart` 等你确定你的密码没错后再选择保存密码方案。
+	
+![SVN 的使用](images/xvi-g-git-problem-1.jpg)
 
 
 
