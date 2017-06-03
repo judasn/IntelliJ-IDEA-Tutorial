@@ -81,7 +81,7 @@ Git 主要的版本有 1.X、2.X，最新的是 2.X，使用版本随意，但�
 >> * 第二个按钮：`Commit changes` 提交项目上所有变化文件。点击这个按钮不会立马提交所有文件，而是先弹出一个被修改文件的一个汇总框，具体操作下面会有图片进行专门介绍。
 >> * 第三个按钮：`Compare with the Same Repository Version` 当前文件与服务器上该文件通版本的内容进行比较。如果当前编辑的文件没有修改，则是灰色不可点击。
 >> * 第四个按钮：`Show history` 显示当前文件的历史记录。
->> * 第五个按钮：`Revert` 还原当前被修改的文件到违背修改的版本状态下。如果当前编辑的文件没有修改，则是灰色不可点击。
+>> * 第五个按钮：`Revert` 还原当前被修改的文件到未被修改的版本状态下。如果当前编辑的文件没有修改，则是灰色不可点击。
 
 ![版本控制主要操作按钮](images/xvi-e-version-control-system-operation-introduce-4.jpg)
 
@@ -119,7 +119,7 @@ Git 主要的版本有 1.X、2.X，最新的是 2.X，使用版本随意，但�
 >> * `Optimize imports` 优化导入包，会在自动去掉没有使用的包。这个建议都勾选，这个只对 Java 类有作用，所以不用担心有副作用。 
 >> * `Perform code analysis` 进行代码分析，这个建议不用在提交的时候处理，而是在开发完之后，要专门养成对代码进行分析的习惯。IntelliJ IDEA 集成了代码分析功能。
 >> * `Check TODO` 检查代码中的 `TODO`。`TODO` 功能后面也会有章节进行讲解，这里简单介绍：这是一个记录待办事项的功能。 
->> * `Cleanup` 清除下版本控制系统，去掉一些版本控制系统的错误信息，建议勾选。 
+>> * `Cleanup` 清除下版本控制系统，去掉一些版本控制系统的错误信息，建议勾选（主要针对 SVN，Git 不适用）。 
 > * 如上图标注 4 所示，填写提交的信息。
 > * 如上图标注 5 所示，`Change list` 改变列表，这是一个下拉选项，说明我们可以切换不同的 `Change list`，提交不同的 `Change list` 文件。
 > * 如上图标注箭头所示，我们可以查看我们提交历史中使用的 `Commit Message`，有些时候，我们做得是同一个任务，但是需要提交多次，为了更好管理项目，建议是提交的 `Message` 是保持一致的。
@@ -147,8 +147,10 @@ SVN 的这个窗口有的 IntelliJ IDEA 上叫 `Changes`，有的叫 `Version Co
 
 - 更新的时候报：`Can't update: no tracked branch`
 	- 解决办法：打开 git-bash（路径：C:\Program Files\Git\git-bash.exe），切换到这个更新不下来的项目的根目录，然后输入：`git branch --set-upstream-to origin/master master`，回车之后重新回到 IntelliJ IDEA 进行更新，正常就可以了。
-
-
+- 输错密码后，弹出验证的登录框没有再出现：
+	- 解决办法如下图：选择 `Do not save, forget passwords after restart` 等你确定你的密码没错后再选择保存密码方案。
+	
+![SVN 的使用](images/xvi-g-git-problem-1.jpg)
 
 
 

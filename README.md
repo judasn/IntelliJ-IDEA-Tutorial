@@ -2,7 +2,7 @@
 
 ## 介绍(Introduce)
 
-- 本套教程适用于：IntelliJ IDEA 14、15、2016 版本
+- 本套教程适用于：IntelliJ IDEA 14、15、2016、2017 版本
 - 教程主要面向中文用户，如果你英文良好，建议直接阅读官网帮助文档
 	- 官网帮助中心：<http://www.jetbrains.com/idea/webhelp/getting-help.html>
 - 教程目前在不定时进行调整和补充，需要关注更新的请 `Watch`、`Star`、`Fork`。
@@ -16,10 +16,9 @@
 - 如果你需要一份电子版，请查看（制作电子版很费精力，不会常更新此文件）：
     - 百度云：<http://pan.baidu.com/s/1i3wFYPB>
     - Google Drive：[https://drive.google.com/file/d/0B5...UU/view?usp=sharing](https://drive.google.com/file/d/0B5gjjw8peC5Sa19vVEswbTRYYUU/view?usp=sharing "Google Drive")
-- 2016-10-25 更新，感谢 district10 童鞋做的一个在线阅读版本以及提供打包下载功能：
+- 2016-10-25 更新，感谢 district10 童鞋做的一个在线阅读版本（内容相对比较旧）：
     - district10 主页：<https://github.com/district10>
     - 在线阅读：<http://whudoc.qiniudn.com/2016/IntelliJ-IDEA-Tutorial>
-    - 下载打包：<http://whudoc.qiniudn.com/2016/publish-IntelliJ-IDEA-Tutorial-newMaster.zip> （90.4 MB）
     - 提供的转换脚本: [把文件夹下的 Markdown 文件，转化成 GitHub 风格的 HTML。。](https://github.com/district10/md2html)
 
 ## 目录(Contents)
@@ -114,6 +113,7 @@
 |district10|<https://github.com/district10>|
 |duanluan|<https://github.com/duanluan>|
 |binarywang|<https://github.com/binarywang>|
+|chenhui7373|<https://github.com/chenhui7373>|
 
 ## AD
 
