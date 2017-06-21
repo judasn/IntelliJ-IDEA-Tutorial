@@ -100,7 +100,7 @@
 ```
 
 - 以上代码中 profile 就做一件事：设置全局的 profile，一个是 nexus 仓库，一个是 aliyun 仓库，默认激活的是 nexus 仓库。（activeProfiles）
-- 在 pom.xml 中，一般用来激活环境配置，比如：
+- 在 pom.xml 中，一般用来激活环境配置，比如以下代码：
 
 ``` xml
 <profiles>
