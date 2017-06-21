@@ -10,6 +10,7 @@
 
 - 了解 Maven 配置的基本用法
 - 了解私有仓库，比如 nexus 的一些概念
+- **强烈建议把 Maven 的 settings.xml 文件同时放在：`%USER_HOME%/.m2/settings.xml` 和 `${maven.home}/conf/settings.xml` 两个地方。避免使用终端的时候默认去调用用户目录下的**
 
 ### Maven 中的 profile
 
