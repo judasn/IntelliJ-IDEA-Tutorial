@@ -16,7 +16,7 @@
 
 - Maven 中有一个概念叫做：`profile`，它的诞生主要是为了解决不同环境所需的不同变量、配置等问题。
 - 有了 profile，可以根据激活的条件，启动不同条件下的配置信息。
-- profile 是可以有多个的，也可以同时激活多个 profile，方便只有组合。
+- profile 是可以有多个的，也可以同时激活多个 profile，方便自由组合。
 - profile 一般可以在三个地方：settings.xml，pom.xml，profiles.xml（这个不常用）
 - 在 settings.xml 上，一般大家用来做仓库的选择，比如以下 settings.xml 代码：
 
