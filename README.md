@@ -50,8 +50,8 @@
 - [22. Eclipse 的 Java Web 项目环境搭建](eclipse-java-web-project-introduce.md)
 - [23. Maven 结构项目搭建](maven-project-introduce.md)
 - [24. IntelliJ IDEA 配合 Maven 的一些要点](maven-skill-introduce.md)
-- [25. Maven 的单模块 / 多模块之 Spring MVC + Spring + Mybatis 项目讲解（重点）](maven-java-web-project-introduce.md)
-- [26. Maven 的单模块之 Spring MVC + Spring + Spring Data JPA 项目（基于 IntelliJ IDEA）](maven-java-web-project-introduce2.md)
+- [25. Maven 的单模块 / 多模块 Spring MVC + Spring + Mybatis 项目（重点）](maven-java-web-project-introduce.md)
+- [26. Maven 的单模块 Spring MVC + Spring + Spring Data JPA 项目](maven-java-web-project-introduce2.md)
 - [27. Debug 技巧](debug-introduce.md)
 - [28. 重构技巧](refactor-introduce.md)
 - [29. 数据库管理工具](database-introduce.md)
@@ -95,6 +95,11 @@
 - Watch：关注该项目，作者有更新的时候，会在你的 Github 主页有通知消息。
 - Star：收藏该项目，在你的头像上有一个 “Your stars” 链接，可以看到你的收藏列表，以方便下次进来。
 - Fork：复制一份项目到自己的 Github 空间上，你可以自己开发自己的这个地址项目，然后 Pull Request 给项目原主人。 
+- 只 clone 最新的一个版本记录，历史旧数据不 clone 的两种方法（推荐这样做，因为图片很多，占了很大空间）：
+	- 命令行方法：`git clone https://github.com/judasn/IntelliJ-IDEA-Tutorial.git --depth=1`
+	- TortoiseGit GUI 方法：
+
+![clone 一个版本](images/clone-depth-1.jpg)
 
 
 ## 参与作者汇总(Author)
