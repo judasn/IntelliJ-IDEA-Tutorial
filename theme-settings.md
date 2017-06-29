@@ -46,7 +46,7 @@
 > * 如上图红圈下拉所示，展示的是我当前电脑可以选择的编辑区主题。
 > * 对于编辑区的主题，也有人制作成模板在网络上提供下载。这里主要介绍两个站点：
 >
->> * <http://www.ideacolorthemes.org/themes/>，主要提供 jar 文件下载。
+>> * <http://color-themes.com/?view=index>，主要提供 jar 文件下载。
 >> * <http://www.phpstorm-themes.com/>，主要提供 xml 和 icl 文件下载。
 >> * 对应文件如何安装请查看网站对应的 `Help` 页面，都有详细说明的。
 
