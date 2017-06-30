@@ -19,7 +19,7 @@
 > * Your finished product may be decomposed into a series of discrete, isolated modules, but it's a project definition that brings them together and ties them into a greater whole.
 > * Projects don't themselves contain development artifacts such as source code, build scripts, or documentation. They are the highest level of organization in the IDE, and they define project-wide settings as well as collections of what IntelliJ IDEA refers to as modules and libraries. 
 >
->> * 链接地址：<https://www.jetbrains.com/idea/help/project.html>
+>> * 20170630 更新新地址：<https://www.jetbrains.com/help/idea/about-projects.html>
 
 对于 Module，IntelliJ IDEA 是这样解释的：
 
@@ -28,7 +28,7 @@
 > * Configuration information for a module is stored in a .iml module file. By default, such a file is located in the module's content root folder.
 > * Development teams, normally, share the .iml module files through version control.
 >
->> * 链接地址：<https://www.jetbrains.com/idea/help/module.html>
+>> * 20170630 更新新地址：<https://www.jetbrains.com/help/idea/about-modules.html?search=About>
 
 通过上面的介绍我们知道，在 IntelliJ IDEA 中 Project 是最顶级的级别，次级别是 Module。一个 Project 可以有多个 Module。目前主流的大型项目结构都是类似这种多 Module 结构，这类项目一般是这样划分的，比如：core Module、web Module、plugin Module、solr Module 等等，模块之间彼此可以相互依赖。通过这些 Module 的命名也可以看出，他们之间应该都是处于同一个项目业务情况下的模块，彼此之间是有不可分割的业务关系的。
 
