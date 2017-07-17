@@ -96,7 +96,7 @@
 |Win 快捷键|Mac 快捷键|介绍|
 |:---------|:---------|:---------|
 |Ctrl + Shift + F|Command + Shift + F|根据输入内容查找整个项目 或 指定目录内文件|
-|Ctrl + Shift + R|Command + Shift + F|根据输入内容替换对应内容，范围为整个项目 或 指定目录内文件|
+|Ctrl + Shift + R|Command + Shift + R|根据输入内容替换对应内容，范围为整个项目 或 指定目录内文件|
 |Ctrl + Shift + J|Control + Shift + J|自动将下一行合并到当前行末尾|
 |Ctrl + Shift + Z|Command + Shift + Z|取消撤销|
 |Ctrl + Shift + W|Option + 方向键下|递进式取消选择代码块。可选中光标所在的单词或段落，连续按会在原有选中的基础上再扩展取消选中范围|
