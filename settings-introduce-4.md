@@ -20,7 +20,9 @@ IntelliJ IDEA 有很多人性化的设置我们必须单独拿出来讲解，也
 > * 如上图第二张，在已经继承了 Serializable 接口的类名上，把光标放在类名上（必须这样做），按 `Alt + Enter`，即可提示帮你生成 serialVersionUID 功能。
 
 
+![常用设置](images/xxvi-a-settings-introduce-44.gif)
 
+> * 如上图 gif 演示的：Load/Unload Modules 是 2017.2 引入的新特性，对于多模块的项目开发 Unload 部分少用到的模块可以减少计算机 CPU 和内存的消耗。
 
 
 
