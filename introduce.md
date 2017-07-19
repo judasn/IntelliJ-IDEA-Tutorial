@@ -57,14 +57,17 @@ IntelliJ IDEA 对自己的定义是很清晰的，对于新人来讲可能还不
 
 上面特性只是 IntelliJ IDEA 的冰山一角，而且这个还不是 IntelliJ IDEA 最重要的地方，IntelliJ IDEA 最重要的特性就是人性化、智能，后面学习你会慢慢接触到。
 
-## 更多官网信息
+## 更多官方学习信息
 
 > * IntelliJ IDEA 主要特性介绍 1：<https://www.jetbrains.com/idea/features/>
 > * IntelliJ IDEA 主要特性介绍 2：<https://www.jetbrains.com/idea/features/editions_comparison_matrix.html>
-> * 官方博客：<http://blog.jetbrains.com/idea/>
-> * 官方 wiki：<http://wiki.jetbrains.net/intellij>
 > * 官方快速入门：<http://confluence.jetbrains.com/display/IntelliJIDEA/Quick+Start>
 > * 官方在线帮助文档：<http://www.jetbrains.com/idea/webhelp/getting-help.html>
+> * 官方 wiki：<http://wiki.jetbrains.net/intellij>
+
+## 更多官方资讯跟踪途径
+
+> * 官方博客：<http://blog.jetbrains.com/idea/>
 > * IntelliJ IDEA 官方 community：<https://intellij-support.jetbrains.com/hc/en-us/community/topics>
 > * IntelliJ IDEA 官方 issue：<https://youtrack.jetbrains.com/issues/IDEA>
 > * YouTube：<https://www.youtube.com/user/intellijideavideo>
