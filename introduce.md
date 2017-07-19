@@ -61,8 +61,15 @@ IntelliJ IDEA 对自己的定义是很清晰的，对于新人来讲可能还不
 
 > * IntelliJ IDEA 主要特性介绍 1：<https://www.jetbrains.com/idea/features/>
 > * IntelliJ IDEA 主要特性介绍 2：<https://www.jetbrains.com/idea/features/editions_comparison_matrix.html>
-> * 官网博客：<http://blog.jetbrains.com/idea/>
-> * 官网 wiki：<http://wiki.jetbrains.net/intellij>
-> * 官网社区：<http://devnet.jetbrains.com/community/idea>
-> * 官网快速入门：<http://confluence.jetbrains.com/display/IntelliJIDEA/Quick+Start>
-> * 官网在线帮助文档：<http://www.jetbrains.com/idea/webhelp/getting-help.html>
+> * 官方博客：<http://blog.jetbrains.com/idea/>
+> * 官方 wiki：<http://wiki.jetbrains.net/intellij>
+> * 官方快速入门：<http://confluence.jetbrains.com/display/IntelliJIDEA/Quick+Start>
+> * 官方在线帮助文档：<http://www.jetbrains.com/idea/webhelp/getting-help.html>
+> * IntelliJ IDEA 官方 community：<https://intellij-support.jetbrains.com/hc/en-us/community/topics>
+> * IntelliJ IDEA 官方 issue：<https://youtrack.jetbrains.com/issues/IDEA>
+> * YouTube：<https://www.youtube.com/user/intellijideavideo>
+> * Twitter：<https://twitter.com/IntelliJIDEA>
+> * Facebook：<https://www.facebook.com/IntelliJIDEA>
+> * JetBrains 新浪微博：<http://www.weibo.com/u/3220313942>
+> * JetBrains Google+：<https://plus.google.com/+jetbrains>
+> * IntelliJ IDEA Google+：<https://plus.google.com/+intellijidea>
