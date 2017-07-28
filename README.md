@@ -74,7 +74,7 @@
 - 欢迎捐赠 ^_^：<http://www.youmeek.com/donate>
 
 
-## Gtihub 协同视频教程(Participate)
+## Github 协同视频教程(Participate)
 
 - 如果您不会使用 Git 或是 Github 也没关系，请认真学习下面视频教程：
 - Judas.n 录制
