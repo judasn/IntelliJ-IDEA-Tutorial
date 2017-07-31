@@ -65,4 +65,4 @@
 - lombok 插件官网：<https://plugins.jetbrains.com/plugin/6317-lombok-plugin>
 - 推荐 IntelliJ IDEA 插件库搜索安装：
 	- <kbd>File</kbd> > <kbd>Settings</kbd> > <kbd>Plugins</kbd> > <kbd>Browse repositories...</kbd> > <kbd>Search for "lombok"</kbd> > <kbd>Install Plugin</kbd>
-- IntelliJ IDEA 配置方法，官网有说明：<https://github.com/mplushnikov/lombok-intellij-plugin#required-intellij-configuration>
+- IntelliJ IDEA 配置方法，官网有说明（该配置是 Project 级别，不是 IDE 全局的）：<https://github.com/mplushnikov/lombok-intellij-plugin#required-intellij-configuration>
