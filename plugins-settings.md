@@ -59,3 +59,10 @@
 |ECTranslation|翻译插件|<https://github.com/Skykai521/ECTranslation/releases>|
 |Maven Helper|Maven 辅助插件|<https://plugins.jetbrains.com/plugin/7179-maven-helper>|
 |Properties to YAML Converter|把 Properties 的配置格式改为 YAML 格式|<https://plugins.jetbrains.com/plugin/8000-properties-to-yaml-converter>|
+
+## lombok 插件的使用
+
+- lombok 插件官网：<https://plugins.jetbrains.com/plugin/6317-lombok-plugin>
+- 推荐 IntelliJ IDEA 插件库搜索安装：
+	- <kbd>File</kbd> > <kbd>Settings</kbd> > <kbd>Plugins</kbd> > <kbd>Browse repositories...</kbd> > <kbd>Search for "lombok"</kbd> > <kbd>Install Plugin</kbd>
+- IntelliJ IDEA 配置方法，官网有说明：<https://github.com/mplushnikov/lombok-intellij-plugin#required-intellij-configuration>
