@@ -203,6 +203,8 @@ SVN 的这个窗口有的 IntelliJ IDEA 上叫 `Changes`，有的叫 `Version Co
 
 - 如果你已经理解了上面的理论，再看下面这些截图你能理解对应的是什么意思。
 
+![Git Flow Integration 插件的使用](images/xvi-h-git-flow-feature-1.png)
+
 
 
 
