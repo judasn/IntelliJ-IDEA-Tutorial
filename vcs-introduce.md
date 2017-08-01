@@ -150,21 +150,58 @@ SVN 的这个窗口有的 IntelliJ IDEA 上叫 `Changes`，有的叫 `Version Co
 - 输错密码后，弹出验证的登录框没有再出现：
 	- 解决办法如下图：选择 `Do not save, forget passwords after restart` 等你确定你的密码没错后再选择保存密码方案。
 	
-![SVN 的使用](images/xvi-g-git-problem-1.jpg)
+![Git 常见问题](images/xvi-g-git-problem-1.jpg)
 
 
+## Git Flow 的介绍
 
+### Git Flow 概念
 
+- Git Flow 是一个 git 扩展集，按 Vincent Driessen 的分支模型提供高层次的库操作。这里的重点是 Vincent Driessen 的分支模型思想，下面讲解的内容也是基于 Vincent Driessen 思想。
+	- Vincent Driessen 的观点：<http://nvie.com/posts/a-successful-git-branching-model/>
+	- `Git Flow 是一个 git 扩展集` 你可以理解 Git Flow 是一个基于 Git 的插件，这个插件简化了 Git 一些复杂的命令，比如 Git Flow 用一条命令，就可以代替 Git 原生 10 条命令。
+	- Git Flow 对原生的 Git 不会有任何影响，你可以照旧用 Git 原生命令，也可以使用 Git Flow 命令。
+- 还有其他的一些分支管理模型思想，具体可以看：<http://www.ruanyifeng.com/blog/2015/12/git-workflow.html>
 
+### Git Flow 核心概念
 
+- 必须有的两个核心分支（长期分支）：
+	- master，Git 代码仓库中默认的一条主分支。这条分支上的代码一般都建议为是正式版本的代码，并且这条分支不能进行代码修改，只能用来合并其他分支。
+	- develop，一般用于存储开发过程的代码分支，并且这条分支也不能进行代码修改，只能用来合并其他辅助分支。
+- 根据情况创建的辅助分支（临时分支）
+	- feature branches（功能分支）
+		- **基于 develop 分支上创建**
+		- **开发完成后合并到 develop 分支上**
+		- 当要开始一个新功能的开发时，我门可以创建一个 Feature branches 。等待这个新功能开发完成并确定应用到新版本中就合并回 develop
+		- 对于单人开发的 feature branches，start 之后，开发完成后可以直接 finish。
+		- 对于多人开发的 feature branches，start 之后，开发完成后先 publish 给其他开发人员进行合并，最后大家都开发完成后再 finish。这个思路也同样适用下面几个辅助分支场景。
+		- feature branches 开发过程有 bug，直接在 feature branches 上修改、提交。
+	- release branches（预发布分支）
+		- **基于 develop 分支上创建**
+		- **测试确定新功能没有问题，合并到 develop 分支和 master 分支上**
+		- 用来做新版本发布前的准备工作，在上面可以做一些小的 bug 修复、准备发布版本号等等和发布有关的小改动，其实已经是一个比较成熟的版本了。另外这样我们既可以在预发布分支上做一些发布前准备，也不会影响 "develop" 分支上下一版本的新功能开发。
+	- hotfix branches（基于 master 基础上的生产环境 bug 的修复分支）
+		- **基于 master 分支上创建**
+		- **修复测试无误后合并到 master 分支和 develop 分支上**
+		- 主要用于处理线上版本出现的一些需要立刻修复的 bug 情况
 
+### Git Flow 安装
 
+- Windows：如果你安装 Git 用的是 [Git for Windows](https://git-for-windows.github.io/)，那它已经内置了。
+- Mac：`brew install git-flow-avh`
+- Linux：`wget --no-check-certificate -q  https://raw.githubusercontent.com/petervanderdoes/gitflow-avh/develop/contrib/gitflow-installer.sh && sudo bash gitflow-installer.sh install stable; rm gitflow-installer.sh`
+- 更多版本：<https://github.com/petervanderdoes/gitflow-avh/wiki/Installation>
+- 在系统环境上支持之后，再安装 IntelliJ IDEA 对 Git Flow 支持的插件：<https://plugins.jetbrains.com/plugin/7315-git-flow-integration>
 
+### Git Flow 基础命令资料
 
+- <https://danielkummer.github.io/git-flow-cheatsheet/index.zh_CN.html>
+- <http://www.jianshu.com/p/9e4291078853>
+- <http://stormzhang.com/git/2014/01/29/git-flow/>
 
+### Git Flow Integration 插件的使用
 
-
-
+- 如果你已经理解了上面的理论，再看下面这些截图你能理解对应的是什么意思。
 
 
 
