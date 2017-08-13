@@ -1,4 +1,5 @@
 # Windows 系统下安装 IntelliJ IDEA
+为什么动态图片都是不动的呢？
 
 ## 更新记录
 
