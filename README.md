@@ -78,14 +78,13 @@
 ## Github 协同视频教程(Participate)
 
 - 如果您不会使用 Git 或是 Github 也没关系，请认真学习下面视频教程：
-- Judas.n 录制
+- YouMeek 录制
     - 视频格式：MP4
     - 分辨率：1920 X 1080
     - 片长：16 Min
     - 文件大小：62 M
 - 下载
     - 百度云盘：<http://pan.baidu.com/s/1bogmTLd>
-    - 360 网盘（2fb5）：<https://yunpan.cn/cYez7W9xnHs3c>
 
 
 ## Github 常用按钮说明
@@ -108,7 +107,7 @@
 
 |作者(按参与时间排序)|地址|
 |:---------|:---------|
-|Judas.n|<http://code.YouMeek.com>|
+|YouMeek|<http://code.YouMeek.com>|
 |温泉|<https://github.com/wenquan0hf>|
 |zhenhappy|<https://github.com/zhenhappy>|
 |two8g|<https://github.com/two8g>|
