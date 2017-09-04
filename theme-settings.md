@@ -86,7 +86,7 @@
 
 > * 编译报错：`找不到符号`、`未结束的字符串文字` 等的解决办法：
 >
->> * 由于 UTF-8 编码文件有分 `有BOM` 和 `无BOM` 之分，默认情况下 IntelliJ IDEA 使用的编译器是 `javac`，而此编译只能编译 `无BOM` 的文件，有很多 Eclipse 用户在使用 IntelliJ IDEA 开发 Eclipse 项目的时候常常会遇到此问题。主要是因为 Eclipse 的编译器是 `Eclipse`，此编译器支持 `有BOM` 的文件编译。顾，解决办法是对于此文件进行 BOM 去除。
+>> * 由于 UTF-8 编码文件有分 `有BOM` 和 `无BOM` 之分，默认情况下 IntelliJ IDEA 使用的编译器是 `javac`，而此编译只能编译 `无BOM` 的文件，有很多 Eclipse 用户在使用 IntelliJ IDEA 开发 Eclipse 项目的时候常常会遇到此问题。主要是因为 Eclipse 的编译器是 `Eclipse`，此编译器支持 `有BOM` 的文件编译。故，解决办法是对于此文件进行 BOM 去除。
 >> * 批量去除 BOM，你可以 Google：`批量去除 BOM`、`批量转换无 BOM` 等关键字，网络上已有提供各种方案。
 >> * 除了通过去除 BOM 还有设置 IntelliJ IDEA 的编译器为 `Eclipse`，但是一般不建议这样做。
 >> * 如果上述问题都无法解决，而且你也确认 IntelliJ IDEA 各个配置编码的地方都是 `UTF-8`，报错文件编码也是是  `UTF-8 无 BOM` 的话，那还有一种可能也会出现这种情况：项目配置文件有问题。项目编码的配置文件在：`/项目目录/.idea/encodings.xml`。如果你会修改此文件可以进行修改，如果不会，那就删除掉 `.idea` 整个目录，重启 IntelliJ IDEA 重新配置这个项目即可。
