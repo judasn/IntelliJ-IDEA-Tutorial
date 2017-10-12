@@ -24,6 +24,7 @@
     - 百度云：<http://pan.baidu.com/s/1i3wFYPB>
     - Google Drive：[https://drive.google.com/file/d/0B5...UU/view?usp=sharing](https://drive.google.com/file/d/0B5gjjw8peC5Sa19vVEswbTRYYUU/view?usp=sharing "Google Drive")
 - 2017-07：应部分童鞋要求，同步到 GitBook 上供大家阅读：<https://youmeek.gitbooks.io/intellij-idea-tutorial/content/>
+- 2017-10：[关于咕泡学院的教程：《IntelliJ IDEA使用教程》侵权说明](http://www.youmeek.com/intellij-idea-tutorial-infringement/)
 
 ## 目录(Contents)
 
