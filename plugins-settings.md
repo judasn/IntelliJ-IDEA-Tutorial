@@ -42,6 +42,7 @@
 |插件名称    |插件介绍      |官网地址        |
 |:-----------------|:----------|:--------------|
 |GitOSC|开源中国的码云插件|<https://plugins.jetbrains.com/plugin/8383-gitosc>|
+|Alibaba Java Coding Guidelines|阿里巴巴出的代码规范检查插件|https://plugins.jetbrains.com/plugin/10046-alibaba-java-coding-guidelines|
 |IDE Features Trainer|IntelliJ IDEA 官方出的学习辅助插件|<https://plugins.jetbrains.com/plugin/8554?pr=idea>|
 |Key promoter|快捷键提示|<https://plugins.jetbrains.com/plugin/4455?pr=idea>|
 |Grep Console|自定义设置控制台输出颜色|<https://plugins.jetbrains.com/idea/plugin/7125-grep-console>|
