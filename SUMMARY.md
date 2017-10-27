@@ -5,7 +5,7 @@
 * [05. 安装环境：Mac](mac-install.md)
 * [06. 安装环境总结（新用户必看）](install-summarize.md)
 * [07. 首次运行向导（新用户必看）](first-run-wizard.md)
-* [08. 安装后生成的目录说明、IDE 设置云同步（新用户必看）](installation-directory-introduce.md)
+* [08. 安装后生成的目录说明、VM 设置（新用户必看）](installation-directory-introduce.md)
 * [09. UI 界面（新用户必看）](interface-introduce.md)
 * [10. UI 主题、字体、编辑区主题、文件编码修改、乱码问题（新用户必看）](theme-settings.md)
 * [11. 常见各类文件类型图标（新用户必看）](file-symbols-introduce.md)
