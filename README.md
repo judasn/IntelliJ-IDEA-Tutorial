@@ -26,7 +26,7 @@
 - GitBook 在线阅读地址：<https://youmeek.gitbooks.io/intellij-idea-tutorial/content/>
 - 2017-10：[关于咕泡学院的教程：《IntelliJ IDEA使用教程》侵权说明](http://www.youmeek.com/intellij-idea-tutorial-infringement/)
 - 2017-10：[IntelliJ IDEA-Windows-新手必备基础配置整理（密码：i68q）](http://pan.baidu.com/s/1hsiXJsK)
-	- 使用方法：把解压后 config 目录下的所有子目录覆盖到：`C:\Users\你的电脑登录用户名\.IntelliJIdea2017.2\config` 目录下（Mac 道理类似，请自行理解）
+	- 使用方法：把解压后 config 目录下的所有子目录覆盖到：`C:\Users\你的电脑登录用户名\.IntelliJIdea2017.2\config` 目录下（[Mac 用户](https://github.com/judasn/IntelliJ-IDEA-Tutorial/blob/master/installation-directory-introduce.md#mac-的配置文件保存路径)）
 
 ## 目录(Contents)
 
