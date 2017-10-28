@@ -23,8 +23,10 @@
 - 如果你需要一份电子版，请查看（制作电子版很费精力，不会常更新此文件）：
     - 百度云：<http://pan.baidu.com/s/1i3wFYPB>
     - Google Drive：[https://drive.google.com/file/d/0B5...UU/view?usp=sharing](https://drive.google.com/file/d/0B5gjjw8peC5Sa19vVEswbTRYYUU/view?usp=sharing "Google Drive")
-- 2017-07：应部分童鞋要求，同步到 GitBook 上供大家阅读：<https://youmeek.gitbooks.io/intellij-idea-tutorial/content/>
+- GitBook 在线阅读地址：<https://youmeek.gitbooks.io/intellij-idea-tutorial/content/>
 - 2017-10：[关于咕泡学院的教程：《IntelliJ IDEA使用教程》侵权说明](http://www.youmeek.com/intellij-idea-tutorial-infringement/)
+- 2017-10：[IntelliJ IDEA-Windows-新手必备基础配置整理（密码：i68q）](http://pan.baidu.com/s/1hsiXJsK)
+     - 使用方法：把解压后 config 目录下的所有子目录覆盖到：`C:\Users\你的电脑登录用户名\.IntelliJIdea2017.2\config` 目录下
 
 ## 目录(Contents)
 
