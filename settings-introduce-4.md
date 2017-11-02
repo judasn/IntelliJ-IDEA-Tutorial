@@ -66,7 +66,7 @@ IntelliJ IDEA 有很多人性化的设置我们必须单独拿出来讲解，也
 
 > * 如上图 gif 演示的：Load/Unload Modules 是 2017.2 引入的新特性，对于多模块的项目开发 Unload 部分少用到的模块可以减少计算机 CPU 和内存的消耗。
 
-![常用设置](images/xxvi-a-settings-introduce-45.jpg)
+![2017 新特性](images/xxvi-a-settings-introduce-45.jpg)
 
 > * 如上图所示 'Show in Run Dashboard'，在 2017.2.3 以后可以统一在一个 Tab 中管理所以模块应用。
 > * 这对于开发分布式系统（Spring Boot / Spring Cloud）来讲非常方便。
