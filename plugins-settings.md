@@ -61,7 +61,7 @@
 |Maven Helper|Maven 辅助插件|<https://plugins.jetbrains.com/plugin/7179-maven-helper>|
 |Properties to YAML Converter|把 Properties 的配置格式改为 YAML 格式|<https://plugins.jetbrains.com/plugin/8000-properties-to-yaml-converter>|
 |Git Flow Integration|Git Flow 的图形界面操作|<https://plugins.jetbrains.com/plugin/7315-git-flow-integration>|
-
+|JUnitGeneratorV2|JUnit单元测试插件|<http://code.google.com/p/junit-generator-v2>|
 ## lombok 插件的使用
 
 - lombok 插件官网：<https://plugins.jetbrains.com/plugin/6317-lombok-plugin>
