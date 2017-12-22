@@ -62,6 +62,12 @@
 |Properties to YAML Converter|把 Properties 的配置格式改为 YAML 格式|<https://plugins.jetbrains.com/plugin/8000-properties-to-yaml-converter>|
 |Git Flow Integration|Git Flow 的图形界面操作|<https://plugins.jetbrains.com/plugin/7315-git-flow-integration>|
 |JUnitGeneratorV2|JUnit单元测试插件|<http://code.google.com/p/junit-generator-v2>|
+|MyBatisCodeHelperPro|MyBatis插件(部分收费)|<https://github.com/gejun123456/MyBatisCodeHelper-Pro>|
+|SmarterEditor|智能代码编辑插件|<>|
+|LiveEdit|行编辑插件|<>|
+|actiBPM|Activit流程引擎插件|<>|
+|SVN Disconnect|SVN版本控制不关联|<>|
+|.ignore|Git文件忽略插件|<>|
 ## lombok 插件的使用
 
 - lombok 插件官网：<https://plugins.jetbrains.com/plugin/6317-lombok-plugin>
