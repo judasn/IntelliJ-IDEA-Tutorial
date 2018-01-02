@@ -92,7 +92,7 @@ Git 主要的版本有 1.X、2.X，最新的是 2.X，使用版本随意，但�
 ![版本控制相关的常用设置说明](images/xvi-f-version-control-system-settings-introduce-1.jpg)
 
 > * 如上图标注 1 所示，当前项目使用的版本控制是 `Git`。如果你不愿意这个项目继续使用版本控制可以点击旁边的减号按钮，如果你要切换版本控制，可以点击 `Git`，会出现 IntelliJ IDEA 支持的各种版本控制选择列表，但是我们一般情况下一个项目不会有多个版本控制的。
-> * 如上图标注 2 所示，`Show directories with changed descendants` 表示子目录有文件被修改了，则该文件的所有上层目录都显示版本控制被概念的颜色。默认是不勾选的，我一般建议勾选此功能。
+> * 如上图标注 2 所示，`Show directories with changed descendants` 表示子目录有文件被修改了，则该文件的所有上层目录都显示版本控制被修改的颜色。默认是不勾选的，我一般建议勾选此功能。
 
 ![版本控制相关的常用设置说明](images/xvi-f-version-control-system-settings-introduce-2.jpg)
 
