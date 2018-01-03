@@ -58,7 +58,7 @@
 
 ![Eclipse 项目配置](images/xxi-b-eclipse-project-settings-8.gif)
 
-> * 由于我们刚刚去掉了红圈中的所有依赖包，所以我们现在还需要导入依赖包。到导入之前我们先把项目的 `lib` 作为一个总的依赖包进行放置到项目 `Libraries` 中。如上图 Gif 演示，就是把 `lib` 目录转换成一个依赖包。这样的好处是，当我们项目有新添加依赖包，我们只要放置在 `lib` 目录下即可自动被项目引入，原因就是因为我们这里引的是目录，而不是一个一个依赖包。
+> * 由于我们刚刚去掉了红圈中的所有依赖包，所以我们现在还需要导入依赖包。在导入之前我们先把项目的 `lib` 作为一个总的依赖包放置到项目 `Libraries` 中。如上图 Gif 演示，就是把 `lib` 目录转换成一个依赖包。这样的好处是，当我们项目需要添加新依赖包时，我们只要放置在 `lib` 目录下即可自动被项目引入，原因就是我们这里引的是目录，而不是一个一个依赖包。
 
 ![Eclipse 项目配置](images/xxi-b-eclipse-project-settings-9.jpg)
 
@@ -67,7 +67,7 @@
 ![Eclipse 项目配置](images/xxi-b-eclipse-project-settings-10.gif)
 
 > * 对于传统的 Java Web 项目，我们一般还需要指定配置 web.xml 位置。如上图 Gif 演示，这个一般在 `Facts` 中进行配置。`Facts` 可以理解为用于配置项目的框架区，在这里管理项目使用的框架配置文件。这个是 IntelliJ IDEA 特有的一个配置点。
-> * 除了 web.xml 一般我们要配置外，其他一些框架，即使我们不在这里配置也是不会影响项目的运行的，但是是有缺点的。比如我们项目中一般都是有 Spring 框架的，而 Spring 是有很多配置文件的，如果我们在这里进行了配置，那你会发现 IntelliJ IDEA 编辑区底部会多出现几个跟 Spring 项目的设置区，原因就是你告诉了 IntelliJ IDEA，你的项目使用了 Spring 框架，那 IntelliJ IDEA 就会出现其对应的配置功能给你。Hibernate 等其他框架道理一样。
+> * 除了 web.xml 一般我们要配置外，其他一些框架，即使我们不在这里配置也是不会影响项目的运行的，但是是有缺点的，比如我们项目中一般都是有 Spring 框架的，而 Spring 是有很多配置文件的，如果我们在这里进行了配置，那你会发现 IntelliJ IDEA 编辑区底部会多出现几个 Spring 项目的设置区，原因就是你告诉了 IntelliJ IDEA，你的项目使用了 Spring 框架，那 IntelliJ IDEA 就会出现其对应的配置功能给你。Hibernate 等其他框架道理一样。
 
 ![Eclipse 项目配置](images/xxi-b-eclipse-project-settings-11.gif)
 
@@ -90,7 +90,7 @@
 > * 如上图标注 2 所示，我们可以指定给运行的容器设置 VM 参数。
 > * 如上图标注 3 所示，这分别是在两种命令下的触发的事件。这个是 IntelliJ IDEA 特有的，也是重点。
 >
->> * `On Update action` 当我们按 `Ctrl + F10` 进行容器更新的时候，可以根据我们配置的这个事件内容进行容器更新。其中我选择的 `Update classes and resources` 事件是最常用的，表示我们在按 `Ctrl + F10` 进行容器更新的时候，我们触发更新编译的类和资源文件到容器中。在 Debug 模式下，这个也就是所谓的 `HotSwap`。这是这种热部署没有 JRebel 插件那样好用。
+>> * `On Update action` 当我们按 `Ctrl + F10` 进行容器更新的时候，可以根据我们配置的这个事件内容进行容器更新。其中我选择的 `Update classes and resources` 事件是最常用的，表示我们在按 `Ctrl + F10` 进行容器更新的时候，我们触发更新编译的类和资源文件到容器中。在 Debug 模式下，这个也就是所谓的 `HotSwap`。只是这种热部署没有 JRebel 插件那样好用。
 >> * `On frame deactivation` 当我们切换 IntelliJ IDEA 到浏览器的时候进行指定事件更新，这个一般是因为 Web 开发的时候，我们需要经常在 IntelliJ IDEA 和各个浏览器之间来回切换测试，所以才有了这种需求。IntelliJ IDEA 是为了帮我们在做这种无聊切换的时候做一些指定事情。当然了，如果切换过于频繁，这个功能还是很耗资源的，所以我设置的是 `Do nothing` 表示切换的时候什么都不做。
 > * 如上图标注 4 所示，默认 Tomcat 的 HTTP 端口是 8080，如果你需要改其端口可以在这里设置。
 > * 如上图标注 5 所示，这个知识点在前面的文章已经有讲过了。这里表示在 Tomcat 容器运行前做什么事情，这里分别了：Make 和 Build Artifacts 操作。如上面 Gif 演示，这里的 `Build Artifacts` 是我们在 `Deployment` 选项卡中添加了 Artifact 之后自动出现的。
