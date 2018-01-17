@@ -130,6 +130,7 @@
 |chenhui7373|<https://github.com/chenhui7373>|
 |wzxjohn|<https://github.com/wzxjohn>|
 |Robot-L|<https://github.com/Robot-L>|
+|duanluan|<https://github.com/duanluan>|
 
 ## AD
 
