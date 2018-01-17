@@ -75,7 +75,7 @@ Mac OS 用这个：
 
 ![enter description here][12]
 
-安装好后在设置里面会多出一项JRebel的配置
+安装好后在设置里面会多出一项 JRebel 的配置
 
 查看一下插件是否有效
 
@@ -87,12 +87,28 @@ Mac OS 用这个：
 
 ![enter description here][14]
 
+#### 自定义容器启动
+
 配置 Tomcat 的方法和直接上面说的直接调用配置方法一样， 同样需要注意的是 `On 'Update' action` 和 `On frame deactivation` 这两项目一定要选择 `Update classes and resources`， 唯一不同的是 VM options 这项不需要填， 放空就好
 接下来直接启动项目， 一般选择后面那个 Debug 按钮
 
 ![enter description here][15]
 
 看到 Log 有 JRebel 输出的版本信息， 没有报错就是表示成功执行了， 随便改一个类试试吧
+
+#### Maven 或 Gradle 启动
+
+打开 JRebel Panel 窗口，然后勾选项目或模块即可，这时插件会在 src/main/resources 目录下生成 rebel.xml 文件，这里面指定了插件检测热部署文件夹的路径
+
+![enter description here][16]
+
+![enter description here][17]
+
+然后在 Maven projects 或 Gradle projects 窗口，右键 Task 使用 JRebel 启动
+
+![enter description here][18]
+
+启动之后更新资源重新编译（Ctrl + Shift + F9）即可
 
 JRebel 官网有免费激活服务，到官网注册领取，请支持正版：
 
@@ -113,3 +129,6 @@ JRebel 官网有免费激活服务，到官网注册领取，请支持正版：
   [13]: ./images/xxviii-jrebel-setup-15.jpg "xxviii-jrebel-setup-15.jpg"
   [14]: ./images/xxviii-jrebel-setup-13.jpg "xxviii-jrebel-setup-13.jpg"
   [15]: ./images/xxviii-jrebel-setup-14.jpg "xxviii-jrebel-setup-14.jpg"
+  [16]: ./images/xxviii-jrebel-setup-16.jpg "xxviii-jrebel-setup-16.jpg"
+  [17]: ./images/xxviii-jrebel-setup-17.jpg "xxviii-jrebel-setup-17.jpg"
+  [18]: ./images/xxviii-jrebel-setup-18.jpg "xxviii-jrebel-setup-18.jpg"
