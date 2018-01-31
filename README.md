@@ -31,55 +31,64 @@
 
 ## 目录(Contents)
 
-- [01. IntelliJ IDEA 介绍（新用户必看）](introduce.md)
-- [02. 教程介绍（新用户必看）](about-this-tutorial.md)
-- [03. 安装环境：Windows](windows-install.md)
-- [04. 安装环境：Ubuntu](ubuntu-install.md)
-- [05. 安装环境：Mac](mac-install.md)
-- [06. 安装环境总结（新用户必看）](install-summarize.md)
-- [07. 首次运行向导（新用户必看）](first-run-wizard.md)
-- [08. 安装后生成的目录说明、VM 设置（新用户必看）](installation-directory-introduce.md)
-- [09. UI 界面（新用户必看）](interface-introduce.md)
-- [10. UI 主题、字体、编辑区主题、文件编码修改、乱码问题（新用户必看）](theme-settings.md)
-- [11. 常见各类文件类型图标（新用户必看）](file-symbols-introduce.md)
-- [12. IntelliJ IDEA 搜索快的原因：索引（新用户必看）](IntelliJ-IDEA-cache.md)
-- [13. Java 文件编译方式（新用户必看）](make-introduce.md)
-- [14. 项目相关概念（新用户必看）](project-composition-introduce.md)
-- [15. Hello World 的 Java 项目创建和项目配置文件](project-settings.md)
-- [16. 版本控制讲解（SVN + Git）](vcs-introduce.md)
-- [17. 实时代码模板](live-templates-introduce.md)
-- [18. 文件代码模板](file-templates-introduce.md)
-- [19. 前端代码模板：Emmet](emmet-introduce.md)
-- [20. 特殊代码模板：Postfix Completion](postfix-completion-introduce.md)
-- [21. 插件相关功能](plugins-settings.md)
-- [22. Eclipse 的 Java Web 项目环境搭建](eclipse-java-web-project-introduce.md)
-- [23. Maven 结构项目搭建](maven-project-introduce.md)
-- [24. IntelliJ IDEA 配合 Maven 的一些要点](maven-skill-introduce.md)
-- [25. Maven 的单模块 / 多模块 Spring MVC + Spring + Mybatis 项目（重点）](maven-java-web-project-introduce.md)
-- [26. Maven 的单模块 Spring MVC + Spring + Spring Data JPA 项目](maven-java-web-project-introduce2.md)
-- [27. Maven 的单模块 Spring Boot 项目](maven-java-web-project-introduce3.md)
-- [28. Debug 技巧](debug-introduce.md)
-- [29. 重构技巧](refactor-introduce.md)
-- [30. 数据库管理工具](database-introduce.md)
-- [31. IntelliJ IDEA 常用细节设置-1](settings-introduce-1.md)
-- [32. IntelliJ IDEA 常用细节设置-2](settings-introduce-2.md)
-- [33. IntelliJ IDEA 常用细节设置-3](settings-introduce-3.md)
-- [34. IntelliJ IDEA 常用细节设置-4](settings-introduce-4.md)
-- [35. IntelliJ IDEA 常用快捷键讲解（Win + Linux）（新用户必看）](keymap-introduce.md)
-- [36. IntelliJ IDEA 常用快捷键讲解（Mac）（新用户必看）](keymap-mac-introduce.md)
-- [37. 从 Windows 过度到 Mac 必备快捷键对照表（新用户必看）](keymap-win-mac.md)
-- [38. IntelliJ IDEA 的 Java 热部署插件 JRebel 安装及使用](jrebel-setup.md)
-- [39. IntelliJ IDEA 远程调试（Tomcat+Jetty）](remote-debugging.md)
-- [40. 最特殊的快捷键 Alt + Enter 介绍（新用户必看）](hotkey-alt-enter-introduce.md)
-- [41. IntelliJ IDEA 插件开发视频教程](plugins-develop.md)
-- [42. 本教程总结](this-tutorial-the-end.md)
-
+- **教程介绍（新用户必看）**
+	- [IntelliJ IDEA 介绍](introduce.md)
+	- [本教程介绍](about-this-tutorial.md)
+- **安装、基础环境介绍（新用户必看）**
+	- [Windows 下安装](windows-install.md)
+	- [Ubuntu 下安装](ubuntu-install.md)
+	- [Mac 下安装](mac-install.md)
+	- [安装环境总结](install-summarize.md)
+	- [首次运行向导](first-run-wizard.md)
+	- [安装后生成的目录说明、VM 设置](installation-directory-introduce.md)
+- **首次使用的基础设置介绍（新用户必看）**
+	- [UI 界面](interface-introduce.md)
+	- [UI 主题、字体、编辑区主题、文件编码修改、乱码问题](theme-settings.md)
+- **IntelliJ IDEA 特别地方（新用户必看）**
+	- [IntelliJ IDEA 搜索快的原因：索引](IntelliJ-IDEA-cache.md)
+	- [IntelliJ IDEA 下 Java 文件编译方式](make-introduce.md)
+	- [IntelliJ IDEA 下项目相关特有概念说明](project-composition-introduce.md)
+- **必备的快捷键（新用户必看）**
+	- [IntelliJ IDEA 常用快捷键讲解（Win + Linux）](keymap-introduce.md)
+	- [IntelliJ IDEA 常用快捷键讲解（Mac）](keymap-mac-introduce.md)
+	- [从 Windows 过度到 Mac 必备快捷键对照表](keymap-win-mac.md)
+	- [最特殊的快捷键 Alt + Enter 介绍](hotkey-alt-enter-introduce.md)
+- **提高编码效率功能介绍**
+	- [Maven 设置](maven-project-introduce.md)
+	- [IntelliJ IDEA 配合 Maven 的一些要点](maven-skill-introduce.md)
+	- [版本控制讲解（SVN + Git）](vcs-introduce.md)
+	- [实时代码模板](live-templates-introduce.md)
+	- [文件代码模板](file-templates-introduce.md)
+	- [前端代码模板：Emmet](emmet-introduce.md)
+	- [特殊代码模板：Postfix Completion](postfix-completion-introduce.md)
+	- [Debug 技巧](debug-introduce.md)
+	- [重构技巧](refactor-introduce.md)
+	- [数据库管理工具](database-introduce.md)
+	- [远程调试介绍（Tomcat + Jetty）](remote-debugging.md)
+- **高级设置介绍**
+	- [IntelliJ IDEA 常用细节设置-1](settings-introduce-1.md)
+	- [IntelliJ IDEA 常用细节设置-2](settings-introduce-2.md)
+	- [IntelliJ IDEA 常用细节设置-3](settings-introduce-3.md)
+	- [IntelliJ IDEA 常用细节设置-4](settings-introduce-4.md)
+- **插件推荐、插件开发**
+	- [插件相关功能设置、插件推荐](plugins-settings.md)
+	- [Java 热部署插件 JRebel 安装及使用](jrebel-setup.md)
+	- [插件开发视频教程](plugins-develop.md)
+- **基于 IntelliJ IDEA 下的 demo 尝试**
+	- [Hello World 的 Java 项目创建和项目配置文件](project-settings.md)
+	- [基于 Eclipse 的 Java Web 项目在 IntelliJ IDEA 下的环境搭建](eclipse-java-web-project-introduce.md)
+	- [Maven 的单模块 / 多模块 Spring MVC + Spring + Mybatis 项目（重点）](maven-java-web-project-introduce.md)
+	- [Maven 的单模块 Spring MVC + Spring + Spring Data JPA 项目](maven-java-web-project-introduce2.md)
+	- [Maven 的单模块 Spring Boot 项目](maven-java-web-project-introduce3.md)
+- **其他（新用户必看）**
+	- [常见各类文件类型图标](file-symbols-introduce.md)
+	- [本教程总结](this-tutorial-the-end.md)
 
 ## 联系(Contact)
 
-- Email：`gitnavi@qq.com`（常用） or `admin@youmeek.com`（备用）
-- Blog：<http://YouMeek.com>
-- IntelliJ IDEA QQ 交流群：入群请看：<https://github.com/judasn/IntelliJ-IDEA-Java-Conversation>
+- Email：`gitnavi@qq.com`
+- Blog（有微信联系方式）：<http://YouMeek.com>
+- IntelliJ IDEA QQ 交流群，具体请看：[入群条件说明](https://github.com/judasn/IntelliJ-IDEA-Java-Conversation)
 - 欢迎捐赠 ^_^：<http://www.youmeek.com/donate>
 
 
