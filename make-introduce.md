@@ -13,8 +13,8 @@
 
 ![IntelliJ IDEA 编译触发按钮](images/xiii-a-make-introduce-1.jpg)
 
-> * 如上图标注 1 所示，Compile 的操作有：`Compile` 指定类
-> * 如上图标注 1 所示，Rebuild 的操作有：`Rebuild Project`
+> * 如上图标注 2 所示，Compile 的操作有：`Compile` 指定类
+> * 如上图标注 3 所示，Rebuild 的操作有：`Rebuild Project`
 > * 如上图标注 1 所示，Make 的操作有：`Make Project`、`Make Module`
 
 ## 运行之前的编译
