@@ -71,6 +71,10 @@ IntelliJ IDEA 有很多人性化的设置我们必须单独拿出来讲解，也
 > * 如上图所示 'Show in Run Dashboard'，在 2017.2.3 以后可以统一在一个 Tab 中管理所以模块应用。
 > * 这对于开发分布式系统（Spring Boot / Spring Cloud）来讲非常方便。
 
+![设置默认浏览器](images/xxvi-a-settings-introduce-46.jpg)
+
+> * 如上图所示设置默认浏览器。因为我个人有专属的测试浏览器，所以希望默认从控制台输出的链接是用测试浏览器打开，就可以这样设置。
+
 
 
 
