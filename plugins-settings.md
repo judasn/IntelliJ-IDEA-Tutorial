@@ -65,6 +65,9 @@
 |MybatisX|mybatis 框架辅助（免费）|<https://plugins.jetbrains.com/plugin/10119-mybatisx>|
 |Lombok Plugin|Lombok 功能辅助插件|<https://plugins.jetbrains.com/plugin/6317-lombok-plugin>|
 |.ignore|各类版本控制忽略文件生成工具|<https://plugins.jetbrains.com/plugin/7495--ignore>|
+|mongo4idea|mongo客户端|<https://github.com/dboissier/mongo4idea>|
+|iedis|redis客户端|<https://plugins.jetbrains.com/plugin/9228-iedis>|
+
 
 ## lombok 插件的使用
 
