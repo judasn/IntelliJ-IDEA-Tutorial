@@ -34,7 +34,7 @@
 > 
 >> * `-Xms128m`，16 G 内存的机器可尝试设置为 `-Xms512m`
 >> * `-Xmx750m`，16 G 内存的机器可尝试设置为 `-Xmx1500m`
->> * `-XX:MaxPermSize=350m`，16G 内存的机器可尝试设置为 `-XX:MaxPermSize=500m`
+>> * `-XX:MaxPermSize=350m`，16G 内存的机器可尝试设置为 `-XX:MaxPermSize=500m`（P.S：2017 后的版本该参数被剔除）
 >> * `-XX:ReservedCodeCacheSize=225m`，16G 内存的机器可尝试设置为 `-XX:ReservedCodeCacheSize=500m`
 
 ![JVM 配置说明](images/viii-a-configuration-files-2.jpg)
