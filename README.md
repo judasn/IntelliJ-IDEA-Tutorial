@@ -78,6 +78,7 @@
 	- [Java 热部署插件 JRebel 安装及使用](jrebel-setup.md)
 	- [插件开发视频教程](plugins-develop.md)
 - **基于 IntelliJ IDEA 下的 demo 尝试**
+	- [SpringBoot-Simple-Demo](https://github.com/judasn/SpringBoot-Simple-Demo-From-YouMeek)
 	- [Hello World 的 Java 项目创建和项目配置文件](project-settings.md)
 	- [基于 Eclipse 的 Java Web 项目在 IntelliJ IDEA 下的环境搭建](eclipse-java-web-project-introduce.md)
 	- [Maven 的单模块 / 多模块 Spring MVC + Spring + Mybatis 项目（重点）](maven-java-web-project-introduce.md)
