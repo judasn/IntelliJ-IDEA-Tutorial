@@ -1,5 +1,12 @@
 # 重要说明，看三遍
 
+## 特别事件
+
+- IntelliJ IDEA 2018.1 发布（2018-03-28）
+	- 新特性列表：<http://www.jetbrains.com/idea/whatsnew>
+	- 下载：<http://www.jetbrains.com/idea/download/>
+
+
 ## 介绍(Introduce)
 
 - 本套教程适用于：
