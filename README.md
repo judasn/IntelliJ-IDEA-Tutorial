@@ -15,7 +15,7 @@
 	- [PhpStorm 2016、2017、2018 版本](https://www.jetbrains.com/phpstorm)
 	- [PyCharm 2016、2017、2018 版本](https://www.jetbrains.com/pycharm)
 	- [RubyMine 2016、2017、2018 版本](https://www.jetbrains.com/ruby)
-	- [Gogland 2017、2018 版本](https://www.jetbrains.com/go)
+	- [Goland 2017、2018 版本](https://www.jetbrains.com/go)
 	- [CLion 2017、2018 版本](https://www.jetbrains.com/clion)
 	- [DataGrip 2016、2017、2018 版本](https://www.jetbrains.com/datagrip)
 	- [Android Studio 任何版本](https://developer.android.com/studio/index.html?hl=zh-cn)
