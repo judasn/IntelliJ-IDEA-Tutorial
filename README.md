@@ -76,10 +76,11 @@
 	- [数据库管理工具](database-introduce.md)
 	- [远程调试介绍（Tomcat + Jetty）](remote-debugging.md)
 - **高级设置介绍**
-	- [IntelliJ IDEA 常用细节设置-1](settings-introduce-1.md)
-	- [IntelliJ IDEA 常用细节设置-2](settings-introduce-2.md)
-	- [IntelliJ IDEA 常用细节设置-3](settings-introduce-3.md)
-	- [IntelliJ IDEA 常用细节设置-4](settings-introduce-4.md)
+	- [IntelliJ IDEA 推荐设置](settings-recommend-introduce.md)
+	- [IntelliJ IDEA 常用细节-1](settings-introduce-1.md)
+	- [IntelliJ IDEA 常用细节-2](settings-introduce-2.md)
+	- [IntelliJ IDEA 常用细节-3](settings-introduce-3.md)
+	- [IntelliJ IDEA 常用细节-4](settings-introduce-4.md)
 - **插件推荐、插件开发**
 	- [插件相关功能设置、插件推荐](plugins-settings.md)
 	- [Java 热部署插件 JRebel 安装及使用](jrebel-setup.md)
