@@ -76,7 +76,7 @@
 	- [数据库管理工具](database-introduce.md)
 	- [远程调试介绍（Tomcat + Jetty）](remote-debugging.md)
 - **高级设置介绍**
-	- [IntelliJ IDEA 推荐设置](settings-recommend-introduce.md)
+	- [IntelliJ IDEA 推荐设置（新人重点）](settings-recommend-introduce.md)
 	- [IntelliJ IDEA 常用细节-1](settings-introduce-1.md)
 	- [IntelliJ IDEA 常用细节-2](settings-introduce-2.md)
 	- [IntelliJ IDEA 常用细节-3](settings-introduce-3.md)
@@ -86,13 +86,11 @@
 	- [Java 热部署插件 JRebel 安装及使用](jrebel-setup.md)
 	- [插件开发视频教程](plugins-develop.md)
 - **基于 IntelliJ IDEA 下的 demo 尝试**
-	- [SpringBoot-Simple-Demo](https://github.com/judasn/SpringBoot-Simple-Demo-From-YouMeek)
-	- [SpringBoot-Kafka-Simple-Demo](https://github.com/judasn/SpringBoot-Kafka-From-YouMeek)
+	- [Maven 的单模块 / 多模块 Spring MVC + Spring + Mybatis 项目（新人重点）](maven-java-web-project-introduce.md)
+	- [Maven 的单模块 Spring MVC + Spring + Spring Data JPA 项目](maven-java-web-project-introduce2.md)
+	- [Maven 的单模块 Spring Boot 项目](https://github.com/judasn/SpringBoot-Simple-Demo-From-YouMeek)
 	- [Hello World 的 Java 项目创建和项目配置文件](project-settings.md)
 	- [基于 Eclipse 的 Java Web 项目在 IntelliJ IDEA 下的环境搭建](eclipse-java-web-project-introduce.md)
-	- [Maven 的单模块 / 多模块 Spring MVC + Spring + Mybatis 项目（重点）](maven-java-web-project-introduce.md)
-	- [Maven 的单模块 Spring MVC + Spring + Spring Data JPA 项目](maven-java-web-project-introduce2.md)
-	- [Maven 的单模块 Spring Boot 项目](maven-java-web-project-introduce3.md)
 - **其他（新用户必看）**
 	- [常见各类文件类型图标](file-symbols-introduce.md)
 	- [本教程总结](this-tutorial-the-end.md)
