@@ -2,7 +2,7 @@
 
 ## 特别事件
 
-- IntelliJ IDEA 2018.1 发布（2018-03-28）
+- IntelliJ IDEA 2018.2 发布（2018-07-25）
 	- 新特性列表：<http://www.jetbrains.com/idea/whatsnew>
 	- 下载：<http://www.jetbrains.com/idea/download/>
 
