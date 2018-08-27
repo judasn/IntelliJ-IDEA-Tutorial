@@ -53,7 +53,8 @@
 ![JVM 配置说明](images/viii-a-setting-synchronize-1.jpg)
 
 > * 上图是我的个性化配置目录，我是存放在 F 盘，同时该目录也是在 360 同步盘中。这样做主要是为了让我的多台设置可以同时使用一个个性化配置，保证个人开发习惯，额外作用就是在服务器上一个备份作用。
-> * 设置方式很简单，修改 `idea.properties` 属性文件中的 `idea.config.path` 值，我的机器为：`idea.config.path=F:/360SycDir/idea_config/config`
+> * 设置方式很简单，修改 `idea.properties` 属性文件中的 `idea.config.path` 值，我的机器为：`idea.config.path=F:/360SycDir/idea_config/config`.
+> * 如需要继续使用现存的配置，需将原个性化配置目录(config目录)，复制到修改后自定义的配置目录中。
 
 # Mac 的配置文件保存路径
 
