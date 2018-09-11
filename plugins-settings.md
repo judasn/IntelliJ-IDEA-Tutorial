@@ -67,6 +67,7 @@
 |.ignore|各类版本控制忽略文件生成工具|<https://plugins.jetbrains.com/plugin/7495--ignore>|
 |mongo4idea|mongo客户端|<https://github.com/dboissier/mongo4idea>|
 |iedis|redis客户端|<https://plugins.jetbrains.com/plugin/9228-iedis>|
+|VisualVM Launcher|项目启动的时候也启动 VisualVM|<https://plugins.jetbrains.com/plugin/7115-visualvm-launcher>|
 |GenerateAllSetter|new POJO类的快速生成 set 方法|<https://plugins.jetbrains.com/plugin/9360-generateallsetter>|
 
 ## lombok 插件的使用
