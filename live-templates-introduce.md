@@ -17,9 +17,9 @@
 > * 如上图标注所示，实时代码模板本质是用 XML 文件来保存的，所以传播自己的实时代码模板只要传播对应的文件即可。
 > * IntelliJ IDEA 的实时代码模板保存在 `/templates` 目录下，其他系统目录位置如下：（因为目录名在各个系统上是一致的，建议用硬盘搜索工具搜索即可）
 >
->> * Windows: <your home directory>\.<product name><version number>\config\templates
->> * Linux: ~/.<product name><version number>/config/templates
->> * OS X: ~/Library/Preferences/<product name><version number>/templates 
+>> * Windows: `C:\Users\youmeek\.IntelliJIdea2017.2\config`
+>> * Linux: `~/.<product name><version number>/config/templates`
+>> * OS X: `~/Library/Preferences/IdeaIC2017.2/templates`
 
 调用常规的实时代码模板主要是通过两个快捷键：`Tab` 和 `Ctrl + J`。虽然 IntelliJ IDEA 支持修改此对应的快捷键，但是默认大家都是这样使用的，所以没有特别原因就不要去改。
  

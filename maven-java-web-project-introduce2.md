@@ -1,4 +1,4 @@
-# Maven 的单模块 / 多模块之 Spring MVC + Spring + Spring Data JPA 项目（基于 IntelliJ IDEA）
+# Maven 的单模块 / 多模块之 Spring MVC + Spring + Spring Data JPA 项目
 
 
 ## 初衷
@@ -15,7 +15,7 @@
 ## 开发环境
 
 - JDK 7（理论上支持 JDK 6、JDK 7、JDK 8）
-- Mysql 5.6
+- MySQL 5.6
 - Maven 3.1.1
 - Tomcat 7
 - Git 2.7.0.2-64-bit

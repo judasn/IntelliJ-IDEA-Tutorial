@@ -92,7 +92,7 @@ Git 主要的版本有 1.X、2.X，最新的是 2.X，使用版本随意，但�
 ![版本控制相关的常用设置说明](images/xvi-f-version-control-system-settings-introduce-1.jpg)
 
 > * 如上图标注 1 所示，当前项目使用的版本控制是 `Git`。如果你不愿意这个项目继续使用版本控制可以点击旁边的减号按钮，如果你要切换版本控制，可以点击 `Git`，会出现 IntelliJ IDEA 支持的各种版本控制选择列表，但是我们一般情况下一个项目不会有多个版本控制的。
-> * 如上图标注 2 所示，`Show directories with changed descendants` 表示子目录有文件被修改了，则该文件的所有上层目录都显示版本控制被概念的颜色。默认是不勾选的，我一般建议勾选此功能。
+> * 如上图标注 2 所示，`Show directories with changed descendants` 表示子目录有文件被修改了，则该文件的所有上层目录都显示版本控制被修改的颜色。默认是不勾选的，我一般建议勾选此功能。
 
 ![版本控制相关的常用设置说明](images/xvi-f-version-control-system-settings-introduce-2.jpg)
 
@@ -109,14 +109,14 @@ Git 主要的版本有 1.X、2.X，最新的是 2.X，使用版本随意，但�
 > * 如上图标注 1 所示，可以在文件上右键进行操作。
 >
 >> * `Show Diff` 当前文件与服务器上该文件通版本的内容进行比较。
->> * `Move to Another Changelist` 将选中的文件转移到其他的 `Change list` 中。`Change list` 是一个重要的概念，这里需要进行重点说明。很多时候，我们开发一个项目同时并发的任务可能有很多，每个任务涉及到的文件可能都是基于业务来讲的。所以就会存在一个这样的情况：我改了 30 个文件，其中 15 个文件是属于订单问题，剩下 15 个是会员问题，那我希望提交代码的时候是根据业务区分这些文件的，这样我填写 `Commit Message` 是好描述的，同时在文件多的情况下，我也好区分这些要提交的文件业务模块。所以我一般会把属于订单的 15 个文件转移到其他的 `Change list`中，先把专注点集中在 15 个会员问题的文件，先提交会员问题的 `Change list`，然后在提交订单会员的 `Change list`。我个人还有一种用法是把一些文件暂时不提交的文件转移到一个我指定的 `Change list`，等后面我觉得有必要提交了，再做提交操作，这样这些文件就不会干扰我当前修改的文件提交。总结下 `Change list` 的功能就是为了让你更好地管理你的版本控制文件，让你的专注点得到更好的集中，从而提供效率。
+>> * `Move to Another Changelist` 将选中的文件转移到其他的 `Change list` 中。`Change list` 是一个重要的概念，这里需要进行重点说明。很多时候，我们开发一个项目同时并发的任务可能有很多，每个任务涉及到的文件可能都是基于业务来讲的。所以就会存在一个这样的情况：我改了 30 个文件，其中 15 个文件是属于订单问题，剩下 15 个是会员问题，那我希望提交代码的时候是根据业务区分这些文件的，这样我填写 `Commit Message` 是好描述的，同时在文件多的情况下，我也好区分这些要提交的文件业务模块。所以我一般会把属于订单的 15 个文件转移到其他的 `Change list`中，先把专注点集中在 15 个会员问题的文件，先提交会员问题的 `Change list`，然后在提交订单会员的 `Change list`。我个人还有一种用法是把一些文件暂时不提交的文件转移到一个我指定的 `Change list`，等后面我觉得有必要提交了，再做提交操作，这样这些文件就不会干扰我当前修改的文件提交。总结下 `Change list` 的功能就是为了让你更好地管理你的版本控制文件，让你的专注点得到更好的集中，从而提升效率。
 >> * `Jump to Source` 打开并跳转到被选中。 
-> * 如上图标注 2 所示，可以根据工具栏按钮进行操作，操作的对象会鼠标选中的文件，多选可以按 `Ctrl` 后不放，需要注意的是这个更前面的复选框是没有多大关系的。
+> * 如上图标注 2 所示，可以根据工具栏按钮进行操作，操作的对象会鼠标选中的文件，多选可以按 `Ctrl` 后不放，需要注意的是这个跟前面的复选框是没有多大关系的。
 > * 如上图标注 3 所示，可以在提交前自动对被提交的文件进行一些操作事件（该项目使用的 Git，使用其他版本控制可能有些按钮有差异。）：
 >
 >> * `Reformat code` 格式化代码，如果是 Web 开发建议不要勾选，因为格式化 JSP 类文件，格式化效果不好。如果都是 Java 类则可以安心格式化。 
 >> * `Rearrange code` 重新编排代码，IntelliJ IDEA 支持各种复杂的编排设置选项，这个会在后面说。设置好了编码功能之后，这里就可以尝试勾选这个进行自动编排。 
->> * `Optimize imports` 优化导入包，会在自动去掉没有使用的包。这个建议都勾选，这个只对 Java 类有作用，所以不用担心有副作用。 
+>> * `Optimize imports` 优化导入包，会自动去掉没有使用的包。这个建议都勾选，因其只对 Java 类有作用，所以不用担心有副作用。 
 >> * `Perform code analysis` 进行代码分析，这个建议不用在提交的时候处理，而是在开发完之后，要专门养成对代码进行分析的习惯。IntelliJ IDEA 集成了代码分析功能。
 >> * `Check TODO` 检查代码中的 `TODO`。`TODO` 功能后面也会有章节进行讲解，这里简单介绍：这是一个记录待办事项的功能。 
 >> * `Cleanup` 清除下版本控制系统，去掉一些版本控制系统的错误信息，建议勾选（主要针对 SVN，Git 不适用）。 
@@ -150,21 +150,60 @@ SVN 的这个窗口有的 IntelliJ IDEA 上叫 `Changes`，有的叫 `Version Co
 - 输错密码后，弹出验证的登录框没有再出现：
 	- 解决办法如下图：选择 `Do not save, forget passwords after restart` 等你确定你的密码没错后再选择保存密码方案。
 	
-![SVN 的使用](images/xvi-g-git-problem-1.jpg)
+![Git 常见问题](images/xvi-g-git-problem-1.jpg)
 
 
+## Git Flow 的介绍
 
+### Git Flow 概念
 
+- Git Flow 是一个 git 扩展集，按 Vincent Driessen 的分支模型提供高层次的库操作。这里的重点是 Vincent Driessen 的分支模型思想，下面讲解的内容也是基于 Vincent Driessen 思想。
+	- Vincent Driessen 的观点：<http://nvie.com/posts/a-successful-git-branching-model/>
+	- `Git Flow 是一个 git 扩展集` 你可以理解 Git Flow 是一个基于 Git 的插件，这个插件简化了 Git 一些复杂的命令，比如 Git Flow 用一条命令，就可以代替 Git 原生 10 条命令。
+	- Git Flow 对原生的 Git 不会有任何影响，你可以照旧用 Git 原生命令，也可以使用 Git Flow 命令。
+- 还有其他的一些分支管理模型思想，具体可以看：<http://www.ruanyifeng.com/blog/2015/12/git-workflow.html>
 
+### Git Flow 核心概念
 
+- 必须有的两个核心分支（长期分支）：
+	- master，Git 代码仓库中默认的一条主分支。这条分支上的代码一般都建议为是正式版本的代码，并且这条分支不能进行代码修改，只能用来合并其他分支。
+	- develop，一般用于存储开发过程的代码分支，并且这条分支也不能进行代码修改，只能用来合并其他辅助分支。
+- 根据情况创建的辅助分支（临时分支）
+	- feature branches（功能分支）
+		- **基于 develop 分支上创建**
+		- **开发完成后合并到 develop 分支上**
+		- 当要开始一个新功能的开发时，我门可以创建一个 Feature branches 。等待这个新功能开发完成并确定应用到新版本中就合并回 develop
+		- 对于单人开发的 feature branches，start 之后，开发完成后可以直接 finish。
+		- 对于多人开发的 feature branches，start 之后，开发完成后先 publish 给其他开发人员进行合并，最后大家都开发完成后再 finish。这个思路也同样适用下面几个辅助分支场景。
+		- feature branches 开发过程有 bug，直接在 feature branches 上修改、提交。
+	- release branches（预发布分支）
+		- **基于 develop 分支上创建**
+		- **测试确定新功能没有问题，合并到 develop 分支和 master 分支上**
+		- 用来做新版本发布前的准备工作，在上面可以做一些小的 bug 修复、准备发布版本号等等和发布有关的小改动，其实已经是一个比较成熟的版本了。另外这样我们既可以在预发布分支上做一些发布前准备，也不会影响 "develop" 分支上下一版本的新功能开发。
+	- hotfix branches（基于 master 基础上的生产环境 bug 的修复分支）
+		- **基于 master 分支上创建**
+		- **修复测试无误后合并到 master 分支和 develop 分支上**
+		- 主要用于处理线上版本出现的一些需要立刻修复的 bug 情况
 
+### Git Flow 安装
 
+- Windows：如果你安装 Git 用的是 [Git for Windows](https://git-for-windows.github.io/)，那它已经内置了。
+- Mac：`brew install git-flow-avh`
+- Linux：`wget --no-check-certificate -q  https://raw.githubusercontent.com/petervanderdoes/gitflow-avh/develop/contrib/gitflow-installer.sh && sudo bash gitflow-installer.sh install stable; rm gitflow-installer.sh`
+- 更多版本：<https://github.com/petervanderdoes/gitflow-avh/wiki/Installation>
+- 在系统环境上支持之后，再安装 IntelliJ IDEA 对 Git Flow 支持的插件：<https://plugins.jetbrains.com/plugin/7315-git-flow-integration>
 
+### Git Flow 基础命令资料
 
+- <https://danielkummer.github.io/git-flow-cheatsheet/index.zh_CN.html>
+- <http://www.jianshu.com/p/9e4291078853>
+- <http://stormzhang.com/git/2014/01/29/git-flow/>
 
+### Git Flow Integration 插件的使用
 
+- 如果你已经理解了上面的理论，再看下面这些截图你能理解对应的是什么意思。
 
-
+![Git Flow Integration 插件的使用](images/xvi-h-git-flow-feature-1.png)
 
 
 
