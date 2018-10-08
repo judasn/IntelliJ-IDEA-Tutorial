@@ -52,5 +52,7 @@
 - <https://github.com/krasa/EclipseCodeFormatter>
 - <https://github.com/krasa/StringManipulation>
 - <https://github.com/krasa/GrepConsole>
+- <https://github.com/gejun123456/intellij-generateAllSetMethod>
+
 
 

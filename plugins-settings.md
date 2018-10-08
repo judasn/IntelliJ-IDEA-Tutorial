@@ -63,6 +63,7 @@
 |Git Flow Integration|Git Flow 的图形界面操作|<https://plugins.jetbrains.com/plugin/7315-git-flow-integration>|
 |Rainbow Brackets|对各个对称括号进行着色，方便查看|<https://github.com/izhangzhihao/intellij-rainbow-brackets>|
 |MybatisX|mybatis 框架辅助（免费）|<https://plugins.jetbrains.com/plugin/10119-mybatisx>|
+|MyBatisCodeHelperPro|mybatis框架全方位支持(付费使用高级功能)|<https://gejun123456.github.io/MyBatisCodeHelper-Pro>|
 |Lombok Plugin|Lombok 功能辅助插件|<https://plugins.jetbrains.com/plugin/6317-lombok-plugin>|
 |.ignore|各类版本控制忽略文件生成工具|<https://plugins.jetbrains.com/plugin/7495--ignore>|
 |mongo4idea|mongo客户端|<https://github.com/dboissier/mongo4idea>|
