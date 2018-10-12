@@ -10,7 +10,7 @@
 > * [AppCode](http://www.jetbrains.com/objc/ "AppCode 主要用于开发 Objective-C") 主要用于开发 Objective-C / Swift
 > * [CLion](http://www.jetbrains.com/clion/ "CLion 主要用于开发 C/C++") 主要用于开发 C / C++
 > * [WebStorm](http://www.jetbrains.com/webstorm/ "WebStorm 主要用于开发 JavaScript 等前端技术") 主要用于开发 JavaScript、HTML5、CSS3 等前端技术
-> * [0xDBE](http://www.jetbrains.com/dbe/ "0xDBE 主要用于开发 SQL") 主要用于开发 SQL
+> * [DataGrip](http://www.jetbrains.com/dbe/ "DataGrip 主要用于开发 SQL") 主要用于开发 SQL
 > * [Android Studio](http://developer.android.com/tools/studio/ "Android Studio 主要用于开发 Android") 主要用于开发 Android（Google 基于 IntelliJ IDEA 社区版进行迭代所以也姑且算上）
 
 ## IntelliJ IDEA 介绍
@@ -25,7 +25,7 @@ IntelliJ IDEA 在 2015 年 06 月官网主页是这样介绍自己的：
 
 IntelliJ IDEA 对自己的定义是很清晰的，对于新人来讲可能还不太理解，可能还会有误会，认为它博而不精，但是对于老用户来讲应该是非常认可上面这句话的。通过下面功能表格，新人对于 IntelliJ IDEA 所具备的功能会有一个新的认识。
 
-如果用一句话来形容 IntelliJ IDEA，我会说：**IntelliJ IDEA 是目前所有 IDE 中最具备沉浸式的 IDE，没有之一**。 
+如果用一句话来形容 IntelliJ IDEA，我会说：**IntelliJ IDEA 是目前所有 IDE 中最具备沉浸式的 JVM IDE，没有之一**。 
 
 ## IntelliJ IDEA 主要功能介绍
 
