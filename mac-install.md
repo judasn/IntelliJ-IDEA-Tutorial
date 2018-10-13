@@ -38,3 +38,15 @@
 
 - 这个表示你对你的 Tomcat 目录是没有足够权限的，简单粗暴的方式是你可以把你整个 Tomcat 的 bin 目录都改为 777 的权限
     - 打开终端，进入 Tomcat\bin 目录，然后执行： `chmod 777 *.sh`
+
+## Mac 下通过 Homebrew Cask 安装更加便捷
+
+- 首先你的Mac需要安装有Homebrew(相信大多数使用Intellij的都应该是程序员, Homebrew都是必备的软件之一), 如果没有安装可以去他官网 https://brew.sh 看下, 安装方法很简单, 一行命令即可安装成功
+
+- 已经安装好Homebrew后, 接下来就是安装 IntelliJ IDEA, 同样是一行命令即可完成安装
+
+- ```
+  brew cask install intellij-idea
+  ```
+
+- 接下来就是静静等他下载安装完成了, 整个过程就是一行命令这么简单, 无需上面教程那么多繁琐步骤
