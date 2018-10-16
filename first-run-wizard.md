@@ -13,7 +13,7 @@
 
 ![向导步骤截图](images/vii-a-first-run-wizard-2.jpg)
 
-> * 上图默认选择中的是 `Buy IntelliJ IDEA`，验证 IntelliJ IDEA 的许可有如图三种方式，我们这里使用的是 30 天试用版本进行演示，顾单击 `Evaluate for free for 30 days` 进行下一步。
+> * 上图默认选择中的是 `Buy IntelliJ IDEA`，验证 IntelliJ IDEA 的许可有如图三种方式，我们这里使用的是 30 天试用版本进行演示，故单击 `Evaluate for free for 30 days` 进行下一步。
 
 ![向导步骤截图](images/vii-a-first-run-wizard-3.jpg)
 
@@ -33,5 +33,5 @@
 
 ![向导步骤截图](images/vii-a-first-run-wizard-7.jpg)
 
-> * 选择好自己所需的扩展功能后，按 `Start using IntelliJ IDEA` 显示上图启动界面，金黄色进度条走完之后，欢迎真正进入 IntelliJ IDEA 的编码世界！
+> * 选择好自己所需的扩展功能后，按 `Start using IntelliJ IDEA` 显示上图启动界面，金黄色进度条走完之后，欢迎进入 IntelliJ IDEA 编码世界！
 
