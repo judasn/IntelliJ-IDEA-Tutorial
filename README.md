@@ -158,4 +158,4 @@
 
 ## AD
 
-- [推荐：程序员的个性化网址导航：GitNavi.com](http://www.gitnavi.com)
+- [推荐：程序员的个性化网址导航：GitNavi.com](http://www.gitnavi.com/u/judasn/)
