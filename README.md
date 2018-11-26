@@ -2,6 +2,7 @@
 
 ## 特别事件
 
+- IntelliJ IDEA 2018.3 发布（2018-11-21）
 - IntelliJ IDEA 2018.2 发布（2018-07-25）
 	- 新特性列表：<http://www.jetbrains.com/idea/whatsnew>
 	- 下载：<http://www.jetbrains.com/idea/download/>
@@ -159,3 +160,4 @@
 ## AD
 
 - [推荐：程序员的个性化网址导航：GitNavi.com](http://www.gitnavi.com/u/judasn/)
+- [适合后端开发者的前端 React-Admin](https://github.com/satan31415/umi-admin)
