@@ -1,6 +1,6 @@
 # 从 Windows 过度到 Mac 必备快捷键对照表
 
-## Mac 键盘符号说明
+## Mac 键盘符号
 
 |图标|介绍|
 |:---------|:---------|
@@ -25,6 +25,21 @@
 |⎋|<kbd>Esc</kbd> = <kbd>Escape</kbd>|
 |⏏|<kbd>电源开关键</kbd>|
 
+
+## Alt
+
+|Win 快捷键|Mac 快捷键|介绍|
+|:---------|:---------|:---------|
+|<kbd>Alt</kbd> + <kbd>\`</kbd>|<kbd>Control</kbd> + <kbd>V</kbd>|显示版本控制常用操作菜单弹出层|
+|<kbd>Alt</kbd> + <kbd>F1</kbd>|<kbd>Option</kbd> + <kbd>F1</kbd>|显示当前文件选择目标弹出层，弹出层中有很多目标可以进行选择|
+|<kbd>Alt</kbd> + <kbd>F7</kbd>|<kbd>Option</kbd> + <kbd>F7</kbd>|查询所选对象/变量被引用|
+|<kbd>Alt</kbd> + <kbd>Enter</kbd>|<kbd>Option</kbd> + <kbd>Enter</kbd>|IntelliJ IDEA 根据光标所在问题，提供快速修复选择，光标放在的位置不同提示的结果也不同|
+|<kbd>Alt</kbd> + <kbd>Insert</kbd>|<kbd>Command</kbd> + <kbd>N</kbd>|代码自动生成，如生成对象的 set / get 方法，构造函数，toString() 等|
+|<kbd>Alt</kbd> + <kbd>左方向键</kbd>|<kbd>Control</kbd> + <kbd>左方向键</kbd>|切换当前已打开的窗口中的子视图，比如Debug窗口中有Output、Debugger等子视图，用此快捷键就可以在子视图中切换|
+|<kbd>Alt</kbd> + <kbd>右方向键</kbd>|<kbd>Control</kbd> + <kbd>右方向键</kbd>|切换当前已打开的窗口中的子视图，比如Debug窗口中有Output、Debugger等子视图，用此快捷键就可以在子视图中切换|
+|<kbd>Alt</kbd> + <kbd>前方向键</kbd>|<kbd>Control</kbd> + <kbd>前方向键</kbd>|当前光标跳转到当前文件的前一个方法名位置|
+|<kbd>Alt</kbd> + <kbd>后方向键</kbd>|<kbd>Control</kbd> + <kbd>后方向键</kbd>|当前光标跳转到当前文件的后一个方法名位置|
+|<kbd>Alt</kbd> + <kbd>1,2,3...9</kbd>|<kbd>Command</kbd> + <kbd>1,2,3...9</kbd>|显示对应数值的选项卡，其中 1 是 Project 用得最多|
 
 ## Ctrl
 
@@ -58,20 +73,6 @@
 |<kbd>Ctrl</kbd> + <kbd>前方向键</kbd>|预设中没有该快捷键|等效于鼠标滚轮向前效果|
 |<kbd>Ctrl</kbd> + <kbd>后方向键</kbd>|预设中没有该快捷键|等效于鼠标滚轮向后效果|
 
-## Alt
-
-|Win 快捷键|Mac 快捷键|介绍|
-|:---------|:---------|:---------|
-|<kbd>Alt</kbd> + <kbd>\`</kbd>|<kbd>Control</kbd> + <kbd>V</kbd>|显示版本控制常用操作菜单弹出层|
-|<kbd>Alt</kbd> + <kbd>F1</kbd>|<kbd>Option</kbd> + <kbd>F1</kbd>|显示当前文件选择目标弹出层，弹出层中有很多目标可以进行选择|
-|<kbd>Alt</kbd> + <kbd>F7</kbd>|<kbd>Option</kbd> + <kbd>F7</kbd>|查询所选对象/变量被引用|
-|<kbd>Alt</kbd> + <kbd>Enter</kbd>|<kbd>Option</kbd> + <kbd>Enter</kbd>|IntelliJ IDEA 根据光标所在问题，提供快速修复选择，光标放在的位置不同提示的结果也不同|
-|<kbd>Alt</kbd> + <kbd>Insert</kbd>|<kbd>Command</kbd> + <kbd>N</kbd>|代码自动生成，如生成对象的 set / get 方法，构造函数，toString() 等|
-|<kbd>Alt</kbd> + <kbd>左方向键</kbd>|<kbd>Control</kbd> + <kbd>左方向键</kbd>|切换当前已打开的窗口中的子视图，比如Debug窗口中有Output、Debugger等子视图，用此快捷键就可以在子视图中切换|
-|<kbd>Alt</kbd> + <kbd>右方向键</kbd>|<kbd>Control</kbd> + <kbd>右方向键</kbd>|切换当前已打开的窗口中的子视图，比如Debug窗口中有Output、Debugger等子视图，用此快捷键就可以在子视图中切换|
-|<kbd>Alt</kbd> + <kbd>前方向键</kbd>|<kbd>Control</kbd> + <kbd>前方向键</kbd>|当前光标跳转到当前文件的前一个方法名位置|
-|<kbd>Alt</kbd> + <kbd>后方向键</kbd>|<kbd>Control</kbd> + <kbd>后方向键</kbd>|当前光标跳转到当前文件的后一个方法名位置|
-|<kbd>Alt</kbd> + <kbd>1,2,3...9</kbd>|<kbd>Command</kbd> + <kbd>1,2,3...9</kbd>|显示对应数值的选项卡，其中 1 是 Project 用得最多|
 
 ## Shift
 
@@ -81,6 +82,17 @@
 |<kbd>Shift</kbd> + <kbd>Tab</kbd>|<kbd>Shift + Tab</kbd>|取消缩进|
 |<kbd>Shift</kbd> + <kbd>Enter</kbd>|<kbd>Shift + Enter</kbd>|开始新一行。光标所在行下空出一行，光标定位到新行位置|
 |<kbd>Shift</kbd> + <kbd>左键单击</kbd>|<kbd>Shift + 左键单击</kbd>|在打开的文件名上按此快捷键，可以关闭当前打开文件|
+
+
+## Alt + Shift
+
+|Win 快捷键|Mac 快捷键|介绍|
+|:---------|:---------|:---------|
+|<kbd>Alt</kbd> + <kbd>Shift</kbd> + <kbd>N</kbd>|<kbd>Option</kbd> + <kbd>Shift</kbd> + <kbd>B</kbd>|选择 / 添加 task|
+|<kbd>Alt</kbd> + <kbd>Shift</kbd> + <kbd>左键双击</kbd>|<kbd>Option</kbd> + <kbd>Shift</kbd> + <kbd>左键双击</kbd>|选择被双击的单词 / 中文句，按住不放，可以同时选择其他单词 / 中文句|
+|<kbd>Alt</kbd> + <kbd>Shift</kbd> + <kbd>前方向键</kbd>|<kbd>Option</kbd> + <kbd>Shift</kbd> + <kbd>前方向键</kbd>|移动光标所在行向上移动|
+|<kbd>Alt</kbd> + <kbd>Shift</kbd> + <kbd>后方向键</kbd>|<kbd>Option</kbd> + <kbd>Shift</kbd> + <kbd>后方向键</kbd>|移动光标所在行向下移动|
+
 
 ## Ctrl + Alt
 
@@ -124,15 +136,6 @@
 |<kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>前方向键</kbd>|<kbd>Command</kbd> + <kbd>Shift</kbd> + <kbd>前方向键</kbd>|光标放在方法名上，将方法移动到上一个方法前面，调整方法排序|
 |<kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>后方向键</kbd>|<kbd>Command</kbd> + <kbd>Shift</kbd> + <kbd>后方向键</kbd>|光标放在方法名上，将方法移动到下一个方法前面，调整方法排序|
 
-## Alt + Shift
-
-|Win 快捷键|Mac 快捷键|介绍|
-|:---------|:---------|:---------|
-|<kbd>Alt</kbd> + <kbd>Shift</kbd> + <kbd>N</kbd>|<kbd>Option</kbd> + <kbd>Shift</kbd> + <kbd>B</kbd>|选择 / 添加 task|
-|<kbd>Alt</kbd> + <kbd>Shift</kbd> + <kbd>左键双击</kbd>|<kbd>Option</kbd> + <kbd>Shift</kbd> + <kbd>左键双击</kbd>|选择被双击的单词 / 中文句，按住不放，可以同时选择其他单词 / 中文句|
-|<kbd>Alt</kbd> + <kbd>Shift</kbd> + <kbd>前方向键</kbd>|<kbd>Option</kbd> + <kbd>Shift</kbd> + <kbd>前方向键</kbd>|移动光标所在行向上移动|
-|<kbd>Alt</kbd> + <kbd>Shift</kbd> + <kbd>后方向键</kbd>|<kbd>Option</kbd> + <kbd>Shift</kbd> + <kbd>后方向键</kbd>|移动光标所在行向下移动|
-
 ## Ctrl + Shift + Alt
 
 |Win 快捷键|Mac 快捷键|介绍|
@@ -140,7 +143,8 @@
 |<kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>Alt</kbd> + <kbd>V</kbd>|<kbd>Command</kbd> + <kbd>Shift</kbd> + <kbd>Option</kbd> + <kbd>V</kbd>|无格式黏贴|
 |<kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>Alt</kbd> + <kbd>S</kbd>|<kbd>Command</kbd> + <kbd>;</kbd>|打开当前项目设置|
 
-## 其他
+
+## Other
 
 |Win 快捷键|Mac 快捷键|介绍|
 |:---------|:---------|:---------|
