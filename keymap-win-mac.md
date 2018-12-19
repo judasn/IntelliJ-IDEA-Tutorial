@@ -2,26 +2,29 @@
 
 ## Mac 键盘符号说明
 
-- `⌘` == `Command`
-- `⇧` == `Shift`
-- `⇪` == `Caps Lock`
-- `⌥` == `Option`
-- `⌃` == `Control`
-- `↩` == `Return/Enter`
-- `⌫` == `Delete`
-- `⌦` == `向前删除键（Fn+Delete）`
-- `↑` == `上箭头`
-- `↓` == `下箭头`
-- `←` == `左箭头`
-- `→` == `右箭头`
-- `⇞` == `Page Up（Fn+↑）`
-- `⇟` == `Page Down（Fn+↓）`
-- `Home` == `Fn + ←`
-- `End` == `Fn + →`
-- `⇥` == `右制表符（Tab键）`
-- `⇤` == `左制表符（Shift+Tab）`
-- `⎋` == `Escape (Esc)`
-- `⏏` == `电源开关键`
+|图标|介绍|
+|:---------|:---------|
+|⌘|<kbd>Command</kbd>|
+|⇧|<kbd>Shift</kbd>|
+|⇪|<kbd>Caps Lock</kbd>|
+|⌥|<kbd>Option</kbd>|
+|⌃|<kbd>Control</kbd>|
+|↩|<kbd>Enter</kbd>|
+|⌫|<kbd>Delete</kbd>|
+|⌦|<kbd>Fn</kbd> + <kbd>Delete</kbd>|
+|↑|<kbd>上箭头</kbd>|
+|↓|<kbd>下箭头</kbd>|
+|←|<kbd>左箭头</kbd>|
+|→|<kbd>右箭头</kbd>|
+|⇞|<kbd>Fn</kbd> + <kbd>↑</kbd> = <kbd>Page Up</kbd>|
+|⇟|<kbd>Fn</kbd> + <kbd>↓</kbd> = <kbd>Page Down</kbd>|
+|Home|<kbd>Fn</kbd> + <kbd>←</kbd>|
+|End|<kbd>Fn</kbd> + <kbd>→</kbd>|
+|⇥|<kbd>Tab</kbd> = <kbd>右制表符</kbd>|
+|⇤|<kbd>Shift + Tab</kbd> = <kbd>左制表符</kbd>|
+|⎋|<kbd>Esc</kbd> = <kbd>Escape</kbd>|
+|⏏|<kbd>电源开关键</kbd>|
+
 
 ## Ctrl
 
