@@ -62,7 +62,7 @@
 |<kbd>Ctrl</kbd> + <kbd>F11</kbd>|<kbd>Option</kbd> + <kbd>F3</kbd>|选中文件 / 文件夹，使用助记符设定 / 取消书签|
 |<kbd>Ctrl</kbd> + <kbd>F12</kbd>|<kbd>Command</kbd> + <kbd>F12</kbd>|弹出当前文件结构层，可以在弹出的层上直接输入，进行筛选|
 |<kbd>Ctrl</kbd> + <kbd>Space</kbd>|<kbd>Control</kbd> + <kbd>Space</kbd>|基础代码补全，默认在 Windows 系统上被输入法占用，需要进行修改，建议修改为 `Ctrl + 逗号`|
-|<kbd>Ctrl</kbd> + <kbd>Delete</kbd>|<kbd>Option</kbd> + <kbd>Fn</kbd>+ Delete|删除光标后面的单词或是中文句|
+|<kbd>Ctrl</kbd> + <kbd>Delete</kbd>|<kbd>Option</kbd> + <kbd>Fn</kbd>+ <kbd>Delete</kbd>|删除光标后面的单词或是中文句|
 |<kbd>Ctrl</kbd> + <kbd>BackSpace</kbd>|<kbd>Option</kbd> + <kbd>Delete</kbd>|删除光标前面的单词或是中文句|
 |<kbd>Ctrl</kbd> + <kbd>1,2,3...9</kbd>|<kbd>Control</kbd> + <kbd>1,2,3...9</kbd>|定位到对应数值的书签位置|
 |<kbd>Ctrl</kbd> + <kbd>加号</kbd>|<kbd>Command</kbd> + <kbd>加号</kbd>|展开代码|
