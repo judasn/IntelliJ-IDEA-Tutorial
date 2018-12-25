@@ -7,7 +7,7 @@
 |⌘|<kbd>Command</kbd>|
 |⇧|<kbd>Shift</kbd>|
 |⇪|<kbd>Caps Lock</kbd>|
-|⌥|<kbd>Option</kbd>|
+|⌥|<kbd>Option</kbd> = <kbd>Alt</kbd>|
 |⌃|<kbd>Control</kbd>|
 |↩|<kbd>Enter</kbd>|
 |⌫|<kbd>Delete</kbd>|
