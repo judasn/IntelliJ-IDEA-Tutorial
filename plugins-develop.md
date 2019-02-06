@@ -52,5 +52,6 @@
 - <https://github.com/krasa/EclipseCodeFormatter>
 - <https://github.com/krasa/StringManipulation>
 - <https://github.com/krasa/GrepConsole>
+- <https://github.com/HexarA/Json2Pojo>
 
 
