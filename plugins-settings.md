@@ -72,6 +72,12 @@
 |iedis|redis客户端|<https://plugins.jetbrains.com/plugin/9228-iedis>|
 |VisualVM Launcher|项目启动的时候也启动 VisualVM|<https://plugins.jetbrains.com/plugin/7115-visualvm-launcher>|
 |GenerateAllSetter|new POJO类的快速生成 set 方法|<https://plugins.jetbrains.com/plugin/9360-generateallsetter>|
+|kubernetes|kubernetes 辅助工具|<https://plugins.jetbrains.com/plugin/10485-kubernetes>|
+|Alibaba Cloud Toolkit|阿里云辅助开发工具|<https://plugins.jetbrains.com/plugin/11386-alibaba-cloud-toolkit>|
+|BashSupport|Bash 支持|<https://plugins.jetbrains.com/plugin/4230-bashsupport>|
+|Json2Pojo|根据 JSON 生成 POJO，根据 POJO 生成 JSON|<https://plugins.jetbrains.com/plugin/8533-json2pojo>|
+|Scala|对 Scala 支持|<https://plugins.jetbrains.com/plugin/1347-scala>|
+
 
 ## lombok 插件的使用
 
