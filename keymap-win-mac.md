@@ -55,7 +55,7 @@
 |<kbd>Ctrl</kbd> + <kbd>N</kbd>|<kbd>Command</kbd> + <kbd>O</kbd>|根据输入的 **类名** 查找类文件|
 |<kbd>Ctrl</kbd> + <kbd>J</kbd>|<kbd>Command</kbd> + <kbd>J</kbd>|插入自定义动态代码模板|
 |<kbd>Ctrl</kbd> + <kbd>P</kbd>|<kbd>Command</kbd> + <kbd>P</kbd>|方法参数提示显示|
-|<kbd>Ctrl</kbd> + <kbd>Q</kbd>|<kbd>Ctrl</kbd> + <kbd>J</kbd>|当前位置变量、方法的 Documentation 内容显示|
+|<kbd>Ctrl</kbd> + <kbd>Q</kbd>|<kbd>Control</kbd> + <kbd>J</kbd>|当前位置变量、方法的 Documentation 内容显示|
 |<kbd>Ctrl</kbd> + <kbd>U</kbd>|<kbd>Command</kbd> + <kbd>U</kbd>|前往当前光标所在的方法的父类的方法 / 接口定义|
 |<kbd>Ctrl</kbd> + <kbd>B</kbd>|<kbd>Command</kbd> + <kbd>B</kbd>|进入光标所在的方法/变量的接口或是定义处，等效于 `Ctrl + 左键单击` |
 |<kbd>Ctrl</kbd> + <kbd>/</kbd>|<kbd>Command</kbd> + <kbd>/</kbd>|注释光标所在行代码，会根据当前不同文件类型使用不同的注释符号|
