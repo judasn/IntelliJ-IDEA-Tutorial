@@ -40,6 +40,7 @@
 - `Control + Shift + Space` 智能代码补全（过滤器方法列表和变量的预期类型）
 - `Command + Shift + Enter` 自动结束代码，行末自动添加分号
 - `Command + P` 显示方法的参数信息
+- `Control + J` 显示当前位置的变量、方法的 Documentation 内容
 - `Control + J` 快速查看文档
 - `Shift + F1` 查看外部文档（在某些代码上会触发打开浏览器显示相关文档）
 - `Command + 鼠标放在代码上` 显示代码简要信息
