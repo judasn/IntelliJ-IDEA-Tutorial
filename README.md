@@ -1,4 +1,8 @@
-# 重要说明，看三遍
+## 团队 DevOps 方案参考
+
+<a target="_blank" href="https://e.coding.net/?utm_source=judasn">
+<img id="judasn" src="https://upload-images.jianshu.io/upload_images/12159-e3279861ff8655c9.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240">
+</a>
 
 ## 特别事件
 
@@ -9,7 +13,6 @@
 - 实体书
 	- 有在计划出实体书，并且空闲时已经在潦草写点，目前已经写了 25%，争取 2019 年秋季官网出大版本前完成第一版本。（不排除工作上有事情）
 	- 计算机类书籍销量都很小（总销量能 1W 册算是牛逼了），赚不了什么钱，而且容易 PDF，这是无法阻拦的。写实体书只是因为想白纸黑字证明自己存在过，即使哪天突然消失了也能有人会记得我。
-
 
 
 ## 介绍(Introduce)
