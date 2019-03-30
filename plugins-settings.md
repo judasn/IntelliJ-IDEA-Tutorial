@@ -77,7 +77,7 @@
 |BashSupport|Bash 支持|<https://plugins.jetbrains.com/plugin/4230-bashsupport>|
 |Json2Pojo|根据 JSON 生成 POJO，根据 POJO 生成 JSON|<https://plugins.jetbrains.com/plugin/8533-json2pojo>|
 |Scala|对 Scala 支持|<https://plugins.jetbrains.com/plugin/1347-scala>|
-
+|MapStruct Support|对 MapStruct 属性转换支持|<https://plugins.jetbrains.com/plugin/10036-mapstruct-support>|
 
 ## lombok 插件的使用
 
