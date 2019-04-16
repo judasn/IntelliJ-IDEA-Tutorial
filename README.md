@@ -1,6 +1,6 @@
 ## 团队 DevOps 方案参考
 
-<a target="_blank" href="https://e.coding.net/?utm_source=judasn">
+<a target="_blank" href="https://coding.net/?utm_source=judasn">
 <img id="judasn" src="https://upload-images.jianshu.io/upload_images/12159-e3279861ff8655c9.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240">
 </a>
 
