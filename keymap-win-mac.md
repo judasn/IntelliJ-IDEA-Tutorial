@@ -89,7 +89,7 @@
 
 |Win 快捷键|Mac 快捷键|介绍|
 |:---------|:---------|:---------|
-|<kbd>Alt</kbd> + <kbd>Shift</kbd> + <kbd>N</kbd>|<kbd>Option</kbd> + <kbd>Shift</kbd> + <kbd>B</kbd>|选择 / 添加 task|
+|<kbd>Alt</kbd> + <kbd>Shift</kbd> + <kbd>N</kbd>|<kbd>Option</kbd> + <kbd>Shift</kbd> + <kbd>N</kbd>|选择 / 添加 task|
 |<kbd>Alt</kbd> + <kbd>Shift</kbd> + <kbd>左键双击</kbd>|<kbd>Option</kbd> + <kbd>Shift</kbd> + <kbd>左键双击</kbd>|选择被双击的单词 / 中文句，按住不放，可以同时选择其他单词 / 中文句|
 |<kbd>Alt</kbd> + <kbd>Shift</kbd> + <kbd>前方向键</kbd>|<kbd>Option</kbd> + <kbd>Shift</kbd> + <kbd>前方向键</kbd>|移动光标所在行向上移动|
 |<kbd>Alt</kbd> + <kbd>Shift</kbd> + <kbd>后方向键</kbd>|<kbd>Option</kbd> + <kbd>Shift</kbd> + <kbd>后方向键</kbd>|移动光标所在行向下移动|
