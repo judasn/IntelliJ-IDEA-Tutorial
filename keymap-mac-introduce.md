@@ -1,3 +1,4 @@
+
 # IntelliJ IDEA For Mac 快捷键
 
 - 根据官方pdf翻译：<https://www.jetbrains.com/idea/docs/IntelliJIDEA_ReferenceCard_Mac.pdf>
@@ -7,31 +8,39 @@
 
 > 建议将 Mac 系统中与 IntelliJ IDEA 冲突的快捷键取消或更改，不建议改 IntelliJ IDEA 的默认快捷键。
 
-#### Mac键盘符号和修饰键说明
-- `⌘` Command
-- `⇧` Shift
-- `⌥` Option
-- `⌃` Control
-- `↩︎` Return/Enter
-- `⌫` Delete
-- `⌦` 向前删除键（Fn+Delete）
-- `↑` 上箭头
-- `↓` 下箭头
-- `←` 左箭头
-- `→` 右箭头
-- `⇞` Page Up（Fn+↑）
-- `⇟` Page Down（Fn+↓）
-- `Home` Fn + ←
-- `End` Fn + →
-- `⇥` 右制表符（Tab键）
-- `⇤` 左制表符（Shift+Tab）
-- `⎋` Escape (Esc)
 
-#### 一、Editing（编辑）
+## Mac 键盘符号
+
+|图标|介绍|
+|:---------|:---------|
+|⌘|<kbd>Command</kbd>|
+|⇧|<kbd>Shift</kbd>|
+|⇪|<kbd>Caps Lock</kbd>|
+|⌥|<kbd>Option</kbd> = <kbd>Alt</kbd>|
+|⌃|<kbd>Control</kbd>|
+|↩|<kbd>Enter</kbd>|
+|⌫|<kbd>Delete</kbd>|
+|⌦|<kbd>Fn</kbd> + <kbd>Delete</kbd>|
+|↑|<kbd>上箭头</kbd>|
+|↓|<kbd>下箭头</kbd>|
+|←|<kbd>左箭头</kbd>|
+|→|<kbd>右箭头</kbd>|
+|⇞|<kbd>Fn</kbd> + <kbd>↑</kbd> = <kbd>Page Up</kbd>|
+|⇟|<kbd>Fn</kbd> + <kbd>↓</kbd> = <kbd>Page Down</kbd>|
+|Home|<kbd>Fn</kbd> + <kbd>←</kbd>|
+|End|<kbd>Fn</kbd> + <kbd>→</kbd>|
+|⇥|<kbd>Tab</kbd> = <kbd>右制表符</kbd>|
+|⇤|<kbd>Shift + Tab</kbd> = <kbd>左制表符</kbd>|
+|⎋|<kbd>Esc</kbd> = <kbd>Escape</kbd>|
+|⏏|<kbd>电源开关键</kbd>|
+
+#### Editing（编辑）
+
 - `Control + Space` 基本的代码补全（补全任何类、方法、变量）
 - `Control + Shift + Space` 智能代码补全（过滤器方法列表和变量的预期类型）
 - `Command + Shift + Enter` 自动结束代码，行末自动添加分号
 - `Command + P` 显示方法的参数信息
+- `Control + J` 显示当前位置的变量、方法的 Documentation 内容
 - `Control + J` 快速查看文档
 - `Shift + F1` 查看外部文档（在某些代码上会触发打开浏览器显示相关文档）
 - `Command + 鼠标放在代码上` 显示代码简要信息
@@ -68,7 +77,7 @@
 - `Command + Shift + 减号` 折叠所有代码块
 - `Command + W` 关闭活动的编辑器选项卡
 
-#### 二、Search/Replace（查询/替换）
+#### Search/Replace（查询/替换）
 - `Double Shift` 查询任何东西
 - `Command + F` 文件内查找
 - `Command + G` 查找模式下，向下查找
@@ -79,12 +88,14 @@
 - `Command + Shift + S` 查询结构（Ultimate Edition 版专用，需要在Keymap中设置）
 - `Command + Shift + M` 替换结构（Ultimate Edition 版专用，需要在Keymap中设置）
 
-#### 三、Usage Search（使用查询）
+#### Usage Search（使用查询）
+
 - `Option + F7 / Command + F7` 在文件中查找用法 / 在类中查找用法
 - `Command + Shift + F7` 在文件中突出显示的用法
 - `Command + Option + F7` 显示用法
 
-#### 四、Compile and Run（编译和运行）
+#### Compile and Run（编译和运行）
+
 - `Command + F9` 编译Project
 - `Command + Shift + F9` 编译选择的文件、包或模块
 - `Control + Option + R` 弹出 Run 的可选择菜单
@@ -93,7 +104,8 @@
 - `Control + D` 调试
 - `Control + Shift + R, Control + Shift + D` 从编辑器运行上下文环境配置
 
-#### 五、Debugging（调试）
+#### Debugging（调试）
+
 - `F8` 进入下一步，如果当前行断点是一个方法，则不进入当前方法体内
 - `F7` 进入下一步，如果当前行断点是一个方法，则进入当前方法体内，如果该方法体还有方法，则不会进入该内嵌的方法中
 - `Shift + F7` 智能步入，断点所在行上有多个方法调用，会弹出进入哪个方法
@@ -104,7 +116,8 @@
 - `Command + F8` 切换断点（若光标当前行有断点则取消断点，没有则加上断点）
 - `Command + Shift + F8` 查看断点信息
 
-#### 六、Navigation（导航）
+#### Navigation（导航）
+
 - `Command + O` 查找类文件
 - `Command + Shift + O` 查找所有类型文件、打开文件、打开目录，打开目录需要在输入的内容前面或后面加一个反斜杠`/`
 - `Command + Option + O` 前往指定的变量 / 方法
@@ -138,7 +151,8 @@
 - `Control + 0...Control + 9` 定位到对应数值的书签位置
 - `Command + F3` 显示所有书签
 
-#### 七、Refactoring（重构）
+#### Refactoring（重构）
+
 - `F5` 复制文件到指定目录
 - `F6` 移动文件到指定目录
 - `Command + Delete` 在文件上为安全删除文件，弹出确认框
@@ -151,17 +165,20 @@
 - `Command + Option + C` 提取常量
 - `Command + Option + P` 提取参数
 
-#### 八、VCS/Local History（版本控制/本地历史记录）
+#### VCS/Local History（版本控制/本地历史记录）
+
 - `Command + K` 提交代码到版本控制器
 - `Command + T` 从版本控制器更新代码
 - `Option + Shift + C` 查看最近的变更记录
 - `Control + C` 快速弹出版本控制器操作面板
 
-#### 九、Live Templates（动态代码模板）
+#### Live Templates（动态代码模板）
+
 - `Command + Option + J` 弹出模板选择窗口，将选定的代码使用动态模板包住
 - `Command + J` 插入自定义动态代码模板
 
-#### 十、General（通用）
+#### General（通用）
+
 - `Command + 1...Command + 9` 打开相应编号的工具窗口
 - `Command + S` 保存所有
 - `Command + Option + Y` 同步、刷新
@@ -175,5 +192,6 @@
 - `Shift + Command + A` 查找动作（可设置相关选项）
 - `Control + Shift + Tab` 编辑窗口标签和工具窗口之间切换（如果在切换的过程加按上delete，则是关闭对应选中的窗口）
 
-#### 十一、Other（一些官方文档上没有体现的快捷键）
+#### Other（一些官方文档上没有体现的快捷键）
+
 - `Command + Shift +8` 竖编辑模式

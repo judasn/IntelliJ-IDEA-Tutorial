@@ -11,7 +11,7 @@
 > * 内存：最低要求 1 GB，推荐 2 GB 以上
 > * 硬盘：最低要求 2 GB
 > * 显示器：最低要求 1024 X 768 分辨率
-> * 更多信息可以阅读：<https://www.jetbrains.com/idea/download/system_requirements.jsp?os=win>
+> * 更多信息可以阅读：<https://www.jetbrains.com/help/idea/install-and-set-up-intellij-idea.html>
 
 ## 首次安装
 

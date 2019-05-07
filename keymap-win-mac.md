@@ -1,59 +1,30 @@
 # 从 Windows 过度到 Mac 必备快捷键对照表
 
-## Mac 键盘符号说明
+## Mac 键盘符号
 
-- `⌘` == `Command`
-- `⇧` == `Shift`
-- `⇪` == `Caps Lock`
-- `⌥` == `Option`
-- `⌃` == `Control`
-- `↩` == `Return/Enter`
-- `⌫` == `Delete`
-- `⌦` == `向前删除键（Fn+Delete）`
-- `↑` == `上箭头`
-- `↓` == `下箭头`
-- `←` == `左箭头`
-- `→` == `右箭头`
-- `⇞` == `Page Up（Fn+↑）`
-- `⇟` == `Page Down（Fn+↓）`
-- `Home` == `Fn + ←`
-- `End` == `Fn + →`
-- `⇥` == `右制表符（Tab键）`
-- `⇤` == `左制表符（Shift+Tab）`
-- `⎋` == `Escape (Esc)`
-- `⏏` == `电源开关键`
+|图标|介绍|
+|:---------|:---------|
+|⌘|<kbd>Command</kbd>|
+|⇧|<kbd>Shift</kbd>|
+|⇪|<kbd>Caps Lock</kbd>|
+|⌥|<kbd>Option</kbd> = <kbd>Alt</kbd>|
+|⌃|<kbd>Control</kbd>|
+|↩|<kbd>Enter</kbd>|
+|⌫|<kbd>Delete</kbd>|
+|⌦|<kbd>Fn</kbd> + <kbd>Delete</kbd>|
+|↑|<kbd>上箭头</kbd>|
+|↓|<kbd>下箭头</kbd>|
+|←|<kbd>左箭头</kbd>|
+|→|<kbd>右箭头</kbd>|
+|⇞|<kbd>Fn</kbd> + <kbd>↑</kbd> = <kbd>Page Up</kbd>|
+|⇟|<kbd>Fn</kbd> + <kbd>↓</kbd> = <kbd>Page Down</kbd>|
+|Home|<kbd>Fn</kbd> + <kbd>←</kbd>|
+|End|<kbd>Fn</kbd> + <kbd>→</kbd>|
+|⇥|<kbd>Tab</kbd> = <kbd>右制表符</kbd>|
+|⇤|<kbd>Shift + Tab</kbd> = <kbd>左制表符</kbd>|
+|⎋|<kbd>Esc</kbd> = <kbd>Escape</kbd>|
+|⏏|<kbd>电源开关键</kbd>|
 
-## Ctrl
-
-|Win 快捷键|Mac 快捷键|介绍|
-|:---------|:---------|:---------|
-|<kbd>Ctrl</kbd> + <kbd>F</kbd>|<kbd>Command</kbd> + <kbd>F</kbd>|在当前文件进行文本查找|
-|<kbd>Ctrl</kbd> + <kbd>R</kbd>|<kbd>Command</kbd> + <kbd>R</kbd>|在当前文件进行文本替换|
-|<kbd>Ctrl</kbd> + <kbd>Z</kbd>|<kbd>Command</kbd> + <kbd>Z</kbd>|撤销|
-|<kbd>Ctrl</kbd> + <kbd>Y</kbd>|<kbd>Command</kbd> + <kbd>Delete</kbd>|删除光标所在行 或 删除选中的行|
-|<kbd>Ctrl</kbd> + <kbd>D</kbd>|<kbd>Command</kbd> + <kbd>D</kbd>|复制光标所在行 或 复制选择内容，并把复制内容插入光标位置下面|
-|<kbd>Ctrl</kbd> + <kbd>W</kbd>|<kbd>Option</kbd> + <kbd>方向键上</kbd>|递进式选择代码块。可选中光标所在的单词或段落，连续按会在原有选中的基础上再扩展选中范围|
-|<kbd>Ctrl</kbd> + <kbd>E</kbd>|<kbd>Command</kbd> + <kbd>E</kbd>|显示最近打开的文件记录列表|
-|<kbd>Ctrl</kbd> + <kbd>N</kbd>|<kbd>Command</kbd> + <kbd>O</kbd>|根据输入的 **类名** 查找类文件|
-|<kbd>Ctrl</kbd> + <kbd>J</kbd>|<kbd>Command</kbd> + <kbd>J</kbd>|插入自定义动态代码模板|
-|<kbd>Ctrl</kbd> + <kbd>P</kbd>|<kbd>Command</kbd> + <kbd>P</kbd>|方法参数提示显示|
-|<kbd>Ctrl</kbd> + <kbd>U</kbd>|<kbd>Command</kbd> + <kbd>U</kbd>|前往当前光标所在的方法的父类的方法 / 接口定义|
-|<kbd>Ctrl</kbd> + <kbd>B</kbd>|<kbd>Command</kbd> + <kbd>B</kbd>|进入光标所在的方法/变量的接口或是定义处，等效于 `Ctrl + 左键单击` |
-|<kbd>Ctrl</kbd> + <kbd>/</kbd>|<kbd>Command</kbd> + <kbd>/</kbd>|注释光标所在行代码，会根据当前不同文件类型使用不同的注释符号|
-|<kbd>Ctrl</kbd> + <kbd>F1</kbd>|<kbd>Command</kbd> + <kbd>F1</kbd>|在光标所在的错误代码处显示错误信息|
-|<kbd>Ctrl</kbd> + <kbd>F11</kbd>|<kbd>Option</kbd> + <kbd>F3</kbd>|选中文件 / 文件夹，使用助记符设定 / 取消书签|
-|<kbd>Ctrl</kbd> + <kbd>F12</kbd>|<kbd>Command</kbd> + <kbd>F12</kbd>|弹出当前文件结构层，可以在弹出的层上直接输入，进行筛选|
-|<kbd>Ctrl</kbd> + <kbd>Space</kbd>|<kbd>Control</kbd> + <kbd>Space</kbd>|基础代码补全，默认在 Windows 系统上被输入法占用，需要进行修改，建议修改为 `Ctrl + 逗号`|
-|<kbd>Ctrl</kbd> + <kbd>Delete</kbd>|<kbd>Option</kbd> + <kbd>Fn</kbd>+ Delete|删除光标后面的单词或是中文句|
-|<kbd>Ctrl</kbd> + <kbd>BackSpace</kbd>|<kbd>Option</kbd> + <kbd>Delete</kbd>|删除光标前面的单词或是中文句|
-|<kbd>Ctrl</kbd> + <kbd>1,2,3...9</kbd>|<kbd>Control</kbd> + <kbd>1,2,3...9</kbd>|定位到对应数值的书签位置|
-|<kbd>Ctrl</kbd> + <kbd>加号</kbd>|<kbd>Command</kbd> + <kbd>加号</kbd>|展开代码|
-|<kbd>Ctrl</kbd> + <kbd>减号</kbd>|<kbd>Command</kbd> + <kbd>减号</kbd>|折叠代码|
-|<kbd>Ctrl</kbd> + <kbd>左键单击</kbd>|<kbd>Control</kbd> + <kbd>左键单击</kbd>|在打开的文件标题上，弹出该文件路径|
-|<kbd>Ctrl</kbd> + <kbd>左方向键</kbd>|<kbd>Option</kbd> + <kbd>左方向键</kbd>|光标跳转到当前单词 / 中文句的左侧开头位置|
-|<kbd>Ctrl</kbd> + <kbd>右方向键</kbd>|<kbd>Option</kbd> + <kbd>右方向键</kbd>|光标跳转到当前单词 / 中文句的右侧开头位置|
-|<kbd>Ctrl</kbd> + <kbd>前方向键</kbd>|预设中没有该快捷键|等效于鼠标滚轮向前效果|
-|<kbd>Ctrl</kbd> + <kbd>后方向键</kbd>|预设中没有该快捷键|等效于鼠标滚轮向后效果|
 
 ## Alt
 
@@ -70,6 +41,40 @@
 |<kbd>Alt</kbd> + <kbd>后方向键</kbd>|<kbd>Control</kbd> + <kbd>后方向键</kbd>|当前光标跳转到当前文件的后一个方法名位置|
 |<kbd>Alt</kbd> + <kbd>1,2,3...9</kbd>|<kbd>Command</kbd> + <kbd>1,2,3...9</kbd>|显示对应数值的选项卡，其中 1 是 Project 用得最多|
 
+## Ctrl
+
+|Win 快捷键|Mac 快捷键|介绍|
+|:---------|:---------|:---------|
+|<kbd>Ctrl</kbd> + <kbd>F</kbd>|<kbd>Command</kbd> + <kbd>F</kbd>|在当前文件进行文本查找|
+|<kbd>Ctrl</kbd> + <kbd>R</kbd>|<kbd>Command</kbd> + <kbd>R</kbd>|在当前文件进行文本替换|
+|<kbd>Ctrl</kbd> + <kbd>Z</kbd>|<kbd>Command</kbd> + <kbd>Z</kbd>|撤销|
+|<kbd>Ctrl</kbd> + <kbd>Y</kbd>|<kbd>Command</kbd> + <kbd>Delete</kbd>|删除光标所在行 或 删除选中的行|
+|<kbd>Ctrl</kbd> + <kbd>D</kbd>|<kbd>Command</kbd> + <kbd>D</kbd>|复制光标所在行 或 复制选择内容，并把复制内容插入光标位置下面|
+|<kbd>Ctrl</kbd> + <kbd>W</kbd>|<kbd>Option</kbd> + <kbd>方向键上</kbd>|递进式选择代码块。可选中光标所在的单词或段落，连续按会在原有选中的基础上再扩展选中范围|
+|<kbd>Ctrl</kbd> + <kbd>E</kbd>|<kbd>Command</kbd> + <kbd>E</kbd>|显示最近打开的文件记录列表|
+|<kbd>Ctrl</kbd> + <kbd>N</kbd>|<kbd>Command</kbd> + <kbd>O</kbd>|根据输入的 **类名** 查找类文件|
+|<kbd>Ctrl</kbd> + <kbd>J</kbd>|<kbd>Command</kbd> + <kbd>J</kbd>|插入自定义动态代码模板|
+|<kbd>Ctrl</kbd> + <kbd>P</kbd>|<kbd>Command</kbd> + <kbd>P</kbd>|方法参数提示显示|
+|<kbd>Ctrl</kbd> + <kbd>Q</kbd>|<kbd>Control</kbd> + <kbd>J</kbd>|当前位置变量、方法的 Documentation 内容显示|
+|<kbd>Ctrl</kbd> + <kbd>U</kbd>|<kbd>Command</kbd> + <kbd>U</kbd>|前往当前光标所在的方法的父类的方法 / 接口定义|
+|<kbd>Ctrl</kbd> + <kbd>B</kbd>|<kbd>Command</kbd> + <kbd>B</kbd>|进入光标所在的方法/变量的接口或是定义处，等效于 `Ctrl + 左键单击` |
+|<kbd>Ctrl</kbd> + <kbd>/</kbd>|<kbd>Command</kbd> + <kbd>/</kbd>|注释光标所在行代码，会根据当前不同文件类型使用不同的注释符号|
+|<kbd>Ctrl</kbd> + <kbd>F1</kbd>|<kbd>Command</kbd> + <kbd>F1</kbd>|在光标所在的错误代码处显示错误信息|
+|<kbd>Ctrl</kbd> + <kbd>F11</kbd>|<kbd>Option</kbd> + <kbd>F3</kbd>|选中文件 / 文件夹，使用助记符设定 / 取消书签|
+|<kbd>Ctrl</kbd> + <kbd>F12</kbd>|<kbd>Command</kbd> + <kbd>F12</kbd>|弹出当前文件结构层，可以在弹出的层上直接输入，进行筛选|
+|<kbd>Ctrl</kbd> + <kbd>Space</kbd>|<kbd>Control</kbd> + <kbd>Space</kbd>|基础代码补全，默认在 Windows 系统上被输入法占用，需要进行修改，建议修改为 `Ctrl + 逗号`|
+|<kbd>Ctrl</kbd> + <kbd>Delete</kbd>|<kbd>Option</kbd> + <kbd>Fn</kbd>+ <kbd>Delete</kbd>|删除光标后面的单词或是中文句|
+|<kbd>Ctrl</kbd> + <kbd>BackSpace</kbd>|<kbd>Option</kbd> + <kbd>Delete</kbd>|删除光标前面的单词或是中文句|
+|<kbd>Ctrl</kbd> + <kbd>1,2,3...9</kbd>|<kbd>Control</kbd> + <kbd>1,2,3...9</kbd>|定位到对应数值的书签位置|
+|<kbd>Ctrl</kbd> + <kbd>加号</kbd>|<kbd>Command</kbd> + <kbd>加号</kbd>|展开代码|
+|<kbd>Ctrl</kbd> + <kbd>减号</kbd>|<kbd>Command</kbd> + <kbd>减号</kbd>|折叠代码|
+|<kbd>Ctrl</kbd> + <kbd>左键单击</kbd>|<kbd>Control</kbd> + <kbd>左键单击</kbd>|在打开的文件标题上，弹出该文件路径|
+|<kbd>Ctrl</kbd> + <kbd>左方向键</kbd>|<kbd>Option</kbd> + <kbd>左方向键</kbd>|光标跳转到当前单词 / 中文句的左侧开头位置|
+|<kbd>Ctrl</kbd> + <kbd>右方向键</kbd>|<kbd>Option</kbd> + <kbd>右方向键</kbd>|光标跳转到当前单词 / 中文句的右侧开头位置|
+|<kbd>Ctrl</kbd> + <kbd>前方向键</kbd>|预设中没有该快捷键|等效于鼠标滚轮向前效果|
+|<kbd>Ctrl</kbd> + <kbd>后方向键</kbd>|预设中没有该快捷键|等效于鼠标滚轮向后效果|
+
+
 ## Shift
 
 |Win 快捷键|Mac 快捷键|介绍|
@@ -78,6 +83,17 @@
 |<kbd>Shift</kbd> + <kbd>Tab</kbd>|<kbd>Shift + Tab</kbd>|取消缩进|
 |<kbd>Shift</kbd> + <kbd>Enter</kbd>|<kbd>Shift + Enter</kbd>|开始新一行。光标所在行下空出一行，光标定位到新行位置|
 |<kbd>Shift</kbd> + <kbd>左键单击</kbd>|<kbd>Shift + 左键单击</kbd>|在打开的文件名上按此快捷键，可以关闭当前打开文件|
+
+
+## Alt + Shift
+
+|Win 快捷键|Mac 快捷键|介绍|
+|:---------|:---------|:---------|
+|<kbd>Alt</kbd> + <kbd>Shift</kbd> + <kbd>N</kbd>|<kbd>Option</kbd> + <kbd>Shift</kbd> + <kbd>N</kbd>|选择 / 添加 task|
+|<kbd>Alt</kbd> + <kbd>Shift</kbd> + <kbd>左键双击</kbd>|<kbd>Option</kbd> + <kbd>Shift</kbd> + <kbd>左键双击</kbd>|选择被双击的单词 / 中文句，按住不放，可以同时选择其他单词 / 中文句|
+|<kbd>Alt</kbd> + <kbd>Shift</kbd> + <kbd>前方向键</kbd>|<kbd>Option</kbd> + <kbd>Shift</kbd> + <kbd>前方向键</kbd>|移动光标所在行向上移动|
+|<kbd>Alt</kbd> + <kbd>Shift</kbd> + <kbd>后方向键</kbd>|<kbd>Option</kbd> + <kbd>Shift</kbd> + <kbd>后方向键</kbd>|移动光标所在行向下移动|
+
 
 ## Ctrl + Alt
 
@@ -121,15 +137,6 @@
 |<kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>前方向键</kbd>|<kbd>Command</kbd> + <kbd>Shift</kbd> + <kbd>前方向键</kbd>|光标放在方法名上，将方法移动到上一个方法前面，调整方法排序|
 |<kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>后方向键</kbd>|<kbd>Command</kbd> + <kbd>Shift</kbd> + <kbd>后方向键</kbd>|光标放在方法名上，将方法移动到下一个方法前面，调整方法排序|
 
-## Alt + Shift
-
-|Win 快捷键|Mac 快捷键|介绍|
-|:---------|:---------|:---------|
-|<kbd>Alt</kbd> + <kbd>Shift</kbd> + <kbd>N</kbd>|<kbd>Option</kbd> + <kbd>Shift</kbd> + <kbd>B</kbd>|选择 / 添加 task|
-|<kbd>Alt</kbd> + <kbd>Shift</kbd> + <kbd>左键双击</kbd>|<kbd>Option</kbd> + <kbd>Shift</kbd> + <kbd>左键双击</kbd>|选择被双击的单词 / 中文句，按住不放，可以同时选择其他单词 / 中文句|
-|<kbd>Alt</kbd> + <kbd>Shift</kbd> + <kbd>前方向键</kbd>|<kbd>Option</kbd> + <kbd>Shift</kbd> + <kbd>前方向键</kbd>|移动光标所在行向上移动|
-|<kbd>Alt</kbd> + <kbd>Shift</kbd> + <kbd>后方向键</kbd>|<kbd>Option</kbd> + <kbd>Shift</kbd> + <kbd>后方向键</kbd>|移动光标所在行向下移动|
-
 ## Ctrl + Shift + Alt
 
 |Win 快捷键|Mac 快捷键|介绍|
@@ -137,7 +144,8 @@
 |<kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>Alt</kbd> + <kbd>V</kbd>|<kbd>Command</kbd> + <kbd>Shift</kbd> + <kbd>Option</kbd> + <kbd>V</kbd>|无格式黏贴|
 |<kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>Alt</kbd> + <kbd>S</kbd>|<kbd>Command</kbd> + <kbd>;</kbd>|打开当前项目设置|
 
-## 其他
+
+## Other
 
 |Win 快捷键|Mac 快捷键|介绍|
 |:---------|:---------|:---------|

@@ -16,8 +16,7 @@
 	- `07_翻译插件显示气泡`
 	- `08_把插件上传到公共仓库`
 - 视频教程下载地址
-	- 原下载地址：<http://pan.baidu.com/s/1nv79ptZ>
-	- 备用下载地址：<http://pan.baidu.com/s/1eSoQHoA>，密码：gqo2，如果哪天下载地址失效，请在本 Github 项目发 Issues。
+	- 下载地址：<https://pan.baidu.com/s/1i7grrpV>，密码：gnpl，如果哪天下载地址失效，请在本 Github 项目发 Issues。
 - 这套教程视频不是本人录制的，所以需要特别强调下，本套视频来自：[传智播客公开课：Android Studio插件开发](http://open.itcast.cn/java/14-539.html)，在此特别感谢别人的付出（鞠躬）。
 
 ## 其他图文资料介绍
@@ -53,5 +52,6 @@
 - <https://github.com/krasa/EclipseCodeFormatter>
 - <https://github.com/krasa/StringManipulation>
 - <https://github.com/krasa/GrepConsole>
+- <https://github.com/HexarA/Json2Pojo>
 
 

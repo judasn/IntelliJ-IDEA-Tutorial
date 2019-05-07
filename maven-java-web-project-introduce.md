@@ -28,14 +28,14 @@
 - 所有编码：UTF-8
 
 
-## 演示内容
+## 视频中项目源码
 
 
 - 环境相关：
-    - Maven 环境说明：<http://code.youmeek.com/2016/03/09/2016/03/Maven/>
-    - 我的 Maven 环境分享下载：<http://pan.baidu.com/s/1bnPZU2b>
-        - 建议你也跟我一样直接解压在 D 盘根目录，这样其他就不需要设置了
-    - Git 环境的说明：<http://code.youmeek.com/2016/02/28/2016/02/Hexo/>
+    - [Maven 配置文件](maven-skill-introduce.md)
+    - 我的 Maven 本地依赖包环境下载：<http://pan.baidu.com/s/1bnPZU2b>
+    - 建议你也跟我一样直接解压在 D 盘根目录，这样其他就不需要设置了
+    - Git 环境的说明（默认安装）：<http://www.youmeek.com/hexo-install/>
     - IntelliJ IDEA 基础教程系列：<https://github.com/judasn/IntelliJ-IDEA-Tutorial>
 
 ---

@@ -5,17 +5,18 @@
 相比较于 Eclipse 的实时自动编译，IntelliJ IDEA 的编译更加手动化，虽然 IntelliJ IDEA 也支持通过设置开启实时编译，但是不建议，因为太占资源了。IntelliJ IDEA 编译方式除了手工点击编译按钮进行编译之外，还有就是在容器运行之前配置上一个编译事件，先编译后运行。默认下 IntelliJ IDEA 也都是这样的设置，所以实际开发中你也不用太注意编译这件事。虽然 IntelliJ IDEA 没有实时编译，但是对于代码检查完全是没有影响。但是多个类之间的关联关系还是要等 Make 或 Rebuild 触发的时候才会做相关检查的。
 
 在 IntelliJ IDEA 里，编译方式一共有三种：
-> * Compile：对选定的目标（Java 类文件），进行强制性编译，不管目标是否是被修改过。
+> * Compile：对选定的目标（Java 类文件），进行强制性编译，不管目标是否是被修改过。注：2018版操作为Recompile。
 > * Rebuild：对选定的目标（Project），进行强制性编译，不管目标是否是被修改过，由于 Rebuild 的目标只有 Project，所以 Rebuild 每次花的时间会比较长。
-> * Make：使用最多的编译操作。对选定的目标（Project 或 Module）进行编译，但只编译有修改过的文件，没有修改过的文件不会编译，这样平时开发大型项目才不会浪费时间在编译过程中。
+> * Make：使用最多的编译操作。对选定的目标（Project 或 Module）进行编译，但只编译有修改过的文件，没有修改过的文件不会编译，这样平时开发大型项目才不会浪费时间在编译过程中。注：2018版操作为Build。
 
 ## 编译触发按钮
 
 ![IntelliJ IDEA 编译触发按钮](images/xiii-a-make-introduce-1.jpg)
 
-> * 如上图标注 1 所示，Compile 的操作有：`Compile` 指定类
-> * 如上图标注 1 所示，Rebuild 的操作有：`Rebuild Project`
 > * 如上图标注 1 所示，Make 的操作有：`Make Project`、`Make Module`
+> * 如上图标注 2 所示，Compile 的操作有：`Compile` 指定类
+> * 如上图标注 3 所示，Rebuild 的操作有：`Rebuild Project`
+
 
 ## 运行之前的编译
  

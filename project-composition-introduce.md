@@ -94,11 +94,11 @@
 
 对于大型项目，各个 Module 用到的 `SDK` 和 `language level` 很有可能是各不一样的，IntelliJ IDEA 对此也进行了支持。
  
-![Module 下的 SDK 和 language level](images/xiv-d-module-setting-1.jpg)
+![Module 下的 SDK 和 language level](images/xiv-d-module-setting-2.jpg)
 
 > * 如上图标注 1 所示，可以针对 Module 选择其他 SDK，默认选择的是 `Project SDK`
 
-![Module 下的 SDK 和 language level](images/xiv-d-module-setting-2.jpg)
+![Module 下的 SDK 和 language level](images/xiv-d-module-setting-1.jpg)
 
 > * 如上图标注 1 所示，可以针对 Module 选择其他 `language level`，默认选择的是 `Project language level`
  

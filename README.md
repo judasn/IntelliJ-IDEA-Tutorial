@@ -1,17 +1,40 @@
-# 重要说明，看三遍
+## 团队 DevOps 方案参考
+
+<a target="_blank" href="https://coding.net/?utm_source=judasn">
+<img id="judasn" src="https://upload-images.jianshu.io/upload_images/12159-e3279861ff8655c9.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240">
+</a>
+
+## 特别事件
+
+- IntelliJ IDEA 2019.1 发布（2019-03-28-撒花）
+- IntelliJ IDEA 2018.3 发布（2018-11-21）
+- IntelliJ IDEA 2018.2 发布（2018-07-25）
+	- 新特性列表：<http://www.jetbrains.com/idea/whatsnew>
+	- 下载：<http://www.jetbrains.com/idea/download/>
+- 实体书
+	- 有在计划出实体书，并且空闲时已经在潦草写点，目前已经写了 25%，争取 2019 年秋季官网出大版本前完成第一版本。（不排除工作上有事情）
+	- 计算机类书籍销量都很小（总销量能 1W 册算是牛逼了），赚不了什么钱，而且容易 PDF，这是无法阻拦的。写实体书只是因为想白纸黑字证明自己存在过，即使哪天突然消失了也能有人会记得我。
+
 
 ## 介绍(Introduce)
 
 - 本套教程适用于：
-	- IntelliJ IDEA 14、15、2016、2017 版本
-	- WebStorm 2016、2017 版本
-	- PhpStorm 2016、2017 版本
-	- PyCharm 2016、2017 版本
-	- Android Studio 2.X、3.X 版本	
+	- [IntelliJ IDEA 14、15、2016、2017、2018 版本](https://www.jetbrains.com/idea/)
+	- [WebStorm 2016、2017、2018 版本](https://www.jetbrains.com/webstorm)
+	- [PhpStorm 2016、2017、2018 版本](https://www.jetbrains.com/phpstorm)
+	- [PyCharm 2016、2017、2018 版本](https://www.jetbrains.com/pycharm)
+	- [RubyMine 2016、2017、2018 版本](https://www.jetbrains.com/ruby)
+	- [Goland 2017、2018 版本](https://www.jetbrains.com/go)
+	- [CLion 2017、2018 版本](https://www.jetbrains.com/clion)
+	- [DataGrip 2016、2017、2018 版本](https://www.jetbrains.com/datagrip)
+	- [Android Studio 任何版本](https://developer.android.com/studio/index.html?hl=zh-cn)
 - 教程主要面向中文用户，如果你英文良好，建议直接阅读官网帮助文档
 	- 官网帮助中心：<http://www.jetbrains.com/idea/webhelp/getting-help.html>
 - 教程目前在不定时进行调整和补充，需要关注更新的请 `Watch`、`Star`、`Fork`。
-- 特别需要友情提醒的是：请 `Fork` 之后，在我的基础上按你自己喜欢的方式整理一套属于你自己的快捷键列表，并导出为 PDF，以备不时查阅，对于提升开发效率是很有帮助的！文章的图片建议在需要的时候可以 `右键 - 查看图像（在新标签页打开图片）` 进行原图查看。或者建议你放大页面缩放比例（快捷键 `Ctrl + 鼠标滚轮`），可以更加清楚地看清图片细节。
+- 特别需要友情提醒的是：
+    - 请 `Fork` 之后，在我的基础上按你自己喜欢的方式整理一套属于你自己的快捷键列表，并导出为 PDF，以备不时查阅，对于提升开发效率是很有帮助的！
+    - 文章的图片建议在需要的时候可以 `右键 - 查看图像（在新标签页打开图片）` 进行原图查看。或者建议你放大页面缩放比例（快捷键 `Ctrl + 鼠标滚轮`），可以更加清楚地看清图片细节。
+    - 有的 Gif 动态图片操作过快，你需要暂停 Gif 图片进行观看的话，可以使用这个 Gif 图片查看工具：[7GIF（提取密码：0qo9）](https://pan.baidu.com/s/1mkrESsg)
 - 同时邀请您一起参与完善该教程，帮助更多的人，欢迎反馈错误和意见！
 - 本系列文章唯一授权的商业网站是：[极客学院](http://www.jikexueyuan.com/)，其他商业网站一律禁止转载。公益站点、个人博客、公众号等载体请在转载写明出处链接。
 - 如果你想参与完善该教程，请移步到 Github 上进行 Fork：
@@ -19,73 +42,86 @@
 - 如果你需要一份电子版，请查看（制作电子版很费精力，不会常更新此文件）：
     - 百度云：<http://pan.baidu.com/s/1i3wFYPB>
     - Google Drive：[https://drive.google.com/file/d/0B5...UU/view?usp=sharing](https://drive.google.com/file/d/0B5gjjw8peC5Sa19vVEswbTRYYUU/view?usp=sharing "Google Drive")
-- 2017-07：应部分童鞋要求，同步到 GitBook 上供大家阅读：<https://youmeek.gitbooks.io/intellij-idea-tutorial/content/>
+- GitBook 在线阅读地址：<https://youmeek.gitbooks.io/intellij-idea-tutorial/content/>
+- [关于咕泡学院的教程：《IntelliJ IDEA使用教程》侵权说明](http://www.youmeek.com/intellij-idea-tutorial-infringement/)
+- [IntelliJ IDEA-Windows-新手必备基础配置整理（密码：z1uo）](http://pan.baidu.com/s/1nvfzKTj)
+    - 使用方法：把解压后 config 目录下的所有子目录覆盖到：`C:\Users\你的电脑登录用户名\.IntelliJIdea2017.2\config` 目录下（[Mac 用户](https://github.com/judasn/IntelliJ-IDEA-Tutorial/blob/master/installation-directory-introduce.md#mac-的配置文件保存路径)）
+    - 导入后，你过去的一些配置可能会丢失，所以需要重新配置下，每个人都不一样，这需要你自己进行分析。
 
 ## 目录(Contents)
 
-- [01. IntelliJ IDEA 介绍（新用户必看）](introduce.md)
-- [02. 教程介绍（新用户必看）](about-this-tutorial.md)
-- [03. 安装环境：Windows](windows-install.md)
-- [04. 安装环境：Ubuntu](ubuntu-install.md)
-- [05. 安装环境：Mac](mac-install.md)
-- [06. 安装环境总结（新用户必看）](install-summarize.md)
-- [07. 首次运行向导（新用户必看）](first-run-wizard.md)
-- [08. 安装后生成的目录说明、IDE 设置云同步（新用户必看）](installation-directory-introduce.md)
-- [09. UI 界面（新用户必看）](interface-introduce.md)
-- [10. UI 主题、字体、编辑区主题、文件编码修改、乱码问题（新用户必看）](theme-settings.md)
-- [11. 常见各类文件类型图标（新用户必看）](file-symbols-introduce.md)
-- [12. IntelliJ IDEA 搜索快的原因：索引（新用户必看）](IntelliJ-IDEA-cache.md)
-- [13. Java 文件编译方式（新用户必看）](make-introduce.md)
-- [14. 项目相关概念（新用户必看）](project-composition-introduce.md)
-- [15. Hello World 的 Java 项目创建和项目配置文件](project-settings.md)
-- [16. 版本控制讲解（SVN + Git）](vcs-introduce.md)
-- [17. 实时代码模板](live-templates-introduce.md)
-- [18. 文件代码模板](file-templates-introduce.md)
-- [19. 前端代码模板：Emmet](emmet-introduce.md)
-- [20. 特殊代码模板：Postfix Completion](postfix-completion-introduce.md)
-- [21. 插件相关功能](plugins-settings.md)
-- [22. Eclipse 的 Java Web 项目环境搭建](eclipse-java-web-project-introduce.md)
-- [23. Maven 结构项目搭建](maven-project-introduce.md)
-- [24. IntelliJ IDEA 配合 Maven 的一些要点](maven-skill-introduce.md)
-- [25. Maven 的单模块 / 多模块 Spring MVC + Spring + Mybatis 项目（重点）](maven-java-web-project-introduce.md)
-- [26. Maven 的单模块 Spring MVC + Spring + Spring Data JPA 项目](maven-java-web-project-introduce2.md)
-- [27. Maven 的单模块 Spring Boot 项目](maven-java-web-project-introduce3.md)
-- [28. Debug 技巧](debug-introduce.md)
-- [29. 重构技巧](refactor-introduce.md)
-- [30. 数据库管理工具](database-introduce.md)
-- [31. IntelliJ IDEA 常用细节设置-1](settings-introduce-1.md)
-- [32. IntelliJ IDEA 常用细节设置-2](settings-introduce-2.md)
-- [33. IntelliJ IDEA 常用细节设置-3](settings-introduce-3.md)
-- [34. IntelliJ IDEA 常用细节设置-4](settings-introduce-4.md)
-- [35. IntelliJ IDEA 常用快捷键讲解（Win + Linux）（新用户必看）](keymap-introduce.md)
-- [36. IntelliJ IDEA 常用快捷键讲解（Mac）（新用户必看）](keymap-mac-introduce.md)
-- [37. 从 Windows 过度到 Mac 必备快捷键对照表（新用户必看）](keymap-win-mac.md)
-- [38. IntelliJ IDEA 的 Java 热部署插件 JRebel 安装及使用](jrebel-setup.md)
-- [39. IntelliJ IDEA 远程调试（Tomcat+Jetty）](remote-debugging.md)
-- [40. 最特殊的快捷键 Alt + Enter 介绍（新用户必看）](hotkey-alt-enter-introduce.md)
-- [41. IntelliJ IDEA 插件开发视频教程](plugins-develop.md)
-- [42. 本教程总结](this-tutorial-the-end.md)
-
+- **教程介绍（新用户必看）**
+	- [IntelliJ IDEA 介绍](introduce.md)
+	- [本教程介绍](about-this-tutorial.md)
+- **安装、基础环境介绍（新用户必看）**
+	- [Windows 下安装](windows-install.md)
+	- [Ubuntu 下安装](ubuntu-install.md)
+	- [Mac 下安装](mac-install.md)
+	- [安装环境总结](install-summarize.md)
+	- [首次运行向导](first-run-wizard.md)
+	- [安装后生成的目录说明、VM 设置](installation-directory-introduce.md)
+- **首次使用的基础设置介绍（新用户必看）**
+	- [UI 界面](interface-introduce.md)
+	- [UI 主题、字体、编辑区主题、文件编码修改、乱码问题](theme-settings.md)
+- **IntelliJ IDEA 特别地方（新用户必看）**
+	- [IntelliJ IDEA 搜索快的原因：索引](IntelliJ-IDEA-cache.md)
+	- [IntelliJ IDEA 下 Java 文件编译方式](make-introduce.md)
+	- [IntelliJ IDEA 下项目相关特有概念说明](project-composition-introduce.md)
+- **必备的快捷键（新用户必看）**
+	- [IntelliJ IDEA 常用快捷键讲解（Win + Linux）](keymap-introduce.md)
+	- [IntelliJ IDEA 常用快捷键讲解（Mac）](keymap-mac-introduce.md)
+	- [从 Windows 过度到 Mac 必备快捷键对照表](keymap-win-mac.md)
+	- [最特殊的快捷键 Alt + Enter 介绍](hotkey-alt-enter-introduce.md)
+- **提高编码效率功能介绍**
+	- [Maven 设置](maven-project-introduce.md)
+	- [IntelliJ IDEA 配合 Maven 的一些要点](maven-skill-introduce.md)
+	- [版本控制讲解（SVN + Git）](vcs-introduce.md)
+	- [实时代码模板](live-templates-introduce.md)
+	- [文件代码模板](file-templates-introduce.md)
+	- [前端代码模板：Emmet](emmet-introduce.md)
+	- [特殊代码模板：Postfix Completion](postfix-completion-introduce.md)
+	- [Debug 技巧](debug-introduce.md)
+	- [重构技巧](refactor-introduce.md)
+	- [数据库管理工具](database-introduce.md)
+	- [远程调试介绍（Tomcat + Jetty）](remote-debugging.md)
+- **高级设置介绍**
+	- [IntelliJ IDEA 推荐设置（新人重点）](settings-recommend-introduce.md)
+	- [IntelliJ IDEA 常用细节-1](settings-introduce-1.md)
+	- [IntelliJ IDEA 常用细节-2](settings-introduce-2.md)
+	- [IntelliJ IDEA 常用细节-3](settings-introduce-3.md)
+	- [IntelliJ IDEA 常用细节-4](settings-introduce-4.md)
+- **插件推荐、插件开发**
+	- [插件相关功能设置、插件推荐](plugins-settings.md)
+	- [Java 热部署插件 JRebel 安装及使用](jrebel-setup.md)
+	- [插件开发视频教程](plugins-develop.md)
+- **基于 IntelliJ IDEA 下的 demo 尝试**
+	- [Maven 的单模块 / 多模块 Spring MVC + Spring + Mybatis 项目（新人重点）](maven-java-web-project-introduce.md)
+	- [Maven 的单模块 Spring MVC + Spring + Spring Data JPA 项目](maven-java-web-project-introduce2.md)
+	- [Maven 的单模块 Spring Boot 项目](https://github.com/judasn/SpringBoot-Simple-Demo-From-YouMeek)
+	- [Hello World 的 Java 项目创建和项目配置文件](project-settings.md)
+	- [基于 Eclipse 的 Java Web 项目在 IntelliJ IDEA 下的环境搭建](eclipse-java-web-project-introduce.md)
+- **其他（新用户必看）**
+	- [常见各类文件类型图标](file-symbols-introduce.md)
+	- [本教程总结](this-tutorial-the-end.md)
 
 ## 联系(Contact)
 
-- Email：`gitnavi@qq.com`（常用） or `admin@youmeek.com`（备用）
-- Blog：<http://YouMeek.com>
-- IntelliJ IDEA QQ 交流群：入群请看：<https://github.com/judasn/IntelliJ-IDEA-Java-Conversation>
+- Email：`gitnavi@qq.com`
+- Blog（有微信联系方式）：<http://YouMeek.com>
+- IntelliJ IDEA QQ 交流群，具体请看：[入群条件说明](https://github.com/judasn/IntelliJ-IDEA-Java-Conversation)
 - 欢迎捐赠 ^_^：<http://www.youmeek.com/donate>
 
 
 ## Github 协同视频教程(Participate)
 
 - 如果您不会使用 Git 或是 Github 也没关系，请认真学习下面视频教程：
-- Judas.n 录制
+- YouMeek 录制
     - 视频格式：MP4
     - 分辨率：1920 X 1080
     - 片长：16 Min
     - 文件大小：62 M
 - 下载
     - 百度云盘：<http://pan.baidu.com/s/1bogmTLd>
-    - 360 网盘（2fb5）：<https://yunpan.cn/cYez7W9xnHs3c>
 
 
 ## Github 常用按钮说明
@@ -108,7 +144,7 @@
 
 |作者(按参与时间排序)|地址|
 |:---------|:---------|
-|Judas.n|<http://code.YouMeek.com>|
+|YouMeek|<http://YouMeek.com>|
 |温泉|<https://github.com/wenquan0hf>|
 |zhenhappy|<https://github.com/zhenhappy>|
 |two8g|<https://github.com/two8g>|
@@ -122,7 +158,10 @@
 |binarywang|<https://github.com/binarywang>|
 |chenhui7373|<https://github.com/chenhui7373>|
 |wzxjohn|<https://github.com/wzxjohn>|
+|Robot-L|<https://github.com/Robot-L>|
+|duanluan|<https://github.com/duanluan>|
 
 ## AD
 
-- [我个人开发的个性化定制网址导航：GitNavi.com](http://www.gitnavi.com)
+- [推荐：程序员的个性化网址导航：GitNavi.com](http://www.gitnavi.com/u/judasn/)
+- [适合后端开发者的前端 React-Admin](https://github.com/satan31415/umi-admin)
