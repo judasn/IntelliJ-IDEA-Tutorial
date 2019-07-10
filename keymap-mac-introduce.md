@@ -127,7 +127,8 @@
 - `Shift + Esc` 隐藏当前或最后一个活动的窗口，且光标进入代码文件窗口
 - `Command + Shift + F4` 关闭活动run/messages/find/... tab
 - `Command + L` 在当前文件跳转到某一行的指定处
-- `Command + E` 显示最近打开的文件记录列表
+- `Command + E` 显示最近打开的 **文件记录** 列表
+- `Command + Shift + E` 显示最近打开的 **文件代码位置记录** 列表
 - `Option + 方向键左 / Option + 方向键右` 光标跳转到当前单词 / 中文句的左 / 右侧开头位置
 - `Command + Option + 方向键左 / Command + Option + 方向键右` 退回 / 前进到上一个操作的地方
 - `Command + Shift + Delete` 跳转到最后一个编辑的地方
