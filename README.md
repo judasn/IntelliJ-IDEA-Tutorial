@@ -6,7 +6,8 @@
 
 ## 特别事件
 
-- IntelliJ IDEA 2019.1 发布（2019-03-28-撒花）
+- IntelliJ IDEA 2019.2 发布（2019-07-25 性能提升明显）
+- IntelliJ IDEA 2019.1 发布（2019-03-28）
 - IntelliJ IDEA 2018.3 发布（2018-11-21）
 - IntelliJ IDEA 2018.2 发布（2018-07-25）
 	- 新特性列表：<http://www.jetbrains.com/idea/whatsnew>
