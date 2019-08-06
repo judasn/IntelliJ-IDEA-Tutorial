@@ -4,6 +4,11 @@
 <img id="judasn" src="https://upload-images.jianshu.io/upload_images/12159-e3279861ff8655c9.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240">
 </a>
 
+## 声明
+
+- 2019-08-19 周一
+- 我将发布这两年来第一个新的 **大专题**，还是跟 IT 行业相关，请关注!!!
+
 ## 特别事件
 
 - IntelliJ IDEA 2019.2 发布（2019-07-25 性能提升明显）
