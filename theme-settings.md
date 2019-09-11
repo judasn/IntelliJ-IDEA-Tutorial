@@ -98,6 +98,16 @@
 - 如果你的 Tomcat 控制台输出乱码，并且你已经保证了本文上面的控制台字体设置你设置的字体包含中文，那你还可以尝试下在 Tomcat 的 VM 参数上加上：`-Dfile.encoding=UTF-8`
 - 如果你是 Mac 系统，很有可能是需要的。
 
+## Mybatis xml 文件
+
+## Properties文件显示中文
+
+![](images/properties-encoding-settings.png)
+
+打开`File Encodings`  勾选 Transparent native-toascii conversion，并设置properties文件的默认编码为 UTF-8
+
+可以把中文注释显示为中文，而不是unicode码
+
 ## 编程字体推荐
 
 - 下载地址：<http://pan.baidu.com/s/1kVoF32R>
