@@ -98,7 +98,15 @@
 - 如果你的 Tomcat 控制台输出乱码，并且你已经保证了本文上面的控制台字体设置你设置的字体包含中文，那你还可以尝试下在 Tomcat 的 VM 参数上加上：`-Dfile.encoding=UTF-8`
 - 如果你是 Mac 系统，很有可能是需要的。
 
-## Mybatis xml 文件
+## Mybatis xml 文件颜色
+
+![](images/mybatis-injected-bgcolor.png)
+
+在使用mybatis时，xml文件中的sql语句,背景会变成绿色，是因为在一种语言中，如果注入有第二种语言，会标识，如果不想看见，可以把注入语言背景颜色关闭
+
+通常还需关闭sql语法告警
+
+![](images/sql-inspections-cancel.png)
 
 ## Properties文件显示中文
 
