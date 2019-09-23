@@ -6,7 +6,7 @@
 
 ## 声明
 
-- 后续我将在新的地方，以新的方式重新开始，感谢一直以来的信任 !
+- 感谢一直以来的信任 !
 - CDK8S：<https://mp.weixin.qq.com/s/fITEVy3IEhI4HOyTXRp9ig>
 
 ## 特别事件
@@ -25,14 +25,14 @@
 ## 介绍(Introduce)
 
 - 本套教程适用于：
-	- [IntelliJ IDEA 14、15、2016、2017、2018 版本](https://www.jetbrains.com/idea/)
-	- [WebStorm 2016、2017、2018 版本](https://www.jetbrains.com/webstorm)
-	- [PhpStorm 2016、2017、2018 版本](https://www.jetbrains.com/phpstorm)
-	- [PyCharm 2016、2017、2018 版本](https://www.jetbrains.com/pycharm)
-	- [RubyMine 2016、2017、2018 版本](https://www.jetbrains.com/ruby)
-	- [Goland 2017、2018 版本](https://www.jetbrains.com/go)
-	- [CLion 2017、2018 版本](https://www.jetbrains.com/clion)
-	- [DataGrip 2016、2017、2018 版本](https://www.jetbrains.com/datagrip)
+	- [IntelliJ IDEA 14、15、2016、2017、2018、2019 版本](https://www.jetbrains.com/idea/)
+	- [WebStorm 2016、2017、2018、2019 版本](https://www.jetbrains.com/webstorm)
+	- [PhpStorm 2016、2017、2018、2019 版本](https://www.jetbrains.com/phpstorm)
+	- [PyCharm 2016、2017、2018、2019 版本](https://www.jetbrains.com/pycharm)
+	- [RubyMine 2016、2017、2018、2019 版本](https://www.jetbrains.com/ruby)
+	- [Goland 2017、2018、2019 版本](https://www.jetbrains.com/go)
+	- [CLion 2017、2018、2019 版本](https://www.jetbrains.com/clion)
+	- [DataGrip 2016、2017、2018、2019 版本](https://www.jetbrains.com/datagrip)
 	- [Android Studio 任何版本](https://developer.android.com/studio/index.html?hl=zh-cn)
 - 教程主要面向中文用户，如果你英文良好，建议直接阅读官网帮助文档
 	- 官网帮助中心：<http://www.jetbrains.com/idea/webhelp/getting-help.html>
