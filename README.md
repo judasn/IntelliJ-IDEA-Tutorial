@@ -6,6 +6,7 @@
 
 ## 新的起点
 
+- [Sculptor Boot：项目思维化的《代码生成器》体系（未来可期，做个朋友吧）](https://github.com/cdk8s/sculptor-boot-generator)
 - CDK8S：<https://mp.weixin.qq.com/s/fITEVy3IEhI4HOyTXRp9ig>
 - TKey：<https://www.oschina.net/p/tkey>
 
