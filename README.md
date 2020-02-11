@@ -4,10 +4,19 @@
 <img id="judasn" src="https://upload-images.jianshu.io/upload_images/12159-e3279861ff8655c9.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240">
 </a>
 
-## 声明
+## 只有上云才能撑住规模化后的发展
 
-- 后续我将在新的地方，以新的方式重新开始，感谢一直以来的信任 !
+- 初期技术选型上尽可能寻找云支持的
+- 在公司规模小，自建服务基本都做不到 99.999% 高可用
+- 在公司规模发展变迅速时，如果云技术和已有技术契合，迁移成本会低很多很多
+- 目前暂定只选择：[阿里云服务](https://www.aliyun.com/minisite/goods?userCode=v2zozyxz)
+- 这里罗列了阿里云常用的一些：[产品](https://github.com/cdk8s/cdk8s-team-style/blob/master/ops/aliyun.md)
+
+## 新的起点
+
+- [Sculptor Boot：项目思维化的《代码生成器》体系（未来可期，做个朋友吧）](https://github.com/cdk8s/sculptor-boot-generator)
 - CDK8S：<https://mp.weixin.qq.com/s/fITEVy3IEhI4HOyTXRp9ig>
+- TKey：<https://www.oschina.net/p/tkey>
 
 ## 特别事件
 
@@ -25,14 +34,14 @@
 ## 介绍(Introduce)
 
 - 本套教程适用于：
-	- [IntelliJ IDEA 14、15、2016、2017、2018 版本](https://www.jetbrains.com/idea/)
-	- [WebStorm 2016、2017、2018 版本](https://www.jetbrains.com/webstorm)
-	- [PhpStorm 2016、2017、2018 版本](https://www.jetbrains.com/phpstorm)
-	- [PyCharm 2016、2017、2018 版本](https://www.jetbrains.com/pycharm)
-	- [RubyMine 2016、2017、2018 版本](https://www.jetbrains.com/ruby)
-	- [Goland 2017、2018 版本](https://www.jetbrains.com/go)
-	- [CLion 2017、2018 版本](https://www.jetbrains.com/clion)
-	- [DataGrip 2016、2017、2018 版本](https://www.jetbrains.com/datagrip)
+	- [IntelliJ IDEA 14、15、2016、2017、2018、2019 版本](https://www.jetbrains.com/idea/)
+	- [WebStorm 2016、2017、2018、2019 版本](https://www.jetbrains.com/webstorm)
+	- [PhpStorm 2016、2017、2018、2019 版本](https://www.jetbrains.com/phpstorm)
+	- [PyCharm 2016、2017、2018、2019 版本](https://www.jetbrains.com/pycharm)
+	- [RubyMine 2016、2017、2018、2019 版本](https://www.jetbrains.com/ruby)
+	- [Goland 2017、2018、2019 版本](https://www.jetbrains.com/go)
+	- [CLion 2017、2018、2019 版本](https://www.jetbrains.com/clion)
+	- [DataGrip 2016、2017、2018、2019 版本](https://www.jetbrains.com/datagrip)
 	- [Android Studio 任何版本](https://developer.android.com/studio/index.html?hl=zh-cn)
 - 教程主要面向中文用户，如果你英文良好，建议直接阅读官网帮助文档
 	- 官网帮助中心：<http://www.jetbrains.com/idea/webhelp/getting-help.html>
