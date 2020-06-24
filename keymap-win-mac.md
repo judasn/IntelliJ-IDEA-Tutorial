@@ -143,6 +143,7 @@
 |Win 快捷键|Mac 快捷键|介绍|
 |:---------|:---------|:---------|
 |<kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>Alt</kbd> + <kbd>V</kbd>|<kbd>Command</kbd> + <kbd>Shift</kbd> + <kbd>Option</kbd> + <kbd>V</kbd>|无格式黏贴|
+|<kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>Alt</kbd> + <kbd>N</kbd>|<kbd>Command</kbd> + <kbd>Option</kbd> + <kbd>O</kbd>|前往指定的变量 / 方法|
 |<kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>Alt</kbd> + <kbd>S</kbd>|<kbd>Command</kbd> + <kbd>;</kbd>|打开当前项目设置|
 
 
