@@ -20,28 +20,21 @@
 
 ## 特别事件
 
-- IntelliJ IDEA 2019.2 发布（2019-07-25 性能提升明显）
-- IntelliJ IDEA 2019.1 发布（2019-03-28）
-- IntelliJ IDEA 2018.3 发布（2018-11-21）
-- IntelliJ IDEA 2018.2 发布（2018-07-25）
-	- 新特性列表：<http://www.jetbrains.com/idea/whatsnew>
-	- 下载：<http://www.jetbrains.com/idea/download/>
-- 实体书
-	- 有在计划出实体书，并且空闲时已经在潦草写点，目前已经写了 25%，争取 2019 年秋季官网出大版本前完成第一版本。（不排除工作上有事情）
-	- 计算机类书籍销量都很小（总销量能 1W 册算是牛逼了），赚不了什么钱，而且容易 PDF，这是无法阻拦的。写实体书只是因为想白纸黑字证明自己存在过，即使哪天突然消失了也能有人会记得我。
+- 新特性列表：<http://www.jetbrains.com/idea/whatsnew>
+- 下载：<http://www.jetbrains.com/idea/download/>
 
 
 ## 介绍(Introduce)
 
 - 本套教程适用于：
-	- [IntelliJ IDEA 14、15、2016、2017、2018、2019 版本](https://www.jetbrains.com/idea/)
-	- [WebStorm 2016、2017、2018、2019 版本](https://www.jetbrains.com/webstorm)
-	- [PhpStorm 2016、2017、2018、2019 版本](https://www.jetbrains.com/phpstorm)
-	- [PyCharm 2016、2017、2018、2019 版本](https://www.jetbrains.com/pycharm)
-	- [RubyMine 2016、2017、2018、2019 版本](https://www.jetbrains.com/ruby)
-	- [Goland 2017、2018、2019 版本](https://www.jetbrains.com/go)
-	- [CLion 2017、2018、2019 版本](https://www.jetbrains.com/clion)
-	- [DataGrip 2016、2017、2018、2019 版本](https://www.jetbrains.com/datagrip)
+	- [IntelliJ IDEA 14、15、2016、2017、2018、2019、2020 版本](https://www.jetbrains.com/idea/)
+	- [WebStorm 2016、2017、2018、2019、2020 版本](https://www.jetbrains.com/webstorm)
+	- [PhpStorm 2016、2017、2018、2019、2020 版本](https://www.jetbrains.com/phpstorm)
+	- [PyCharm 2016、2017、2018、2019、2020 版本](https://www.jetbrains.com/pycharm)
+	- [RubyMine 2016、2017、2018、2019、2020 版本](https://www.jetbrains.com/ruby)
+	- [Goland 2017、2018、2019、2020 版本](https://www.jetbrains.com/go)
+	- [CLion 2017、2018、2019、2020 版本](https://www.jetbrains.com/clion)
+	- [DataGrip 2016、2017、2018、2019、2020 版本](https://www.jetbrains.com/datagrip)
 	- [Android Studio 任何版本](https://developer.android.com/studio/index.html?hl=zh-cn)
 - 教程主要面向中文用户，如果你英文良好，建议直接阅读官网帮助文档
 	- 官网帮助中心：<http://www.jetbrains.com/idea/webhelp/getting-help.html>
@@ -122,7 +115,7 @@
 ## 联系(Contact)
 
 - Email：`gitnavi@qq.com`
-- Blog（有微信联系方式）：<http://YouMeek.com>
+- 微信：`judasn`
 - IntelliJ IDEA QQ 交流群，具体请看：[入群条件说明](https://github.com/judasn/IntelliJ-IDEA-Java-Conversation)
 - 欢迎捐赠 ^_^：<http://www.youmeek.com/donate>
 
@@ -179,4 +172,3 @@
 ## AD
 
 - [推荐：程序员的个性化网址导航：GitNavi.com](http://www.gitnavi.com/u/judasn/)
-- [适合后端开发者的前端 React-Admin](https://github.com/satan31415/umi-admin)
