@@ -41,43 +41,43 @@
 
 |插件名称    |插件介绍      |官网地址        |
 |:-----------------|:----------|:--------------|
-|Gitee|开源中国的码云插件|<https://plugins.jetbrains.com/plugin/8383-gitee>|
-|Alibaba Java Coding Guidelines|阿里巴巴出的代码规范检查插件|<https://plugins.jetbrains.com/plugin/10046-alibaba-java-coding-guidelines>|
-|360 FireLine Plugin|360 的代码静态分析工具|<https://plugins.jetbrains.com/plugin/9292-360-fireline-plugin>|
-|IDE Features Trainer|IntelliJ IDEA 官方出的学习辅助插件|<https://plugins.jetbrains.com/plugin/8554?pr=idea>|
-|Key promoter|快捷键提示|<https://plugins.jetbrains.com/plugin/4455?pr=idea>|
-|Grep Console|自定义设置控制台输出颜色|<https://plugins.jetbrains.com/idea/plugin/7125-grep-console>|
-|String Manipulation|驼峰式命名和下划线命名交替变化|<https://plugins.jetbrains.com/plugin/2162?pr=idea>|
-|CheckStyle-IDEA|代码规范检查|<https://plugins.jetbrains.com/plugin/1065?pr=idea>|
-|FindBugs-IDEA|潜在 Bug 检查|<https://plugins.jetbrains.com/plugin/3847?pr=idea>|
-|MetricsReloaded|代码复杂度检查|<https://plugins.jetbrains.com/plugin/93?pr=idea>|
-|Statistic|代码统计|<https://plugins.jetbrains.com/plugin/4509?pr=idea>|
-|JRebel Plugin|热部署|<https://plugins.jetbrains.com/plugin/?id=4441>|
-|CodeGlance|在编辑代码最右侧，显示一块代码小地图|<https://plugins.jetbrains.com/plugin/7275?pr=idea>|
-|GsonFormat|把 JSON 字符串直接实例化成类|<https://plugins.jetbrains.com/plugin/7654?pr=idea>|
-|Markdown Navigator|书写 Markdown 文章|<https://plugins.jetbrains.com/plugin/7896?pr=idea>|
-|Eclipse Code Formatter|使用 Eclipse 的代码格式化风格，在一个团队中如果公司有规定格式化风格，这个可以使用。|<https://plugins.jetbrains.com/plugin/6546?pr=idea>|
-|Jindent-Source Code Formatter|自定义类、方法、doc、变量注释模板|<http://plugins.jetbrains.com/plugin/2170?pr=idea>|
-|Translation|翻译插件|<https://github.com/YiiGuxing/TranslationPlugin>|
-|Maven Helper|Maven 辅助插件|<https://plugins.jetbrains.com/plugin/7179-maven-helper>|
-|RestfulToolkit|方便查找 Spring MVC 的 RequestMapping|<https://plugins.jetbrains.com/plugin/10292-restfultoolkit>|
-|Properties to YAML Converter|把 Properties 的配置格式改为 YAML 格式|<https://plugins.jetbrains.com/plugin/8000-properties-to-yaml-converter>|
-|Git Flow Integration|Git Flow 的图形界面操作|<https://plugins.jetbrains.com/plugin/7315-git-flow-integration>|
-|Rainbow Brackets|对各个对称括号进行着色，方便查看|<https://github.com/izhangzhihao/intellij-rainbow-brackets>|
-|MybatisX|mybatis 框架辅助（免费）|<https://plugins.jetbrains.com/plugin/10119-mybatisx>|
-|MyBatis Log Plugin|Mybatis SQL 提取|<https://plugins.jetbrains.com/plugin/10065-mybatis-log-plugin>|
-|Lombok Plugin|Lombok 功能辅助插件|<https://plugins.jetbrains.com/plugin/6317-lombok-plugin>|
 |.ignore|各类版本控制忽略文件生成工具|<https://plugins.jetbrains.com/plugin/7495--ignore>|
-|mongo4idea|mongo客户端|<https://github.com/dboissier/mongo4idea>|
-|iedis|redis客户端|<https://plugins.jetbrains.com/plugin/9228-iedis>|
-|VisualVM Launcher|项目启动的时候也启动 VisualVM|<https://plugins.jetbrains.com/plugin/7115-visualvm-launcher>|
-|GenerateAllSetter|new POJO类的快速生成 set 方法|<https://plugins.jetbrains.com/plugin/9360-generateallsetter>|
-|kubernetes|kubernetes 辅助工具|<https://plugins.jetbrains.com/plugin/10485-kubernetes>|
+|Alibaba Java Coding Guidelines|阿里巴巴出的代码规范检查插件|<https://plugins.jetbrains.com/plugin/10046-alibaba-java-coding-guidelines>|
 |Alibaba Cloud Toolkit|阿里云辅助开发工具|<https://plugins.jetbrains.com/plugin/11386-alibaba-cloud-toolkit>|
 |BashSupport|Bash 支持|<https://plugins.jetbrains.com/plugin/4230-bashsupport>|
+|CheckStyle-IDEA|代码规范检查|<https://plugins.jetbrains.com/plugin/1065?pr=idea>|
+|CodeGlance|在编辑代码最右侧，显示一块代码小地图|<https://plugins.jetbrains.com/plugin/7275?pr=idea>|
+|Eclipse Code Formatter|使用 Eclipse 的代码格式化风格，在一个团队中如果公司有规定格式化风格，这个可以使用。|<https://plugins.jetbrains.com/plugin/6546?pr=idea>|
+|FindBugs-IDEA|潜在 Bug 检查|<https://plugins.jetbrains.com/plugin/3847?pr=idea>|
+|Gitee|开源中国的码云插件|<https://plugins.jetbrains.com/plugin/8383-gitee>|
+|Grep Console|自定义设置控制台输出颜色|<https://plugins.jetbrains.com/idea/plugin/7125-grep-console>|
+|Git Flow Integration|Git Flow 的图形界面操作|<https://plugins.jetbrains.com/plugin/7315-git-flow-integration>|
+|GsonFormat|把 JSON 字符串直接实例化成类|<https://plugins.jetbrains.com/plugin/7654?pr=idea>|
+|GenerateAllSetter|new POJO类的快速生成 set 方法|<https://plugins.jetbrains.com/plugin/9360-generateallsetter>|
+|IDE Features Trainer|IntelliJ IDEA 官方出的学习辅助插件|<https://plugins.jetbrains.com/plugin/8554?pr=idea>|
+|JRebel Plugin|热部署|<https://plugins.jetbrains.com/plugin/?id=4441>|
 |Json2Pojo|根据 JSON 生成 POJO，根据 POJO 生成 JSON|<https://plugins.jetbrains.com/plugin/8533-json2pojo>|
-|Scala|对 Scala 支持|<https://plugins.jetbrains.com/plugin/1347-scala>|
+|Jindent-Source Code Formatter|自定义类、方法、doc、变量注释模板|<http://plugins.jetbrains.com/plugin/2170?pr=idea>|
+|Key promoter|快捷键提示|<https://plugins.jetbrains.com/plugin/4455?pr=idea>|
+|kubernetes|kubernetes 辅助工具|<https://plugins.jetbrains.com/plugin/10485-kubernetes>|
+|Lombok Plugin|Lombok 功能辅助插件|<https://plugins.jetbrains.com/plugin/6317-lombok-plugin>|
+|MetricsReloaded|代码复杂度检查|<https://plugins.jetbrains.com/plugin/93?pr=idea>|
+|Maven Helper|Maven 辅助插件|<https://plugins.jetbrains.com/plugin/7179-maven-helper>|
+|Markdown Navigator|书写 Markdown 文章|<https://plugins.jetbrains.com/plugin/7896?pr=idea>|
+|MybatisX|mybatis 框架辅助（免费）|<https://plugins.jetbrains.com/plugin/10119-mybatisx>|
+|MyBatis Log Plugin|Mybatis SQL 提取|<https://plugins.jetbrains.com/plugin/10065-mybatis-log-plugin>|
 |MapStruct Support|对 MapStruct 属性转换支持|<https://plugins.jetbrains.com/plugin/10036-mapstruct-support>|
+|OnlineSearch|选择文本后支持不同搜索引擎进行搜索|<https://plugins.jetbrains.com/plugin/8298-onlinesearch/>|
+|Properties to YAML Converter|把 Properties 的配置格式改为 YAML 格式|<https://plugins.jetbrains.com/plugin/8000-properties-to-yaml-converter>|
+|RestfulToolkit|方便查找 Spring MVC 的 RequestMapping|<https://plugins.jetbrains.com/plugin/10292-restfultoolkit>|
+|Rainbow Brackets|对各个对称括号进行着色，方便查看|<https://github.com/izhangzhihao/intellij-rainbow-brackets>|
+|String Manipulation|驼峰式命名和下划线命名交替变化|<https://plugins.jetbrains.com/plugin/2162?pr=idea>|
+|Statistic|代码统计|<https://plugins.jetbrains.com/plugin/4509?pr=idea>|
+|Scala|对 Scala 支持|<https://plugins.jetbrains.com/plugin/1347-scala>|
+|Translation|翻译插件|<https://github.com/YiiGuxing/TranslationPlugin>|
+|VisualVM Launcher|项目启动的时候也启动 VisualVM|<https://plugins.jetbrains.com/plugin/7115-visualvm-launcher>|
+
+
 
 ## lombok 插件的使用
 
