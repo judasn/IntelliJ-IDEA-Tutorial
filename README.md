@@ -1,16 +1,3 @@
-## 团队 DevOps 方案参考
-
-<a target="_blank" href="https://coding.net/?utm_source=judasn">
-<img id="judasn" src="https://upload-images.jianshu.io/upload_images/12159-e3279861ff8655c9.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240">
-</a>
-
-## 只有上云才能撑住规模化后的发展
-
-- 初期技术选型上尽可能寻找云支持的
-- 在公司规模小，自建服务基本都做不到 99.999% 高可用
-- 在公司规模发展变迅速时，如果云技术和已有技术契合，迁移成本会低很多很多
-- 目前暂定只选择：[阿里云服务](https://www.aliyun.com/minisite/goods?userCode=v2zozyxz)
-- 这里罗列了阿里云常用的一些：[产品](https://github.com/cdk8s/cdk8s-team-style/blob/master/ops/aliyun.md)
 
 ## 新的起点
 
@@ -172,3 +159,13 @@
 ## AD
 
 - [推荐：程序员的个性化网址导航：GitNavi.com](http://www.gitnavi.com/u/judasn/)
+
+
+## 只有上云才能撑住规模化后的发展
+
+- 初期技术选型上尽可能寻找云支持的
+- 在公司规模小，自建服务基本都做不到 99.999% 高可用
+- 在公司规模发展变迅速时，如果云技术和已有技术契合，迁移成本会低很多很多
+- 目前暂定只选择：[阿里云服务](https://www.aliyun.com/minisite/goods?userCode=v2zozyxz)
+- 这里罗列了阿里云常用的一些：[产品](https://github.com/cdk8s/cdk8s-team-style/blob/master/ops/aliyun.md)
+
