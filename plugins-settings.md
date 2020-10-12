@@ -76,7 +76,7 @@
 |Scala|对 Scala 支持|<https://plugins.jetbrains.com/plugin/1347-scala>|
 |Translation|翻译插件|<https://github.com/YiiGuxing/TranslationPlugin>|
 |VisualVM Launcher|项目启动的时候也启动 VisualVM|<https://plugins.jetbrains.com/plugin/7115-visualvm-launcher>|
-
+|arthas idea|阿里 arthas 支持|<https://plugins.jetbrains.com/plugin/13581-arthas-idea>|
 
 
 ## lombok 插件的使用
