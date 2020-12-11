@@ -52,11 +52,11 @@
 |Gitee|开源中国的码云插件|<https://plugins.jetbrains.com/plugin/8383-gitee>|
 |Grep Console|自定义设置控制台输出颜色|<https://plugins.jetbrains.com/idea/plugin/7125-grep-console>|
 |Git Flow Integration|Git Flow 的图形界面操作|<https://plugins.jetbrains.com/plugin/7315-git-flow-integration>|
-|GsonFormat|把 JSON 字符串直接实例化成类|<https://plugins.jetbrains.com/plugin/7654?pr=idea>|
+|GsonFormatPlus|把 JSON 字符串直接实例化成类|<https://plugins.jetbrains.com/plugin/14949-gsonformatplus>|
+|Json2Pojo|根据 JSON 生成 POJO，根据 POJO 生成 JSON|<https://plugins.jetbrains.com/plugin/8533-json2pojo>|
 |GenerateAllSetter|new POJO类的快速生成 set 方法|<https://plugins.jetbrains.com/plugin/9360-generateallsetter>|
 |IDE Features Trainer|IntelliJ IDEA 官方出的学习辅助插件|<https://plugins.jetbrains.com/plugin/8554?pr=idea>|
 |JRebel Plugin|热部署|<https://plugins.jetbrains.com/plugin/?id=4441>|
-|Json2Pojo|根据 JSON 生成 POJO，根据 POJO 生成 JSON|<https://plugins.jetbrains.com/plugin/8533-json2pojo>|
 |Jindent-Source Code Formatter|自定义类、方法、doc、变量注释模板|<http://plugins.jetbrains.com/plugin/2170?pr=idea>|
 |Key promoter|快捷键提示|<https://plugins.jetbrains.com/plugin/4455?pr=idea>|
 |kubernetes|kubernetes 辅助工具|<https://plugins.jetbrains.com/plugin/10485-kubernetes>|
