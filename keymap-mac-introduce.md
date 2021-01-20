@@ -55,7 +55,7 @@
 - `Option + 方向键下` 减少当前选中的代码块
 - `Control + Shift + Q` 显示上下文信息
 - `Option + Enter` 显示意向动作和快速修复代码
-- `Command + Option + L` 格式化代码
+- `Command + Option + L` 格式化代码（有些文件格式化是有特殊要求的，比如 SQL 文件必须设置方言才可被格式化）
 - `Control + Option + O` 优化import
 - `Control + Option + I` 自动缩进线
 - `Tab / Shift + Tab` 缩进代码 / 反缩进代码
