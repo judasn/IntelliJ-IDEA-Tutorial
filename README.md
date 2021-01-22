@@ -1,18 +1,7 @@
 
-## 新的起点
-
-- [Sculptor Boot：项目思维化的《代码生成器》体系（未来可期，做个朋友吧）](https://github.com/cdk8s/sculptor-boot-generator)
-- CDK8S：<https://mp.weixin.qq.com/s/fITEVy3IEhI4HOyTXRp9ig>
-- TKey：<https://www.oschina.net/p/tkey>
-
-## 特别事件
-
-- 新特性列表：<http://www.jetbrains.com/idea/whatsnew>
-- 下载：<http://www.jetbrains.com/idea/download/>
-
-
 ## 介绍(Introduce)
 
+- 官网 Clone 比较慢的童鞋可以选择：`git clone --depth=1 https://hub.fastgit.org/judasn/IntelliJ-IDEA-Tutorial.git`
 - 本套教程适用于：
 	- [IntelliJ IDEA 14、15、2016、2017、2018、2019、2020 版本](https://www.jetbrains.com/idea/)
 	- [WebStorm 2016、2017、2018、2019、2020 版本](https://www.jetbrains.com/webstorm)
@@ -155,17 +144,4 @@
 |wzxjohn|<https://github.com/wzxjohn>|
 |Robot-L|<https://github.com/Robot-L>|
 |duanluan|<https://github.com/duanluan>|
-
-## AD
-
-- [推荐：程序员的个性化网址导航：GitNavi.com](http://www.gitnavi.com/u/judasn/)
-
-
-## 只有上云才能撑住规模化后的发展
-
-- 初期技术选型上尽可能寻找云支持的
-- 在公司规模小，自建服务基本都做不到 99.999% 高可用
-- 在公司规模发展变迅速时，如果云技术和已有技术契合，迁移成本会低很多很多
-- 目前暂定只选择：[阿里云服务](https://www.aliyun.com/minisite/goods?userCode=v2zozyxz)
-- 这里罗列了阿里云常用的一些：[产品](https://github.com/cdk8s/cdk8s-team-style/blob/master/ops/aliyun.md)
 
