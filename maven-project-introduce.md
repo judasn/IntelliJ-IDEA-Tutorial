@@ -11,6 +11,7 @@
 ![Maven 常用设置介绍](images/xxii-a-maven-setting-1.jpg)
 
 > * 如上图标注 1 所示，我们可以指定我们本地 Maven 的安装目录所在，因为我已经配置了 `MAVEN_HOME` 系统参数，所以直接这样配置 IntelliJ IDEA 是可以找到的。但是假如你没有配置的话，这里可以选择你的 Maven 安装目录。
+> * 如上图标注 1 上面的 Threads 中可以设置多个线程数，比如填写：2（线程数并不一定是越多越快，需要执行测试）
 > * 如上图标注 2 所示，我们还可以指定 Maven 的 `settings.xml` 位置和本地仓库位置。
 
 ![Maven 常用设置介绍](images/xxii-a-maven-setting-2.jpg)
