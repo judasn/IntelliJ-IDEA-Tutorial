@@ -16,7 +16,7 @@
 	- 官网帮助中心：<http://www.jetbrains.com/idea/webhelp/getting-help.html>
 - 特别需要友情提醒的是：
     - 有的 Gif 动态图片操作过快，你需要暂停 Gif 图片进行观看的话，可以使用这个 Gif 图片查看工具：[7GIF（提取密码：0qo9）](https://pan.baidu.com/s/1mkrESsg)
-- **GitBook 在线阅读地址（推荐）**：<https://judasn.gitbook.io/github/>
+- **GitBook 在线阅读地址（推荐）**：<https://cdk8s.gitbook.io/github/>
 
 ## 目录(Contents)
 
