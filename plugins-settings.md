@@ -46,7 +46,6 @@
 |Alibaba Cloud Toolkit|阿里云辅助开发工具|<https://plugins.jetbrains.com/plugin/11386-alibaba-cloud-toolkit>|
 |BashSupport|Bash 支持|<https://plugins.jetbrains.com/plugin/4230-bashsupport>|
 |CheckStyle-IDEA|代码规范检查|<https://plugins.jetbrains.com/plugin/1065?pr=idea>|
-|CodeGlance|在编辑代码最右侧，显示一块代码小地图|<https://plugins.jetbrains.com/plugin/7275?pr=idea>|
 |Eclipse Code Formatter|使用 Eclipse 的代码格式化风格，在一个团队中如果公司有规定格式化风格，这个可以使用。|<https://plugins.jetbrains.com/plugin/6546?pr=idea>|
 |FindBugs-IDEA|潜在 Bug 检查|<https://plugins.jetbrains.com/plugin/3847?pr=idea>|
 |Gitee|开源中国的码云插件|<https://plugins.jetbrains.com/plugin/8383-gitee>|
@@ -78,6 +77,8 @@
 |VisualVM Launcher|项目启动的时候也启动 VisualVM|<https://plugins.jetbrains.com/plugin/7115-visualvm-launcher>|
 |arthas idea|阿里 arthas 支持|<https://plugins.jetbrains.com/plugin/13581-arthas-idea>|
 |Multirun|启动多应用|<https://plugins.jetbrains.com/plugin/7248-multirun>|
+|BrowseWordAtCaret|简单代替Ctrl+F，通过快捷键的方式直接跳转到下个同单词位置|<https://plugins.jetbrains.com/plugin/201-browsewordatcaret>|
+|CodeGlance2|在编辑代码最右侧，显示一块代码小地图，前端代码适合|<https://plugins.jetbrains.com/plugin/15562-codeglance2>|
 
 
 ## lombok 插件的使用
