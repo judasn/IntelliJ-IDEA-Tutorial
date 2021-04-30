@@ -79,6 +79,8 @@
 |Multirun|启动多应用|<https://plugins.jetbrains.com/plugin/7248-multirun>|
 |BrowseWordAtCaret|简单代替Ctrl+F，通过快捷键的方式直接跳转到下个同单词位置|<https://plugins.jetbrains.com/plugin/201-browsewordatcaret>|
 |CodeGlance2|在编辑代码最右侧，显示一块代码小地图，前端代码适合|<https://plugins.jetbrains.com/plugin/15562-codeglance2>|
+|WakaTime|最近的代码统计信息，包括各语言的总时常，所占比重等编程指标|https://plugins.jetbrains.com/plugin/7425-wakatime|
+
 
 
 ## lombok 插件的使用
