@@ -13,7 +13,7 @@
 |:---------|:---------|:---------|
 |<kbd>F7</kbd>|<kbd>F7</kbd>|进入下一步，如果当前行断点是一个方法，则进入当前方法体内，如果该方法体还有方法，则不会进入该内嵌的方法中 `必备`|
 |<kbd>F8</kbd>|<kbd>F8</kbd>|进入下一步，如果当前行断点是一个方法，则不进入当前方法体内 `必备`|
-|<kbd>F9</kbd>|<kbd>Command</kbd> + <kbd>Option</kbd> + <kbd>R</kbd>|恢复程序运行，但是如果该断点下面代码还有断点则停在下一个断点上 `必备`|
+|<kbd>F9</kbd>|<kbd>Command</kbd> + <kbd>Option</kbd> + <kbd>R</kbd>|恢复程序运行，直至下个断点或程序运行结束 `必备`|
 |<kbd>Alt</kbd> + <kbd>F8</kbd>|<kbd>Option</kbd> + <kbd>F8</kbd>|选中对象，弹出可输入计算表达式调试框，查看该输入内容的调试结果 `必备`|
 |<kbd>Ctrl</kbd> + <kbd>F8</kbd>|<kbd>Command</kbd> + <kbd>F8</kbd>|设置光标当前行为断点，如果当前已经是断点则去掉断点|
 |<kbd>Shift</kbd> + <kbd>F7</kbd>|<kbd>Shift</kbd> + <kbd>F7</kbd>|智能步入。断点所在行上有多个方法调用，会弹出进入哪个方法|
