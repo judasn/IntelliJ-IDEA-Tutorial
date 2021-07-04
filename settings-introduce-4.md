@@ -40,7 +40,7 @@ IntelliJ IDEA 有很多人性化的设置我们必须单独拿出来讲解，也
 
 ![2017 新特性](images/xxvi-a-settings-introduce-45.jpg)
 
-- 如上图所示 'Show in Run Dashboard'，在 2017.2.3 以后可以统一在一个 Tab 中管理所有模块应用。
+- 如上图所示 'Show in Run Dashboard'，在 2017.2.3 以后可以统一在一个 Tab 中管理全部模块应用。
 - 这对于开发分布式系统（Spring Boot / Spring Cloud）来讲非常方便。
 
 ----------------------------------------------------------------------------
