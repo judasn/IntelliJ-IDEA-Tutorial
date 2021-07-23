@@ -1,6 +1,7 @@
 
 ## 介绍(Introduce)
 
+2021-07-24 更新：官方中文语言包正式推出！我个人不建议使用中文语言包，因为这对你查看官网帮助文档的时候会造成混乱。但是初学者确实使用中文语言包更容易上手，建议后期还原英文。
 - 官网 Clone 比较慢的童鞋可以选择：`git clone --depth=1 https://hub.fastgit.org/judasn/IntelliJ-IDEA-Tutorial.git`
 - 本套教程适用于：
 	- [IntelliJ IDEA 14、15、2016、2017、2018、2019、2020、2021 版本](https://www.jetbrains.com/idea/)
