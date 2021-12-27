@@ -79,6 +79,7 @@
 |Multirun|启动多应用|<https://plugins.jetbrains.com/plugin/7248-multirun>|
 |BrowseWordAtCaret|简单代替Ctrl+F，通过快捷键的方式直接跳转到下个同单词位置|<https://plugins.jetbrains.com/plugin/201-browsewordatcaret>|
 |CodeGlance2|在编辑代码最右侧，显示一块代码小地图，前端代码适合|<https://plugins.jetbrains.com/plugin/15562-codeglance2>|
+|Save Actions|在保存代码时触发一系列自定义操作，比如优化导入包、格式化、添加删除部分代码等|<https://plugins.jetbrains.com/plugin/7642-save-actions>|
 
 
 ## lombok 插件的使用
