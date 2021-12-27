@@ -79,7 +79,7 @@
 ## 联系(Contact)
 
 - Email：`gitnavi@qq.com`
-- 微信：`judasn`
+- 微信：`upupmoment`
 - IntelliJ IDEA QQ 交流群，具体请看：[入群条件说明](https://github.com/judasn/IntelliJ-IDEA-Java-Conversation)
 - 欢迎捐赠 ^_^：<http://www.youmeek.com/donate>
 
