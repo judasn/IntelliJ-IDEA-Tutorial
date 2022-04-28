@@ -84,9 +84,6 @@
 
 - Email：`gitnavi@qq.com`
 - 微信：`upupmoment`
-- IntelliJ IDEA QQ 交流群，具体请看：[入群条件说明](https://github.com/judasn/IntelliJ-IDEA-Java-Conversation)
-- 欢迎捐赠 ^_^：<http://www.youmeek.com/donate>
-
 
 ## Github 协同视频教程(Participate)
 
@@ -120,7 +117,7 @@
 
 |作者(按参与时间排序)|地址|
 |:---------|:---------|
-|YouMeek|<http://YouMeek.com>|
+|Meek|<http://upupmo.com>|
 |温泉|<https://github.com/wenquan0hf>|
 |zhenhappy|<https://github.com/zhenhappy>|
 |two8g|<https://github.com/two8g>|
