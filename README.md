@@ -1,7 +1,8 @@
 
 ## 作者新方向，感谢支持
 
-- [UPUPMO-扶持个人从开公司到全平台产品上线](https://www.bilibili.com/video/BV1Bb4y1j7dy)
+- [从开公司到开发全平台产品（文字版）](https://github.com/cdk8s/cdk8s-team-style/blob/master/full-stack/README.md)
+- [从开公司到开发全平台产品（视频版）](https://space.bilibili.com/1765486559/channel/seriesdetail?sid=2359281)
 
 ## 介绍(Introduce)
 
