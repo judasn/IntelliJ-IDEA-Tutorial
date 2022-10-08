@@ -99,9 +99,7 @@
 - Fork：复制一份项目到自己的 GitHub 空间上，你可以自己开发自己的这个地址项目，然后 Pull Request 给项目原主人。 
 - 只 clone 最新的一个版本记录，历史旧数据不 clone 的两种方法（推荐这样做，因为图片很多，占了很大空间）：
 	- 命令行方法：`git clone https://github.com/judasn/IntelliJ-IDEA-Tutorial.git --depth=1`
-	- TortoiseGit GUI 方法：
 
-![clone 一个版本](images/clone-depth-1.jpg)
 
 
 ## 参与作者汇总(Author)
