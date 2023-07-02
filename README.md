@@ -9,14 +9,14 @@
 2021-07-24 更新：官方中文语言包正式推出！我个人不建议使用中文语言包，因为这对你查看官网帮助文档的时候会造成混乱。但是初学者确实使用中文语言包更容易上手，建议后期还原英文。
 - Gtihub Clone 比较慢的童鞋可以选择 Gitee 地址：`git clone --depth=1 https://gitee.com/cdk8s_org/IntelliJ-IDEA-Tutorial.git`
 - 本套教程适用于：
-	- [IntelliJ IDEA 14、15、2016、2017、2018、2019、2020、2021、2022 版本](https://www.jetbrains.com/idea/)
-	- [WebStorm 2016、2017、2018、2019、2020、2021、2022 版本](https://www.jetbrains.com/webstorm)
-	- [PhpStorm 2016、2017、2018、2019、2020、2021、2022 版本](https://www.jetbrains.com/phpstorm)
-	- [PyCharm 2016、2017、2018、2019、2020、2021、2022 版本](https://www.jetbrains.com/pycharm)
-	- [RubyMine 2016、2017、2018、2019、2020、2021、2022 版本](https://www.jetbrains.com/ruby)
-	- [Goland 2017、2018、2019、2020、2021、2022 版本](https://www.jetbrains.com/go)
-	- [CLion 2017、2018、2019、2020、2021、2022 版本](https://www.jetbrains.com/clion)
-	- [DataGrip 2016、2017、2018、2019、2020、2021、2022 版本](https://www.jetbrains.com/datagrip)
+	- [IntelliJ IDEA 14、15、2016、2017、2018、2019、2020、2021、2022、2023 版本](https://www.jetbrains.com/idea/)
+	- [WebStorm 2016、2017、2018、2019、2020、2021、2022、2023 版本](https://www.jetbrains.com/webstorm)
+	- [PhpStorm 2016、2017、2018、2019、2020、2021、2022、2023 版本](https://www.jetbrains.com/phpstorm)
+	- [PyCharm 2016、2017、2018、2019、2020、2021、2022、2023 版本](https://www.jetbrains.com/pycharm)
+	- [RubyMine 2016、2017、2018、2019、2020、2021、2022、2023 版本](https://www.jetbrains.com/ruby)
+	- [Goland 2017、2018、2019、2020、2021、2022、2023 版本](https://www.jetbrains.com/go)
+	- [CLion 2017、2018、2019、2020、2021、2022、2023 版本](https://www.jetbrains.com/clion)
+	- [DataGrip 2016、2017、2018、2019、2020、2021、2022、2023 版本](https://www.jetbrains.com/datagrip)
 	- [Android Studio 任何版本](https://developer.android.com/studio/index.html?hl=zh-cn)
 - 教程主要面向中文用户，如果你英文良好，建议直接阅读官网帮助文档
 	- 官网帮助中心：<http://www.jetbrains.com/idea/webhelp/getting-help.html>
