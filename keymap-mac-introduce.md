@@ -49,6 +49,7 @@
 - `Control + O` 覆盖方法（重写父类方法）
 - `Control + I` 实现方法（实现接口中的方法）
 - `Command + Option + T` 包围代码（使用if..else, try..catch, for, synchronized等包围选中的代码）
+- `Command + Option + Shift + 方向键左` 多行编辑、多光标同时编辑
 - `Command + /` 注释/取消注释与行注释
 - `Command + Option + /` 注释/取消注释与块注释
 - `Option + 方向键上` 连续选中代码块
