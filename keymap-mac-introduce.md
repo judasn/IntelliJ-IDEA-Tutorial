@@ -143,8 +143,7 @@
 - `Command + ] / Command + [` 移动光标到当前所在代码的花括号开始/结束位置
 - `Command + F12` 弹出当前文件结构层，可以在弹出的层上直接输入进行筛选（可用于搜索类中的方法）
 - `Control + H` 显示当前类的层次结构
-- `Command + Shift + H` 显示方法层次结构
-- `Control + Option + H` 显示调用层次结构
+- `Option + Shift + H` 显示调用层次结构
 - `F2 / Shift + F2` 跳转到下一个/上一个突出错误或警告的位置
 - `F4 / Command + 方向键下` 编辑/查看代码源
 - `Option + Home` 显示到当前文件的导航条
