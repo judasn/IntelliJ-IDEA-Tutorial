@@ -122,6 +122,7 @@
 |<kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>T</kbd>|<kbd>Command</kbd> + <kbd>Shift</kbd> + <kbd>T</kbd>|对当前类生成单元测试类，如果已经存在的单元测试类则可以进行选择|
 |<kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>C</kbd>|<kbd>Command</kbd> + <kbd>Shift</kbd> + <kbd>C</kbd>|复制当前文件磁盘路径到剪贴板|
 |<kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>B</kbd>|<kbd>Control</kbd> + <kbd>Shift</kbd> + <kbd>B</kbd>|跳转到类型声明处|
+|<kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>H</kbd>|<kbd>Option</kbd> + <kbd>Shift</kbd> + <kbd>H</kbd>|显示层次结构|
 |<kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>/</kbd>|<kbd>Command</kbd> + <kbd>Option</kbd> + <kbd>/</kbd>|代码块注释|
 |<kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>\[</kbd>|<kbd>Command</kbd> + <kbd>Shift</kbd> + <kbd>\[</kbd>|选中从光标所在位置到它的顶部中括号位置|
 |<kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>\]</kbd>|<kbd>Command</kbd> + <kbd>Shift</kbd> + <kbd>\]</kbd>|选中从光标所在位置到它的底部中括号位置|
