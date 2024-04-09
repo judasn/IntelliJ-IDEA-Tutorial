@@ -82,6 +82,7 @@
 |Save Actions|在保存代码时触发一系列自定义操作，比如优化导入包、格式化、添加删除部分代码等|<https://plugins.jetbrains.com/plugin/7642-save-actions>|
 |MurphySec Code Scan|检测依赖包相关安全问题|<https://plugins.jetbrains.com/plugin/18274-murphysec-code-scan>|
 |MetricsReloaded|圈复杂度(Cyclomatic complexity)代码复杂度检查|<https://plugins.jetbrains.com/plugin/93-metricsreloaded>|
+|MybatisLogFormat|控制台 MyBatis SQL 输出补全参数|<https://plugins.jetbrains.com/plugin/14292-mybatislogformat>|
 
 ## lombok 插件的使用
 
