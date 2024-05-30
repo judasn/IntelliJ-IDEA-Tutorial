@@ -83,6 +83,7 @@
 |MurphySec Code Scan|检测依赖包相关安全问题|<https://plugins.jetbrains.com/plugin/18274-murphysec-code-scan>|
 |MetricsReloaded|圈复杂度(Cyclomatic complexity)代码复杂度检查|<https://plugins.jetbrains.com/plugin/93-metricsreloaded>|
 |MybatisLogFormat|控制台 MyBatis SQL 输出补全参数|<https://plugins.jetbrains.com/plugin/14292-mybatislogformat>|
+|JetBrains Academy|帮助学习开发语言： Kotlin, Java, Python, JavaScript, Rust, Scala, C/C++, Go, PHP|<https://plugins.jetbrains.com/plugin/10081-jetbrains-academy>|
 
 ## lombok 插件的使用
 
