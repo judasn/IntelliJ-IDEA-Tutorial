@@ -6,10 +6,12 @@
 
 ## 环境准备
 
-- 当前时间：2020-06
+- 当前时间：2024-09
 - 官网说明：<https://www.jetbrains.org/intellij/sdk/docs/basics/getting_started.html>
-- IntelliJ IDEA 2020.1.2 旗舰版
-- 插件 Plugin DevKit 必装
+- 从 2023.3 版本开始不在自带 Plugin DevKit 插件，所以你想要开发 IntelliJ IDEA 插件需要先安装 Plugin DevKit
+- 官网地址：<https://plugins.jetbrains.com/plugin/22851-plugin-devkit>
+- 官网提供了一个样板项目：<https://github.com/JetBrains/intellij-platform-plugin-template>
+- 当前 JDK 最低要求 17
 - 插件 Gradle 必装，以及 Gradle 开发环境
 - 设置 Plugin SDK：<https://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/setting_up_environment.html>
 
