@@ -9,11 +9,11 @@
 - 当前时间：2024-09
 - 官网说明：<https://www.jetbrains.org/intellij/sdk/docs/basics/getting_started.html>
 - 从 2023.3 版本开始不在自带 Plugin DevKit 插件，所以你想要开发 IntelliJ IDEA 插件需要先安装 Plugin DevKit
-- 官网地址：<https://plugins.jetbrains.com/plugin/22851-plugin-devkit>
 - 官网提供了一个样板项目：<https://github.com/JetBrains/intellij-platform-plugin-template>
 - 当前 JDK 最低要求 17
 - Gradle 开发环境搭建：<https://github.com/cdk8s/cdk8s-team-style/blob/master/os/macOS/macOS-java-docker-env.md#gradle>
 - 设置 Plugin SDK：<https://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/setting_up_environment.html>
+- 推荐使用 IntelliJ IDEA Community Edition 版本，有一些依赖加载快、源码可以点击直接查看
 
 ## 文档
 
@@ -26,14 +26,13 @@
 
 ## 运行调试方法
 
-- 选择右侧 Gradle > Tasks > intellij > runIde > 右键 Debug xxxxxx，会启动一个新的 IntelliJ IDEA 自动帮我们安装正在开发的插件进行调试
-- 并且当前环境是 debug 状态，可以用来调试代码
+- 选择右上角: Run Plugin，点击 Debug，会启动一个新的 IntelliJ IDEA UI 界面，它会自动帮我们安装正在开发的插件
+- 并且当前环境是 debug 状态，你在源码设置了断点，执行到该断点后可以被阻断
 
 
 ## 打包
 
 - 选择右侧 Gradle > Tasks > build > jar，项目根目录会有一个 build 目录生成，里面有一个 libs 子目录可以看到一个 jar 文件。
-- 在 IntelliJ IDEA 项目里面可能会看不到，被隐藏了，需要打开电脑文件管理器查看这个目录
 
 
 -------------------------------------------------------------------
