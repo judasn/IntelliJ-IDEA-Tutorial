@@ -32,7 +32,8 @@
 
 ## 打包
 
-- 选择右侧 Gradle > Tasks > build > jar，项目根目录会有一个 build 目录生成，里面有一个 libs 子目录可以看到一个 jar 文件。
+- 选择右侧 Gradle > Tasks > build > assemble，项目根目录会有一个 build/distributions 目录生成，可以看到一个 zip 文件。可以用它来安装和发布。
+
 
 
 -------------------------------------------------------------------
