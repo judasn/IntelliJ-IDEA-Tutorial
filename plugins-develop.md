@@ -12,7 +12,7 @@
 - 官网地址：<https://plugins.jetbrains.com/plugin/22851-plugin-devkit>
 - 官网提供了一个样板项目：<https://github.com/JetBrains/intellij-platform-plugin-template>
 - 当前 JDK 最低要求 17
-- 插件 Gradle 必装，以及 Gradle 开发环境
+- Gradle 开发环境搭建：<https://github.com/cdk8s/cdk8s-team-style/blob/master/os/macOS/macOS-java-docker-env.md#gradle>
 - 设置 Plugin SDK：<https://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/setting_up_environment.html>
 
 ## 文档
