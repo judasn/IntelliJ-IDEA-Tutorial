@@ -84,7 +84,7 @@
 |MetricsReloaded|圈复杂度(Cyclomatic complexity)代码复杂度检查|<https://plugins.jetbrains.com/plugin/93-metricsreloaded>|
 |MybatisLogFormat|控制台 MyBatis SQL 输出补全参数|<https://plugins.jetbrains.com/plugin/14292-mybatislogformat>|
 |JetBrains Academy|帮助学习开发语言： Kotlin, Java, Python, JavaScript, Rust, Scala, C/C++, Go, PHP|<https://plugins.jetbrains.com/plugin/10081-jetbrains-academy>|
-|WeChat Mini Program|官方支持|<https://plugins.jetbrains.com/plugin/24687-wechat-mini-program >|
+|WeChat Mini Program|官方支持|<https://plugins.jetbrains.com/plugin/24687-wechat-mini-program>|
 |Git Commit Message Helper|一个可帮助您标准化提交内容的插件|<https://plugins.jetbrains.com/plugin/13477-git-commit-message-helper>|
 |LogIt|快速插入 Javascript console.log|<https://plugins.jetbrains.com/plugin/13432-logit>|
 |Uniapp Tool|Uniapp 支持|<https://plugins.jetbrains.com/plugin/21470-uniapp-tool>|
