@@ -84,6 +84,18 @@
 |MetricsReloaded|圈复杂度(Cyclomatic complexity)代码复杂度检查|<https://plugins.jetbrains.com/plugin/93-metricsreloaded>|
 |MybatisLogFormat|控制台 MyBatis SQL 输出补全参数|<https://plugins.jetbrains.com/plugin/14292-mybatislogformat>|
 |JetBrains Academy|帮助学习开发语言： Kotlin, Java, Python, JavaScript, Rust, Scala, C/C++, Go, PHP|<https://plugins.jetbrains.com/plugin/10081-jetbrains-academy>|
+|WeChat Mini Program|官方支持|<https://plugins.jetbrains.com/plugin/24687-wechat-mini-program >|
+|Git Commit Message Helper|一个可帮助您标准化提交内容的插件|<https://plugins.jetbrains.com/plugin/13477-git-commit-message-helper>|
+|LogIt|快速插入 Javascript console.log|<https://plugins.jetbrains.com/plugin/13432-logit>|
+|Uniapp Tool|Uniapp 支持|<https://plugins.jetbrains.com/plugin/21470-uniapp-tool>|
+|Json Helper|JSON格式化，特别的地方在于可以处理子对象字符串中的JSON|<https://plugins.jetbrains.com/plugin/13873-json-helper>|
+|Inspection Lens|以内联方式显示错误、警告和其他检查|<https://plugins.jetbrains.com/plugin/19678-inspection-lens>|
+|batslog|Mybatis SQL 格式化|<https://plugins.jetbrains.com/plugin/15301-batslog>|
+|MultiHighlight|使用自定义颜色突出显示标识符，有助于读取源代码|<https://plugins.jetbrains.com/plugin/9511-multihighlight>|
+|CodeGlance Pro|在编辑器窗格中显示类似于 Sublime 中的缩小概览或小地图|<https://plugins.jetbrains.com/plugin/18824-codeglance-pro>|
+|Indent Rainbow|使缩进更具可读性|<https://plugins.jetbrains.com/plugin/13308-indent-rainbow>|
+|Rainbow Brackets Lite|Rainbow Brackets 免费版本|<https://plugins.jetbrains.com/plugin/20710-rainbow-brackets-lite--free-and-opensource>|
+
 
 ## lombok 插件的使用
 
