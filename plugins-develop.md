@@ -26,7 +26,7 @@
 
 ## 运行调试方法
 
-- 选择右上角: Run Plugin，点击 Debug，会启动一个新的 IntelliJ IDEA UI 界面，它会自动帮我们安装正在开发的插件
+- 右上角运行区域，下拉选择: Run Plugin，点击 Debug，会启动一个新的 IntelliJ IDEA UI 界面，它会自动帮我们安装正在开发的插件
 - 并且当前环境是 debug 状态，你在源码设置了断点，执行到该断点后可以被阻断
 
 
